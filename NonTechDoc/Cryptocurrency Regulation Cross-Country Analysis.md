@@ -9,7 +9,7 @@
 >
 > 翻译时间：2017-10-21
 
-![](NonTechDoc/pics/Cryptocurrency-Regulation-Cross-Country-Analysis-1.png)
+![](pics/Cryptocurrency-Regulation-Cross-Country-Analysis-1.png)
 
 ######                        Source: [itsynergis.ru](http://itsynergis.ru/) research
 
@@ -45,7 +45,7 @@ This classification and map was made after the research paper “Legal status of
 
 以下分类和地图是由 [Itsynergis.ru](http://itsynergis.ru/), 即 Vladimir Popov, 在研究论文“加密货币的法律地位（数字货币） - 国际和俄罗斯经验”之后撰写的。为了把该研究提升到一个新的层次，我们决定对加密货币产业的这种如此不同的、集群的监管背后的动因进行分析。
 
-![](NonTechDoc/pics/Cryptocurrency-Regulation-Cross-Country-Analysis-2.png)
+![](pics/Cryptocurrency-Regulation-Cross-Country-Analysis-2.png)
 
 ######                                               Blackmoon research
 ######                                                 Blackmoon 研究
