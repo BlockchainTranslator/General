@@ -1,9 +1,9 @@
 简介
 -------------------------------
 
-区块链中文字幕/EOS 
+区块链中文字幕/General
 
-是区块链中文字幕下一个EOS爱好者发起成立的翻译小组，致力从EOS技术文档的翻译、传播和推广。
+是区块链中文字幕下一个区块链爱好者发起成立的翻译小组，致力从区块链技术文档的翻译、传播和推广。
 
 欢迎更多的志愿者加入我们的团队。
 
@@ -28,7 +28,7 @@
 加入我们
 -------------------------------
 
-请加微信:w1791520555，并备注：BlockChainTranslator/EOS。
+请加微信:w1791520555，并备注：BlockChainTranslator。
 群主会拉您进群。
 
 进群后，
@@ -62,24 +62,6 @@
 
     浅浅的月光杨若暄、StarFading、楚青歌
     
-
-资料来源
--------------------------------
-
-EOS官方博客： [https://steemit.com/@eosio](https://steemit.com/@eosio)    
-
-EOS开发博客： [https://steemit.com/trending/eos](https://steemit.com/trending/eos)
-
-EOS开发文档： [https://eosio.github.io/eos/index.html](https://eosio.github.io/eos/index.html)
-
-EOS资料库：   [https://eos.io/resources/](https://eos.io/resources)
-
-EOS论坛：     [https://eostalk.io/](https://eostalk.io)
-
-EOS开发GIT：  [https://github.com/EOSIO/eos](https://github.com/EOSIO/eos)
-
-EOS官方网站： [https://eos.io/](https://eos.io)
-
 
 当前工作
 -------------------------------
