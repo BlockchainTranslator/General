@@ -8,11 +8,11 @@ Value of the Token Model--代币模型的价值
 > 翻译时间：2017-10-27
 
 ---------------------------
-Since my [prior post]{https://blog.coinbase.com/app-coins-and-the-dawn-of-the-decentralized-business-model-8b8c951e734f#.g9utdxbxx} on app coins (I think the more appropriate term is now tokens or blockchain tokens) we’ve seen [more and more]{http://www.coindesk.com/2016-ico-blockchain-replace-traditional-vc/} projects use this model. The tide is turning. While [over $1bn]{http://www.coindesk.com/bitcoin-venture-capital/} of venture capital was invested in Bitcoin and blockchain based startups up through 2015, 2016 saw over $100m of crowdsourced, non-venture money fund 60+ projects.
+Since my [prior post](https://blog.coinbase.com/app-coins-and-the-dawn-of-the-decentralized-business-model-8b8c951e734f#.g9utdxbxx) on app coins (I think the more appropriate term is now tokens or blockchain tokens) we’ve seen [more and more](http://www.coindesk.com/2016-ico-blockchain-replace-traditional-vc/) projects use this model. The tide is turning. While [over $1bn](http://www.coindesk.com/bitcoin-venture-capital/) of venture capital was invested in Bitcoin and blockchain based startups up through 2015, 2016 saw over $100m of crowdsourced, non-venture money fund 60+ projects.
 
 从我之前关于应用程式货币上的帖子（我觉得更合适的术语现在是代币或区块链代币），我们已经看到越来越多的项目使用这种模型。时代潮流正在改变。截至2015年，已有超过10亿美元的风险投资投资于比特币和基于区块链的创业公司，在2016年，已有超过1亿美元的众筹形式的非营利性资金资助了60多个项目。
 
-As momentum has increased, there have been some intelligent critiques of the model which help to hone in on the value a token really provides. I especially enjoyed [these]{https://www.reddit.com/r/ethereum/comments/5hv1jk/the_psychology_behind_ico_funding_post_3_of_4_of/} [two]{https://www.reddit.com/r/ethereum/comments/5mtnqr/the_future_is_a_decentralized_internet/dc6he9z/}, where the author argues it’d be more efficient to port the smart contracts of a token to use Ether directly, eliminating the token. He argues this will happen because 1) it eliminates the cost to convert between Ether and tokens, and 2) Ether will be a “better money” than any token because it will be more broadly used, thus more stable, so people will prefer to just use Ether. I want to succinctly describe the core value of the token model and address some of the common critiques below.
+As momentum has increased, there have been some intelligent critiques of the model which help to hone in on the value a token really provides. I especially enjoyed [these](https://www.reddit.com/r/ethereum/comments/5hv1jk/the_psychology_behind_ico_funding_post_3_of_4_of/) [two](https://www.reddit.com/r/ethereum/comments/5mtnqr/the_future_is_a_decentralized_internet/dc6he9z/), where the author argues it’d be more efficient to port the smart contracts of a token to use Ether directly, eliminating the token. He argues this will happen because 1) it eliminates the cost to convert between Ether and tokens, and 2) Ether will be a “better money” than any token because it will be more broadly used, thus more stable, so people will prefer to just use Ether. I want to succinctly describe the core value of the token model and address some of the common critiques below.
 
 随着势头的增加，有一些对模型合理的评论，有助于体现一个代币真正提供的价值。我特别喜欢这两个，其中作者认为，将使用某种代币的智能合同直接移植到太币将会更有效率，从而消除该代币。他认为这将会发生，因为1）它消除了在以太币和代币之间转换的成本，以及2）以太币将成为比任何代币“更好的钱”，因为它将被更广泛地使用，从而更加稳定，所以人们更喜欢 只需使用以太币。我想简要地描述代币模型的核心价值，并解释下面的一些常见评论。
 
@@ -40,7 +40,7 @@ Ethereum may make monetary policy decisions like “let’s do 1% inflation to s
 
 Aligning incentives--调整激励
 ===================
-Tokens align incentives between developers, contributors, users, and investors. They allow everyone who wants to contribute to a project early the opportunity to get in on the ground floor. This overcomes the classic [chicken and the egg problem for systems based on network effects]{https://blog.coinbase.com/app-coins-and-the-dawn-of-the-decentralized-business-model-8b8c951e734f#.g9utdxbxx}.
+Tokens align incentives between developers, contributors, users, and investors. They allow everyone who wants to contribute to a project early the opportunity to get in on the ground floor. This overcomes the classic [chicken and the egg problem for systems based on network effects](https://blog.coinbase.com/app-coins-and-the-dawn-of-the-decentralized-business-model-8b8c951e734f#.g9utdxbxx).
 
 代币将协调开发者，贡献者，用户和投资者之间的激励。他们允许每个想要为项目做出贡献的人提早有机会进入底层。 这克服了基于网络效应的系统的经典鸡和蛋问题。
 
