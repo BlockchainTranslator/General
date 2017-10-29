@@ -46,13 +46,13 @@ The recent blocks are, as you'd imagine the blocks being produced by the network
 最近区块是，正如你想象的那样，网络生产的这些区块，他们以惊人的速度被生产出来。
 
 Test network exceeded two and a half million blocks this time.
-这次测试网络超过了五百万块。
+测试网络已经超过了二百五十万块。
 
 Random beacon is the random number being produced by the current group that is used to select the next group and is also used to drive all of the protocols we use.
-随机信标是由用于选择下一组的当前组产生的随机数，也用于驱动我们使用的所有协议。
+随机数灯塔是由用于选择下一组的当前组产生的随机数，也用于驱动我们使用的所有协议。
 
-So there is the single-threshold relay that has to be fundamental to all of the DFINITY protocols and it produces the world's first unstoppable, unmanipulable, unpredictable randomness without any trusted parties.
-所以这里有一个单阈值中继机制是所有 DFINITY 协议的基础，在没有任何信任方的情况下，它产生世界上第一个不可停止的，不可预测的，无法预测的随机性。
+So there is the single threshold relay that has to be fundamental to all of the DFINITY protocols and it produces the world's first unstoppable, unmanipulable, unpredictable randomness without any trusted parties.
+所以这里有一个单阀值接力机制是所有 DFINITY 协议的基础，在没有任何信任方的情况下，它产生世界上第一个不可停止的，不可预测的，无法预测的随机性。
 
 And we use this very special sequence of random numbers to drive all of our protocols, so you could really say that， you know，DFINITY involves lots of theories about how random numbers are applied.
 我们使用这个非常特殊的随机数序列驱动我们所有的协议，所以你可以真的说，你知道，DFINITY 涉及很多关于如何应用随机数的理论。
@@ -61,25 +61,25 @@ Block Heights gives you the current block height and the time taken to create th
 区块高度为您提供当前区块高度和创建当前区块所需的时间。
 
 Latency chart, you know, graphs that out, so you can see that blocks are coming out every half second on this test network.
-延迟图表，你知道，把时间图像化，所以你可以看到，这个测试网络每隔半秒出块一次。
+延迟图表，你知道，把时间图像化，所以你可以看到，这个测试网络每隔0.5秒出块一次。
 
 Now this is the where it gets really interesting, so DFINITY in normal operation produces finality in two blocks.
-现在这是它变得非常有趣的地方， DFINITY 在正常操作中会在两个区块以内的确定终局性。
+现在这是它变得非常有趣的地方， DFINITY 在正常操作中会在两个区块以内的确定最终共识。
 
 Okay so that means we're reaching finality, you know, new computations are finalized in one second.
-好的，所以这意味着我们要达终局性，你知道，新的计算在一秒钟内完成。
+好的，所以这意味着我们要到达最终共识，你知道，新的计算在一秒钟内完成。
 
 Now to put that in the perspective, Bitcoin requires six blocks and the block time is ten minutes, so an expectation is it finalizes transactions in 60 minutes, can take a bit longer can take less.
 现在从这个角度来说，比特币需要6个区块确认，出块时间是 10 分钟，所以预期是在 60 分钟内完成交易，可能花费更长或者更短的时间。
 
 Ethereum requires 737 blocks in a block times about 15 seconds so that works out in 10 minutes or 600 seconds to finalise computations.
-以太网需要 737 个块，出块时间约为 15 秒，所以需要 10 分钟或 600 秒来完成，以完成当您知道的计算时。
+以太网需要 737 个块，出块时间约为 15 秒，所以需要 10 分钟或 600 秒来完成，来完成当前的计算。
 
 That is when, you know, say for example, you're running a financial exchange on Ethereum and you submitted an order and you know you think it's executed you've gotta wait 10 minutes before you can be sure sure the network has reorganized and that trade has really gone through.
 那就是说，你知道的，比方说，你在以太网上处理一笔金融交易，你提交了一个订单，你知道，你认为这是它已经被执行，但是你必须等待 10 分钟才能确定网络已经重组，那笔交易真的完成了。
 
 On DFINITY we're producing finality in a second on this test network, we will do tune it for the production network but you know this is running 600 times faster than Ethereum today.
-在 DFINITY，我们将在这个测试网络上可以在一秒钟内产生终局性，我们会对生产网络进行调整，但是您知道这个速度比 Ethereum 快了 600 倍。
+在 DFINITY，我们将在这个测试网络上可以在一秒钟内产生最终共识，我们会对生产网络进行调整优化，但是您知道这个速度比 Ethereum 快了 600 倍。
 
 so let's get back to the network and some of really exciting things about that.
 所以让我们回到网络和一些真正令人兴奋的事情。
@@ -100,22 +100,22 @@ Block height needs no explanation, the test networks produced just over two and 
 区块高度不需要解释，测试网络刚生产了两百五十万块。
 
 Beacon that's the random number produced by the previous group that selected the current group and placed a priority order on all the nodes in the network that might want to be the leader and propose a block.
-信标是由选择当前组的前一组产生的随机数，并在网络中可能想成为主导和建议区块的所有节点上放置优先级顺序。
+随机数灯塔是由选出当前组的前一组产生的随机数，前一组对网络中所有想成为领导者和建议区块的节点上进行优先级排序。
 
 Notarization is a threshold signature created by the group on the block and notarization is essential to this thing called probabilistic slot consensus, it is a process by which we drive much faster consistency and also remove problems like selfish mining and nothing at stake.
-公证是由集体创建的阀值签名，公证对于这个称为概率时隙共识的事情至关重要，这是我们驾驶更快一致性的过程，也消除了诸如自私采矿和无关紧要的问题。
+公证是由集体创建的阀值签名，公证对于这个称为概率时隙共识的事情至关重要，这是我们驱动更快一致性的过程，也消除了诸如自私采矿和无利害关系的问题。
 
 Timestamp needs no explanation, this just means that if you took all of the nodes in the network, ordered them lexicographically by the public keys, it was the node 194 that acted as the leader to produce the block that group 99 accepted and notarized.
 时间戳不需要解释，这只是意味着如果你把网络中的所有节点按照公共密钥顺序排列，那么它由节点194作为领导者产生的并由编号99的组接受和公证的区块。
 
 So we can look at the group members here, there's only a hundred members in each group and the reason for that is we only have 500 nodes in the network, it wouldn't make sense to run a larger groups, but in the production network group size will be 400.
-所以我们可以看看这里的小组成员，每个组中只有一百个成员，其原因是我们在网络中只有500个节点，运行更大的组是没有意义的，但是在生产网络 团体人数将达到400人。
+所以我们可以看看这里的小组成员，每个组中只有一百个成员，其原因是我们在网络中只有500个节点，运行更大的组是没有意义的，但是在生产网络组的人数将达到400人。
 
 ok let's flick across to contracts, firstly I just want to say that you can't ensure anything from from this test network about what the production DFINITY world computer will look like and what our IDE is gonna to look like.
 好吧，让我们简单的介绍一下合约，首先我只想说，你不能确保在这个测试网络的任何东西，关于生产环境中的 FINITY 世界电脑将是什么样子，我们的IDE将要看起来像什么。
 
 This this stuff's really just been created to allow our engineers to play around, having said that, you know, we've got a fully functional virtual machine and the smart contracts written in a cut-down version of the Haskell language. 
-这个东西真的只是为了让我们的工程师能够实验测试，话说回来，我们已经有一个功能齐全的虚拟机，并且以精简版本 Haskell 语言的编写的智能合同。
+这个东西真的只是为了让我们的工程师能够实验测试，话说回来，我们已经有一个功能齐全的虚拟机，并且以精简版本 Haskell 语言的编写的智能合约。
 
 In the production of DFINITY Network, we won't have simple smart contracts, we'll have actors and you'll be able to write these actors using any language you like, you know, we'll have Java like languages, solidity, and functional languages.
 在生产环境下的 DFINITY 网络时，我们将不会有简单的智能合同，我们将有执行者，您将能够使用您喜欢的任何语言编写这些执行者，我们知道我们将拥有类Java语言，Solidity，和函数式语言。
@@ -189,15 +189,29 @@ We think this is a great model, you know, people don't need to do this to create
 Of course the great advantage of storing your complete Dapps in contracts is that it's tamper proof, you know, if you have a Dapps that's created using truffle or something like that and, you know, for a web server if an attacker gets takes control of that web server, you know, they might be able to do all kinds of naughty things with this system.
 当然，将完整的去中心化应用存储在合约中的巨大优势在于防篡改，如果您使用 truffle 或类似的东西创建了一个去中心化应用，，而且如果攻击者掌握了 那个 Web 服务器，你知道，他们可能能够做这种系统的各种调皮的事情。
 
-You know everything's tamper and the level of security is greatly increased. Okay that's it for me I hope you enjoyed this quick peek at the DFINITY test name all right. thanks. bye.
-你知道一切都是篡改，安全级别大大增加。 好的，这对我来说，希望你喜欢这个快速浏览DFINITY测试名称，谢谢再见。
+You know everything's tamper and the level of security is greatly increased. Okay that's it for me I hope you enjoyed this quick peek at the DFINITY test network all right. thanks. bye.
+你知道一切都是篡改，安全级别大大增加。 好的，这对我来说，希望你喜欢这个快速浏览DFINITY测试网络，谢谢再见。
 
+----------------------------------------------------
 
+#### 区块链中文字幕组
 
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
 
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
 
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
 
+#### 本文译者简介
 
+抖抖，在读博士，专注区块链技术研究与行业分析，欢迎加微信号:jonas-meng
+胡灏石，ING工程师，专注区块链技术研究与行业分析，欢迎加微信号:hu358869
+
+本文由币乎社区（bihu.com）内容支持计划赞助。
+
+版权所有，转载需完整注明以上内容。
+
+----------------------------------------------------
 
 
 
