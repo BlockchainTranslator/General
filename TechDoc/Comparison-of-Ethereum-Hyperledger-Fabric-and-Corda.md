@@ -33,6 +33,7 @@ From the white papers of Hyperledger Fabric, R3 Corda (in the following only ref
 <img src="pics/Comparison-of-Ethereum-Hyperledger-Fabric-and-Corda-1.png" width="700">
 ###### Table 1: Comparison of Ethereum, Hyperledger Fabric and Corda
 
+
 <img src="pics/Comparison-of-Ethereum-Hyperledger-Fabric-and-Corda-2.png" width="700">
 ###### 表 1 ：以太坊, Hyperledger Fabric 和 Corda 的对比
 
