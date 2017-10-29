@@ -35,7 +35,7 @@ Table 1: Comparison of Ethereum, Hyperledger Fabric and Corda
 
 
 <img src="pics/Comparison-of-Ethereum-Hyperledger-Fabric-and-Corda-2.png" width="700">
-1 ：以太坊, Hyperledger Fabric 和 Corda 的对比
+表1 ：以太坊, Hyperledger Fabric 和 Corda 的对比
 
 ## Participation of peers  
 
