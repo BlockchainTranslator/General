@@ -29,7 +29,7 @@ Hyperledger Fabric also offers the ability to create **channels**, allowing a g
 
 超级账本Fabric项目还提供了创建**通道(Channel)**的功能，允许一组成员创建单独的交易账本．对于一个参与其中的成员可能具有竞争关系的网络而言，这一特性非常重要，参与者并不想自己的每一笔交易 -- 比如，他们提供给某些成员的特殊价格 -- 对网络之中的所有成员可见．如果两个创建者组成一条通道(Channel),　只有这些参与者 -- 而非其他人 -- 才会拥有该通道账本的副本．
 
-**Shared Ledger 共享账本**
+## Shared Ledger 共享账本
 
 Hyperledger Fabric has a ledger subsystem comprising two components: the **world state** and the**transaction log**. Each participant has a copy of the ledger to every Hyperledger Fabric network they belong to.
 
@@ -43,7 +43,7 @@ The ledger has a replaceable data store for the world state. By default, this is
 
 账本中世界状态的数据库存储方式是可替换的．默认是用的LevelDB的键值存储数据库．交易记录并不需要可插拔．它仅仅记录了区块链网络中所用账本数据库的前值和后值．
 
-**Smart Contracts　智能合约**
+## Smart Contracts　智能合约
 
 
 Hyperledger Fabric smart contracts are written in **chaincode** and are invoked by an application external to the blockchain when that application needs to interact with the ledger. In most cases chaincode only interacts with the database component of the ledger, the world state (querying it, for example), and not the transaction log.
@@ -54,8 +54,7 @@ Chaincode can be implemented in several programming languages. The currently sup
 
 Chaincode可以用多种语言来实现．当前支持的语言是[Go语言](https://glolang.org)，未来发布中会支持Java和其他语言．
 
-**Privacy**
-私有性
+## Privacy 私有性
 
 Depending on the needs of a network, participants in a Business-to-Business (B2B) network might be extremely sensitive about how much information they share. For other networks, privacy will not be a top concern.
 不同网络，这方面的需求会有所不同，B2B网络的参与者对于所分享信息的多少会非常敏感．对于其他网络而言，私有性并非最关心的问题．
@@ -64,7 +63,7 @@ Hyperledger Fabric supports networks where privacy (using channels) is a key ope
 
 超级账本Fabric会支持将私有性视为关键运营要求的网络(使用通道)，同时也支持相对公开的网络．
 
-**Consensus 共识机制**
+## Consensus 共识机制
 
 
 Transactions must be written to the ledger in the order in which they occur, even though they might be between different sets of participants within the network. For this to happen, the order of transactions must be established and a method for rejecting bad transactions that have been inserted into the ledger in error (or maliciously) must be put into place.
