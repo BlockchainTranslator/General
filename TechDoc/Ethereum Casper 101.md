@@ -469,10 +469,10 @@ Broader list of Ethereum challenges are available [here](https://github.com/ethe
 
 These two main challenges are solved via ideas from [slasher](https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/) (and its improved variations). The main points are that (1) validators are known, which allow for fault attribution at a validator level and (2) by having “slashing conditions” that strongly disincentivize certain actions, it is possible to mitigate these issues. Again, this example is crucial in understanding the Casper team’s view on consensus algorithm design: we can leverage economic mechanism design to a secure distributed system.
 
-解决这两个挑战的想法来自于[slasher](https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/) (以及其改进的变体)。要点是：(1)见证人是已知的，这允许在见证人级别的错误归因;（2）通过“削弱条件”强烈地抑制某些行为，可以减轻这些问题。再次，这个例子对于了解Casper团队对共识算法设计的观点至关重要：我们可以将经济机制设计用于安全的分布式系统。
+解决这两个挑战的想法来自于[slasher](https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/) (以及其改进的变体)。要点是：(1)见证人是已知的，这允许在见证人级别的错误归因;（2）通过“削弱条件”能强烈地抑制某些行为，可以减轻这些问题。再次，这个例子对于了解Casper团队对共识算法设计的观点至关重要：我们可以将经济机制设计用于安全的分布式系统。
 
 
-### Criticisms of Proof of Stake
+### Criticisms of Proof of Stake | 对POS的批评
 
 **Adverse selection** — Given the potentially draconian penalties, many average or risk-averse “candidate validators” may stay away from participating as a validator. Then, one may argue people with more to gain by “gaming the system” are more likely to join as a validator. More broadly, one may claim that — on average — a good actor may never have a better ROI than a bad actor.
 
