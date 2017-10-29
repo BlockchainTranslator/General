@@ -31,11 +31,11 @@ From the white papers of Hyperledger Fabric, R3 Corda (in the following only ref
 从 Hyperledger Fabric, R3 Corda （以下分别简称为 Fabric 和 Corda ) 和以太坊的白皮书来看，显然这些框架在潜在应用领域上有着非常不同的愿景。Fabric [i] 和Corda [ii] 的开发是由具体用例驱动的，其中 Corda 的用例来自金融服务行业。因此，这也是 Corda 应用的主要领域。相比之下，Fabric 打算提供一个模块化和可扩展的架构，可以在银行和医疗保健到供应链等的各种不同行业中使用。以太坊也完全独立于任何具体应用领域。然而, 与 Fabric 不同的是, 使其与众不同的并不是模块化, 而是它为各种交易和应用程序提供了一个通用平台。表 1 提供了三个框架的摘要。
 
 <img src="pics/Comparison-of-Ethereum-Hyperledger-Fabric-and-Corda-1.png" width="700">
-###### Table 1: Comparison of Ethereum, Hyperledger Fabric and Corda
+Table 1: Comparison of Ethereum, Hyperledger Fabric and Corda
 
 
 <img src="pics/Comparison-of-Ethereum-Hyperledger-Fabric-and-Corda-2.png" width="700">
-###### 表 1 ：以太坊, Hyperledger Fabric 和 Corda 的对比
+1 ：以太坊, Hyperledger Fabric 和 Corda 的对比
 
 ## Participation of peers  
 
