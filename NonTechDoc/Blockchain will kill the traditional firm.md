@@ -9,8 +9,7 @@ Blockchain will kill the traditional firm 区块链将消灭传统公司
 
 ---------------------------
 
-### Whereas previous generations of technology delivered the same objectives faster, blockchain has the potential to entirely change how businesses function 
-### 前几代技术是为更快地实现相同的业务目标，而区块链则可能完全改变企业的业务功能
+### Whereas previous generations of technology delivered the same objectives faster, blockchain has the potential to entirely change how businesses function 前几代技术是为更快地实现相同的业务目标，而区块链则可能完全改变企业的业务功能
 
 Blockchain and associated ‘initial coin offerings’ (ICO) are receiving increasing attention from companies, governments, venture capitalists and developers alike. Often viewed as a radical new technology that can redefine everything from financing for entrepreneurs to management of supply chains, blockchain has attracted as many supporters as sceptics. But little real economic work has yet been done on blockchain – so in this article, I’m going to discuss two main economic implications that myself and my colleague Dr Zeynep Gurguc have been investigating deeply: 1) the impact of blockchain on the boundaries of the firm, and 2) the impact on entrepreneurial finance through ICOs.
 
@@ -20,8 +19,7 @@ We may best view blockchain as the continuation of a process of digitalisation w
 
 我们可以将区块链看着，自1960年代以来，一直持续的全球经济数字化进程的延续。 区块链之前的技术，主要应用于改进业务流程，其主要目的是为更快的实现相同业务目标，例如， 后台服务的数字化。 正如RH科斯在1937年提出的那样，“电话和电报等技术创新，通过减少空间来往，使生产要素更接近，增加了企业规模”。 因此，前几代的技术主要是如何使信息交换更快、更安全。 毫无疑问，数字技术在很多情况下，能够使公司“中空化”，以较低的成本，持续扩大在全球的覆盖面。
 
-### The most efficient boundary of the firm is shifting 
-### 公司最有效的边界正在发生转变
+### The most efficient boundary of the firm is shifting 公司最有效的边界正在发生转变
 
 Blockchain, meanwhile, is about the exchange of value; it is intended to enable individuals to exchange currency and other assets with one another without relying on a third party to manage the contracts and transactions. Many people discuss blockchain from the perspective of ‘removing intermediaries’, citing examples such as bitcoin, which removes the need for central banks and shows trust in a currency can instead be created through a distributed network of nodes. Transactions are ‘trusted’ by the implementation of radical transparency: every transaction is publicly verifiable, and protected by cryptography and the solving of complex mathematical problems.
 
@@ -31,8 +29,7 @@ Newer implementations of blockchain such as Ethereum and Hyperledger offer 
 
 Ethereum和Hyperledger等新一代的区块链技术，为公司和个人提供了与他人之间，创建智能合约的能力，从而可以降低交易成本，并能够快速创建大量新业务模型，在某些情况下，是动态或即时创建。 最重要的是，智能合约可以由个体创造者和工人之间建立，而不仅仅是大公司。
 
-### In the US, VC financing is dominated by three main cities: Boston, New York and San Francisco
-### 在美国，风险投资主要集中在波士顿，纽约和旧金山三大城市
+### In the US, VC financing is dominated by three main cities: Boston, New York and San Francisco 在美国，风险投资主要集中在波士顿，纽约和旧金山三大城市
 
 Blockchain presents us with something a little different from previous generations of technology therefore: the opportunity for entrepreneurs to work as individuals and coordinate economic exchanges of work and currency with one another in even large scale projects rather than needing the boundary of a ‘firm’ at all. Entrepreneurial activity could be orchestrated via a blockchain through removing the complexity of multiple contract negotiations.
 
@@ -46,8 +43,7 @@ While blockchain does not itself challenge the theories of transaction costs or 
 
 虽然区块链本身并不挑战交易成本或企业界限的理论，但我们可以看到现实世界管理它们的方式，因为区块链，正在迅速变化。 公司最有效的边界正在转变，我们可能会进入一个新的时代，价格机制可以在个人层面起作用，而不是企业层面。 这无疑对政府管理进行活动的时间、方式和原因产生冲击，在某些我们广泛涉足的领域。 我们已经看到政府正在努力应对ICO，他们已经对企业融资产生了巨大的影响。
 
-### These contracts can be established between individual creators and workers – not just large companies
-### 这些合约可以由个体创造者和工人之间建立，而不仅仅是大公司
+### These contracts can be established between individual creators and workers – not just large companies 这些合约可以由个体创造者和工人之间建立，而不仅仅是大公司
 
 An ICO is an unregulated means by which funds can be raised for a new venture. They have so far been used by startups to bypass the regulated capital-raising process required by venture capitalists or banks. Effectively, a percentage of a new cryptocurrency is ‘sold’ to early backers of the project in exchange for legal tender or other cryptocurrencies (e..g bitcoin). Examples include using an ICO to manage and control the interactions around transportation, providing decentralised telecommunications networks, or management of solar energy. The early backers receive a ‘token’ that can be used either for delivery in services, or in some cases can be used as a ‘stake’ in the company.
 
@@ -61,8 +57,7 @@ Can ICOs therefore allow a more efficient distribution of resources through our 
 
 因此，ICO可以使我们的社会更有效地分配资源吗？ 这有两个方面：一是创业资金的分配; 二是代币如何重新分配世界上的物理资源。
 
-### Blockchain presents us with something a little different from previous generations of technology
-### 区块链向我们展示了与前几代技术一些不同的东西
+### Blockchain presents us with something a little different from previous generations of technology 区块链向我们展示了与前几代技术一些不同的东西
 
 First, blockchain and ICOs may help us with the selection bias applied by VCs; allowing people and ideas to be funded that would otherwise be left by the wayside. Similarities may be seen in the crowdfunding model, but ICOs permit direct access to working capital for those seeking funding. Governments, however, have started to regulate that ICOs that fail the Howey test must be regulated as securities. This leaves many in a complex situation: it means the tokens need to be treated mainly as ‘use tokens’, i.e. a unit of payment for a service that the ICO provides.
 
