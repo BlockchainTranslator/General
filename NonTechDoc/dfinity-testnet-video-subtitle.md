@@ -189,8 +189,8 @@ We think this is a great model, you know, people don't need to do this to create
 Of course the great advantage of storing your complete Dapps in contracts is that it's tamper proof, you know, if you have a Dapps that's created using truffle or something like that and, you know, for a web server if an attacker gets takes control of that web server, you know, they might be able to do all kinds of naughty things with this system.
 当然，将完整的去中心化应用存储在合约中的巨大优势在于防篡改，如果您使用 truffle 或类似的东西创建了一个去中心化应用，，而且如果攻击者掌握了 那个 Web 服务器，你知道，他们可能能够做这种系统的各种调皮的事情。
 
-You know everything's tamper and the level of security is greatly increased. Okay that's it for me I hope you enjoyed this quick peek at the DFINITY test network all right. thanks. bye.
-你知道一切都是篡改，安全级别大大增加。 好的，这对我来说，希望你喜欢这个快速浏览DFINITY测试网络，谢谢再见。
+You know everything's tamper proof and the level of security is greatly increased. Okay that's it for me I hope you enjoyed this quick peek at the DFINITY test network all right. thanks. bye.
+你知道一切都是防篡改的，并且安全级别大大增加。 好的，这对我来说，希望你喜欢这个快速浏览DFINITY测试网络，谢谢再见。
 
 ----------------------------------------------------
 
