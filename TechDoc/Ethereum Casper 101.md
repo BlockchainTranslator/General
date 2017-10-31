@@ -1,4 +1,4 @@
-# Ethereum Casper 101 以太坊 Capsper 101
+# Ethereum Casper 101 以太坊 Capsper 初步
 
 > 本文翻译自：https://medium.com/@jonchoi/ethereum-casper-101-7a851a4f1eb0
 >
@@ -7,7 +7,7 @@
 > 翻译时间：2017-10-25
 
 
-# Ethereum Casper 101 以太坊 Capsper 101
+# Ethereum Casper 101 以太坊 Capsper 初步
 
 Casper will implement proof of stake in Ethereum. We begin with a review on why proof of stake matters and continue with its strengths & weaknesses. This post aims to provide a broad overview of Casper and clarify some of the confusion with respect to the two protocol design efforts related to Casper. The two proposed implementations share the same core design principle: **applying cryptoeconomic mechanism design to secure the network while managing challenges regarding liveness, safety and synchrony assumptions**. This post is also an overview of the progress so far and the challenges that lie ahead. Most importantly for fellow newcomers, the post identifies & defines key concepts and ties together various helpful resources under one context. The overarching intention is to make Casper and proof of stake more approachable to everyone in the community.
 
@@ -469,20 +469,31 @@ Broader list of Ethereum challenges are available [here](https://github.com/ethe
 
 These two main challenges are solved via ideas from [slasher](https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/) (and its improved variations). The main points are that (1) validators are known, which allow for fault attribution at a validator level and (2) by having “slashing conditions” that strongly disincentivize certain actions, it is possible to mitigate these issues. Again, this example is crucial in understanding the Casper team’s view on consensus algorithm design: we can leverage economic mechanism design to a secure distributed system.
 
-解决这两个挑战的想法来自于[slasher](https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/) (以及其改进的变体)。要点是：(1)见证人是已知的，这允许在见证人级别的错误归因;（2）通过“削弱条件”能强烈地抑制某些行为，可以减轻这些问题。再次，这个例子对于了解Casper团队对共识算法设计的观点至关重要：我们可以将经济机制设计用于安全的分布式系统。
+解决这两个挑战的想法来自于[slasher](https://blog.ethereum.org/2014/01/15/slasher-a-punitive-proof-of-stake-algorithm/) (以及其改进的变体)。要点是：(1)见证人是已知的，这允许在见证人级别的错误归因;（2）通过“削弱条件”强烈地抑制某些行为，可以减轻这些问题。再次，这个例子对于了解Casper团队对共识算法设计的观点至关重要：我们可以将经济机制设计用于安全的分布式系统。
 
 
 ### Criticisms of Proof of Stake | 对POS的批评
 
 **Adverse selection** — Given the potentially draconian penalties, many average or risk-averse “candidate validators” may stay away from participating as a validator. Then, one may argue people with more to gain by “gaming the system” are more likely to join as a validator. More broadly, one may claim that — on average — a good actor may never have a better ROI than a bad actor.
 
+
+**[逆向选择](http://wiki.mbalib.com/wiki/%E9%80%86%E5%90%91%E9%80%89%E6%8B%A9)** — 由于有潜在的严厉惩罚，很多中等或者厌恶风险的候选见证者可能会不参加见证人。那么人们可能会争论哪些寻找游戏规则漏斗的人更可能加入见证人并获取更多。更广泛地，可以这么说—一个好人永远的得不到比坏人更好的回报。
+
 *Response:*
 
 This falls under future work and an area of great focus for the research team: cryptoeconomics. As the parametrization of the mechanism is progresses, the team will iterate on optimizing the constants the balance the risk reward tradeoffs as well as their proportion to the size of the deposits and the action of others (Byzantine behavior).
 
+*回应:*
+
+这是未来的要解决的工作，也是研究团队的重点领域：密码经济学。随着这个机制的参数化深入，团队将迭代的去不断优化参数，平衡风险回报与存款规模的比例和他人的行为(拜占庭行为)。
+
 It’s worth mentioning that this problem is also existent (albeit to a lesser degree given the nature of proof of work) in Bitcoin.
 
+值得提的是这个问题同样存在于比特币中。
+
 **“The rich get richer”** — Another common concern when people hear “a consensus algorithm based on how much money you’re staking” is that this may exacerbate wealth inequality within the crypto ecosystem as well as more broadly in the global economy.
+
+**富有的变的更富有** — 另外一个共同的担忧是当人们知道“共识算法是基于你持有多少的代币”，这可能会加剧在这个加密货币生态系统中财富的不平等，同时更广泛的发生在全球的经济中。
 
 *Response:*
 
@@ -492,24 +503,42 @@ As discussed in the Proof of Stake overview above, **PoS mitigates economies of 
 
 Therefore, against the fair intuition that PoS can exacerbate wealth inequality, it is in fact a non-trivial improvement on the status quo.
 
+*回应:*
+
+这里的主要观点应该是POS和现行基于算法的比特币POW相比较是相对平等(如拥有大资金的获得较少的好处)。正如上面讨论的关于PoS的概述，**PoS削减了规模经济**，这减少了矿工的集权。而且，**在PoS中，一美元就是一美元**。所以根据合理的直觉判断，反对PoS将加剧财富不平等，这实际上是对现状的一个不平凡的改进。
+
+
 Quick aside: In order to have diseconomies of scale or progressive wealth distributions in PoS (one more degree of counteracting wealth inequality), I posit that it is necessary to have mature and reliable identity or reputation systems. Otherwise, larger pools of money will have “sybil behavior” that spreads their wealth over many “less wealthy” false identities that will collectively capture the benefits of a progressive reward system. However, this challenge will be solved a bit further down the line and is also out of scope for Casper.
 
-### Questions/Concerns around Casper
+题外话：为了在PoS中具有不规则的扩张或者阶梯式的财富分配(一个消除财富不平等分配的新维度)，我认为有必要拥有成熟可靠的身份或者荣誉系统。否则，较大的资金池将会有“女巫行为”假冒的身份也能够享受到阶梯式奖励系统的好处。然而，这个挑战将被进一步解决，这也超出了Casper的范畴。
+
+### Questions/Concerns around Casper | 对于Casper的问题/关注
 
 **“It’s confusing to have multiple Caspers.”**
 
+**“有多个Casper让人困惑”**
+
 Sorry about that! This post aims to lessen the cognitive dissonance around that fact. But to review, Casper is Ethereum’s family of PoS research and implementations. These work streams will likely converge, but the nature of protocol research requires forking sometimes to explore various approaches until deciding on the best way forward. Things tend to get more complex before they get simpler 🙂
+
+很抱歉！这篇文章的目标是减少认知不对称。但是要回顾一下，Casper是以太坊家族PoS的研究和实现。这些不同的工作流将很可能殊途同归，但是协议研究的本质有时候需要在确定最佳方案实施以前去研究各种不同的方法。事情往往先变的越来越复杂，才会变得简单。
 
 **“How does Casper differ from Tendermint?”**
 
+**“Casper和Tendermint有什么区别？”**
+
 The simplified answer here is that Casper focuses on liveness (availability) and can accept less immediate safety (correctness). While Tendermint is a great project, its downside is that the chain will stall if a checkpoint doesn’t have 2/3 of the votes. That is one of the reasons why Ethereum is working on Casper rather than working off of Tendermint.
 
+这里比较简单的回答是Casper重点关注活跃度(可用性)和可以接受相对不实时的安全(正确性)。虽然Tendermint是一个伟大的项目，但他的缺点时，如果检查点没有得到三分之二的投票，那么链出块将会停止。这就是为什么以太坊选择在Casper上做工作而不是使用Tendermint的原因。
+
 To quote [Vlad Zamfir](https://medium.com/@Vlad_Zamfir):
+
+引用[Vlad Zamfir](https://medium.com/@Vlad_Zamfir):
 
 >Tendermint favours consistency over availability, Casper favours availability over consistency (see [the CAP theorem](https://en.wikipedia.org/wiki/CAP_theorem)).
 
 >Tendermint doesn’t punish online validators for potentially censoring potentially-actually-just-offline validators.
 
+> Tendermint 更倾向一致性多于可用性，Casper更倾向可用性多于一致性(参考 [CAP理论](https://en.wikipedia.org/wiki/CAP_theorem))
 For further reading on this topic: [Hudson Jameson](https://medium.com/@hudsonjameson)’s explanation this quote, reddit discussion featuring [Vitalik](https://medium.com/@VitalikButerin) & [Jae Kwon](https://medium.com/@jaekwon), and the [Tendermint whitepaper](https://tendermint.com/static/docs/tendermint.pdf).
 
 **“ 😱 You’re going to change the engine of a live $28B network?”**
