@@ -10,11 +10,11 @@
 
 Doing an “ICO” increasingly seems to be the yardstick by which progress (or even, dare I say, success) is measured in the Ethereum space. So, as Colony was one of the very first projects to be announced on Ethereum, we get asked when Colony’s sale will be — *a lot*.
 
-在以太坊系项目中，ICO（区块链项目首次发行代币）越来越多地成为衡量进步进步（甚至我敢说是成功）的标准。因此，正如Colony是最早在以太坊宣布的项目之一，我们被询问很多关于Colony什么时候发售的问题。
+在以太坊系项目中，ICO（区块链项目首次发行代币）越来越多地成为衡量进步（甚至我敢说是成功）的标准。因此，正如Colony是最早在以太坊宣布的项目之一，我们被询问很多关于Colony什么时候发售的问题。
 
 We got started in September 2014 and presented our work in progress at both Devcon 1 and Devcon 2. We’re a team of 12 (and growing). We have a large community, a live beta, solid operational processes we blog about each quarter, and a monster of a [technical whitepaper](https://blog.colony.io/the-colony-whitepaper-502a7b5722b2) detailing our fully decentralised platform in which a token is a vital functional component.
 
-我们从2014年9月开始项目，并在Devcon 1和Devcon2（第一届和第二届全球区块链开发者峰会）上展示了我们的工作。我们是一个12人(而且还在成长)的团队。我们有一个庞大的社区，一个实时的测试，一个每个季度都会记录坚实的开发进度的博客，以及一个技术白皮书。白皮书详细描述了在我们分布式平台中，代币是一个至关重要的功能组件。
+我们从2014年9月开始项目，并在Devcon 1和Devcon2（第一届和第二届全球区块链开发者峰会）上展示了我们的工作。我们是一个12人(而且还在成长)的团队。我们有一个庞大的社区，一个实时的测试，一个每个季度都会记录坚实的开发进度的博客，以及一个[技术白皮书]((https://blog.colony.io/the-colony-whitepaper-502a7b5722b2))。白皮书详细描述了在我们分布式平台中，代币是一个至关重要的功能组件。
 
 Designing that token has entailed more than a year of legal work, and tens of thousands of dollars spent with three of the top law firms in the space. That work has gotten us to a position of comfort that our token design is unlikely to be considered a security in the US.
 
@@ -30,7 +30,7 @@ It was going to be August.
 
 We had everything in place. Whitepaper. Wiki. A beautiful new website. Our tokensale contract had been audited by the talented guys at [DappHub](https://dapphub.com/). The works.
 
-我们把一切都安排好了，包括白皮书、Wiki百科和一个精美的新网站。我们的代币销售合同是由DappHub的天才们审核的。这是我们的努力结果。
+我们把一切都安排好了，包括白皮书、Wiki百科和一个精美的新网站。我们的代币销售合同是由[DappHub](https://dapphub.com/)的天才们审核的。这是我们的努力结果。
 
 We were just about to pull the trigger.
 我们曾经正准备要发售代币。
@@ -45,16 +45,20 @@ Why?
 #### 因为在SEC(证券交易委员会)的眼中，我们将会非法发行未注册证券。
 
 Wait.
+
 等待
 
 What?
+
 为什么？
 
 Didn’t I literally just say the Colony token wasn’t a security?
-难道我不是刚说殖民地的代币不是安全的吗?
+
+难道我不是刚说Colony代币不是安全的吗?
 
 That’s right. It won’t be. Once the Colony Network is live.
-就是这样的。一旦Colony网络上线了，它将不会不被安全保障
+
+就是这样的。一旦Colony网络上线了，它才被安全保障。
 
 Once the network is live, and CLNY can be used for its intended purpose, it won’t be. Until then, it probably would.
 
@@ -87,7 +91,7 @@ For an ICO token not to be a security, the purchaser must not be reliant on the 
 
 Put it this way: if the team developing a dApp gets wiped out by a tsunami during their post-ICO company all hands on [Necker Island](http://www.virginlimitededition.com/en/necker-island/exclusive), and the dApp is not already live, the token price is going to zero. If on the other hand the project is live, is fully decentralised and open source, sure price will probably dip, but the dApp will carry right on working. Others can continue the development if need be, and token holders will not lose their shirts.
 
-这样的话:如果开发dApp的开发团队在他们的后ICO公司里被海啸摧毁了，并且dApp还没有上线，代币的价格将归为零。但是相反地，如果这个项目是已经上线运营的，并且完全是分布式的和开源的，当然代币价格可能会下降，但是dApp会继续运营着。其他人可以在需要的情况下继续开发，那么代币持有者不会血本无归。
+这样的话:如果开发dApp的开发团队在他们位于[内克岛](http://www.virginlimitededition.com/en/necker-island/exclusive)的后ICO公司里被海啸摧毁了，并且dApp还没有上线，代币的价格将归为零。但是相反地，如果这个项目是已经上线运营的，并且完全是分布式的和开源的，当然代币价格可能会下降，但是dApp会继续运营着。其他人可以在需要的情况下继续开发，那么代币持有者不会血本无归。
 
 Here’s the short of it. As far as we can tell, no matter what, tokens purchased for pre-functional products are securities. After it is functional, it depends. Talk to your lawyers.
 
@@ -98,7 +102,7 @@ So, we will do a token sale when the Colony Network is live on mainnet and peopl
 
 因此，当Colony网络上线运营时，我们将进行代币的发售，人们可以立即使用他们手上的代币来购买。我们暂定于2018年第二季度发售代币。
 
-Until then we will continue to fund Colony’s development privately. We’d recommend others do the same using the SAFTE we shared earlier this year.
+Until then we will continue to fund Colony’s development privately. We’d recommend others do the same using the [SAFTE](https://blog.colony.io/a-simple-agreement-for-future-tokens-or-equity-b8ef08608347) we shared earlier this year.
 
 在此之前，我们将继续为Colony的发展提供私募。我们建议其他区块链项目使用我们今年早些时候共享的[SAFTE共识](https://blog.colony.io/a-simple-agreement-for-future-tokens-or-equity-b8ef08608347)来做同样的工作。
 
@@ -106,20 +110,27 @@ So, we will do a token sale when the Colony Network is live on mainnet and peopl
 
 
 If all of this has you thinking:
+
 如果你有考虑这些所有东西：
 
 “But… every single token sale up to now has sold a token for something that doesn’t yet exist?”
+
 ”但是...目前为止，每一个项目代币发售都是为一些尚不存在的东西售出代币?”
+
 Well, yeah. It’s a bit of a worry.
+
 嗯,是的。这有点令人担心。
 
 If you want to dive deeper, read on, there’s more to be said. Otherwise, above was the TL;DR.
+
 如果你想深入了解，请继续读下去，我们还有许多要说的。否则，以上内容就已经太长,请不要往下看。
 
 Still with me? Alright, down the rabbithole we go.
+
 仍然和我在一起吗?那好，那就继续跟着我们往下读。
 
 #### What is a security anyway?
+
 #### 什么是安全?
 
 The Howey test is the rubric used to determine whether something is an ‘investment contract’. It can be broken down into three ‘prongs’:
@@ -127,6 +138,7 @@ The Howey test is the rubric used to determine whether something is an ‘invest
 Howey测试是用来确定什么是一项“投资合同”。它可以分为三点:
 
 #### 1.An investment
+
 #### 这是一项投资
 
 The investment doesn’t need to be “money”. It can be anything of value. Even an email address has been found to constitute a consideration in the past, so cryptocurrencies certainly apply.
@@ -134,6 +146,7 @@ The investment doesn’t need to be “money”. It can be anything of value. Ev
 投资是不需要投资“钱”的。它可以是投任何有价值的东西，甚至连一个电子邮件地址在过去都被认为是一个可以考虑的项目，因此加密货币当然也适用。
 
 #### 2.In a common enterprise
+
 #### 在一个共有的企业
 
 There are several types of ‘commonality’, but the gist is that investors funds are pooled together so everyone shares in the risk and reward of the venture, and/or that the success of the investment depends on the expertise, or success of the efforts, of the promoter or other third party.
@@ -141,6 +154,7 @@ There are several types of ‘commonality’, but the gist is that investors fun
 这里有不同类型的“共性”，但要点是，投资者的资金被集中在一起，因此每个人都共同承担着冒险的风险和回报，因此投资的成功取决于专业知识，或者创始人或第三方的努力付出。
 
 #### 3.With the expectation of profits
+
 #### 对于利润的欲望
 
 Fairly self explanatory I feel.
@@ -224,6 +238,7 @@ True. However, the Ethereum Foundation did not issue Ether, they issued pre-sale
 这是真的。然而，以太坊没有发行以太币，他们只发行了预售的钱包。以太币只是在创世块的时候才被创造出来的。以太币可能不是一种证券，我不愿对预售的钱包进行推测。
  
 #### But <waving hands> decentralisation!
+
 #### 但<挥舞的手>分散开!
 
 
