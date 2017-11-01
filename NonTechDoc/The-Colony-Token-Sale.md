@@ -41,8 +41,8 @@ And then we cancelled the entire plan.
 Why?
 为什么
 
-####In the eyes of the SEC, we would have been illegally issuing unregistered securities.######
-####因为在SEC(证券交易委员会)的眼中，我们将会非法发行未注册证券。
+#### In the eyes of the SEC, we would have been illegally issuing unregistered securities.
+#### 因为在SEC(证券交易委员会)的眼中，我们将会非法发行未注册证券。
 
 Wait.
 等待
@@ -119,29 +119,29 @@ If you want to dive deeper, read on, there’s more to be said. Otherwise, above
 Still with me? Alright, down the rabbithole we go.
 仍然和我在一起吗?那好，那就继续跟着我们往下读。
 
-####What is a security anyway?
-####什么是安全?
+#### What is a security anyway?
+#### 什么是安全?
 
 The Howey test is the rubric used to determine whether something is an ‘investment contract’. It can be broken down into three ‘prongs’:
 
 Howey测试是用来确定什么是一项“投资合同”。它可以分为三点:
 
-####1.An investment
-####这是一项投资
+#### 1.An investment
+#### 这是一项投资
 
 The investment doesn’t need to be “money”. It can be anything of value. Even an email address has been found to constitute a consideration in the past, so cryptocurrencies certainly apply.
 
 投资是不需要投资“钱”的。它可以是投任何有价值的东西，甚至连一个电子邮件地址在过去都被认为是一个可以考虑的项目，因此加密货币当然也适用。
 
-####2.In a common enterprise
-####在一个共有的企业
+#### 2.In a common enterprise
+#### 在一个共有的企业
 
 There are several types of ‘commonality’, but the gist is that investors funds are pooled together so everyone shares in the risk and reward of the venture, and/or that the success of the investment depends on the expertise, or success of the efforts, of the promoter or other third party.
 
 这里有不同类型的“共性”，但要点是，投资者的资金被集中在一起，因此每个人都共同承担着冒险的风险和回报，因此投资的成功取决于专业知识，或者创始人或第三方的努力付出。
 
-####3.With the expectation of profits
-####对于利润的欲望
+#### 3.With the expectation of profits
+#### 对于利润的欲望
 
 Fairly self explanatory I feel.
 这一点我想每个人都很清楚能感受到。
@@ -170,8 +170,8 @@ Importantly, the SEC has ‘long arm jurisdiction’. They can come after you wh
 
 重要的是，SEC（美国证券交易委员会）拥有“长臂管辖权”。只要美国投资者受到影响，无论你身处何方他们都会跟随着你。一个著名的瑞士基金会将不再保护你。
 
-####Alright, block the US then.
-####好吧，那就屏蔽美国吧
+#### Alright, block the US then.
+#### 好吧，那就屏蔽美国吧
 
 Lots of projects have tried to do that. Many have blocked US IP addresses. I can see it now:
 
@@ -197,8 +197,8 @@ Further, it’s not clear where liability lies if, through secondary market trad
 
 此外，如果未通过认可的美国投资者根据美国法律，将在二级市场交易中获得的代币视为证券，这将会（使立法者）还不清楚责任在哪里。一些人甚至认为，阻止最大的代币市场仅仅是产生了对代币经销商的需求，从而增加了在ICO中对代币的投机性需求。即使创始人不承担责任，而将风险传递给购买代币者，这看起来就像是一种愚蠢的行为。
 
-####Why not sell a token but not actually issue it until the platform is live on mainnet. Surely then it’s no different from a Kickstarter, right?
-####为什么不出售一个直到平台上线主网才发布的代币。当然，这就和Kickstarter（一个众筹网站）没有什么不同，对吧?
+#### Why not sell a token but not actually issue it until the platform is live on mainnet. Surely then it’s no different from a Kickstarter, right?
+#### 为什么不出售一个直到平台上线主网才发布的代币。当然，这就和Kickstarter（一个众筹网站）没有什么不同，对吧?
 
 This is probably the greyest area in all of this. It definitely does make it more like a Kickstarter, but at least in the view of our legal team, there are some important differences.
 
@@ -214,26 +214,26 @@ The key economic reality here is that in the overwhelming majority of cases, peo
 
 这里的关键经济现实是，在绝大多数情况下，Kickstarter网站上的买家都在这购买是因为他们想要那件东西。而显而易见的是，在众筹网站kickstarter上进行众筹的人是希望项目能获得利润，但这并不容易做到。对于Kickstarter项目来说，因为没有代币，这里缺乏一个高效的流动的市场。你不能定制3D打印机。
 
-####I call bullshit. The SEC said ETH isn’t a security, it’s a currency, and they did a pre-sale.
+#### I call bullshit. The SEC said ETH isn’t a security, it’s a currency, and they did a pre-sale.
 
-####证券交易委员会说，ETH不是一种证券，而是一种货币，他们进行了预售。我认为这是废话。
+#### 证券交易委员会说，ETH不是一种证券，而是一种货币，他们进行了预售。我认为这是废话。
 
 
 True. However, the Ethereum Foundation did not issue Ether, they issued pre-sale wallets. Ether was only created at the point of the genesis block. Ether probably isn’t a security, I wouldn’t like to speculate on the pre-sale wallets.
 
 这是真的。然而，以太坊没有发行以太币，他们只发行了预售的钱包。以太币只是在创世块的时候才被创造出来的。以太币可能不是一种证券，我不愿对预售的钱包进行推测。
-
-####But <waving hands> decentralisation!
-####但<挥舞的手>分散开!
+ 
+#### But <waving hands> decentralisation!
+#### 但<挥舞的手>分散开!
 
 
 It doesn’t matter. Laws exist whether we agree with them or not, and people are subject to them even if the software they write does not have client-server architecture.
 
 没关系。不管我们是否同意，法律都是存在的。即使他们编写的软件没有客户机-服务器架构，这些人也会受到这些法律的约束。
 
-####Pfft. You guys are a bunch of lily livered ninnies.
+#### Pfft. You guys are a bunch of lily livered ninnies.
 
-####啐。你们是一群胆小的笨蛋。
+#### 啐。你们是一群胆小的笨蛋。
 
 Perhaps so. But we sleep soundly at night knowing that we are not exposing ourselves, or the future inhabitants of the Colony Network, to unnecessary legal or financial risk.
 
