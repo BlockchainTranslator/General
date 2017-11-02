@@ -6,9 +6,6 @@
 >
 > 翻译时间：2017-11-02
 
-
-# Ethereum Casper 101 | 初识以太坊 Capsper
-
 Casper will implement proof of stake in Ethereum. We begin with a review on why proof of stake matters and continue with its strengths & weaknesses. This post aims to provide a broad overview of Casper and clarify some of the confusion with respect to the two protocol design efforts related to Casper. The two proposed implementations share the same core design principle: **applying cryptoeconomic mechanism design to secure the network while managing challenges regarding liveness, safety and synchrony assumptions**. This post is also an overview of the progress so far and the challenges that lie ahead. Most importantly for fellow newcomers, the post identifies & defines key concepts and ties together various helpful resources under one context. The overarching intention is to make Casper and proof of stake more approachable to everyone in the community.
 
 Casper 将在以太上坊上实现 POS (权益证明) 协议。这篇文章首先回顾了 POS 的重要性及其存在的优缺点，
