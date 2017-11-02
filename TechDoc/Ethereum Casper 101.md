@@ -22,7 +22,7 @@ Enjoy and please don’t hesitate to reach out with questions, corrections or fe
 
 1. Introduction 介绍
 
-2. Proof of Stake 股权证明
+2. Proof of Stake 权益证明
 
 3. A Tale of Two Caspers 两个 Caspers 的故事
 
@@ -68,7 +68,7 @@ To summarize, this post is:
 
 * 讨论为什么 Casper 重要，其设计原则及其面对的挑战。
 
-* 能让你开始学习使用 PoS 和 Casper 的一系列关键资源和团队的列表。
+* 能让你开始学习使用 PoS 和 Casper 的一系列关键资源和术语的列表。
 
 
 This is not:
@@ -112,7 +112,7 @@ In proof of work (PoW) based public blockchains (e.g. Bitcoin and the current im
 
 Significant advantages of PoS include **security, reduced risk of centralization, and energy efficiency**.
 
-股权证明（PoS）是公链的一种共识算法，其实现依赖于验证者在网络中的经济利益。
+权益证明（PoS）是公链的一种共识算法，其实现依赖于验证者在网络中的经济利益。
 
 在基于工作量证明（PoW）的公链（如比特币和当前实施的以太坊）中，通过对**解加密算数题**的参与者进行奖励，来验证交易并创建新的块（即采矿）。而在基于 PoS 共识的公共块（如以太坊即将推出的 Casper ）中，验证者轮流提议新块并对下一个块投票，每个验证者的投票权重取决于其持币量的大小（即股权）。验证者对于区块链网络提供服务是有奖励的，而且这种奖励也实现了对攻击者的的经济制约。
 
@@ -136,7 +136,7 @@ On a related note, Vitalik further argues that PoS has better recovery propertie
 
 Proof of Stake mitigates the impact of [economies of scale](https://en.wikipedia.org/wiki/Economies_of_scale) in making consensus. In proof of work, we can already see that the network trusts a relatively concentrated set of mining pools (e.g. AntPool) to secure the network. Larger proof of work mining pools can lower the unit cost of their technical and operational infrastructure (datacenter costs, power costs, personnel) by both (1) amortizing a fixed cost over a larger operation and (2) having bargaining power by operating as a larger entity.
 
-为了达成共识，PoS 股权证明减轻了[规模经济](https://en.wikipedia.org/wiki/Economies_of_scale)的影响。在 PoW 工作量证明中，我们已经看到，为保护网络安全，相对集中的矿池（例如 AntPool）比规模小的更受到信任。大矿池可以通过（1）在较大的运营中摊销固定成本，（2）通过运营较大的实体来提高议价能力，来降低其技术和运营基础设施（如数据中心成本，电力成本，人员成本）的单位成本。
+为了达成共识，PoS 权益证明减轻了[规模经济](https://en.wikipedia.org/wiki/Economies_of_scale)的影响。在 PoW 工作量证明中，我们已经看到，为保护网络安全，相对集中的矿池（例如 AntPool）比规模小的更受到信任。大矿池可以通过（1）在较大的运营中摊销固定成本，（2）通过运营较大的实体来提高议价能力，来降低其技术和运营基础设施（如数据中心成本，电力成本，人员成本）的单位成本。
 
 This means that two sets of mining pools with equal economic cost, one may be able to achieve a higher hash rate and have more influence in the network, dollar for dollar. For example, 10,000 miners that each spend $1/min ($87.6M/yr) may have less hashing power than one mining pool that spends $10,000/min (despite also spending $87.6M/yr). (Further work: quantifying the benefits to centralization in PoW mining would be fascinating. i.e. is it 1bps, 1% or multiples in hashing power per dollar invested?)
 
@@ -144,7 +144,7 @@ This means that two sets of mining pools with equal economic cost, one may be ab
 
 However, in proof of stake, a dollar is a dollar. The benefit here is that you can’t pool together to mae a dollar worth more. Nor can you develop or buy application-specific integrated circuits (ASICs) to have an advantage technologically. So, PoS intends to mitigate the regressive distribution of PoW mining rewards and move directionally towards proportional distribution. (Going beyond proportional to progressive distribution will require mature decentralized reputation/identity management services).
 
-然而，在 POS 股权证明的情况下，一美元就是一美元。这样的好处是，你不能通过汇集在一起，使得一美元值得更多。您也不能开发或购买专用集成电路（ASIC），从而在技术上占有优势。所以，PoS 不同于 PoW 挖矿收入的累计分配方式，采用了比例分配。（成熟的去中心化的声誉/身份管理服务为按比例分配收益成为可能）。
+然而，在 POS 权益证明的情况下，一美元就是一美元。这样的好处是，你不能通过汇集在一起，使得一美元值得更多。您也不能开发或购买专用集成电路（ASIC），从而在技术上占有优势。所以，PoS 不同于 PoW 挖矿收入的累计分配方式，采用了比例分配。（成熟的去中心化的声誉/身份管理服务为按比例分配收益成为可能）。
 
 ### Energy Efficiency | 能源效率
 
@@ -181,9 +181,9 @@ So, now that we’ve discussed PoS, let’s dive into Casper.
 
 ### Further Reading on PoS | 进一步阅读 PoS
 
-* [Proof of Stake FAQ 股权证明常见问题](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ) in Ethereum wiki
+* [Proof of Stake FAQ 权益证明常见问题](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQ) in Ethereum wiki
 
-* [Proof of Stake Design 股权证明设计哲学 Philsophy](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51) by [Vitalik Buterin](https://medium.com/@VitalikButerin)
+* [Proof of Stake Design 权益证明设计哲学 Philsophy](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51) by [Vitalik Buterin](https://medium.com/@VitalikButerin)
 
 * [Critique of PoS Pos的批判](https://medium.com/@tuurdemeester/critique-of-buterins-a-proof-of-stake-design-philosophy-49fc9ebb36c6) by
 [Tuur Demeester](https://medium.com/@tuurdemeester) (and comments
@@ -203,11 +203,11 @@ So, now that we’ve discussed PoS, let’s dive into Casper.
 
 In simple terms, Casper is Ethereum’s Proof of Stake work stream.
 
-简单来说，Casper 是以太坊的 PoS 股权证明实现的工作流。
+简单来说，Casper 是以太坊的 PoS 权益证明实现的工作流。
 
 Casper is not a specific implementation but a family of two main projects under active research by the Ethereum team. Informally, there’s “Vitalik’s Casper” aka **Casper FFG ** and “Vlad’s Casper” aka **Casper CBC** (explained below). This subtlety isn’t clear until you start diving deep into Casper materials online, which can be very confusing to the “uninitiated.” (In fact, that is a main motivator for this post). While independent implementations, they have the same goal in mind: moving Ethereum over to proof of stake.
 
-Casper 并不是一个具体的实现，它是实际上由以太坊团队正在积极研究的两个主要项目组成。非正式地，“Vitalik's Casper” 又称 **Casper FFG**，还有 “Vlad's Casper”，又名**Casper CBC**（见下文说明）。细节部分只有到你开始深入了解 Casper 的在线资料才能明白，外行可能对这个非常不解（事实上，这就是写这篇文章的主要动力）。虽然他们是独立的实现，但他们有着一样的目标：将以太坊的工作量证明转到 PoS 股权证明。
+Casper 并不是一个具体的实现，它是实际上由以太坊团队正在积极研究的两个主要项目组成。非正式地，“Vitalik's Casper” 又称 **Casper FFG**，还有 “Vlad's Casper”，又名**Casper CBC**（见下文说明）。细节部分只有到你开始深入了解 Casper 的在线资料才能明白，外行可能对这个非常不解（事实上，这就是写这篇文章的主要动力）。虽然他们是独立的实现，但他们有着一样的目标：将以太坊的工作量证明转到 PoS 权益证明。
 
 (Despite a surprisingly common impression that Ethereum is already implementing PoS, it is still a PoW chain (using [ethash](https://github.com/ethereum/wiki/wiki/Ethash)). While being [memory hard](https://www.vijaypradeep.com/blog/2017-04-28-ethereums-memory-hardness-explained/) and more ASIC-resistant than Bitcoin, Ethereum is a PoW chain nonetheless and has the same drawbacks with respect to energy efficiency.
 
@@ -225,7 +225,7 @@ Caveat: both of these projects will present more detailed papers and proof of co
 
 **Casper the Friendly Finality Gadget (“FFG”)** — aka “Vitalik’s Casper” — is a hybrid PoW/PoS consensus mechanism, which is the immediate candidate for Ethereum’s first bridge to proof of stake. More specifically, FFG implements a proof of stake mechanism as an overlay on top of a proof of work chain (such as Ethereum’s ethash PoW chain). Simply, the blockchain would grow every block with the familiar ethash PoW algorithm, but every 50 blocks is a PoS “checkpoint” where finality is assessed via a network of validators.
 
-**友好的终结工具 Casper（“FFG”）**  - 又名“Vitalik's Casper” -  是一种混合 PoW / PoS 的共识机制，它是以太坊首个通向 PoS 股权证明的候选方法。更具体地说，FFG 在工作量证明（如以太的 ethash PoW 链）的基础上，实施了股权证明。简单地说，块链将用熟悉的 ethash PoW 算法增加区块，但是每50个块有一个 PoS “检查点”，通过网络验证者来评估区块的最终有效性。
+**友好的终结工具 Casper（“FFG”）**  - 又名“Vitalik's Casper” -  是一种混合 PoW / PoS 的共识机制，它是以太坊首个通向 PoS 权益证明的候选方法。更具体地说，FFG 在工作量证明（如以太的 ethash PoW 链）的基础上，实施了权益证明。简单地说，块链将用熟悉的 ethash PoW 算法增加区块，但是每50个块有一个 PoS “检查点”，通过网络验证者来评估区块的最终有效性。
 
 **Casper the Friendly Ghost**: Construction by Correction (“**CBC**”) — aka “Vlad’s Casper”—differs in approach from traditional protocol design: (1) the protocol is partially specified in the beginning and (2) and the rest of the protocol is derived in way that is proven to satisfy the desired/requisite properties (typically protocol is fully defined then tested to satisfy the said properties). In this case, one way to derive the full protocol is to implement an estimate safety oracle (“[an ideal adversary](https://edcon.io/ppt/one/Vlad%20Zamfir_Casper_EDCON.pdf)”), which either raises exceptions of a fault of a justified estimate or enumerates the potential future faulty estimates. More specifically, Vlad’s work focuses on designing protocols where one can extend local views of a node’s estimate of safety to achieve consensus safety.
 
@@ -415,7 +415,7 @@ This is a collection of design principles found in various posts by Vlad and Vit
 
 6、 **Design for [oligopolies](https://en.wikipedia.org/wiki/Oligopoly).** Cooperative game theory is the name of the game as a protocol won’t be able to fully mitigate the inherent centralizing forces (e.g. economies of scale) in a network. This means analyzing all edge cases that involve self-interested cartel behavior. Notably, a protocol should disincentivize cartels from bullying non-cartel validators (i.e. be “friendly”)
 
-6、**寡头垄断设计**。合作博弈理论，是协议将无法完全减轻网络中固有的集权力（即规模经济）的博弈的名称。这意味着分析所有边缘案例影响着自利卡特尔行为。值得注意的是，协议应该能避免卡特尔验证者欺凌非卡特尔验证器（即 “友好”）
+6、**寡头垄断设计**。合作博弈理论，是协议将无法完全减轻网络中固有的集权力（即规模经济）的博弈的名称。这意味着分析所有边缘案例影响着自利卡特尔行为。值得注意的是，协议应该能避免卡特尔验证者欺凌非卡特尔验证人（即 “友好”）
 
 
 7、 **Accountable safety.** Design that makes it possible to attribute faults to bad actors as much as possible. Casper relies on the ability to slash attributable Byzantine behavior.
@@ -745,9 +745,13 @@ Special thanks to [Vitalik Buterin](https://medium.com/@VitalikButerin), [Vlad Z
 
 #### 本文译者简介
 
-胖哥Ricky 区块链技术爱好者，资深技术达人，开设技术性关于区块链公众号：__胖哥说币__
+* 胖哥Ricky 区块链技术爱好者，资深技术达人，开设技术性关于区块链公众号：__胖哥说币__
 
 以非典型技术男的角度分享技术性币圈观点。
+
+
+* 鱼 区块链技术爱好者，微信号: oscnet
+
 
 本文由币乎社区（bihu.com）内容支持计划赞助。
 
