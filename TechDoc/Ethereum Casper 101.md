@@ -1,4 +1,4 @@
-# Ethereum Casper 101 | 初识以太坊 Capsper
+# Ethereum Casper 101 | 初识以太坊 Casper
 
 > 本文翻译自：https://medium.com/@jonchoi/ethereum-casper-101-7a851a4f1eb0
 >
