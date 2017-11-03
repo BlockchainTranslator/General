@@ -112,9 +112,9 @@ In proof of work (PoW) based public blockchains (e.g. Bitcoin and the current im
 
 Significant advantages of PoS include **security, reduced risk of centralization, and energy efficiency**.
 
-权益证明（PoS）是公链的一种共识算法，其实现依赖于验证者在网络中的经济利益。
+权益证明（PoS）是公链的一种共识算法，其实现依赖于验证人在网络中的经济利益。
 
-在基于工作量证明（PoW）的公链（如比特币和当前实施的以太坊）中，通过对**解加密算数题**的参与者进行奖励，来验证交易并创建新的块（即采矿）。而在基于 PoS 共识的公共块（如以太坊即将推出的 Casper ）中，验证者轮流提议新块并对下一个块投票，每个验证者的投票权重取决于其持币量的大小（即股权）。验证者对于区块链网络提供服务是有奖励的，而且这种奖励也实现了对攻击者的的经济制约。
+在基于工作量证明（PoW）的公链（如比特币和当前实施的以太坊）中，通过对**解加密算数题**的参与者进行奖励，来验证交易并创建新的块（即采矿）。而在基于 PoS 共识的公共块（如以太坊即将推出的 Casper ）中，验证人轮流提议新块并对下一个块投票，每个验证人的投票权重取决于其持币量的大小（即股权）。验证人对于区块链网络提供服务是有奖励的，而且这种奖励也实现了对攻击者的的经济制约。
 
 PoS 的明确优点包括安全性、降低集权风险和提高能源效率。
 
@@ -150,7 +150,7 @@ However, in proof of stake, a dollar is a dollar. The benefit here is that you c
 
 Proof of work relies on wasting resources to secure the network. Bitcoin currently uses [over 20 TWh per year of power](https://digiconomist.net/bitcoin-energy-consumption), which is close to the power consumption by the entire country of Ecuador. In order for Bitcoin to have broader adoption and operate at Visa’s scale, it would have to waste as much power as a much larger country. Extrapolating it’s current pace, one can see why proof of work may not be a sustainable path forward.
 
-PoS 工作量证明机制通过浪费资源来保障网络。比特币目前每年使用[超过20 TWh的电力](https://digiconomist.net/bitcoin-energy-consumption)，这已经接近厄瓜多尔整个国家的电力消耗。为了使比特币在支付的规模上得到更广泛的使用，它必须浪费象更大的国家一样多的电力。根据这样的发展，我们就可以明白，工作量证明可能不是合适的发展方向。
+PoW 工作量证明机制通过浪费资源来保障网络。比特币目前每年使用[超过20 TWh的电力](https://digiconomist.net/bitcoin-energy-consumption)，这已经接近厄瓜多尔整个国家的电力消耗。为了使比特币在支付的规模上得到更广泛的使用，它必须浪费象更大的国家一样多的电力。根据这样的发展，我们就可以明白，工作量证明可能不是合适的发展方向。
 
 While Bitcoin may serve an important social function that may indeed exceed its financial costs and environmental externalities (i.e. [Nick Szabo’s social scalability argument](http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html)), proponents of PoS believe it is possible to replicate the incentive mechanisms of a PoW blockchain without wasting as much energy (by orders of magnitude). Alternatively, some may argue there exists a price of negative externalities where even the benefits of social scalability might be outweighed by the environmental costs.
 
@@ -225,7 +225,7 @@ Caveat: both of these projects will present more detailed papers and proof of co
 
 **Casper the Friendly Finality Gadget (“FFG”)** — aka “Vitalik’s Casper” — is a hybrid PoW/PoS consensus mechanism, which is the immediate candidate for Ethereum’s first bridge to proof of stake. More specifically, FFG implements a proof of stake mechanism as an overlay on top of a proof of work chain (such as Ethereum’s ethash PoW chain). Simply, the blockchain would grow every block with the familiar ethash PoW algorithm, but every 50 blocks is a PoS “checkpoint” where finality is assessed via a network of validators.
 
-**友好的终结工具 Casper（“FFG”）**  - 又名“Vitalik's Casper” -  是一种混合 PoW / PoS 的共识机制，它是以太坊首个通向 PoS 权益证明的候选方法。更具体地说，FFG 在工作量证明（如以太的 ethash PoW 链）的基础上，实施了权益证明。简单地说，块链将用熟悉的 ethash PoW 算法增加区块，但是每50个块有一个 PoS “检查点”，通过网络验证者来评估区块的最终有效性。
+**友好的终结工具 Casper（“FFG”）**  - 又名“Vitalik's Casper” -  是一种混合 PoW / PoS 的共识机制，它是以太坊首个通向 PoS 权益证明的候选方法。更具体地说，FFG 在工作量证明（如以太的 ethash PoW 链）的基础上，实施了权益证明。简单地说，块链将用熟悉的 ethash PoW 算法增加区块，但是每50个块有一个 PoS “检查点”，通过网络验证人来评估区块的最终有效性。
 
 **Casper the Friendly Ghost**: Construction by Correction (“**CBC**”) — aka “Vlad’s Casper”—differs in approach from traditional protocol design: (1) the protocol is partially specified in the beginning and (2) and the rest of the protocol is derived in way that is proven to satisfy the desired/requisite properties (typically protocol is fully defined then tested to satisfy the said properties). In this case, one way to derive the full protocol is to implement an estimate safety oracle (“[an ideal adversary](https://edcon.io/ppt/one/Vlad%20Zamfir_Casper_EDCON.pdf)”), which either raises exceptions of a fault of a justified estimate or enumerates the potential future faulty estimates. More specifically, Vlad’s work focuses on designing protocols where one can extend local views of a node’s estimate of safety to achieve consensus safety.
 
@@ -336,7 +336,7 @@ The first three points are covered in the Proof of Stake section. However, it is
 
 As a review, (1) PoS has less available economies of scale because — “dollar for dollar” — a miner/validator can’t achieve outsized influence on the network. In PoW, a large mining pool might get more hashing power per dollar than an individual miner, whereas in PoS, a dollar is a dollar, which will likely mitigate the centralizing forces in mining.
 
-作为回顾，（1）PoS 具有较小的可用经济规模，因为 - “美元兑美元” - 一个矿工/验证者不能对网络产生巨大的影响。在 PoW 中，一个大型矿池可能比单个矿工获得每美元更多的哈希算力，而在 PoS 中，一美元是一美元，这可能会减轻挖矿的中心化。
+作为回顾，（1）PoS 具有较小的可用经济规模，因为 - “美元兑美元” - 一个矿工/验证人不能对网络产生巨大的影响。在 PoW 中，一个大型矿池可能比单个矿工获得每美元更多的哈希算力，而在 PoS 中，一美元是一美元，这可能会减轻挖矿的中心化。
 
 And (2) whereas PoW relies on energy wastage for network security, PoS relies on the potential of losing a deposit for network security. The challenge then becomes (3) how we mimic (and enhance) the positive features of PoW and mitigate the weaknesses of PoS with economic mechanism design.
 
@@ -360,7 +360,7 @@ In contrast, Casper provides a concept of explicit finality. For example, Casper
 
 At that point, with certain [Byzantine Fault Tolerance](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance) assumptions, we can be sure that either our assumptions have been violated or that the checkpoint is final. Since we are also aware of the validator set a priori (which can also be dynamic), bad actors are penalized through fault attribution.
 
-在这一点上，使用某些[拜占庭容错](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance)假设，我们可以确定我们的假设是否被违反，或是检查点是最终的。既然我们也意识到验证者设定了先验（也可以是动态的），则不良行为者将通过分析故障归因而受到惩罚。
+在这一点上，使用某些[拜占庭容错](https://en.wikipedia.org/wiki/Byzantine_fault_tolerance)假设，我们可以确定我们的假设是否被违反，或是检查点是最终的。既然我们也意识到验证人设定了先验（也可以是动态的），则不良行为者将通过分析故障归因而受到惩罚。
 
 So how does this relate to sharding & scalability? Having this explicit finality allows more flexibility in how much (more accurately, how little) each node in the network has to do. Having more regular explicit finality allows further exploration of questions such as: what if not every node had to hold all of the state or all of the transactions? what if not every node had to validate every transaction? These questions of having heterogenous “responsibilities” of nodes in public blockchains are tackled by a workstream around [blockchain sharding](https://github.com/ethereum/wiki/wiki/Sharding-FAQ).
 
@@ -410,12 +410,12 @@ This is a collection of design principles found in various posts by Vlad and Vit
 
 5、 **Network security is derived from “skin in the game.”** Simple yet worth reiterating. The more you have to lose, the more we can trust you as a validator. Whereas burning energy secures proof of work chains, “[putting up economic value-at-loss](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51)” secures proof of stake chains.
 
-5、 **网络安全来源于“游戏中的皮肤”**。简单而值得重申。你抵押愿意可能失去的越多，我们才可以更相信你作为一个验证者。虽然燃烧能源确保了pow的链安全，但“[经济价值的损失](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51) ”确保了POS链的安全。
+5、 **网络安全来源于“游戏中的皮肤”**。简单而值得重申。你抵押愿意可能失去的越多，我们才可以更相信你作为一个验证人。虽然燃烧能源确保了pow的链安全，但“[经济价值的损失](https://medium.com/@VitalikButerin/a-proof-of-stake-design-philosophy-506585978d51) ”确保了POS链的安全。
 
 
 6、 **Design for [oligopolies](https://en.wikipedia.org/wiki/Oligopoly).** Cooperative game theory is the name of the game as a protocol won’t be able to fully mitigate the inherent centralizing forces (e.g. economies of scale) in a network. This means analyzing all edge cases that involve self-interested cartel behavior. Notably, a protocol should disincentivize cartels from bullying non-cartel validators (i.e. be “friendly”)
 
-6、**寡头垄断设计**。合作博弈理论，是协议将无法完全减轻网络中固有的集权力（即规模经济）的博弈的名称。这意味着分析所有边缘案例影响着自利卡特尔行为。值得注意的是，协议应该能避免卡特尔验证者欺凌非卡特尔验证人（即 “友好”）
+6、**寡头垄断设计**。合作博弈理论，是协议将无法完全减轻网络中固有的集权力（即规模经济）的博弈的名称。这意味着分析所有边缘案例影响着自利卡特尔行为。值得注意的是，协议应该能避免卡特尔验证人欺凌非卡特尔验证人（即 “友好”）
 
 
 7、 **Accountable safety.** Design that makes it possible to attribute faults to bad actors as much as possible. Casper relies on the ability to slash attributable Byzantine behavior.
@@ -437,7 +437,7 @@ This is a collection of design principles found in various posts by Vlad and Vit
 
 11、 **Disincentivize censorship.** The major tradeoff is that validators have a new attack vector by deliberately going offline. However, cartel censorship is the greater evil here. Choosing the right relative cost of censorship vs. rewards and other penalties (as a % of deposits) will be the key to getting this right.
 
-11、**反审查**。主要的权衡的是有一种新的攻击维度是验证者故意离线。不过，卡特尔的审查制度在这里是更大的罪恶。选择审查制度的相对成本与奖励和其他处罚（作为存款的百分比）将是获得这项权利的关键。
+11、**反审查**。主要的权衡的是有一种新的攻击维度是验证人故意离线。不过，卡特尔的审查制度在这里是更大的罪恶。选择审查制度的相对成本与奖励和其他处罚（作为存款的百分比）将是获得这项权利的关键。
 
 ### Further Reading 进一步阅读
 
@@ -474,7 +474,7 @@ These two main challenges are solved via ideas from [slasher](https://blog.ether
 **Adverse selection** — Given the potentially draconian penalties, many average or risk-averse “candidate validators” may stay away from participating as a validator. Then, one may argue people with more to gain by “gaming the system” are more likely to join as a validator. More broadly, one may claim that — on average — a good actor may never have a better ROI than a bad actor.
 
 
-**[逆向选择](http://wiki.mbalib.com/wiki/%E9%80%86%E5%90%91%E9%80%89%E6%8B%A9)** — 由于有潜在的严厉惩罚，很多中等或者厌恶风险的候选验证者可能会不参加验证人。那么人们可能会争论哪些寻找游戏规则漏斗的人更可能加入验证人并获取更多。更广泛地，可以这么说—一个好人永远的得不到比坏人更好的回报。
+**[逆向选择](http://wiki.mbalib.com/wiki/%E9%80%86%E5%90%91%E9%80%89%E6%8B%A9)** — 由于有潜在的严厉惩罚，很多中等或者厌恶风险的候选验证人可能会不参加验证人。那么人们可能会争论那些寻找游戏规则漏洞的人更有可能成为验证人并获取更多利益。更广泛地，可以这么说—一个好人永远的得不到比坏人更好的回报。
 
 *Response:*
 
