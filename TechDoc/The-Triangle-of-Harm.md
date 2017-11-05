@@ -16,7 +16,7 @@ The following is a diagram from a slide that I made in one of my presentations a
 
 下面是我本周在康奈尔的演讲中所做的一张幻灯片中的图表：
 
-<img src="pics/The-Triangle-of-Harm.png" width="700">
+![](pics/The-Triangle-of-Harm-1.png)
 
 If there was one diagram that could capture the core principle of Casper’s incentivization philosophy, this might be it. Hence, it warrants some further explanation.
 
