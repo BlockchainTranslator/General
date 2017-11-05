@@ -65,7 +65,7 @@ In the pre-digital world, possession indicated ownership of that right. The Aust
 
 在数字世界之前，占有权表示对这一权利的所有权。澳大利亚护照帐本由各州政府持有的索引卡组成。边境探员可以推测，持有护照的旅客即已列在遥远的政府帐本上，是允许外出的。当然，这让边界控制高度暴露在欺诈行为中。
 
-
+![](https://cdn-images-1.medium.com/max/600/0*o7jSV4im3ZVc0LcD.)
 
 A Belgian passport held by the Australian National Archives, A435 1944/4/2579
 
