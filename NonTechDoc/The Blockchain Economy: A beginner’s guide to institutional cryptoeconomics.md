@@ -67,9 +67,7 @@ In the pre-digital world, possession indicated ownership of that right. The Aust
 
 ![](https://cdn-images-1.medium.com/max/600/0*o7jSV4im3ZVc0LcD.)
 
-A Belgian passport held by the Australian National Archives, A435 1944/4/2579
-
-一本比利时护照， 澳大利亚国家档案馆收藏，A435 1944/4/2579
+A Belgian passport held by the Australian National Archives, A435 1944/4/2579(一本比利时护照， 澳大利亚国家档案馆收藏，A435 1944/4/2579)
 
 Possession implies ownership, but possession is not ownership. Now modern passports allow the authorities to confirm ownership directly. Their digital features allow airlines and immigration authorities to query the national passport database and determine that a passenger is free to travel.
 
@@ -99,9 +97,7 @@ Ledgers appear at the dawn of written communication. Ledgers and writing develop
 
 ![](https://cdn-images-1.medium.com/max/600/0*-a0B-7Owzy1WZpDN.)
 
-A fragment of a late Babylonian cuneiform ledger, held by the British Museum, 58278
-
-巴比伦晚期楔形文字帐本，英国国家博物馆收藏，58278
+A fragment of a late Babylonian cuneiform ledger, held by the British Museum, 58278(巴比伦晚期楔形文字帐本，英国国家博物馆收藏，58278)
 
 The first major change to ledgers appeared in the fourteenth century with the invention of double entry bookkeeping. By recording both debits and credits, double entry bookkeeping conserved data across multiple (distributed) ledgers, and allowed for the reconciliation of information between ledgers.
 
@@ -146,7 +142,8 @@ But blockchains also compete against firms and governments. The blockchain is an
 但是，区块链也会与公司和政府竞争。区块链是一种制度技术。这是一种维护帐本的新方法——也就是协调经济活动——与公司和政府截然不同。
 
 ![](https://cdn-images-1.medium.com/max/600/0*B2yBa82kJwOAfkvZ.)
-The new economic institutions of capitalism  资本主义的新经济体系
+
+The new economic institutions of capitalism  (资本主义的新经济体系)
 
 Blockchains can be used by firms, but they can also replace firms. A ledger of contracts and capital can now be decentralised and distributed in a way they could not before. Ledgers of identity, permission, privilege and entitlement can be maintained and enforced without the need for government backing.
 
@@ -220,7 +217,7 @@ Before mechanical time, human activity was temporally regulated by nature: the c
 
 ![](https://cdn-images-1.medium.com/max/600/0*6ZkgvAJSZ4OTzp9m.)
 
-The 12th century Jayrun Water Clock    12世纪的Jayrun水钟
+The 12th century Jayrun Water Clock(12世纪的Jayrun水钟)
 
 “The effect of the reduction in the variance of time measurement was felt everywhere”, Allen writes. Mechanical time opened up entirely new categories of economic organisation that had until then been not just impossible, but unimaginable. Mechanical time allowed trade and exchange to be synchronised across great distances. It allowed for production and transport to be coordinated. It allowed for the day to be structured, for work to be compensated according to the amount of time worked — and for workers to know that they were being compensated fairly. Both employers and employees could look at a standard, independent instrument to verify that a contract had been performed.
 
@@ -280,7 +277,7 @@ Bank runs occur when depositors discover (or simply imagine) that their bank mig
 
 ![](https://cdn-images-1.medium.com/max/600/0*SeqgN9FuH-Fnwttc.)
 
-The bank run in Mary Poppins (1964)   欢乐满人间 (1964)中银行挤兑
+The bank run in Mary Poppins (1964)(欢乐满人间 (1964)中银行挤兑)
 
 One possible application of the blockchain would allow depositors and shareholders to continuously monitor the bank’s reserves and lendings, substantially eliminating the information asymmetries between them and the bank management.
 
