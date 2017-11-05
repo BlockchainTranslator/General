@@ -97,7 +97,7 @@ Ledgers appear at the dawn of written communication. Ledgers and writing develop
 
 在书面交流的开端，帐本就出现了。在古代近东地区，帐本和写作同时发展，记录生产、贸易和债务。土制版的泥片，详细地描述了定量配给、税收、工人等情况。第一个国际“社区”通过一个结构化的联盟网络来组织，就像一个分布式的账本。
 
-
+![](https://cdn-images-1.medium.com/max/600/0*-a0B-7Owzy1WZpDN.)
 
 A fragment of a late Babylonian cuneiform ledger, held by the British Museum, 58278
 
@@ -145,9 +145,8 @@ But blockchains also compete against firms and governments. The blockchain is an
 
 但是，区块链也会与公司和政府竞争。区块链是一种制度技术。这是一种维护帐本的新方法——也就是协调经济活动——与公司和政府截然不同。
 
-
-
-### The new economic institutions of capitalism  资本主义的新经济体系
+![](https://cdn-images-1.medium.com/max/600/0*B2yBa82kJwOAfkvZ.)
+The new economic institutions of capitalism  资本主义的新经济体系
 
 Blockchains can be used by firms, but they can also replace firms. A ledger of contracts and capital can now be decentralised and distributed in a way they could not before. Ledgers of identity, permission, privilege and entitlement can be maintained and enforced without the need for government backing.
 
@@ -219,7 +218,7 @@ Before mechanical time, human activity was temporally regulated by nature: the c
 
 在机械时间之前，人类的活动是由自然时间调节的：早上公鸡的啼叫，夜晚的缓慢下降。正如经济历史学家Douglas W. Allen所指出的那样，问题在于可变性：“在时间的测量上存在太多的差异……在许多日常活动中都有意义。”
 
-
+![](https://cdn-images-1.medium.com/max/600/0*6ZkgvAJSZ4OTzp9m.)
 
 The 12th century Jayrun Water Clock    12世纪的Jayrun水钟
 
@@ -279,7 +278,7 @@ Bank runs occur when depositors discover (or simply imagine) that their bank mig
 
 银行挤兑会发生，当储户发现(或简单地想象)他们的银行可能无法支付他们的存款，急忙取回自己钱的时候。
 
-
+![](https://cdn-images-1.medium.com/max/600/0*SeqgN9FuH-Fnwttc.)
 
 The bank run in Mary Poppins (1964)   欢乐满人间 (1964)中银行挤兑
 
