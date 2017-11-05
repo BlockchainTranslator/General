@@ -2,6 +2,8 @@
 # 危害三角形
 
 > 本文翻译自：http://vitalik.ca/general/2017/07/16/triangle_of_harm.html
+>
+> 作者：Vitalik Buterin
 > 
 > 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [龙心小台](https://github.com/xnylong/EOS)
 > 
