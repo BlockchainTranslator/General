@@ -1,4 +1,4 @@
-THE BLOCKCHAIN ECONOMY: A BEGINNER’S GUIDE TO INSTITUTIONAL CRYPTOECONOMICS 区块链经济学：制度加密经济学初学者指南
+The Blockchain Economy: A beginner’s guide to institutional cryptoeconomics 区块链经济学：制度加密经济学初学者指南
 --------------------------
 
 > 本文翻译自：https://medium.com/@cryptoeconomics/the-blockchain-economy-a-beginners-guide-to-institutional-cryptoeconomics-64bf2f2beec4
