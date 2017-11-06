@@ -6,7 +6,7 @@
 > 
 > 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [林炜鑫](https://github.com/weixin1993)
 > 
-> 翻译时间：2017-11-06
+> 翻译时间：2017-11-05
 
 Recently the topic of voting and control has been discussed by multiple blockchain projects.
 
