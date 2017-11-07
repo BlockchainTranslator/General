@@ -122,4 +122,24 @@ Consensus is ultimately achieved when the order and results of a block’s trans
 In addition to the multitude of endorsement, validity and versioning checks that take place, there are also ongoing identity verifications happening in all directions of the transaction flow. Access control lists are implemented on hierarchal layers of the network (ordering service down to channels), and payloads are repeatedly signed, verified and authenticated as a transaction proposal passes through the different architectural components. To conclude, consensus is not merely limited to the agreed upon order of a batch of transactions, but rather, it is an overarching characterization that is achieved as a byproduct of the ongoing verifications that take place during a transaction’s journey from proposal to commitment.
 Check out the [Transaction Flow](http://hyperledger-fabric.readthedocs.io/en/release/txflow.html) diagram for a visual representation of consensus.
 
-除了多方背书、验证和版本检查之外，在交易流程的各个方向都有持续的身份验证。访问控制列表是在网络的层次结构上实现的（从排序服务下到通道中），而且，当交易提案通过不同的架构组件时，还会反复签署、验证和验证有效负载（payloads）。最后，共识不只局限于一组交易的一致顺序约定，而是一种总体的描述，它是在交易从提案(proposal)到提交(commitment)的过程中所发生的持续验证的副产品。
+除了多方背书、验证和版本检查之外，在交易流程的各个方向都有持续的身份验证。访问控制列表是在网络的层次结构上实现的（从排序服务下到通道中），而且，当交易提案通过不同的架构组件时，还会反复签署、验证和验证有效负载（payloads）。最后，共识不只局限于一组交易的一致顺序约定，而是一种总体的描述，它是在交易从提案(proposal)到提交(commitment)的过程中所发生的持续验证的副产品。查看[交易流程](http://hyperledger-fabric.readthedocs.io/en/release/txflow.html)图，可以看到关于共识的形象化表示。
+
+----------------------------------------------------
+
+#### 区块链中文字幕组
+
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+#### 本文译者简介
+
+荆凯，程序员，相信区块链终将改变潮水的方向．欢迎加微信号:shuke0327，也可以关注公众号: 增长之道
+
+本文由币乎社区（bihu.com）内容支持计划赞助。
+
+版权所有，转载需完整注明以上内容。
+
+----------------------------------------------------
