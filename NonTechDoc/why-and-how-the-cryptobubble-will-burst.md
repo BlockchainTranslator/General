@@ -1,5 +1,5 @@
 # Why and how the Cryptobubble will burst |为什么加密货币泡沫将破裂，如何破裂？
-> 本文翻译自：https://hackernoon.com/your-company-will-use-blockchain-in-less-than-10-years-heres-how-6d9da452fa8d
+> 本文翻译自：https://medium.com/@dennyk/why-and-how-the-cryptobubble-will-burst-de9bc7fc5332
 >
 > 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [oscnet](https://github.com/oscnet)
 >
@@ -10,7 +10,7 @@
 
 For someone who has lived through the .com bubble the madness currently unfolding in the crypto space is just plain breathtaking. It is quite awe inspiring to see people make the exact same mistakes they made 17 years ago. Of course, today’s investors are likely different people who, for the most part, have not lived through the .com bubble.
 
-对于曾经经历过.com泡沫的人来说，目前的加密世界中展现的疯狂是令人惊奇的。十七年前的错误，今天又重复了。当然，今天的投资者可能跟以前的不同，他们大部分都没有经历过.com泡沫。
+对于曾经经历过.com泡沫的人来说，目前在加密世界中展现的疯狂是令人惊奇的。十七年前的错误，今天又重复了。当然，今天的投资者可能跟以前的不同，他们大部分都没有经历过.com泡沫。
 
 Those of you who are looking to read more about the topic or learn some basics about cryptoassets can check the end of this blog post, where I am simply collecting some interesting links that I believe are worth a look.
 
@@ -28,17 +28,17 @@ b) Platforms or true Utility token := Cryptoasstets that enable decentralized ap
 
 c) Security token := any and all ICOs that are sold to investors so that they can speculate on the progress of a start up. This would include TenX, Monaco, Status and Iconomi amongst a host of others.
 
-a）加密货币 := 主要用于存储价值的加密资产，可在区块链上投机或交易。比如比特币，Litecoin 和 Dash 以及 ZCash。
+a）加密货币: 主要用于存储价值的加密资产，可在区块链上投机或交易。比如比特币，Litecoin 和 Dash 以及 ZCash。
 
-b）平台的或真正的实用代币 := 能够使去中心化应用程序（DApps）运行的加密资产，或能使其他代币在它们的块链上交易的加密资产。如 Ethereum，Lisk，Blockstack 或 Tezos（当它们启动运行时）
+b）平台的或真正的实用代币: 能够使去中心化应用程序（DApps）运行的加密资产，或能使其他代币在它们的块链上交易的加密资产。如 Ethereum，Lisk，Blockstack 或 Tezos（当它们启动运行时）
 
-c）证券代币 := 所有通过 ICO 出售给投资者的代币，并通过这样的方式来推动项目启动进度。如 TenX，Monaco、Status 和 Iconomi 等等。
+c）证券代币: 所有通过 ICO 出售给投资者的代币，并通过这样的方式来推动项目启动进度。如 TenX，Monaco、Status 和 Iconomi 等等。
 
 ### Parallels to the .com bubble | 与.com 泡沫相似之处
 
 Back in 1999 and 2000 the stock market went crazy about anything related to the internet. These are the parallels to today:
 
-回到1999年和2000年，任何跟互联网相关的股票就开始疯狂涨起来。这与今天的情况有很多相似之处：
+回到1999年和2000年，任何跟互联网相关的股票开始疯狂涨起来。这与今天的情况有很多相似之处：
 
 * ICO = IPO
 
