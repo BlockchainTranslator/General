@@ -11,7 +11,7 @@
 Basically all token pitches include a line that goes something like this: “There are a fixed supply of tokens. By increasing demand for the token, price must increase.”
 This logic fails. This is the velocity problem.
 
-基本上所有的代币卖点都包含一句类似这样的话：“代币供应是恒定的。 通过增加对代币的需求，价格必须增加。“
+基本上所有的代币宣传都包含一句类似这样的话：“代币供应是恒定的。 通过增加对代币的需求，价格必须增加。“
 此逻辑是失败的。 这是速度问题。
 
 
@@ -38,15 +38,17 @@ For simplicity of reading, I’ll refer only to Aventus. However, everything bel
 
 为了便于阅读，我将只提到 Aventus。 但是，下面的所有内容通常也都适用于 Ticketchain，Blocktix 和大多数效用代币。
  
+ 
 Consumers want to pay for tickets denominated in USD. They may purchase Aventus tokens as part of the ticket acquisition process, but they won’t hold Aventus tokens for more than a few minutes at a time. There’s simply no incentive to hold Aventus tokens and incur price risk relative to USD.
 
 消费者想要支付以美元计价的门票。 他们可能购买 Aventus 代币作为购票过程的一部分，但他们一次不会持有 Aventus 代币超过几分钟。 因为根本没有动力去持有 Aventus 代币，并承担相对于美元的价格风险。
  
+ 
 Venues also don’t have an incentive to hold Aventus tokens because they also want to avoid price risk relative to USD. After consumers trade Aventus tokens for concert tickets, venue hosts will trade Aventus tokens for their preferred currency. This process is illustrated in Figure 1 below. Note that this cycle can be completed in seconds by leveraging decentralized exchanges such as 0x:
 
 场地也不没有动机持有 Aventus 代币，因为他们也想避免相对于美元的价格风险。 在消费者将 Aventus 代币换成演唱会门票之后，场地主办方将把 Aventus 代币换成他们自己的首选货币。 这个过程如下图 1 所示。 请注意，这个周期可以通过去中心化交易所（如0x）在几秒内完成：
 
-<img src="Understanding-Token-Velocity.png" width="700">
+<img src="pics/Understanding-Token-Velocity-1.png" width="700">
 
 ###### Figure 1: Ticket and money flows in the Aventus ecosystem
 
@@ -57,6 +59,7 @@ No one actually wants to hold Aventus tokens. The presence of a proprietary toke
 
 没有人真的想要持有 Aventus 代币。 一个专有代币的存在实际上为消费者带来了更糟的用户体验，因为给购票过程引入了不必要的摩擦。 一旦任何人收到 Aventus 代币，他们就会把代币换成其他东西 - 门票（消费者）或美元（场地）。
  
+ 
 Even if Aventus becomes the global standard for ticket issuance, no one will want to hold Aventus tokens. BTC/ETH/USD-denominated trading volume for Aventus tokens may skyrocket as Aventus becomes the global ticketing standard, but the price of Aventus tokens will grow sub-linearly relative to transaction throughput.
 
 即使 Aventus 成为门票发行的全球标准，也不会有人愿意持有Aventus 代币。 由于 Aventus 成为全球门票标准，Aventus 代币的比特币/ 以太币 / 美元计价的交易量可能会飙升，但 Aventus 代币的价格将相对于交易吞吐量呈次线性增长。
@@ -65,6 +68,7 @@ The primary stakeholder group who will profit from the rise in trading volume of
 
 从 Aventus 代币交易量上升中获利的主要利益相关者群体将是为进入和退出  Aventus 代币市场的人提供流动性的做市商。 这不是一件坏事。 随着资产配对量的增加和流动性的增强，买卖价差缩小到接近 0％，这对消费者和场地主办方都有好处。
  
+ 
 To be clear, in this scenario venue hosts still win by cutting out scalpers, and consumers win because of increased fraud protection. Despite delivering real, tangible benefits to marketplace participants, the Aventus token won’t actually capture the value the protocol is creating.
 
 要清楚的是，在这种情况下，场地主办方仍然通过剔除黄牛获利，消费者因为增加了欺诈保护而获利。 尽管为市场参与者带来实实在在的好处，但 Aventus 代币实际上并不能真正捕获到协议创造的价值。
@@ -74,12 +78,15 @@ To be clear, in this scenario venue hosts still win by cutting out scalpers, a
 ## 量化速度
 
 Velocity = Total Transaction Volume / Average Network Value
+
 速度 = 总交易量/平均网络价值
 
 Therefore:
+
 因此：
 
 Average Network Value = Total Transaction Volume / Velocity
+
 平均网络价值 = 总交易量/速度
 
 Velocity can be measured over any time span but is normally measured annually. Trading volume can be difficult to measure. This not only includes trading volume that occurs on exchanges, but OTC trades and actual usage of the platform.
@@ -92,15 +99,17 @@ We can say that an asset has a velocity of 0 if, over the course of one year, n
 
 In the case of a proprietary payment token that nobody wants to hold, velocity will grow linearly with transaction volume. Per the 2nd equation above, transaction volume could grow 1,000,000x and network value could remain constant. Almost all utility tokens suffer from this problem.
 
-在没有人愿意持有专有支付代币的情况下，速度将随交易量线性增长。 根据上面的第二个等式，交易量可以增长100万倍，网络价值可以保持不变。 几乎所有的效用代币都受到这个问题的困扰。
+在没有人愿意持有专有支付代币的情况下，速度将随交易量线性增长。 根据上面的第二个等式，交易量可以增长100万倍，网络价值仍可保持不变。 几乎所有的效用代币都受到这个问题的困扰。
 
 
 ## How Protocols Can Reduce Asset Velocity
 ## 协议如何降低资产速度
- 
+
 There are a few ways a protocol can reduce the velocity of its associated asset.
+
 协议可以通过几种方式降低相关资产的速度。
  
+ 
 (1) Introduce a profit-share (or buy-and-burn) mechanism. For example, the [Augur](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttp://augur.net%26amp;sa%3DD%26amp;ust%3D1511116955569000%26amp;usg%3DAFQjCNHGCaj0eavvjG6pniavXsZ274iUcw&sa=D&ust=1511116955600000&usg=AFQjCNHmsIPOX1VS7sGVbr0hZjTWcBE_ZA) ($REP) network pays REP holders for performing work for the network. REP tokens are like taxi medallions: You must pay for the right to work for the network. Specifically, REP holders must report event outcomes to resolve prediction markets. A profit-share mechanism reduces token velocity because as the market price of an asset decreases, its yield increases. If the yield becomes too high, market participants seeking yield will buy and hold the asset, increasing price and reducing velocity.
 
 (1）引入利润分享（或购买并销毁）机制。 例如，[Augur](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttp://augur.net%26amp;sa%3DD%26amp;ust%3D1511116955569000%26amp;usg%3DAFQjCNHGCaj0eavvjG6pniavXsZ274iUcw&sa=D&ust=1511116955600000&usg=AFQjCNHmsIPOX1VS7sGVbr0hZjTWcBE_ZA)（$ REP）网络会支付 REP 持币者为网络工作。 REP 代币就像出租车奖章一样：你必须支付以获得为网络工作的权利。 具体来说，REP 持币者必须汇报预测事件的结果来解决预测市场问题。 利润分享机制降低了代币的速度，因为随着资产的市场价格下降，其收益率会增加。 如果收益率过高，寻求收益率的市场参与者将购买并持有资产，导致价格上涨，速度下降。
@@ -124,7 +133,7 @@ Also, a cash flow stream makes a token easier to using a traditional [discounte
 
 [FunFair](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://funfair.io/%26amp;sa%3DD%26amp;ust%3D1511116955574000%26amp;usg%3DAFQjCNF1yP8uX5SeFFaea6PE92NEuVKAww&sa=D&ust=1511116955602000&usg=AFQjCNHPa9iA0jSBnx7y6YBpi0g0muy_vA) is a platform that powers online casinos. FunFair only supports 1v1 games such that the player is playing the house directly (therefore no poker). The house must maintain reserves to pay out highly unlikely events, such as a user winning big in slots or winning 10x in a row in blackjack (approximately 1 / 210 = .1%. The casino operators will need lock up far more than 50% of all tokens.
 
-[FunFair](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://funfair.io/%26amp;sa%3DD%26amp;ust%3D1511116955574000%26amp;usg%3DAFQjCNF1yP8uX5SeFFaea6PE92NEuVKAww&sa=D&ust=1511116955602000&usg=AFQjCNHPa9iA0jSBnx7y6YBpi0g0muy_vA) 是一个支持网络赌场的平台。 FunFair只支持 1 对 1 游戏，玩家可以直接与赌场对赌（因此不需要扑克）。 赌场必须持有一定储备金来支付极不可能发生的事件，比如用户在老虎机上赢得大奖或者在二十一点上连续 10 次获胜（约为 1/210 = 0.1％ 概率）。 赌场经营者需要锁定远远超过 50％ 的所有代币。
+[FunFair](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://funfair.io/%26amp;sa%3DD%26amp;ust%3D1511116955574000%26amp;usg%3DAFQjCNF1yP8uX5SeFFaea6PE92NEuVKAww&sa=D&ust=1511116955602000&usg=AFQjCNHPa9iA0jSBnx7y6YBpi0g0muy_vA) 是一个支持网络赌场的平台。 FunFair 只支持 1 对 1 游戏，玩家可以直接与赌场对赌（因此没有扑克）。 赌场必须持有一定储备金来支付极不可能发生的事件，比如用户在老虎机上赢得大奖或者在二十一点上连续 10 次获胜（约为 1/2^10 = 0.1％ 概率）。 赌场经营者需要锁定远远超过 50％ 的所有代币。
 
 [Dash](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.dash.org/%26amp;sa%3DD%26amp;ust%3D1511116955575000%26amp;usg%3DAFQjCNG5blrHR8bbFQ0Dy2wJuz0NECT7BA&sa=D&ust=1511116955602000&usg=AFQjCNGqaKYIHmfOPCl6PKC8ktxJEN_Wpg) offers users the opportunity to become masternode operators by purchasing and staking 1,000 DASH tokens. Masternodes help enable specific network-level functions such as private send (using Coin Join). In exchange for staking Dash and running beefy computers 24/7, Masternode operators receive a percentage of network fees.
 
@@ -132,7 +141,7 @@ Also, a cash flow stream makes a token easier to using a traditional [discounte
 
 Some services graft artificial staking mechanisms into their protocols. Examples include [SALT Lending](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.saltlending.com/%26amp;sa%3DD%26amp;ust%3D1511116955576000%26amp;usg%3DAFQjCNG0W5s6es4ECQR9XEa8NkFMyq0oOQ&sa=D&ust=1511116955602000&usg=AFQjCNErTl_bthm9AQSKNPZUdgjokkUKsw) and [Airswap](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.airswap.io/%26amp;sa%3DD%26amp;ust%3D1511116955576000%26amp;usg%3DAFQjCNEltkuIjMq7Jsw1dd4nXzXXxR500w&sa=D&ust=1511116955602000&usg=AFQjCNGiqotaxrOfhVSOTq90s1JsPXckUQ). Both services simply require that in order to use each service, users must first buy and stake each platform’s respective token. On one hand, they provide compelling end-user services and strong velocity-reducing mechanisms. On the other, their tokens are entirely superfluous and unnecessary for the actual functioning of the platform. Will the self-fulfilling prophecy hold, or will rational users at some point be unwilling to take on currency risk and opportunity cost of capital associated with a proprietary token after someone else in the market copies and provides the same service for free? If enough liquidity and network effects develop around a given service such as Airswap, it seems possible that the token can sustain value even if the token is technically unnecessary.
 
-一些服务将虚假的权益机制植入他们的协议中。 例子包括 [SALT Lending](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.saltlending.com/%26amp;sa%3DD%26amp;ust%3D1511116955576000%26amp;usg%3DAFQjCNG0W5s6es4ECQR9XEa8NkFMyq0oOQ&sa=D&ust=1511116955602000&usg=AFQjCNErTl_bthm9AQSKNPZUdgjokkUKsw) 和 [Airswap](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.airswap.io/%26amp;sa%3DD%26amp;ust%3D1511116955576000%26amp;usg%3DAFQjCNEltkuIjMq7Jsw1dd4nXzXXxR500w&sa=D&ust=1511116955602000&usg=AFQjCNGiqotaxrOfhVSOTq90s1JsPXckUQ)。 两种服务都只是要求用户为了使用每项服务，必须首先购买和持有每个平台各自的代币。 一方面，它们提供了令人信服的终端用户服务和强大的速度降低机制。 另一方面，他们的代币对平台的实际运行来说是完全多余的和不必要的。 这种自我实现的预言是否会持续下去，还是会有理性的用户在市场上其他人复制并免费提供相同的服务之后，不再愿意承担与持有专有代币相关的货币风险和机会成本？ 如果在特定服务 (如 Airswap) 周围有足够的流动性和网络效果,，那么即使代币在技术上是不必要的，代币似乎也可以维持价值。
+一些服务将虚假的权益机制植入他们的协议中。 例子包括 [SALT Lending](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.saltlending.com/%26amp;sa%3DD%26amp;ust%3D1511116955576000%26amp;usg%3DAFQjCNG0W5s6es4ECQR9XEa8NkFMyq0oOQ&sa=D&ust=1511116955602000&usg=AFQjCNErTl_bthm9AQSKNPZUdgjokkUKsw) 和 [Airswap](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.airswap.io/%26amp;sa%3DD%26amp;ust%3D1511116955576000%26amp;usg%3DAFQjCNEltkuIjMq7Jsw1dd4nXzXXxR500w&sa=D&ust=1511116955602000&usg=AFQjCNGiqotaxrOfhVSOTq90s1JsPXckUQ)。 两种服务都只是要求用户为了使用每项服务，必须首先购买和持有每个平台各自的代币。 一方面，它们提供了令人信服的终端用户服务和强大的速度降低机制。 另一方面，他们的代币对平台的实际运行来说是完全多余的和不必要的。 这种自我实现的预言是否会持续下去，还是会有理性的用户在市场上其他人复制并免费提供相同的服务之后，不再愿意承担与持有专有代币相关的货币风险和机会成本？ 如果在特定服务 (如 Airswap) 周围有足够的流动性和网络效应，那么即使代币在技术上是不必要的，代币似乎也可以维持价值。
 
 (3) Balanced burn-and-mint mechanics. [Factom](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.factom.com/%26amp;sa%3DD%26amp;ust%3D1511116955577000%26amp;usg%3DAFQjCNF45L4tb5btxt2oxgcAba0y-hK0cA&sa=D&ust=1511116955602000&usg=AFQjCNF90yuynAqfock1ytCmBJzZ_KW0yg) is the best, and perhaps only, example.
 
@@ -144,7 +153,7 @@ A number of protocols have implemented the burn concept (without minting), notab
 
 In Factom, the cost of using the protocol is denominated in USD at $.001. Each use is $.001, regardless of the price of FCT. Users burn tokens to use the protocol as designed. Independently, the protocol mints 73,000 new tokens each month and distributes them to validators (Factom is its own chain, not an ERC20 token). If users don’t burn 73,000 tokens in a month, supply increases, which should exert downwards price pressure. Conversely, if users burn more than 73,000 tokens per month, supply decreases, exerting upward price pressure. In the long run, there should be linear relationship between the usage of protocol and price.
 
-在 Factom 中，使用该协议的成本以 $ .001 美元计价。 无论 FCT 代币的价格如何，每次使用都是 $ .001。 用户销毁代币以使协议可以如设计的方式使用。 独立地，协议每月提供73,000 个新的代币，并将它们分发给验证人（Factom 自己就是一条链，而不是 ERC20 代币）。 如果用户在一个月内不销毁 7.3 万个代币，供应就会增加，这会带来价格下降的压力。 相反，如果用户每个月销毁超过 73,000 个代币，供应就会减少，从而产生价格上涨的压力。 从长远来看，协议的使用与价格之间应该存在线性关系。
+在 Factom 中，使用该协议的成本以 $ .001 美元计价。 无论 FCT 代币的价格如何，每次使用都是 $ .001。 用户销毁代币以使协议可以如设计的方式使用。 独立地，协议每月发行 73,000 个新的代币，并将它们分发给验证人（Factom 自己就是一条链，而不是 ERC20 代币）。 如果用户在一个月内不销毁 7.3 万个代币，供应就会增加，这会带来价格下降的压力。 相反，如果用户每个月销毁超过 73,000 个代币，供应就会减少，从而产生价格上涨的压力。 从长远来看，协议的使用与价格之间应该存在线性关系。
 
 The burn-and-mint dynamic is possible because Factom is its own chain. ERC20 tokens do not have network validators who can be compensated via inflation. The burn-and-mint model is possible for ERC20 tokens, albeit trickier. There’s not a generic, obvious set of network participants who should receive the tokens that are generated by inflation. Also, there’s a technical problem: inflation can be tricky to implement because smart contracts cannot run as daemons that auto-inflate; they must be triggered.
 
@@ -153,14 +162,15 @@ The burn-and-mint dynamic is possible because Factom is its own chain. ERC20 tok
 Side note: check Multicoin Capital’s [Factom Analysis and Valuation](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://multicoin.capital/2017/09/07/fct2017/%26amp;sa%3DD%26amp;ust%3D1511116955580000%26amp;usg%3DAFQjCNE9LHnvFAjLtPFnnQk9Ff9LNFhSiQ&sa=D&ust=1511116955603000&usg=AFQjCNE-NelwWqpOKiM023y9m5-vseEgxw).
 
 附注：阅读 Multicoin Capital 的 [“Factom 分析和估值”](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://multicoin.capital/2017/09/07/fct2017/%26amp;sa%3DD%26amp;ust%3D1511116955580000%26amp;usg%3DAFQjCNE9LHnvFAjLtPFnnQk9Ff9LNFhSiQ&sa=D&ust=1511116955603000&usg=AFQjCNE-NelwWqpOKiM023y9m5-vseEgxw) 报告。
+
  
 (4) Implement gamification techniques to incentivize holding. Let’s revisit ticketing. Since many concerts sell out quickly, venues could prioritize customers based on having held X tokens for Y days. If enough venues adopt this mechanic, velocity will fall.
 
-(4）实施游戏化技术来激励持有。 让我们重温一下售票的例子。 由于许多音乐会很快就会售罄，主办方可以根据根据将 X 代币持有了 Y 天来确定顾客的优先顺序。 如果足够的场地采用这种机制，速度将下降。
+(4）实施游戏化技术来激励持有。 让我们重温一下售票的例子。 由于许多音乐会很快就会售罄，主办方可以根据将 X 代币持有了 Y 天来确定顾客的优先顺序。 如果足够的场地采用这种机制，速度将下降。
 
 Another example: [YouNow](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.younow.com/%26amp;sa%3DD%26amp;ust%3D1511116955581000%26amp;usg%3DAFQjCNGQ6JPBF4Vxc4a4zXsm-PzK4abeiw&sa=D&ust=1511116955603000&usg=AFQjCNEy3x-Jm5H5zsZ5ZOEycdSaXhuMQA). YouNow is rolling out a proprietary in-app cryptocurrency called [PROPS](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.propsproject.com/%26amp;sa%3DD%26amp;ust%3D1511116955581000%26amp;usg%3DAFQjCNEFC0tSlLp7fvE8K8MEN3_SRdZwyQ&sa=D&ust=1511116955603000&usg=AFQjCNHDQvzVREmx-yHxukvOwcAFCVBcBQ) that allows users to tip content creators during live video broadcasts. YouNow also has a “discover” tab. The YouNow service is more likely to rank a creator’s content highly if they hold tokens. This creates an interesting dynamic in which content creators are paid in PROPS, but need to convert to fiat to pay the bills. On the other hand, they want to hoard tokens to become more discoverable, fueling more attention and generating more tip-based income.
 
-另一个例子：[YouNow](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.younow.com/%26amp;sa%3DD%26amp;ust%3D1511116955581000%26amp;usg%3DAFQjCNGQ6JPBF4Vxc4a4zXsm-PzK4abeiw&sa=D&ust=1511116955603000&usg=AFQjCNEy3x-Jm5H5zsZ5ZOEycdSaXhuMQA)。 YouNow 正在推出名为 [PROPS](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.propsproject.com/%26amp;sa%3DD%26amp;ust%3D1511116955581000%26amp;usg%3DAFQjCNEFC0tSlLp7fvE8K8MEN3_SRdZwyQ&sa=D&ust=1511116955603000&usg=AFQjCNHDQvzVREmx-yHxukvOwcAFCVBcBQ) 的专有应用内加密货币，允许用户在视频直播中向内容创作者打赏。 YouNow 也有一个 “发现” 选项。 如果内容创作者持有代币，YouNow 服务更有可能将他们的内容排在前列。 这创造了一个有趣的动态，内容创造者获得的报酬是 PROPS 代币，但需要将其转换为法定货币来支付账单。 另一方面，他们希望囤积代币以使自己变得更容易被发现，引起更多的关注，并获得更多的打赏收入。
+另一个例子：[YouNow](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.younow.com/%26amp;sa%3DD%26amp;ust%3D1511116955581000%26amp;usg%3DAFQjCNGQ6JPBF4Vxc4a4zXsm-PzK4abeiw&sa=D&ust=1511116955603000&usg=AFQjCNEy3x-Jm5H5zsZ5ZOEycdSaXhuMQA)。 YouNow 正在推出名为 [PROPS](https://www.google.com/url?q=https://www.google.com/url?q%3Dhttps://www.propsproject.com/%26amp;sa%3DD%26amp;ust%3D1511116955581000%26amp;usg%3DAFQjCNEFC0tSlLp7fvE8K8MEN3_SRdZwyQ&sa=D&ust=1511116955603000&usg=AFQjCNHDQvzVREmx-yHxukvOwcAFCVBcBQ) 的专有应用内加密货币，允许用户在视频直播中向内容创作者打赏。 YouNow 也有一个 “发现” 功能。 如果内容创作者持有代币，YouNow 服务更有可能将他们的内容排在前列。 这创造了一个有趣的动态，内容创造者获得的报酬是 PROPS 代币，但需要将其转换为法定货币来支付账单。 另一方面，他们希望囤积代币以使自己变得更容易被发现，引起更多的关注，并获得更多的打赏收入。
 
 (5) Become a store of value. This is by far the most difficult to achieve as it’s not a function of a specific design mechanic, but rather a question of broader technical viability and market acceptance. If people genuinely come to believe in a token as a store of value, there will be a significant probability that they’re willing to hold onto excess tokens rather than sell them for something else.
 
@@ -176,7 +186,7 @@ Another reason to hold an asset is the expectation that its value will be stable
 
 Becoming a general-purpose store of value is extremely difficult. There are only a handful of projects even attempting to fulfill this vision today. It’s not clear how dominant the long-run winner will be. You can make perfectly rational arguments for a handful of currencies with 20-30% of global value each, a 75-5-5-5-5-5% split, or an 80-20% split. Although money has a strong network effects, it’s not clear 1) How strong those effects are. The network effect of money could be n2, n*log(n), or something else. 2) How much the market will demand viable competition to mitigate macro-level risk associated with a single mega currency.
 
-成为一个通用的价值存储是非常困难的。 今天只有少数几个项目试图实现这个愿景。 目前尚不清楚长期赢家会多占优势。 你可以为少数几种货币的市值分布提供完全合理的猜测，如货币的全球价值占比分别为每个占比20-30％，或 75-5-5-5-5-5％ 分布，或 80-20％ 分布。 虽然金钱有很强的网络效应，但还不清楚 1）这些效应有多强。 金钱的网络效应可能是 n2，n * log（n）或其他。 2）市场将要求有多大的竞争, 以减轻与单一大型货币相关的宏观风险。
+成为一个通用的价值存储是非常困难的。 今天只有少数几个项目试图实现这个愿景。 目前尚不清楚长期赢家会多占优势。 你可以为少数几种货币的市值分布提供完全合理的猜测，如货币的全球价值占比分别为每个占比 20-30％，或 75-5-5-5-5-5％ 分布，或 80-20％ 分布。 虽然金钱有很强的网络效应，但还不清楚 1）这些效应有多强。 金钱的网络效应可能是 n^2，n * log（n）或其他。 2）市场将要求有多大的竞争, 以减轻与单一大型货币相关的宏观风险。
 
 ## Conclusion
 ## 结论
