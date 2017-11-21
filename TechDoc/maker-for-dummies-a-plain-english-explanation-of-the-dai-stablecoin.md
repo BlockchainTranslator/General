@@ -1,8 +1,8 @@
-# Maker for Dummies: A Plain English Explanation of the Dai Stablecoin | Dai Stablecoin 傻瓜介绍
+# Maker for Dummies: A Plain English Explanation of the Dai Stablecoin | Dai 稳定币傻瓜式简介
 
 > 本文翻译自：https://medium.com/@greg_10160/maker-for-dummies-a-plain-english-explanation-of-the-dai-stablecoin-e4481d79b90
 
-> 译者： 鱼 [区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [oscnet](https://github.com/oscnet)
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [鱼](https://github.com/oscnet)
 
 > 推荐 ： @咕噜 BIHU.COM
 
@@ -107,7 +107,7 @@ If you understood everything above, skip this part. If you find yourself a bit c
 
 The entire Maker ecosystem is built on “smart contracts” like a CDP, the smart contract mentioned above. A blockchain lets you do things by yourself where you used to need a middleman. Much like the internet lets you share information without a middleman, blockchains let you share value without a middleman. Bitcoin was the first network to put this concept to use, its core premise being that you can send bitcoins from Point A to Point B without having to trust anyone but yourself. All trust is vested in the blockchain, which isn’t controlled by anyone. Ethereum took this concept a step further and allows users to add instructions to these transfers.That’s how the smart contract was born. Now you can say: “Send my ether from Point A to Point B on this date, at this time, and with these special instructions.”
 
-整个 Maker 生态系统是建立在“智能合约”上的，如上述的CDP智能合约。区块链能让您独立完成一些通常需要中间商的事情。就像互联网让你不通过中间人直接分享信息，区块链让你不通过中间商分享价值， 比特币是第一个使用这个概念的网络，它的核心前提是您可以从点A到点B发送比特币，且除了您自己不必信任何其它人。所有信任归于区块链，且不受任何人控制。以太坊使这一概念更进一步，并允许用户为这些交易添加指令。这就是智能合约的诞生。现在你可以说：“在这个日子，这个时候，把我的以太从A点发送到B点，并且附加有这些特别的指令。”
+整个 Maker 生态系统是建立在“智能合约”上的，如上述的CDP智能合约。区块链能让您独立完成一些通常需要中间商的事情。就像互联网让你不通过中间人直接分享信息，区块链让你不通过中间商分享价值， 比特币是第一个使用这个概念的网络，它的核心前提是您可以从点A到点B发送比特币，且除了您自己不必信任何其它人。所有信任归于区块链，且不受任何人控制。以太坊使这一概念更进一步，并允许用户为这些交易添加指令。这就是智能合约的诞生。现在你可以说：“在这天，这时候，把我的以太从A点发送到B点，并且附加有这些特别的指令。”
 
 ## So, how does Maker use smart contracts to create a stablecoin? | 那么，Maker 如何使用智能合约来创建一个稳定币？
 
@@ -116,54 +116,53 @@ The entire Maker ecosystem is built on “smart contracts” like a CDP, the sma
 
 The core smart contract at Maker is the CDP. Let’s use an analogy to describe these. Pretend you are at the bank asking for a home equity loan. You put up your house as collateral and they give you cash as a loan in return. If the value of your house decreases, they’re going to ask you to pay the loan back. If you can’t pay the loan back, they’re going to take your house. To bring this back to Maker, just replace your house with ether, the bank with a smart contract, and the loan with Dai. That’s all there is to it. You give the Maker CDP smart contract your ether and it lets you take out a loan in Dai. If the value of your ether goes below a certain threshold, you either have to pay back the smart contract as you would a bank or it will auction off your ether to the highest bidder.
 
-Maker的核心智能合约是CDP。我们用一个类比来描述这些。假装你在银行要求房屋净值贷款。你把你的房子当作抵押品，他们把现金当作贷款来换取。如果你的房子价值下降，他们会要求你支付贷款。如果你不能偿还贷款，他们会把你的房子。为了把这件事带回给制造商，只需要用乙醚代替你的房子，用聪明的合同代替银行，然后和戴的贷款。这里的所有都是它的。你把Maker CDP聪明的合同交给你，你可以让你在Dai贷款。如果你的以太币的价值低于一个特定的门槛，你必须像银行一样偿还智能合约，否则它会把你的乙醚拍卖给出价最高者。
+Maker 的核心智能合约是 CDP。我们用一个类比来说明。假设你在银行请求房屋贷款。你把你的房子当作抵押物，来换取他们的现金贷款。如果房价下跌，他们就会要求你偿还贷款。如果你不能偿还贷款，他们就会拿走你的房子。对于 Maker 来说, 就是用以太来代替房子，用智能合约代替银行，Dai 就是贷款。就这样，你把以太交给 CDP 智能合约，然后你就可以取走你的 Dai 贷款。如果你的以太币的价值低于一个特定的值，你就必须像银行一样偿还 Dai，否则它会把你的以太拍卖给出价最高者。
 
 In summary, **CDPs are simply where the collateral (ether) in the Maker system is held**.
 
-总之，CDP只是制造商系统中的附属（乙醚）的地方。
+总之，**CDP 只是 Maker 系统中的保存抵押品（以太）的地方**。
 
 Once your ether is in the CDP smart contract, you are able to create Dai. The amount of Dai you can create is relative to how much ether you have put into the CDP. This ratio is fixed, but can be changed over time. The amount of Dai I can create relative to the ether I put in is called the collateralization ratio.
 
-一旦你的乙醚进入CDP智能合约，你就可以创造出Dai。你可以创造的代数量是相对于你在CDP中投入了多少乙醚。这个比例是固定的，但可以随时间变化。我相对于我以前放入的以太可以创造的数额被称为抵押比率。
+一旦你的以太投入 CDP 智能合约，你就可以创造出 Dai。你可以创造的 Dai 数量于你在 CDP 中投入以太数量成正比。这个比例是固定的，但可以随时间变化。Dai 数量与投入的以太数量比称为抵押比率。
 
 Let’s say ether is worth $100 right now and the collateralization ratio is 150%. If I send 1 ether ($100) into the CDP smart contract, then I am now able to create 66 Dai. This means that, at the current value of ether, each 100 Dai that I’ve created is backed by 1.5 ether collateral. In the Maker system, you don’t lose your ether, but you also no longer control it. The ether that you sent to the CDP is stuck there until you pay back the 66 Dai (this destroys the Dai). The following diagram helps to visualize how you can open and close a CDP. Try to follow along with “your wallet” as actions are performed above. This diagram is somewhat simplified. For instance, a CDP doesn’t really sit in your wallet. It also removes a couple steps that are necessary for the more advanced aspects of the system, but ultimately irrelevant to you as a Dai borrower.
 
-假设乙醚现在价值100美元，担保比率为150％。如果我把1个乙醚（100美元）送到CDP智能合约，那么我现在可以创造66个戴。这意味着，在以太的当前价值下，我创造的每一百个傣族都有1.5个以色列的抵押品。在Maker系统中，你不会失去你的以太，但你也不再控制它。你发给CDP的乙醚卡在那里，直到你还清66代（这破坏了傣族）。下图帮助您可视化您如何打开和关闭CDP。尝试按照上面的操作一起执行“您的钱包”。这个图有些简化。例如，一个CDP并不真正坐在你的钱包里。它也消除了系统更高级方面所需的几个步骤，但是最终与你作为一个戴尔借用者无关。
+假设以太现在价值100美元，抵押比率为150％。如果我把1个以太（100美元）送到 CDP 智能合约，那么我现在可以创造 66 个 Dai。这意味着，在以太的当前价值下，我创造的每一百个 Dai 都有1.5个以太币抵押。在 Maker 系统中，你不会失去你的以太，但你也不再能使用它。你发给 CDP 的以太将冻结直到你还清 66 个 Dai（此操作将销毁这些 Dai 币）。下图帮助您了解如何打开和关闭 CDP。按照图中所示，尝试使用“您的钱包”执行操作。这个图有些简化。例如，一个 CDP 并不真正在你的钱包里。它也消除了某些高级系统所需的几个步骤，但是这些最终与你作为一个 Dai 借用者无关。
 
 ![](https://cdn-images-1.medium.com/max/800/0*hQXqxfslCn53_3-y.)
-<center>Opening and closing a CDP while creating/destroying dai.打开和关闭CDP，同时创建/销毁戴。</center>
+<center>Opening and closing a CDP while creating/destroying dai.打开和关闭 CDP，同时创建/销毁 Dai 币。</center>
 
-## What about the stability of Dai? | 戴的稳定性呢？
+## What about the stability of Dai? | Dai 的稳定性如何呢？
 
 If the price of ether never fluctuated, it alone would ensure Dai’s stability (and we would not need Dai in the first place). But the price of ether varies so we need to account for that.
 
-如果以太的价格从未波动，只能保证戴的稳定（我们不需要戴）。但是以太网的价格有所不同，所以我们需要考虑这一点。
+如果以太的价格从未波动，它自己就能保证 Dai 的稳定（这样我们也不需要 Dai了）。但是以太网的价格肯定会不同，所以我们需要考虑这一点。
 
 By the way, if all you wanted to do was learn how to interact with the system, you can quit here!
 
-顺便说一句，如果你只想学习如何与系统交互，你可以在这里退出！
+顺便说一句，如果你只想学习如何与系统交互，你可以在这里退出阅读！
 
-## What happens if the value of ether goes down? |如果乙醚的价值下降会发生什么？
+## What happens if the value of ether goes down? |如果以太的价值下降会发生什么？
 
 There’s not much need to address what happens when ether goes up.The system becomes more collateralized and Dai becomes stronger. That’s not to say that Dai can’t become too strong, where there’s more demand for Dai than there is people willing to create it, but Maker has mechanisms that incentivize users to create more Dai if the price of Dai should trade above one dollar (see below: Target Rate Feedback Mechanism).But if ether goes down, now that can cause problems. If the value of ether held as collateral is worth less than the amount of Dai it’s supposed to be backing, then Dai would not be worth one dollar and the system could collapse. **Maker combats this by liquidating CDPs and auctioning off the ether inside before the value of the ether is less than the amount of Dai it is backing**. Basically, if the price feed into the CDP indicates that the value of ether has gone below a certain threshold (let’s use 125% of created Dai), then the CDP is “liquidated” and the ether inside the CDP is auctioned off for Dai until there is enough Dai to pay back what was extracted from the CDP. Let’s go back to the diagram to see how this works. As before, I’ve simplified some of the steps for the sake of understanding, there are some additional features in the system that prevent various edge-case attacks.
 
-没有太多的需要解决乙醚上涨时会发生什么事情。系统变得更加抵押，黛变得更强。这并不是说傣族不可能变得太强大，对傣族的需求比有人愿意创造的要多，但是如果傣族的价格应该超过一美元，那么制造者就有了激励用户创造更多傣族的机制见下图：目标利率反馈机制），但如果醚下降，现在是可能会导致问题。如果作为抵押品的以色列的价值低于应该支持的戴的价值，那么戴不值一美元，系统就可能崩溃。制造商通过清理CDP和拍卖以前的乙醚来应对这种情况乙醚的价值比它所支持的代价还要少。基本上，如果CDP中的价格表示乙醚的价值已经低于一定的阈值（我们使用创造的岱的125％），那么CDP被“清算”，并且CDP中的乙醚被拍卖掉，有足够的傣币来偿还从CDP中提取的东西。让我们回到图表来看看这是如何工作的。和以前一样，为了理解，我简化了一些步骤，系统中还有一些附加功能可以防止各种边缘攻击。
+没有太多的需要解决以太上涨时会发生什么事情。抵押物越多，Dai 币就越强壮。这并不是说 Dai 不能变得强大，对 Dai 币的需求比有人愿意创造的要多，但是如果 Dai 的价格超过一美元，那么 Maker 就有激励用户创造更多 Dai 币的机制(见下图：目标利率反馈机制），但如果以太下跌，现在是可能会导致问题。如果作为抵押品的以太的价值低于 Dai 的价值，那么Dai将不值一美元，系统就可能崩溃。** 在以太的价值少于它支持的 Dai 币的价值前，Maker 通过清理 CDP 和拍卖以太来应对这种情况**。基本上，如果在 CDP 中以太的价格已经低于一定的阈值（我们使用创造的 Dai 的125％），那么 CDP 被“清算”，并且 CDP 中的以太被拍卖，直到有足够的 Dai 币来偿还从 CDP 中提取的东西。让我们回到图表来看看这是如何工作的。和以前一样，为了理解，我简化了一些步骤，系统中还有一些附加功能用以防止各种边缘攻击。
 ![](https://cdn-images-1.medium.com/max/800/0*1PMi1hf9kkFRcVDy.)
-<center>A CDP being liquidated due to insufficient collateral. CDP由于抵押品不足而被清盘。</center>
-
+<center>A CDP being liquidated due to insufficient collateral. CDP 由于抵押物不足而被清盘。</center>
 
 See? Simple enough. The system liquidates your collateral and gives it away if don’t return the Dai you’ve borrowed to the CDP quickly enough. This ensures that Dai always has sufficient collateralization.
 
-看到？很简单。如果不及时将你借给CDP的傣币还给你，系统就会清理你的抵押品。这确保了戴总有足够的抵押。
+看到？很简单。如果不及时将借给你的 Dai 还给 CDP，系统就会拍卖掉你的的抵押物。这确保了 Dai 总有足够的抵押。
 
-## Plucking the black swan — What’s the MKR token? |摘下黑天鹅 - 什么是MKR令牌？
+## Plucking the black swan — What’s the MKR token? |摘下黑天鹅 - 什么是 MKR 令牌？
 
 ![](https://cdn-images-1.medium.com/max/800/0*OR_GJlMt0QCNx2jP.)
-<center>Behold, the most feared creature in finance.看哪，财务上最可怕的生物。</center>
+<center>Behold, the most feared creature in finance.看哪，财务上最可怕的动物来了。</center>
 
 If you’ve been scrutinizing the system for flaws, it probably didn’t take you long to find one. It’s the possibility of a dreaded “black swan event.” It would involve a situation where the price of ether crashes well below the one-to-one collateralization ratio in a time frame too short for the system to handle. Fortunately, Maker has a solution for situations like this: MKR, or makercoin. MKR is a token on the ethereum blockchain (like the rest of the Maker ecosystem) that has governance rights over the Maker smart contracts. For instance, the number used in the above examples (the collateralization rate of CDPs) is set by a vote of MKR holders. In return for regulating the system, MKR holders are rewarded with fees. There is, however, a catch to being a MKR holder. They function as the buyer of last resort. Should the collateral in the system not be enough to cover the amount of Dai in existence, MKR is created and sold onto the open market in order to raise the additional collateral. This provides a strong incentive for MKR holders to responsibly regulate the parameters at which CDPs can create Dai, as it will ultimately be their money on the line should the system fail, not holders of Dai. I could write a lot more about the mechanics and role of MKR, but that’s a subject for a different post.
 
-如果你一直在仔细研究这个系统的缺陷，那么可能不需要你很长时间就能找到一个。这可能是一个可怕的“黑天鹅事件”。这将涉及到一个太短的系统无法处理的时间内，乙醚价格大大低于一对一抵押比率的情况。幸运的是，Maker为这样的情况提供了解决方案：MKR或者makercoin。MKR是以太坊区块链上的一个标志（与制造商生态系统的其他部分一样），具有制造商智能合同的治理权限。例如，上述例子中使用的数字（CDP的抵押率）由MKR持有者的投票决定。作为管理系统的回报，MKR持有者将获得奖励。然而，成为一名MKR持有者是一个难题。他们作为最后的手段买家。如果系统中的抵押品不足以覆盖现存的数额，MKR就会被创建并出售到公开市场上，以提高额外的抵押品。这为MKR持有者提供了一个强有力的激励机制，可以负责任地规范CDP可以创造傣族的参数，因为如果系统失败，它们最终会成为他们的钱，而不是傣​​族的持有者。我可以写更多关于MKR的机制和角色，但这是另一个帖子的主题。
+如果你一直在仔细研究这个系统的缺陷，那么可能不需要很长时间就能找到一个。这可能是一个可怕的“黑天鹅事件”。这涉及到在一个系统无法处理的极短的时间内，以太的价格大大低于一对一抵押比率的情况。幸运的是，Maker 为这样的情况提供了解决方案：MKR 或者 makercoin。MKR 是以太坊区块链上的代币（与 Maker 生态系统的其他部分一样），具有 Maker 智能合约的治理权限。例如，上述例子中使用的数字（CDP 的抵押率）由 MKR 持有者的投票决定。作为管理系统的回报，MKR持有者将获得奖励。然而，成为一名 MKR 持有者是一个难题。他们作为最后的手段买家。如果系统中的抵押品不足以覆盖现存的数额，MKR 就会被创建并出售到公开市场上，以提高额外的抵押品。这为 MKR 持有者提供了一个强有力的激励机制，可以负责任地规范 CDP 可以创造 Dai 的参数，因为如果系统失败，它们最终会成为他们的钱，而不是 Dai 的持有者。我可以写更多关于 MKR 的机制和角色，但这是另一个帖子的主题。
 
 ## Keeping in line with USD: What’s the Target Rate Feedback Mechanism? |与美元保持一致：目标利率反馈机制是什么？
 
@@ -212,7 +211,7 @@ I call the Maker Dai stablecoin the first working consumer-grade stablecoin beca
 
 #### 本文译者简介
 
-鱼 区块链技术爱好者， 欢迎加微信号 oscnet 交流。
+鱼 区块链技术爱好者， 欢迎加微信号oscnet交流。
 
 本文由币乎社区（bihu.com）内容支持计划赞助。
 
