@@ -1,4 +1,4 @@
-# Maker for Dummies: A Plain English Explanation of the Dai Stablecoin | Dai 稳定币傻瓜式简介
+# Maker for Dummies: A Plain English Explanation of the Dai Stablecoin | Maker Dai 稳定币傻瓜简介
 
 > 本文翻译自：https://medium.com/@greg_10160/maker-for-dummies-a-plain-english-explanation-of-the-dai-stablecoin-e4481d79b90
 
