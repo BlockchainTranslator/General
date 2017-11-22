@@ -32,19 +32,19 @@
 
 * 1 Dai = 1 美元
 
-* Maker 使用抵押和价格反馈系统保持 dai 代币价格固定为 1 美元。抵押品是由 MKR 持有人和一套智能合约仔细管理的。
+* Maker 使用抵押物及价格反馈系统来保持 dai 币价格固定为 1 美元。其抵押物由 MKR 持有人和智能合约协同精细管理。
 
-* MKR 持有人充当最后的买家。
+* MKR 持有人将充当最后的买家。
 
-* 智能合约是区块链魔术。
+* 智能合约是区块链的魔术。
 
-* Maker 另外还通过智能合约利用利率来使用 Dai 保持在1美元。
+* Maker 额外地还通过智能合约，使用利率反馈机制来使 Dai 币价值稳定在1美元。
 
-* 全球结算提供了最后一层安全。
+* 全球结算提供了最后的安全保证。
 
-* 您需要 stablecoins 来充分发挥区块链技术的潜力。
+* 我们需要稳定币来充分发挥区块链技术的潜力。
 
-* Maker 还提供分散杠杆，这是真棒。
+* Maker 还能提供去中心化的杠杆交易功能，这可真棒。
 
 The most common response when someone is asked about the Maker project is: “Well it looks cool, but it’s too complicated and I don’t get it.” The following seeks to simplify how Maker works and to walk you through the system in an ELI5 fashion. I’m even going to write things like “ELI5 = explain it like I’m five,” because that’s how basic this is going to be. This is your parents’ Maker tutorial. If you’re looking for more details, technical explanations, or are just fresh out of books written in Haskell, I recommend the [Purple Paper](https://makerdao.com/assets/documents/purple.pdf).
 
@@ -168,35 +168,35 @@ If you’ve been scrutinizing the system for flaws, it probably didn’t take yo
 
 So far I’ve addressed the fundamental stability of the Maker system, but we haven’t spoken about the incentives that are in place to keep one Dai equal to one dollar. This is called the Target Rate Feedback Mechanism [TRFM], and to be honest it’s quite complex. The important thing to know is the following: When Dai trades over $1, the smart contracts incentivize the creation of Dai. When Dai trades less than $1, the smart contracts incentivize the destruction of Dai. This is accomplished with a process that’s similar to the way a central bank uses interest rates to control the money supply. You can read the [Whitepaper](https://github.com/makerdao/docs/blob/master/Dai.md) for more details on how the system actually functions.
 
-到目前为止，我已经解决了 Maker 系统的基本稳定问题，但是我们没有谈到如何保持一个 Dai 币等于一美元的激励措施。这被称为目标利率反馈机制（TRFM），说实话这是相当复杂的。重要的是知道以下几点：当 Dai 币的交易价格超过1美元时，智能合约将激励 Dai 币的创造。当Dai币的交易价格不到1美元时，聪能合约将激励了 Dai 币的销毁。这是通过一个类似于中央银行通过利率来控制货币供应量的过程来实现的。您可以阅读[白皮书](https://github.com/makerdao/docs/blob/master/Dai.md)以获取有关系统如何实际运作的更多详细信息。
+到目前为止，我已经解决了 Maker 系统的基本稳定问题，但是我们没有谈到保持一个 Dai 币等于一美元所采取的激励措施。它被称为目标利率反馈机制（TRFM），说实话这是相当复杂的。重要的是知道以下几点：当 Dai 币的交易价格超过1美元时，智能合约将激励 Dai 币的创造。当 Dai 币的交易价格不到1美元时，智能合约将激励 Dai 币的销毁。总之，通过类似于中央银行通过利率来控制货币供应量的过程，来实现这个稳定机制。您可以阅读[白皮书](https://github.com/makerdao/docs/blob/master/Dai.md)以获取有关系统如何实际运作的更多详细信息。
 
-## A final protection — What’s Global Settlement? | 最后的保护 - 什么是全球和解？
+## A final protection — What’s Global Settlement? | 最后的保护伞 - 什么是全球结算？
 
 Despite being developed over the course of three years by some of the best developers in the blockchain space, enduring a rigorous byte-code level audit, and having a working developer-focused stablecoin (Sai) on the mainnet for several months without incident, we all know that nothing is perfect. To keep the system as secure as possible and prevent what cannot be foreseen, the Maker team has added a process called global settlement. When global settlement is triggered, the entire system freezes and all holders of Dai and CDPs are returned the underlying collateral. So, if a global settlement is triggered and I hold 100 Dai, and one ether is worth $100, I can exchange my 100 Dai directly for one ether right through a smart contract. The collateral held in CDPs will be similarly released to its owners. A global settlement can be triggered by a select group of trusted individuals who hold the global settlement keys. If these signatories see something going horribly wrong, they will enter their keys initiate the process of gracefully winding down the system. “But doesn’t that make this….CENTRALIZED?!”
 
-尽管三年来由区块链领域的一些最优秀的开发人员进行了开发，经历了严格的字节码级审计，并且在主网上有一个以开发人员为中心的稳定币（Sai）工作了好几个月，都知道没有什么是完美的。为了尽可能保持系统安全并防止无法预见，Maker团队添加了一个名为“全球结算”的进程。当全球结算被触发时，整个系统冻结，傣族和CDP的所有持有者被归还的基础抵押品。所以，如果全球和解得以触发，我就拥有100个戴，一个以上的价值100美元，我可以通过一个智能合约直接换100个戴尔。CDP所持有的抵押品也将同样向其所有者公布。一个全球结算可以由一组持有全球结算密钥的可信人员触发。如果这些签署者看到有什么可怕的错误，他们将进入他们的钥匙，启动优雅地结束系统的过程。“但这不是让这个......集中？！”
+尽管由历经三年的区块链领域的一些最优秀的开发人员进行地开发，并通过了严格的字节码级审计，而且在主网上有一个以开发人员为中心的稳定币（Sai）无故障工作了好几个月，但我们都知道没有完美事情。为了尽可能保持系统安全并防止无法预见的风险，Maker 团队添加了一个名为“全球结算”的进程。当全球结算被触发时，整个系统冻结，并将抵押物归还给 Dai 和 CDP 的所有持有者。所以，如果全球结算触发，我拥有100个 Dai，一个以太的价值是100美元，我可以通过一个智能合约直接将100个 Dai 兑换成一个以太。CDP 所持有的抵押物也将同样向其所有者发放。全球结算可以由一组持有全球结算密钥的可信人员触发。如果这些人员看到有什么可怕的错误，他们将使用他们的钥匙来启动这个过程，以便优雅地结束系统。“但这不是让这个......中心化了？！”
 
 ![](https://cdn-images-1.medium.com/max/800/0*WxxF63UgU_Iu1d9s.)
 
 No, it doesn’t. The only thing a global settlement can do is give you back your collateral. It can’t steal your ether or Dai or interact with the system on your behalf. The worst case scenario in a global settlement is that you end up being exposed to the volatility of your collateral until the system is fixed or you can send it to an exchange.
 
-不，不。全球解决办法唯一可以做的就是回馈你的抵押品。它不能偷你的以太或傣族或代表你与系统互动。全球结算中最糟糕的情况是您最终将面临抵押物的波动，直到系统固定，或者您可以将其发送给交易所。
+不，不。全球结算唯一可以做的就是退回你的抵押物。它不会偷走你的以太或 Dai 币，或者代替你来与系统交互。全球结算中最糟糕的情况是：一直要等到系统修复，或者你将其发送给交易所，否则您将面临抵押物的价格波动风险。
 
-## Bonus feature: decentralized leverage?! | 奖金功能：分散杠杆？
+## Bonus feature: decentralized leverage?! | 额外奖励的功能：去中心化杠杆交易？
 
 The more savvy among you may have noticed an interesting consequence of the Dai creation process. Volatility cannot be destroyed, it can only be transferred. If we have a stable token like Dai that has been stripped of its volatility, where did it go? In the Maker system, volatility is transferred entirely to the holder of the CDP. Using our prior example, should I withdraw 66 Dai from a CDP containing one ether, I will only own that one ether if its price is above the liquidation ratio. Dai is effectively a loan on my ether.
 
-你们中间越聪明的人，也许会注意到傣族创造过程的一个有趣的结果。波动不能被破坏，只能转移。如果我们有一个像戴的稳定的标志，被剥夺了它的波动性，那么它到底在哪里呢？在制造商体系中，波动性完全转移给CDP的持有者。用我们以前的例子，我应该从一个含有一个乙醚的CDP中提取66代，如果它的价格高于清算比例，我将只拥有一个乙醚。戴实际上是对我以太的贷款。
+聪明的人，也许会注意到 Dai 币创造过程中的一个有趣的结果。价格波动不能被消灭，它只能转移。如果我们有一个像 Dai 一样的稳定币，被剥夺波动性，那么它的波动到底去哪里了呢？在 Maker 体系中，波动性完全转移给 了 CDP 的持有者。用我们以前的例子，我应该从一个含有一个以太的 CDP 中提取 66 个 Dai 币，如果它的价格高于清算比例，我将只拥有一个以太。Dai 币实际上是我的以太贷款。
 
 This leads us to the interesting consequence: **I can take the Dai that I borrowed and use it to buy more ether**. By doing this, I am basically buying ether on margin. That’s right, completely decentralized leverage! Now when you trade on a decentralized exchange that has integrated with Maker, you’ll be able to bet on the price of ether with 2x, 3x, or more funds than you actually have.
 
-这导致了我们有意思的后果：我可以把我借的傣族用来买更多的乙醚。通过这样做，我基本上是以保证金购买乙醚。没错，完全分散的杠杆作用！现在，当您在与Maker整合的分散型交易所进行交易时，您可以用比您实际拥有的2x，3x或更多资金押注乙醚的价格。
+这导致有趣的结果：我可以把我借的 Dai币 用来买更多的以太。通过这样的方法，我本质上是以保证金购买了以太。没错，完全去中心化的杠杆作用！现在，当您在与 Maker 整合过的去中心化交易所进行交易时，您可以用比您实际拥有的2倍，3倍或更多资金押注以太的价格。
 
 ## Conclusion | 结论
 
 I call the Maker Dai stablecoin the first working consumer-grade stablecoin because it stands out from both its predecessors and competitors. It is going to be the first application, in a series of many, that brings blockchain technology to the masses. If you want to dive deeper, head over to https://makerdao.com/.
 
-我把Maker Dai stablecoin称为第一个消费级稳定币，因为它从前辈和竞争对手中脱颖而出。这将是第一个将区块链技术带到大众市场的应用程序。如果您想深入了解，请前往https://makerdao.com/。
+我把 Maker Dai 称为第一个消费级稳定币，因为它从前辈和竞争对手中脱颖而出，在一系列将区块链技术带到大众市场的应用中将是第一个。如果您想深入了解，请前往 [https://makerdao.com/](https://makerdao.com/)。
 
 ----------------------------------------------------
 
