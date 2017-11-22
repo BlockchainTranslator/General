@@ -155,21 +155,20 @@ See? Simple enough. The system liquidates your collateral and gives it away if d
 
 看到？很简单。如果不及时将借给你的 Dai 还给 CDP，系统就会拍卖掉你的的抵押物。这确保了 Dai 总有足够的抵押。
 
-## Plucking the black swan — What’s the MKR token? |摘下黑天鹅 - 什么是 MKR 令牌？
+## Plucking the black swan — What’s the MKR token? |避免黑天鹅事件 - 什么是 MKR 令牌？
 
 ![](https://cdn-images-1.medium.com/max/800/0*OR_GJlMt0QCNx2jP.)
-<center>Behold, the most feared creature in finance.看哪，财务上最可怕的动物来了。</center>
+<center>Behold, the most feared creature in finance.看啊，财经领域最可怕的动物来了。</center>
 
 If you’ve been scrutinizing the system for flaws, it probably didn’t take you long to find one. It’s the possibility of a dreaded “black swan event.” It would involve a situation where the price of ether crashes well below the one-to-one collateralization ratio in a time frame too short for the system to handle. Fortunately, Maker has a solution for situations like this: MKR, or makercoin. MKR is a token on the ethereum blockchain (like the rest of the Maker ecosystem) that has governance rights over the Maker smart contracts. For instance, the number used in the above examples (the collateralization rate of CDPs) is set by a vote of MKR holders. In return for regulating the system, MKR holders are rewarded with fees. There is, however, a catch to being a MKR holder. They function as the buyer of last resort. Should the collateral in the system not be enough to cover the amount of Dai in existence, MKR is created and sold onto the open market in order to raise the additional collateral. This provides a strong incentive for MKR holders to responsibly regulate the parameters at which CDPs can create Dai, as it will ultimately be their money on the line should the system fail, not holders of Dai. I could write a lot more about the mechanics and role of MKR, but that’s a subject for a different post.
 
-如果你一直在仔细研究这个系统的缺陷，那么可能不需要很长时间就能找到一个。这可能是一个可怕的“黑天鹅事件”。这涉及到在一个系统无法处理的极短的时间内，以太的价格大大低于一对一抵押比率的情况。幸运的是，Maker 为这样的情况提供了解决方案：MKR 或者 makercoin。MKR 是以太坊区块链上的代币（与 Maker 生态系统的其他部分一样），具有 Maker 智能合约的治理权限。例如，上述例子中使用的数字（CDP 的抵押率）由 MKR 持有者的投票决定。作为管理系统的回报，MKR持有者将获得奖励。然而，成为一名 MKR 持有者是一个难题。他们作为最后的手段买家。如果系统中的抵押品不足以覆盖现存的数额，MKR 就会被创建并出售到公开市场上，以提高额外的抵押品。这为 MKR 持有者提供了一个强有力的激励机制，可以负责任地规范 CDP 可以创造 Dai 的参数，因为如果系统失败，它们最终会成为他们的钱，而不是 Dai 的持有者。我可以写更多关于 MKR 的机制和角色，但这是另一个帖子的主题。
+如果你一直在仔细研究这个系统的缺陷，相信不需要很长时间，你就能找到一个。这很可能是一个可怕的“黑天鹅事件”。这就是，如果在一个系统无法处理的，极短的时间内，以太的价格大大低于一对一抵押率的情况。幸运的是，Maker 为这样的情况提供了解决方案：MKR 或者 makercoin。MKR 是以太坊区块链上的代币（与 Maker 生态系统的其他部分一样），它具有 Maker 智能合约的治理权限。例如，上述例子中使用的比率（ CDP 的抵押率）由 MKR 持有者的投票来决定。同时作为管理系统的回报，MKR 持有者将获得奖励。然而，成为一名 MKR 持有者是有风险的，他们将作为最后的买家。如果系统中的抵押物不足以保证现存的 Dai 币，MKR 就会被创建并出售到公开市场上，以提供额外的抵押。这为 MKR 持有者提供了一个强有力的激励机制，可以负责任地规范地调整 CDP 用以创造 Dai 的参数，因为如果系统失败，极大的可能，最终他们将遭受损失，但与此同时 Dai 的持有者却不会有这个风险。我可以写更多有关 MKR 的机制和角色的文章，但这是另一个主题。
 
-## Keeping in line with USD: What’s the Target Rate Feedback Mechanism? |与美元保持一致：目标利率反馈机制是什么？
+## Keeping in line with USD: What’s the Target Rate Feedback Mechanism? |与美元保持一致：什么是目标利率反馈机制？
 
 So far I’ve addressed the fundamental stability of the Maker system, but we haven’t spoken about the incentives that are in place to keep one Dai equal to one dollar. This is called the Target Rate Feedback Mechanism [TRFM], and to be honest it’s quite complex. The important thing to know is the following: When Dai trades over $1, the smart contracts incentivize the creation of Dai. When Dai trades less than $1, the smart contracts incentivize the destruction of Dai. This is accomplished with a process that’s similar to the way a central bank uses interest rates to control the money supply. You can read the [Whitepaper](https://github.com/makerdao/docs/blob/master/Dai.md) for more details on how the system actually functions.
 
-到目前为止，我已经解决了制造者制度的基本稳定问题，但是我们没有谈到保持壹代等于一美元的激励措施。这被称为目标利率反馈机制（TRFM），说实话这是相当复杂的。重要的是知道以下几点：当戴氏交易超过1美元时，智能合约激励戴的创造。当戴的交易不到1美元时，聪明的合同激励了戴的破坏。这是通过一个类似于中央银行利率来控制货币供应量的过程来实现的。您可以阅读白皮书以获取有关系统实际功能的更多详细信息。
-
+到目前为止，我已经解决了 Maker 系统的基本稳定问题，但是我们没有谈到如何保持一个 Dai 币等于一美元的激励措施。这被称为目标利率反馈机制（TRFM），说实话这是相当复杂的。重要的是知道以下几点：当 Dai 币的交易价格超过1美元时，智能合约将激励 Dai 币的创造。当Dai币的交易价格不到1美元时，聪能合约将激励了 Dai 币的销毁。这是通过一个类似于中央银行通过利率来控制货币供应量的过程来实现的。您可以阅读[白皮书](https://github.com/makerdao/docs/blob/master/Dai.md)以获取有关系统如何实际运作的更多详细信息。
 
 ## A final protection — What’s Global Settlement? | 最后的保护 - 什么是全球和解？
 
