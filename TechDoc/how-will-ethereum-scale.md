@@ -7,13 +7,13 @@ How Will Ethereum Scale? Top Talks from Devcon3 Summarized 以太坊将如何扩
 >
 > 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [小丹](https://github.com/zhuangjun)
 >
-> 翻译时间：2017-11-18
+> 翻译时间：2017-11-25
 
 ---------------------------
 
 Devcon, also known as the Ethereum Foundation’s developers conference, is one of the most important annual events in the cryptocurrency space. It is a conference “by developers for developers” which “is designed to help inform, educate and address interests of the Ethereum R&D community”.
 
-Devcon, 也被称为以太坊基金会的开发者大会, 是最重要的年度事件之一, 在数字货币圈子中。这是一个 “服务于开发者的开发者" 的会议, "旨在帮助告知、教育和解决以太坊的研发社区的利益"。
+Devcon, 也被称为以太坊基金会的开发者大会, 是最重要的年度事件之一, 在数字货币圈子中。这是一个 “服务于开发者的开发者" 的会议, "旨在帮助告知、教育和解决以太坊的研发社区的利益"。
 
 It should be noted that even though it is a technical conference, individuals interested in familiarizing themselves with Ethereum and blockchain technology should not be discouraged from attending. As stated in the official page, “this year’s participant demographic is also the most international and globally diverse one to date” which shows how individuals are increasingly getting involved in Ethereum research and development.
 
