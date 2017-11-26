@@ -40,7 +40,7 @@
 
 * Maker 额外地还通过智能合约，使用利率反馈机制来使贷券价值稳定在1美元。
 
-* 全球结算提供了最后的安全保证。
+* 统一清算提供了最后的安全保证。
 
 * 我们需要稳定币来充分发挥区块链技术的潜力。
 
@@ -171,17 +171,17 @@ So far I’ve addressed the fundamental stability of the Maker system, but we ha
 
 到目前为止，已经解决了 Maker 系统的基本稳定问题，但是我们没有谈到保持一个贷券等于一美元所采取的激励措施。它被称为目标利率反馈机制（TRFM），说实话这个还是相当复杂的。但是重要的是知道以下几点：当贷券的交易价格超过1美元时，智能合约将激励贷券的创造。当贷券的交易价格不到1美元时，智能合约将激励贷券的销毁。总之，通过类似于中央银行通过利率来控制货币供应量的过程，来实现这个稳定机制。您可以阅读[白皮书](https://github.com/makerdao/docs/blob/master/Dai.md)以获取有关系统如何实际运作的更多详细信息。
 
-## A final protection — What’s Global Settlement? | 最后的保护伞 - 什么是全球结算？
+## A final protection — What’s Global Settlement? | 最后的保护伞 - 什么是统一清算？
 
 Despite being developed over the course of three years by some of the best developers in the blockchain space, enduring a rigorous byte-code level audit, and having a working developer-focused stablecoin (Sai) on the mainnet for several months without incident, we all know that nothing is perfect. To keep the system as secure as possible and prevent what cannot be foreseen, the Maker team has added a process called global settlement. When global settlement is triggered, the entire system freezes and all holders of Dai and CDPs are returned the underlying collateral. So, if a global settlement is triggered and I hold 100 Dai, and one ether is worth $100, I can exchange my 100 Dai directly for one ether right through a smart contract. The collateral held in CDPs will be similarly released to its owners. A global settlement can be triggered by a select group of trusted individuals who hold the global settlement keys. If these signatories see something going horribly wrong, they will enter their keys initiate the process of gracefully winding down the system. “But doesn’t that make this….CENTRALIZED?!”
 
-尽管是由有三年经验的区块链领域的一些最优秀的开发人员来开发，并通过了严格的字节码级审计，而且在主网上已经有一个以开发人员为中心的稳定币（Sai）无故障工作了好几个月，但我们都知道世界上没有完美的事物。为了尽可能保持系统的安全并防止无法预见的风险，Maker 团队添加了一个名为“全球结算”的进程。当全球结算被触发时，整个系统将冻结，抵押物将归还给贷券和 CDP 的所有持有者。所以，如果全球结算触发，假如我拥有100个贷券，一个以太的价值是100美元，我可以通过一个智能合约直接将100个贷券兑换成一个以太。CDP 所持有的抵押物也将同样向其所有者发放。全球结算可以由一组持有全球结算密钥的可信人员触发。如果这些人员看到有什么可怕的错误，他们将使用他们的钥匙来启动这个过程，以便优雅地结束系统。“但这不是让这个......中心化了？！”
+尽管是由有三年经验的区块链领域的一些最优秀的开发人员来开发，并通过了严格的字节码级审计，而且在主网上已经有一个以开发人员为中心的稳定币（Sai）无故障工作了好几个月，但我们都知道世界上没有完美的事物。为了尽可能保持系统的安全并防止无法预见的风险，Maker 团队添加了一个名为“统一清算”的进程。当统一清算被触发时，整个系统将冻结，抵押物将归还给贷券和 CDP 的所有持有者。所以，如果统一清算触发，假如我拥有100个贷券，一个以太的价值是100美元，我可以通过一个智能合约直接将100个贷券兑换成一个以太。CDP 所持有的抵押物也将同样向其所有者发放。统一清算可以由一组持有统一清算密钥的可信人员触发。如果这些人员看到有什么可怕的错误，他们将使用他们的钥匙来启动这个过程，以便优雅地结束系统。“但这不是让这个......中心化了？！”
 
 ![](https://cdn-images-1.medium.com/max/800/0*WxxF63UgU_Iu1d9s.)
 
 No, it doesn’t. The only thing a global settlement can do is give you back your collateral. It can’t steal your ether or Dai or interact with the system on your behalf. The worst case scenario in a global settlement is that you end up being exposed to the volatility of your collateral until the system is fixed or you can send it to an exchange.
 
-不，不是的。全球结算唯一可以做的就是退回你的抵押物。它不会偷走你的以太或贷券，或者代替你来与系统交互。全球结算中最糟糕的情况是：一直要等到系统修复，或者你将它发送给交易所，否则您将面临抵押物的价格波动风险。
+不，不是的。统一清算唯一可以做的就是退回你的抵押物。它不会偷走你的以太或贷券，或者代替你来与系统交互。统一清算中最糟糕的情况是：一直要等到系统修复，或者你将它发送给交易所，否则您将面临抵押物的价格波动风险。
 
 ## Bonus feature: decentralized leverage?! | 额外奖励的功能：去中心化杠杆交易？
 
