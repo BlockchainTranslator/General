@@ -8,7 +8,7 @@
 
 This post describes why blockchain governance design is one of the most important problems out there, its critical components, current approaches, potential future approaches, and concludes with suggestions for the community.
 
-这篇文章描述了为什么区块链治理设计是区块链设计中最重要的问题之一，包括治理设计的关键组成部分，当前所使用的方法，以及未来潜在的方法，并以对社区的建议作为文章的结束。
+这篇文章描述了为什么区块链治理设计是区块链设计中最重要的问题之一，包括治理设计的关键组成部分，当前所使用的治理方案，以及未来潜在的方案，并以对社区的建议作为文章的结束。
 
 ## Why Blockchain Governance Matters | 为什么区块链治理至关重要
 
@@ -16,10 +16,9 @@ This post describes why blockchain governance design is one of the most importan
 
 As a result, I believe **governance is the most vital problem in the space**. Other fundamental problems like scalability are arguably best approached by using governance to set the right incentives for people to solve them. Yet little research has gone into governance and it feels poorly understood.
 
-如同生物一样，成功的区块链也是那些能够很好地适应环境的区块链。假设这些系统需要进化以求得生存，显然[初始设计](https://en.wikipedia.org/wiki/Butterfly_effect)是重要的，但是如果需要长时间生存下来，那么有一个做出改变并进化的机制则显然[更为](https://en.wikipedia.org/wiki/Natural_selection)[重要](https://briankeng.com/2015/07/a-little-bit-of-slope/)。
+**如同生物一样，成功的区块链也是那些能够很好地适应环境的区块链。假设这些系统需要进化以求得生存，显然[初始设计](https://en.wikipedia.org/wiki/Butterfly_effect)是重要的，但是如果需要长时间生存下来，那么有一个做出改变并进化的机制则显然[更为](https://en.wikipedia.org/wiki/Natural_selection)[重要](https://briankeng.com/2015/07/a-little-bit-of-slope/)**。
 
-因此，我认为治理是这个领域最重要的问题。其他一些基本问题，如可扩展性，最好通过治理为人们设置适当的激励措施来解决。
-但是，对于治理的研究却很少，而且对此不甚了解。
+因此，我认为**治理是这个领域最重要的问题**。其他一些基本问题，如可扩展性问题，可能最好通过治理，为人们设置适当的激励措施来解决。但是，对于有关治理地研究却极少，甚至对治理不甚了解。
 
 ![](https://cdn-images-1.medium.com/max/1000/1*N7VAEAH8-_Sqxmy8_0bgNQ.png)
 Evolutionary tree of life, from [Leonard Eisenberg](https://www.evogeneao.com/explore/tree-of-life-explorer).进化的生命之树，取自[Leonard Eisenberg](https://www.evogeneao.com/explore/tree-of-life-explorer)。
@@ -30,11 +29,11 @@ We are increasingly living in digital networks, spending an average of [11 hours
 
 For these reasons, I believe **blockchain governance system design is one of the highest leverage activities known**.
 
-中本聪向我们展示了其基于区块链的激励结构对世界呈现出来的巨大能力。一个9页的[白皮书](https://bitcoin.org/bitcoin.pdf)产生了1500亿美元的加密货币，一个[比前500名超级计算机还大10,000倍的计算机网络](https://www.reddit.com/r/Bitcoin/comments/5kfuxk/how_powerful_is_the_bitcoin_network/)，并形成开发者，用户和公司的多元生态系统。成为人类历史上影响力最高的行动之一。只要它被良好设计构造了，它就可以把我们每个人连接起来，自行运行并生存下来，充分展示了区块链作为网络的巨大能量。
+中本聪向我们展示了其基于区块链的激励结构向世界呈现出来的巨大能力。仅仅9页的[白皮书](https://bitcoin.org/bitcoin.pdf)创造了1500亿美元的加密货币市场，形成了一个[比前500名超级计算机还大10,000倍的计算机网络](https://www.reddit.com/r/Bitcoin/comments/5kfuxk/how_powerful_is_the_bitcoin_network/)，并最终形成开发者，用户和公司的多元生态系统。成为人类历史上影响力最高的行动之一。看来只要区块链被良好设计并构造，它就可以把我们每个人连接起来，自主运行并生存下来，这充分展示了区块链作为网络的巨大能量。
 
-我们越来越多地生活在数字网络中，美国，人们在屏幕上每天平均花费11个小时，其中有一半以上是连接了互联网的设备，而且这个时间每年增长11％。不过，这些网络是高度集中化的（如 Facebook，Google，Apple，Twitter），并且它们的地位继续进一步得到巩固。在目前的模式中，网络的所有利润和权力都在一个公司内部，而你要么在内部要么在外面。重要的是，我们生活的网络要服务于我们的最佳利益。随着区块链成为新的全球基础设施，我们有机会创造出截然不同的权力结构，并为我们自己设计未来。
+我们越来越多地生活在数字网络中，在美国，人们每天平均花费11个小时在屏幕上，其中有一半以上是连接了互联网的设备，而且这个时间每年增长11％。不过，这些网络都是高度集中化的（如 Facebook，Google，Apple，Twitter），并且它们的地位继续进一步得到巩固。在目前的模式中，网络的所有利润和权力都在一个公司内部，而你要么在内部要么在它外面。但是，重要的是，我们生活的网络要服务于我们的最佳利益。随着区块链成为新的全球基础设施，**我们有机会创造出截然不同的权力机构，并且设计出我们自己想要的未来**。
 
-出于这些原因，我认为区块链治理系统设计是已知影响力最高的活动之一。
+出于这些原因，我坚信**区块链治理系统设计是已知影响力最高的活动之一**。
 
 ## A Cambrian Explosion | 寒武纪大爆发
 
@@ -42,15 +41,15 @@ It’s rare a new government or central bank gets created, and even more rare to
 
 Blockchains are unique because they 1) allow thousands of governance systems and monetary policies to be tried at the speed of software with 2) in some cases, much lower consequences of failure. As a result, **there will be a [Cambrian explosion](https://en.wikipedia.org/wiki/Cambrian_explosion) of economic and governance designs** where many approaches will be tried in parallel at hyperspeed. To be clear, I am including economic design and monetary policy (said another way, incentive structure) in governance because, like other aspects of the system, they can be modified as time passes.
 
-一个新政府或中央银行成立，这样的情况发生得很少，而在成立时实施新的治理形式则更为罕见。
+我们知道，一个新政府或中央银行成立，这样的情况是很少见的，而在成立时实施新的治理形式则更为罕见。
 
-区块链是独一无二的，因为它们1）允许成千上万的治理系统和货币政策以软件的速度进行尝试，2）在某些情况下，失败的后果严重程度要低得多。因此，经济和治理设计将会出现类似于寒武纪的爆炸式增长，在这种情况下，许多方法将在超速的情况下平行进行。需要说明的是，我在治理中包括经济设计和货币政策（也就是说，激励结构），因为像系统的其他方面一样，随着时间的推移它们可以被修改。
+区块链是独一无二的，因为它 1）允许成千上万的治理系统和货币政策以软件运行的速度进行尝试，2）在某些情况下，治理失败引起的后果常常并不严重。因此，**有关经济和治理设计将会出现类似于[寒武纪的爆炸式增长](https://en.wikipedia.org/wiki/Cambrian_explosion)**，在这种情况下，各种方案将可以并行和极速地进行测试。需要说明的是，我在治理中包括经济设计和货币政策（也就是说，激励结构），因为像系统的其他方面一样，随着时间的推移它们可能被修改。
 
 ![](https://cdn-images-1.medium.com/max/800/1*SDRcq6gCVc4TcI5YUnrY3g.jpeg)
 
 Many of these attempts will be spectacular failures. With millions of algorithmic central banks we will have millions of crypto [George Soroses trying to break the Bank of England](https://en.wikipedia.org/wiki/Black_Wednesday). Through this process, **blockchains may teach us more about governance in the next 10 years than we have learned from the “real world” in the last 100 years**.
 
-这些尝试中的许多将是惊人的失败。有数百万算法中央银行，我们将有数百万加密的乔治·索罗斯试图打破英格兰银行。通过这个过程，区块链可能会使我们在接下来的10年中了解到更多关于治理的内容，而不是我们从过去100年的“现实世界”中所学到的。
+通过数百万个基于算法的中央银行，我们将可以进行类似数百万加密的[索罗斯试图打破英格兰银行](https://en.wikipedia.org/wiki/Black_Wednesday)地尝试。虽然这些尝试绝大部分都将壮丽地失败。通过这个过程，**在接下来的10年中，区块链教会我们的有关治理知识将大大多于我们过去100年在“现实世界”中所学到的**。
 
 ## Two Critical Components of Governance | 治理的两个关键组成部分
 
@@ -67,15 +66,15 @@ Many of these attempts will be spectacular failures. With millions of algorithmi
 
 1. 激励措施
 
- 系统中的每个组都有自己的激励机制。 这些激励措施并不总是与系统中的所有其他组织保持一致。小组将提议随着时间的推移对他们有利的改变。有机体偏向于自己的生存。这通常体现在奖励结构，货币政策或权力平衡的变化上。
+ 系统中的每个组织都有自己的激励机制。 这些激励措施并不总是与系统中的所有其他组织保持一致。随着时间的推移，组织将提议对他们有利的改变。有机体通常倾向于有利自己的生存变化。这通常体现在奖励结构，货币政策或权力平衡的变化上。
 
 2. 协调机制
 
- 由于不可能所有的团队在任何时候都有100％的激励，所以每个团队围绕共同的激励进行协调的能力对于他们影响变革是至关重要的。如果一个组织能够比另一个组织更好地协调，那么就会造成权力失衡。
+ 由于不可能所有的组织在任何时候都有100％的激励，所以每个团队围绕共同的激励进行协调的能力对于他们影响变革是至关重要的。如果一个组织能够比另一个组织更好地协调，那么就会造成权力失衡。
 
  在实践中，一个主要的因素是可以在链上和链外进行多少协调，链上协调使协调更容易。在一些新的区块链中，链上协调允许规则甚至账本历史本身被改变。
 
-## Current Approaches | 目前的方法
+## Current Approaches | 目前的方案
 
 What follows is a dissection of the benefits and drawbacks of today’s two largest blockchains: Bitcoin and Ethereum. We are currently in the primordial ooze phase of blockchain governance. Systems are simple and little has been tried.
 
@@ -197,7 +196,7 @@ The most interesting learnings will come from exploring the balance of mutabilit
 
 最有趣的学习将来自于探索可变性的平衡，因此系统可以演进而且稳定性不变。
 
-## Future Approaches | 未来的方法
+## Future Approaches | 未来的方案
 
 Next we’ll talk about future governance strategies with potential which have yet to be tried.
 
