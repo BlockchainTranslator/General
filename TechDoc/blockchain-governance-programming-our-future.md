@@ -66,25 +66,25 @@ Many of these attempts will be spectacular failures. With millions of algorithmi
 
 1. 激励措施
 
- 系统中的每个组织都有自己的激励机制。 这些激励措施并不总是与系统中的所有其他组织保持一致。随着时间的推移，组织将提议对他们有利的改变。有机体通常倾向于有利自己的生存变化。这通常体现在奖励结构，货币政策或权力平衡的变化上。
+ 系统中的每个组织都有自己的激励机制。 这些激励措施并不总是与系统中的所有其他组织保持一致。随着时间的推移，组织将提议对他们有利的改变。有机体通常倾向于有利自己的生存的变化。通常体现在奖励结构，货币政策或权力平衡的变化上。
 
 2. 协调机制
 
- 由于不可能所有的组织在任何时候都有100％的激励，所以每个团队围绕共同的激励进行协调的能力对于他们影响变革是至关重要的。如果一个组织能够比另一个组织更好地协调，那么就会造成权力失衡。
+ 在任何时候，所有的组织都有100％的激励，这是不可能的。每个团队围绕共同的激励进行协调的能力是至关重要的，体现了它们对变革的影响力。如果一个组织比另一个组织具有更好的协调能力，那么就会造成对自己有利的权力失衡。
 
- 在实践中，一个主要的因素是可以在链上和链外进行多少协调，链上协调使协调更容易。在一些新的区块链中，链上协调允许规则甚至账本历史本身被改变。
+ 在实践中，一个主要的因素是可以在链上和链外进行多少协调，链上协调相对来说更为容易。在一些新的区块链中，链上协调允许规则或者甚至历史账本本身被改变。
 
 ## Current Approaches | 目前的方案
 
 What follows is a dissection of the benefits and drawbacks of today’s two largest blockchains: Bitcoin and Ethereum. We are currently in the primordial ooze phase of blockchain governance. Systems are simple and little has been tried.
 
-以下是对当今两大区块链的优点和缺点的剖析：比特币和以太坊。我们目前处于区块链治理的初级阶段。系统很简单，很少尝试过。
+以下是对当今两大区块链的优点和缺点的剖析：比特币和以太坊。我们目前处于区块链治理的初级阶段。系统很简单，治理的方案也很少尝试过。
 
 ### Bitcoin | 比特币
 
 Bitcoin was the first successful attempt to create a standalone blockchain. Let’s examine it as a base:
 
-比特币是第一个创建独立区块链的成功尝试。让我们来看一下它的基础：
+比特币是第一个创建独立区块链的成功尝试。做为基础，让我们来看一下：
 
 1. Incentives
 
@@ -100,24 +100,28 @@ Bitcoin was the first successful attempt to create a standalone blockchain. Let�
 
 
 1. 激励措施
-  * 开发商：增加现有令牌持有量，社会认可度，保持对未来方向控制权。
 
-  * 矿工：增加现有令牌持仓的价值，预期未来区块奖励以及预期的未来交易费用。
+  * 开发商：增加持有的代币价值，增强社会认可度，保持对未来发展方向的控制权。
 
-  * 用户：增加现有令牌持有量的价值，增加功能效用（例如，存储价值，不可交易的交易，文件存储）。
+  * 矿工：增加持有的代币价值，预期未来区块奖励以及未来交易费用。
+
+  * 用户：增加持有的代币价值，增加功能效用（例如，存储价值，不可审查的交易，文件存储）。
 
 2. 协调机制
 
-  主要是脱链。开发人员通过比特币改进建议（BIPs）流程和邮件列表进行协调。矿工们可以协调在链上，因为他们正在创造链条本身。
+  主要通过链下协调。开发人员通过比特币改进建议（BIPs）流程和邮件列表进行协调。矿工们可以在链上协调，因为他们自己创造区块链。
 
-### Resulting system | 最终的系统
+#### Resulting system | 最终的系统
 
 The **checks and balances system created is somewhat analogous to the US government** and has a number of benefits. Similar to the Senate submitting new bills, developers submit pull requests. Similar to the judiciary, miners decide whether or not to actually adopt the laws in practice. Similar to the executive branch, the nodes of the network can veto by not running a version which aligns with what the miners are running. And similar to citizens, the users can revolt. Finally, economic incentives dictate that it is in everyone’s best interest to maintain trust in the system. For example: if miners alienated all the users, the tokens would decrease in value and they would go out of business. **As the first system of its kind, it’s incredible that Bitcoin is still going strong**.
 
-在建立制衡系统有些类似于美国政府，并拥有多项好处。与参议院提交新法案类似，开发者提交拉请求。与司法部门类似，矿工决定是否在实践中实际采纳法律。类似于行政部门，网络的节点可以否决运行与矿工正在运行的版本相一致的版本。和公民类似，用户可以反抗。最后，经济激励要求维护对系统的信任符合每个人的最佳利益。例如：如果矿工疏远了所有的用户，这些代币的价值就会下降，他们就会倒闭。作为第一个这样的系统，比特币仍然强劲，这是不可思议的。
+比特币**建立的制衡系统有些类似于美国政府**，并拥有多项好处。与参议院提交新法案类似，开发者提交请求。与司法部门类似，矿工决定是否在实践中实际采纳。类似于行政部门，网络的节点可以通过不运行与矿工正在运行的版本相一致的版本来否决。
+和公民类似，用户可以造反。最后，经济激励要求维护对系统的信任符合每个人的最佳利益。例如：如果矿工疏远了所有的用户，这些代币的价值就会下降，他们就会倒闭。**作为第一个这样的系统，比特币仍然强劲，这是不可思议的**。
 
 ![](https://cdn-images-1.medium.com/max/800/1*GM32YcRx7C_XgheMWld4RA.png)
-Bitcoin as branches of US Government. Image from Buck Perley.比特币作为美国政府的分支。图片来自巴克佩利。
+Bitcoin as branches of US Government. Image from Buck Perley.
+
+将比特币比作美国政府各部门。图片来自Buck Perley。
 
 There are risks to the system caused by asymmetries in incentives. Miners push for changes which increase future cumulative transaction fees, while developers don’t care as long as the value of Bitcoin keeps going up. Developers’ direct economic incentives are weak. New developers have little incentive to work on Bitcoin because there is no direct way to earn money by doing it. As a result, they often work on new projects — either by creating Ethereum tokens, entirely new chains, or companies. No new blood entering increases the perception and reality of early developers as the most knowledgable and experienced. This [results](https://medium.com/@BuckPerley/crypto-governance-f1318affbbe0) in **a self-reinforcing cycle of more power becoming concentrated in a small group of early core developers, slower technological advancement, and conservatism**. Developers are at risk of being bribed since they have a lot of power but weak economic incentives. Some [early holders](http://chaincode.com/) and [universities](https://bitcoinmagazine.com/articles/gavin-andresen-core-developers-join-mits-digital-currency-initiative-1429743725/) have sponsored developers, but with limited impact thus far.
 
