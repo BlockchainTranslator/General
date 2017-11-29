@@ -109,9 +109,9 @@ Bitcoin was the first successful attempt to create a standalone blockchain. Let�
 
 2. 协调机制
 
-  主要通过链下协调。开发人员通过比特币改进建议（BIPs）流程和邮件列表进行协调。矿工们可以在链上协调，因为他们自己创造区块链。
+  主要通过链下协调。开发人员通过比特币改进建议（BIPs）流程和邮件列表进行协调。矿工们可以在链上协调，因为是他们自己创造区块链。
 
-#### Resulting system | 最终的系统
+#### Resulting system | 最终得到的系统
 
 The **checks and balances system created is somewhat analogous to the US government** and has a number of benefits. Similar to the Senate submitting new bills, developers submit pull requests. Similar to the judiciary, miners decide whether or not to actually adopt the laws in practice. Similar to the executive branch, the nodes of the network can veto by not running a version which aligns with what the miners are running. And similar to citizens, the users can revolt. Finally, economic incentives dictate that it is in everyone’s best interest to maintain trust in the system. For example: if miners alienated all the users, the tokens would decrease in value and they would go out of business. **As the first system of its kind, it’s incredible that Bitcoin is still going strong**.
 
@@ -125,11 +125,14 @@ Bitcoin as branches of US Government. Image from Buck Perley.
 
 There are risks to the system caused by asymmetries in incentives. Miners push for changes which increase future cumulative transaction fees, while developers don’t care as long as the value of Bitcoin keeps going up. Developers’ direct economic incentives are weak. New developers have little incentive to work on Bitcoin because there is no direct way to earn money by doing it. As a result, they often work on new projects — either by creating Ethereum tokens, entirely new chains, or companies. No new blood entering increases the perception and reality of early developers as the most knowledgable and experienced. This [results](https://medium.com/@BuckPerley/crypto-governance-f1318affbbe0) in **a self-reinforcing cycle of more power becoming concentrated in a small group of early core developers, slower technological advancement, and conservatism**. Developers are at risk of being bribed since they have a lot of power but weak economic incentives. Some [early holders](http://chaincode.com/) and [universities](https://bitcoinmagazine.com/articles/gavin-andresen-core-developers-join-mits-digital-currency-initiative-1429743725/) have sponsored developers, but with limited impact thus far.
 
-由于激励措施的不对称，系统存在风险。矿工们推动改变，增加未来累计交易费用，而开发商不关心只要比特币的价值继续上涨。开发商的直接经济刺激是微弱的。新开发商没有什么动力去比特币工作，因为没有直接的方法来赚钱。因此，他们经常从事新项目的工作 - 通过创建以太坊代币，全新的连锁店或公司。没有新的血液进入增加早期开发人员的知识和现实作为最知名的和经验丰富的。此结果在多个功率的自增强周期越来越集中在一小群早期核心开发者，较慢的技术进步，和保守。由于发展商拥有大量权力，但经济激励力度不足，所以开发商面临被贿赂的风险。一些早期的持有者和大学赞助了开发商，但迄今为止影响有限。
+由于激励措施的不对称，系统存在风险。矿工们推动变革以增加未来累计交易费用，但只要比特币的价值持续上涨，开发人员就不在乎。对开发人员的直接经济刺激是微弱的。新的开发人员没有什么动力去为比特币工作，因为没有直接的方法来赚钱。因此，他们经常从事其它新项目的工作 - 如创建以太坊代币，新的区块链开发或进入公司工作。没有新的血液进入以提高早期开发人员的观念和认知，因为他们是最有知识和经验的。
+这将导致周期性自我强化的[结果](https://medium.com/@BuckPerley/crypto-governance-f1318affbbe0)：**越来越多的权力集中在一小群早期核心开发者身上，使得系统技术进步缓慢，并且趋于保守**。由于开发人员拥有大量权力，但经济激励力度不足，所以开发人员面临着被贿赂的风险。一些比特币的[早期持有者](http://chaincode.com/)和[大学](https://bitcoinmagazine.com/articles/gavin-andresen-core-developers-join-mits-digital-currency-initiative-1429743725/)赞助了开发人员，但迄今为止影响有限。
 
 Similarly, asymmetries in ability to coordinate give miners disproportionate power. Communication amongst miners is easier because they are a small and concentrated group. Since mining is a business with economies of scale, we’d expect **a continued trend towards [natural monopoly](https://en.wikipedia.org/wiki/Natural_monopoly) in mining** and even greater coordination advantage. As a reference point, [95% of mining power was able to sit on one small stage](https://pbs.twimg.com/media/CVhkEhtUAAAl0LH.jpg) 2 years ago. Miners can also gain disproportionate power by bribing developers or hiring their own. Finally, the checks and balances system of Bitcoin relies on some level of transparency: for example, users becoming aware of a single miner gaining more than 51% of the hashing power or developers having some level of independence. And a miner who was able to gain >51% of hashing power would be incented to remain anonymous. Rather than sparking a specific catastrophic event, this would cause an unknowing descent into a centralized world of control through censorship and asset freezing.
 
-同样，协调能力的不对称也给矿工带来不相称的权力。矿工之间的沟通更容易，因为他们是一个小而集中的群体。由于采矿业是一个规模经济的行业，我们预计采矿自然垄断的持续趋势和协调优势更加明显。作为参考点，95％的采矿权能够坐在一个小的舞台上2年前。矿工也可以通过贿赂开发商或雇用自己的企业来获得不成比例的权力。最后，比特币的制衡机制依赖于某种程度的透明度：例如，用户意识到一个单一的矿工获得超过51％的散列能力或开发者具有某种程度的独立性。而一个能够获得> 51％哈希能力的矿工将被激活，保持匿名。这不会引发特定的灾难性事件，而会通过审查和资产冻结而导致一个不知情的下降到一个集中控制的世界。
+同样，不平衡的协调能力给矿工带来不相称的权力。矿工之间更容易沟通，因为他们是一个小而集中的群体。
+由于采矿业是一个规模经济的行业，**我们预计采矿业将继续趋向[自然垄断(指因产业发展的自然需要而形成的垄断状态)](https://en.wikipedia.org/wiki/Natural_monopoly)**，将具有更大的协调优势。
+作为参考点，2年前，具有[95％的采矿权的矿工代表们能够出现在一个小的舞台上](https://pbs.twimg.com/media/CVhkEhtUAAAl0LH.jpg)。矿工也可以通过贿赂开发人员或雇用更多的矿工的来获得更大的权力。最后，比特币的制衡机制依赖于某种程度的透明度：例如，人们意识到一个单一的获得超过51％算力的矿工和开发者人员一样具有某种程度的独立性。而一个能够获得大于51％算力的矿工可以保持匿名。这虽然不会引发特定的灾难性事件，但是通过审查和资产冻结却可以不知情的将它导向一个中心化控制的世界。
 
 ### Ethereum | 以太坊
 
