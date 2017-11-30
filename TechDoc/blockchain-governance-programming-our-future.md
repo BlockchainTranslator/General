@@ -142,7 +142,7 @@ Dynamics will change as Ethereum [moves to proof of stake](https://blog.ethereum
 
 以太坊的系统性激励机制和协调机制目前与比特币相似。
 
-以太坊移动到证明利益的动态将会改变。矿工的能力将被任何拥有足够数量的以太网的人所取代，以经营虚拟矿工（“验证人”）。尤其是像1 协议这样的解决方案，即使是最小的以太网持有者也可以参与其中，从而使矿工和用户之间的区别变得更加平坦，并有可能降低比特币最大的集中化风险。
+以太坊正将共识机制[转移到权益证明](https://blog.ethereum.org/2015/08/01/introducing-casper-friendly-ghost/)，这将会引发动力改变。任何拥有足够数量以太的持有人运行虚拟矿工（“验证人”）取代了矿工的能力。尤其是像[1 协议](https://1protocol.com/)这样的解决方案，能让即使是最少以太持有者也可以参与，**从而使矿工和用户的区别变得更加，并有可能降低比特币最大的集中化风险**。
 
 
 The incentives of core developers remain the same. Coordination around challenging issues has been swifter and smoother than in Bitcoin to date. This is due to 1) a culture more open to change because [Ethereum was created as a reaction to what could not be done in a rigid Bitcoin environment](https://coinjournal.net/vitalik-buterin-early-versions-ethereum-supposed-launch-bitcoin/) and 2) direction from Vitalik who is widely trusted in the community.
