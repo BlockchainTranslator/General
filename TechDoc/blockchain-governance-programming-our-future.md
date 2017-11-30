@@ -142,22 +142,22 @@ Dynamics will change as Ethereum [moves to proof of stake](https://blog.ethereum
 
 以太坊的系统性激励机制和协调机制目前与比特币相似。
 
-以太坊正将共识机制[转移到权益证明](https://blog.ethereum.org/2015/08/01/introducing-casper-friendly-ghost/)，这将会引发动力改变。任何拥有足够数量以太的持有人运行虚拟矿工（“验证人”）取代了矿工的能力。尤其是像[1 协议](https://1protocol.com/)这样的解决方案，能让即使是最少以太持有者也可以参与，**从而使矿工和用户的区别变得更加，并有可能降低比特币最大的集中化风险**。
+以太坊正将共识机制[转移到权益证明](https://blog.ethereum.org/2015/08/01/introducing-casper-friendly-ghost/)，这将会引发动力改变。任何拥有足够数量以太的持有人，可以通过运行虚拟矿工（“验证人”）来取代矿工的权力。尤其是像[1 协议](https://1protocol.com/)这样的解决方案，能让即使是很少的以太持有者也可以参与进来，**从而使矿工和用户的区别变小，并有可能降低在比特币中存在的最大的集中化风险**。
 
 
 The incentives of core developers remain the same. Coordination around challenging issues has been swifter and smoother than in Bitcoin to date. This is due to 1) a culture more open to change because [Ethereum was created as a reaction to what could not be done in a rigid Bitcoin environment](https://coinjournal.net/vitalik-buterin-early-versions-ethereum-supposed-launch-bitcoin/) and 2) direction from Vitalik who is widely trusted in the community.
 
 Current weaknesses in the model include 1) over reliance on its creator (Vitalik) and 2) like Bitcoin, limited ways to incentivize core development, forcing more projects to create tokens to support themselves. Vitalik is [making a conscious effort to step back](https://twitter.com/VitalikButerin/status/928172344631115776), which will be a delicate process.
 
-核心开发者的激励机制保持不变。围绕具有挑战性的问题进行的协调比比特币更快，更顺畅。这是由于1）一种更加开放的文化变革，因为以太坊是为了反应僵化的比特币环境中无法做到的事情而产生的，2）来自广受社区信赖的维塔利克的指导。
+核心开发者的激励机制保持不变。但是对具有挑战性的问题进行的协调，将比比特币更快，更顺畅。这是由于1）一种更加开放的变革文化，因为[以太坊是针对僵化的比特币环境中无法做到的事情而创建的](https://coinjournal.net/vitalik-buterin-early-versions-ethereum-supposed-launch-bitcoin/)，2）它由来自广受社区信赖的 Vitalik 指导。
 
-该模式目前的弱点包括：1）过度依赖其创建者（Vitalik），2）像比特币，有限的激励核心发展的方式，迫使更多的项目创建令牌来支持自己。维塔利克正在有意识地退后一步，这将是一个微妙的过程。
+该模式目前的弱点包括：1）过度依赖其创建者（Vitalik），2）像比特币，对核心开发者的激励方式有限，迫使更多的项目创建代币来支持自己。Vitalik [正在有意识地退后一步](https://coinjournal.net/vitalik-buterin-early-versions-ethereum-supposed-launch-bitcoin/)，这将是一个微妙的过程。
 
-## New Chains Experimenting with On-Chain Governance | 新链实验链上治理
+## New Chains Experimenting with On-Chain Governance | 新区块链在链上治理方面的实验
 
 New blockchains are making it much easier to coordinate by enabling on-chain governance.
 
-新的区块链使得通过启用链上管理更容易进行协调。
+新的区块链正在启用链上治理使它更容易进行协调。
 
 * Tezos
 
@@ -167,11 +167,11 @@ New blockchains are making it much easier to coordinate by enabling on-chain gov
 
  This also enables users to directly coordinate on-chain, dramatically increasing their power and reducing the power of miners compared to a system like Bitcoin or Ethereum.
 
- 在Tezos中，任何人都可以以代码更新的形式提交对治理结构的更改。发生在链式投票，如果通过，则更新进入测试网络。在测试网络上经过一段时间之后，出现确认投票，在这一点上，更改在主网络上进行。他们把这个概念称为“自我修正分类账”。
+ 在[Tezos](https://www.tezos.com/)中，[任何人都可以以代码更新的形式提交对治理结构的更改](https://www.quora.com/How-is-Tezos-different-from-Ethereum?share=d5c26090&srid=OAAh)。开启链上投票，如果通过，则更新进入测试网络。在测试网络上经过一段时间之后，再通过投票确认，更改就可以在主网络上进行。他们把这个概念为“自我修正账簿”。
 
- 这样的系统是有趣的，因为它将权力转移给用户，而不是从更集中的开发者和采矿者群体转移。在开发者方面，任何人都可以提交更改，最重要的是，每个人都有经济动机去做。通过通货膨胀资金，社区通过新铸造的代币奖励捐款。这从目前的比特币和以太坊动态转向，新的开发者没有什么动力来发展协议，因此权力往往集中在现有的开发者之中，而每个人都有相同的收益能力。
+ 这样的系统是有趣的，**因为它将权力转移给用户，而不是更显集中化的开发者和矿工**。在开发者方面，任何人都可以提交更改，最重要的是，每个人都有经济动机去这样做。社区通过新铸造的代币 - [通货膨胀资金](https://medium.com/@FEhrsam/funding-the-evolution-of-blockchains-87d160988481)来奖励贡献。不同于目前的比特币和以太坊，新的开发者没有什么动力来发展开发协议，因此权力往往集中在现有的开发者中。使得每个人都有相同的收益能力。
 
- 与比特币或以太坊系统相比，这也使用户能够直接协调上链，大大增加他们的力量，并减少矿工的能力。
+ 与比特币或以太坊系统相比，这也使用户能够直接在链上协调，大大增加他们的权力，从而减少了矿工的权力。
 
 ![](https://cdn-images-1.medium.com/max/800/1*sKjsh_IrxHvST_aZbaGk_g.png)
 
@@ -179,11 +179,12 @@ New blockchains are making it much easier to coordinate by enabling on-chain gov
 
  One step further would be a system which allows on-chain votes to the rules of the system like Tezos and [direct, retroactive changes to the ledger itself](https://medium.com/dfinity/the-dfinity-blockchain-nervous-system-a5dd1783288e). In other words, if something happens that tokenholders do not like (ex: a hack, a marketplace selling drugs), they can **roll back or edit the ledger in addition to the rules of governance themselves**. [DFINITY](https://dfinity.org/), an in-development blockchain, is taking this approach. Proponents of this system point to events like hard fork caused by The DAO hack and the recent [$150m Parity multi-sig bug](https://paritytech.io/blog/security-alert.html) and suggest such events would be much smoother if everyone could just vote to undo them. On the flip side, this system allows direct censorship and peoples’ tokens to be forcibly taken. As we saw with Ethereum’s hard fork to revert The DAO hack, this is possible with existing blockchains, but requires higher friction through off-chain coordination and hard forking instead of on-chain coordination with no forking.
 
+ 更进一步，系统允许像 Tezos 一样对系统规则进行链上投票，并[对账本本身进行直接的，追溯性的改变](https://medium.com/dfinity/the-dfinity-blockchain-nervous-system-a5dd1783288e))。换句话说，如果发生代币持有者不喜欢发生的事情（例如：黑客，卖药的市场），**除了本身的治理规则之外，他们还可以回滚或编辑帐本**。
+ 正在开发的区块链 [DFINITY](https://dfinity.org/) 正在采用这种方案。系统的支持者认为，对于处理类似 the DAO 黑客攻击引起的硬分叉和最近 [冻结150亿美元的 Parity 多重签名错误问题](https://paritytech.io/blog/security-alert.html)，如果毎个人都可以投票撤消，会让事情的解决变得更为顺畅。另一方面，这个系统允许直接审查且代币可以被强制取回。正如我们在以太坊上通过硬分叉来恢复the DAO 攻击一样，这在现有的区块链中是可能的，但是需要通过高难度的链外协调和硬叉来实现。这种方案系统就可以通过链上协调，而且不用分叉。
+
  DFINITY is maximally flexible. Depending on what parts of the protocol Tezos allows to be changed, it is possible protocol changes effectively let you re-write the ledger as in DFINITY. As a result, it’s likely these systems will have different voting thresholds for different changes, perhaps requiring a supermajority for some things and a simple majority for others.
 
- 一步将是一个系统，它允许在链票系统等Tezos规则和 分类账本身直接，追溯变化。换句话说，如果令牌持有者不喜欢（例如：黑客，卖药的市场）发生的事情，除了治理规则之外，他们可以回滚或编辑分类帐。正在开发区块链的DFINITY正在采用这种方法。这个系统的支持者指出由于DAO hack和最近的1.5亿美元奇偶多sig错误并建议如果每个人都可以投票撤销这些事件，那么这样的事件将会更顺畅。另一方面，这个系统允许直接审查和人民币代币被强制采取。正如我们在以太坊硬岔路口看到的那样，恢复了DAO攻击，这在现有的区块链中是可能的，但是需要通过链外协调和硬叉来实现更高的摩擦，而不是分叉上的协调。
-
- DFINITY是最灵活的。根据Tezos允许更改协议的哪些部分，有可能通过协议更改有效地让您重写DFINITY中的分类帐。因此，对于不同的变化，这些系统可能会有不同的投票门槛，可能需要绝对多数的某些事情，而多数人则需要简单的多数。
+ DFINITY 是最灵活的。根据 Tezos 允许更改协议的部分，有可能通过协议更改有效地让您重写 DFINITY 中的帐簿。因此，对于不同的变化，这些系统可能会有不同的投票门槛，对某些事情可能需要绝对多数人同意，而其它则仅需要简单的多数。
 
 ### The Double-Edged Sword of On-Chain Governance | 链式治理的双刃剑
 
@@ -338,12 +339,11 @@ Because of the dramatically reduced friction for exit, the need for effective vo
 
 Like organisms, the ability of a blockchain to succeed over time is based on its ability to evolve. This evolution will bring about many decisions on direction, and it is the governance around those decisions which most strongly determine the outcome of the system. **If programming in the system is important, the [metaprogramming](https://en.wikipedia.org/wiki/Metaprogramming) of the system itself is most important**.
 
+像有机体一样，区块链随着时间的推移成功的基础是其进化能力。这种演变会带来很多方向上的决定，而围绕这些决定的治理则是最强烈地决定了系统结果的。如果在系统中编程是重要的，系统本身的元编程是最重要的。
 
 **I believe governance should be the primary focus of investors in the space**. The fundamentals of cryptoeconomics and overarching governance schemas of these networks are critical to survival, under-appreciated, and poorly understood. Investors can add significant value through the luxury of being able to observe and learn from multiple projects at one time. They should be active in the governance of the tokens they participate in and transparent with a community if they feel the design of the system can be improved.
 
 **We are birthing into existence systems which transcend us**. In the same way democracy and capitalism as systems determine so much of the emergent behavior around us, blockchains will do the same with even greater reach. These systems are organisms which take on [lives of their own](http://slatestarcodex.com/2014/07/30/meditations-on-moloch/) and are more concerned with [perpetuating themselves](https://en.wikipedia.org/wiki/Instrumental_convergence) than the individuals which comprise them. As technology stretches these systems to their limits, the implications become more pronounced. So we’d be wise to carefully consider the structure of these systems while we can. Like any new powerful technology, **blockchains are a tool that can go in many different directions. Used well, we can create a world with greater prosperity and freedom. Used poorly, we can create systems which lead us to places we [didn’t intend to go](https://www.youtube.com/watch?v=ST86JM1RPl0)**.
-
-像有机体一样，区块链随着时间的推移成功的基础是其进化能力。这种演变会带来很多方向上的决定，而围绕这些决定的治理则是最强烈地决定了系统结果的。如果在系统中编程是重要的，系统本身的元编程是最重要的。
 
 我相信治理应该成为投资者在这个领域的首要关注点。这些网络的密码经济学和总体治理模式的基础对于生存，低估和了解不足是至关重要的。投资者可以通过能够一次观察和学习多个项目的奢侈品来增加显着的价值。 如果他们觉得系统的设计可以改进，他们应该积极参与他们参与的令牌的治理，并且对社区是透明的。
 
@@ -351,7 +351,8 @@ Like organisms, the ability of a blockchain to succeed over time is based on its
 
 Thanks to Vitalik Buterin, Buck Perley, Vlad Zamfir, Luke Duncan, Brian Armstrong, Ralph Merkle, Arthur Brietman, Julia Galef, Dominic Williams, Luis Iván Cuende, Matt Huang, Demian Brenier, Andy Coravos, Chris Burniske, Jim Posen, Balaji Srinivasan, Scott Nolan, Elad Gil, Chris Dixon, Maksim Stepanenko, Albert Wenger, Simon de la Rouviere, Sophia Cui, Lucas Ryan, Jay Graber, and Jeromy Johnson for conversations and ideas which contributed to this post.
 
-由于维塔利克·巴特林，巴克珀利，弗拉德·萨姆菲尔，卢克·邓肯，布赖恩·阿姆斯特朗，拉尔夫·梅尔克尔，阿瑟·布赖特曼，朱莉娅·加莱夫， 多米尼克·威廉斯，路易斯·伊万Cuende，马特·哈，德米安·布伦尔， 安迪·科沃斯，克里斯·伯尼斯克，吉姆·波森，巴拉士·斯里尼瓦萨恩，Scott Nolan，Elad Gil，Chris Dixon，Maksim Stepanenko，Albert Wenger，Simon de la Rouviere， Sophia Cui， Lucas Ryan，Jay Graber和Jeromy Johnson为这篇文章做出了贡献。
+感谢 Vitalik Buterin, Buck Perley, Vlad Zamfir, Luke Duncan, Brian Armstrong, Ralph Merkle, Arthur Brietman, Julia Galef, Dominic Williams, Luis Iván Cuende, Matt Huang, Demian Brenier, Andy Coravos, Chris Burniske, Jim Posen, Balaji Srinivasan, Scott Nolan, Elad Gil, Chris Dixon, Maksim Stepanenko, Albert Wenger, Simon de la Rouviere, Sophia Cui, Lucas Ryan,
+Jay Graber 和 Jeromy Johnson 为这篇文章做出的贡献。
 
 ----------------------------------------------------
 
