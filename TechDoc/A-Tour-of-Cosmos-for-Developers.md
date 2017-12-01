@@ -180,7 +180,7 @@ Learn more [here](https://github.com/tendermint/ethermint).
 
 [在此](https://github.com/tendermint/ethermint)了解更多。
 
-## Build with Lotion | 通过Lotion构建
+### Build with Lotion | 通过Lotion构建
 
 Lotion is a JavaScript library for Cosmos applications which aims to make writing new blockchains fast, fun, and easy for beginners. Like the Cosmos SDK, it builds on top of Tendermint using the ABCI protocol.
 
