@@ -146,7 +146,7 @@ Cosmos SDK 是一个 [ABCI 应用程序](https://github.com/tendermint/abci)，�
 	
 **Good for:** Public proof of stake blockchains
 
-**适用于:**公有的权益证明区块链
+**适用于:** 公有的权益证明区块链
 
 Learn more [here](http://cosmos-sdk.readthedocs.io/en/latest/)
 
