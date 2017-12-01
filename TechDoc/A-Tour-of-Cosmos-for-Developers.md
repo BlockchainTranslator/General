@@ -22,7 +22,7 @@ Cosmos 的存在就是为了解决这些问题。 它配备了基于 [Tendermint
 
 The good news is: all these applications are interoperable and can exchange value with each other. Together, they form the Cosmos ecosystem — an internet of blockchains.
 
-好消息是：所有这些应用程序都具有互操作性，可以相互交换价值。 它们共同构成了 Cosmos 生态系统 - 区块链的互联网。
+好消息是：所有这些应用程序都具有互操作性，可以相互交换价值。 它们共同构成了 Cosmos 生态系统 - 一个区块链的互联网。
 
 ## Understanding Cosmos
 ## 了解 Cosmos 
@@ -32,6 +32,7 @@ There are two types of blockchains in the Cosmos ecosystem: Hubs and Zones. Zone
 Cosmos 生态系统中有两种类型的区块链：枢纽和分区。 分区是建立在 Tendermint 之上的主权区块链（公有或私有）。 他们可以通过枢纽进行交易来交换价值，枢纽在此作为协调者以限制管理费用。 枢纽可以帮助隔离分区发生的故障，从而保持各个分区中各类代币总量不变。 如果某个分区要将代币发送到生态系统中的任何其他分区，则需要与共享枢纽的单一连接。 这种连接是通过[区块链间通信（IBC）](https://blog.cosmos.network/developer-deep-dive-cosmos-ibc-5855aaf183fe)协议实现的，该协议针对具有最终性的链进行优化，特别是基于 Tendermint 的链。
 
 Tendermint and IBC are the bread and butter of the Cosmos ecosystem. Let’s look into the detail of these two components.
+
 Tendermint 和 IBC 是 Cosmos 生态系统的面包与黄油。 让我们来看看这两者的细节。
 
 ### Tendermint
@@ -66,9 +67,10 @@ Tendermint 提供了下列好处：
   
 - **Security.** Tendermint consensus is not only fault tolerant, it’s optimally Byzantine fault-tolerant, with accountability. If the blockchain forks, there is a way to determine liability. We had Tendermint Core audited through Jepsen.io, a distributed systems security analysis tool, and the results verify that Tendermint BFT does not violate its stated guarantees: https://jepsen.io/analyses/tendermint-0-10-2.
   
-- **安全性。** Tendermint 共识不仅容错，而且是问责制的最优拜占庭容错。 如果区块链分叉了，问责制可让我们明确责任。 我们通过分布式系统安全分析工具 Jepsen.io 对 Tendermint Core 进行审计，结果证实 Tendermint BFT 未违反其声明的保证：https：//jepsen.io/analyses/tendermint-0-10-2。
+- **安全性。** Tendermint 共识不仅容错，而且是问责制的最优拜占庭容错。 如果区块链分叉了，问责制可让我们明确责任。 我们通过分布式系统安全分析工具 Jepsen.io 对 Tendermint Core 进行审计，结果证实 Tendermint BFT 未违反其声明的保证：https://jepsen.io/analyses/tendermint-0-10-2。
 	
 You can learn more about Tendermint [here](https://tendermint.com/).
+
 你可[在此](https://tendermint.com/)了解更多关于 Tendermint 的信息。
 
 ### IBC | 区块链间通信
@@ -90,7 +92,7 @@ You can learn more about IBC [here](https://github.com/cosmos/ibc/blob/master/Co
 你可[在此](https://github.com/cosmos/ibc/blob/master/CosmosIBCSpecification.pdf)了解更多关于 IBC 的信息。
 
 ## Developing on Top of Cosmos
-## 在 Cosmos 上的开发
+## 在 Cosmos 上开发
 
 Once you have analyzed the benefits of Cosmos and want to move ahead, there are various possibilities for how to develop your application. Different options have different benefits that allow you to make the optimal choice based on the importance of factors including speed of development, performance or your application’s need for sovereignty.
 
@@ -116,7 +118,7 @@ Once you have analyzed the benefits of Cosmos and want to move ahead, there are 
 	
 **Good for:** Applications that require their own chain and maximum flexibility, projects with high resources/network effect, private chains.
 
-**适用于：**需要自己的链条和最大灵活性的应用程序，具有大量资源/网络效应的项目，以及私有链。
+**适用于：** 需要自己的链条和最大灵活性的应用程序，具有大量资源/网络效应的项目，以及私有链。
 
 Learn more [here](https://tendermint.readthedocs.io/en/master/app-development.html)
 
@@ -143,9 +145,11 @@ Cosmos SDK 是一个 [ABCI 应用程序](https://github.com/tendermint/abci)，�
 - 语言限制（golang）
 	
 **Good for:** Public proof of stake blockchains
+
 **适用于:**公有的权益证明区块链
 
 Learn more [here](http://cosmos-sdk.readthedocs.io/en/latest/)
+
 [在此](http://cosmos-sdk.readthedocs.io/en/latest/)了解更多
 
 ### Build on top of an existing blockchain like the Ethermint zone | 建立在如 Ethermint 分区的现有区块链之上
@@ -173,6 +177,7 @@ Ethermint 是建立在 Tendermint 之上的以太坊的高速项目。 一旦 Et
 **适用于:** 不需要自己的链的，中小型公有去中心化应用程序
 
 Learn more [here](https://github.com/tendermint/ethermint).
+
 [在此](https://github.com/tendermint/ethermint)了解更多。
 
 ## Build with Lotion | 通过Lotion构建
@@ -212,6 +217,7 @@ Writing a Lotion application is often as simple as writing a single function tha
 **适用于：** 实验性区块链应用程序，原型，JavaScript 的开发人员
 
 Learn more [here](https://lotionjs.com/)
+
 [在此](https://lotionjs.com/)了解更多
 
 ## Deploying a decentralized application on Cosmos
