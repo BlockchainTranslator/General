@@ -125,11 +125,11 @@ Bitcoin as branches of US Government. Image from Buck Perley.
 
 There are risks to the system caused by asymmetries in incentives. Miners push for changes which increase future cumulative transaction fees, while developers don’t care as long as the value of Bitcoin keeps going up. Developers’ direct economic incentives are weak. New developers have little incentive to work on Bitcoin because there is no direct way to earn money by doing it. As a result, they often work on new projects — either by creating Ethereum tokens, entirely new chains, or companies. No new blood entering increases the perception and reality of early developers as the most knowledgable and experienced. This [results](https://medium.com/@BuckPerley/crypto-governance-f1318affbbe0) in **a self-reinforcing cycle of more power becoming concentrated in a small group of early core developers, slower technological advancement, and conservatism**. Developers are at risk of being bribed since they have a lot of power but weak economic incentives. Some [early holders](http://chaincode.com/) and [universities](https://bitcoinmagazine.com/articles/gavin-andresen-core-developers-join-mits-digital-currency-initiative-1429743725/) have sponsored developers, but with limited impact thus far.
 
-由于激励措施的不对称，系统存在风险。矿工们推动变革以增加未来累计交易费用，但只要比特币的价值持续上涨，开发人员就不在乎。对开发人员的直接经济刺激是微弱的。新的开发人员没有什么动力去为比特币工作，因为没有直接的方法来赚钱。因此，他们经常从事其它新项目的工作 - 如创建以太坊代币，新的区块链开发或进入公司工作。没有新的血液进入以提高早期开发人员的观念和认知，因为他们是最有知识和经验的。这将导致周期性自我强化的[结果](https://medium.com/@BuckPerley/crypto-governance-f1318affbbe0)：**越来越多的权力集中在一小群早期的核心开发者身上，使得系统技术进步缓慢，并趋于保守**。由于开发人员拥有巨大权力，但经济激励力度不足，所以开发人员有面临着被贿赂的风险。一些比特币的[早期持有者](http://chaincode.com/)和[大学](https://bitcoinmagazine.com/articles/gavin-andresen-core-developers-join-mits-digital-currency-initiative-1429743725/)赞助了开发人员，但迄今为止影响有限。
+由于激励措施的不对称系统存在风险。矿工们试图推动变革以增加未来累计交易费用，但只要比特币的价值持续上涨，开发人员并不在乎此。对开发人员的直接经济刺激是微弱的。新的开发人员没有什么动力去为比特币工作，因为没有直接的方法来赚钱。因此，他们经常从事其它新项目的工作 - 如创建以太坊代币，新的区块链开发或进入公司工作。没有新的血液进入以提高早期开发人员的观念和认知，因为他们是最有知识和经验的。这将导致周期性自我强化的[结果](https://medium.com/@BuckPerley/crypto-governance-f1318affbbe0)：**越来越多的权力集中在一小群早期的核心开发者身上，使得系统技术进步缓慢，并趋于保守**。由于开发人员拥有巨大权力，但经济激励力度不足，所以开发人员有面临着被贿赂的风险。一些比特币的[早期持有者](http://chaincode.com/)和[大学](https://bitcoinmagazine.com/articles/gavin-andresen-core-developers-join-mits-digital-currency-initiative-1429743725/)赞助了开发人员，但迄今为止影响有限。
 
 Similarly, asymmetries in ability to coordinate give miners disproportionate power. Communication amongst miners is easier because they are a small and concentrated group. Since mining is a business with economies of scale, we’d expect **a continued trend towards [natural monopoly](https://en.wikipedia.org/wiki/Natural_monopoly) in mining** and even greater coordination advantage. As a reference point, [95% of mining power was able to sit on one small stage](https://pbs.twimg.com/media/CVhkEhtUAAAl0LH.jpg) 2 years ago. Miners can also gain disproportionate power by bribing developers or hiring their own. Finally, the checks and balances system of Bitcoin relies on some level of transparency: for example, users becoming aware of a single miner gaining more than 51% of the hashing power or developers having some level of independence. And a miner who was able to gain >51% of hashing power would be incented to remain anonymous. Rather than sparking a specific catastrophic event, this would cause an unknowing descent into a centralized world of control through censorship and asset freezing.
 
-同样，不平衡的协调能力给矿工带来不相称的权力。矿工之间更容易沟通，因为他们是一个小而集中的群体。
+同样，不平衡的协调能力给了矿工不相称的权力。矿工之间更容易沟通，因为他们是一个小而集中的群体。
 由于采矿业是一个规模经济的行业，**我们预计采矿业将继续趋向[自然垄断(指因产业发展的自然需要而形成的垄断状态)](https://en.wikipedia.org/wiki/Natural_monopoly)**，将具有更大的协调优势。
 作为参考点，2年前，具有[95％的采矿权的矿工代表们能够出现在一个小的舞台上](https://pbs.twimg.com/media/CVhkEhtUAAAl0LH.jpg)。矿工也可以通过贿赂开发人员或雇用更多的矿工的来获得更大的权力。最后，比特币的制衡机制依赖于某种程度的透明度：例如，人们意识到一个单一的获得超过51％算力的矿工和开发者人员一样具有某种程度的独立性。而一个能够获得大于51％算力的矿工可以保持匿名。这虽然不会引发特定的灾难性事件，但是通过审查和资产冻结却可以不知情的将它导向一个中心化控制的世界。
 
@@ -141,7 +141,7 @@ Dynamics will change as Ethereum [moves to proof of stake](https://blog.ethereum
 
 以太坊的系统性激励机制和协调机制目前与比特币相似。
 
-以太坊正将共识机制[转移到权益证明](https://blog.ethereum.org/2015/08/01/introducing-casper-friendly-ghost/)，这将会引发动力改变。任何拥有足够数量以太的持有人，可以通过运行虚拟矿工（“验证人”）来取代矿工的权力。尤其是像[1 协议](https://1protocol.com/)这样的解决方案，能让即使是很少的以太持有者也可以参与进来，**从而使矿工和用户的区别变小，并有可能降低在比特币中存在的最大的集中化风险**。
+以太坊正将共识机制[转移到权益证明](https://blog.ethereum.org/2015/08/01/introducing-casper-friendly-ghost/)，这将会引发激励机制的改变。任何拥有足够数量以太的持有人，可以通过运行虚拟矿工（“验证人”）来取获得矿工的权力。尤其是像[1 协议](https://1protocol.com/)这样的解决方案，让即使是很少的以太持有者也可以参与，**从而使矿工和用户的区别变小，并有可能降低在比特币中存在的最大的集中化风险**。
 
 
 The incentives of core developers remain the same. Coordination around challenging issues has been swifter and smoother than in Bitcoin to date. This is due to 1) a culture more open to change because [Ethereum was created as a reaction to what could not be done in a rigid Bitcoin environment](https://coinjournal.net/vitalik-buterin-early-versions-ethereum-supposed-launch-bitcoin/) and 2) direction from Vitalik who is widely trusted in the community.
@@ -150,7 +150,7 @@ Current weaknesses in the model include 1) over reliance on its creator (Vitalik
 
 核心开发者的激励机制保持不变。但是对具有挑战性的问题进行的协调，将比比特币更快，更顺畅。这是由于1）一种更加开放的变革文化，因为[以太坊是针对僵化的比特币环境中无法做到的事情而创建的](https://coinjournal.net/vitalik-buterin-early-versions-ethereum-supposed-launch-bitcoin/)，2）它由来自广受社区信赖的 Vitalik 指导。
 
-该模式目前的弱点包括：1）过度依赖其创建者（Vitalik），2）像比特币，对核心开发者的激励方式有限，迫使更多的项目创建代币来支持自己。Vitalik [正在有意识地退后一步](https://coinjournal.net/vitalik-buterin-early-versions-ethereum-supposed-launch-bitcoin/)，这将是一个微妙的过程。
+该模式目前的弱点包括：1）过度依赖其创建者（Vitalik），2）像比特币，对核心开发者的激励方式有限，迫使更多的项目通过创建代币来支持自己。Vitalik [正在有意识地退后一步](https://coinjournal.net/vitalik-buterin-early-versions-ethereum-supposed-launch-bitcoin/)，这将是一个微妙的过程。
 
 ## New Chains Experimenting with On-Chain Governance | 新区块链在链上治理方面的实验
 
@@ -166,9 +166,9 @@ New blockchains are making it much easier to coordinate by enabling on-chain gov
 
  This also enables users to directly coordinate on-chain, dramatically increasing their power and reducing the power of miners compared to a system like Bitcoin or Ethereum.
 
- 在[Tezos](https://www.tezos.com/)中，[任何人都可以以代码更新的形式提交对治理结构的更改](https://www.quora.com/How-is-Tezos-different-from-Ethereum?share=d5c26090&srid=OAAh)。开启链上投票，如果通过，则更新进入测试网络。在测试网络上经过一段时间之后，再通过投票确认，更改就可以在主网络上进行。他们把这个概念为“自我修正账簿”。
+ 在[Tezos](https://www.tezos.com/)中，[任何人都可以以代码更新的形式提交对治理结构的更改](https://www.quora.com/How-is-Tezos-different-from-Ethereum?share=d5c26090&srid=OAAh)。开启链上投票，如果通过，则更新进入测试网络。在测试网络上经过一段时间之后，再次通过投票确认，更改就可以在主网络上进行。他们把这个概念为“自我修正账簿”。
 
- 这样的系统是有趣的，**因为它将权力转移给用户，而不是更显集中化的开发者和矿工**。在开发者方面，任何人都可以提交更改，最重要的是，每个人都有经济动机去这样做。社区通过新铸造的代币 - [通货膨胀资金](https://medium.com/@FEhrsam/funding-the-evolution-of-blockchains-87d160988481)来奖励贡献。不同于目前的比特币和以太坊，新的开发者没有什么动力来发展开发协议，因此权力往往集中在现有的开发者中。使得每个人都有相同的收益能力。
+ 这样的系统是有趣的，**因为它将权力转移给用户，而不是给更显集中化的开发者和矿工**。在开发者方面，任何人都可以提交更改，最重要的是，每个人都有经济动机去这样做。社区通过新铸造的代币 - 使用[通货膨胀资金](https://medium.com/@FEhrsam/funding-the-evolution-of-blockchains-87d160988481)来奖励贡献。不同于目前的比特币和以太坊，新的开发者没有什么动力来进化协议，因此权力往往集中在现有的开发者中。这样的系统使得每个人都具有相同的收益能力。
 
  与比特币或以太坊系统相比，这也使用户能够直接在链上协调，大大增加他们的权力，从而减少了矿工的权力。
 
@@ -179,7 +179,7 @@ New blockchains are making it much easier to coordinate by enabling on-chain gov
  One step further would be a system which allows on-chain votes to the rules of the system like Tezos and [direct, retroactive changes to the ledger itself](https://medium.com/dfinity/the-dfinity-blockchain-nervous-system-a5dd1783288e). In other words, if something happens that tokenholders do not like (ex: a hack, a marketplace selling drugs), they can **roll back or edit the ledger in addition to the rules of governance themselves**. [DFINITY](https://dfinity.org/), an in-development blockchain, is taking this approach. Proponents of this system point to events like hard fork caused by The DAO hack and the recent [$150m Parity multi-sig bug](https://paritytech.io/blog/security-alert.html) and suggest such events would be much smoother if everyone could just vote to undo them. On the flip side, this system allows direct censorship and peoples’ tokens to be forcibly taken. As we saw with Ethereum’s hard fork to revert The DAO hack, this is possible with existing blockchains, but requires higher friction through off-chain coordination and hard forking instead of on-chain coordination with no forking.
 
  更进一步，系统允许像 Tezos 一样对系统规则进行链上投票，并[对账本本身进行直接的，追溯性的改变](https://medium.com/dfinity/the-dfinity-blockchain-nervous-system-a5dd1783288e))。换句话说，如果发生代币持有者不喜欢发生的事情（例如：黑客，卖药的市场），**除了本身的治理规则之外，他们还可以回滚或编辑帐本**。
- 正在开发的区块链 [DFINITY](https://dfinity.org/) 正在采用这种方案。系统的支持者认为，对于处理类似 the DAO 黑客攻击引起的硬分叉和最近 [冻结150亿美元的 Parity 多重签名错误问题](https://paritytech.io/blog/security-alert.html)，如果毎个人都可以投票撤消，会让事情的解决变得更为顺畅。另一方面，这个系统允许直接审查且代币可以被强制取回。正如我们在以太坊上通过硬分叉来恢复the DAO 攻击一样，这在现有的区块链中是可能的，但是需要通过高难度的链外协调和硬叉来实现。这种方案系统就可以通过链上协调，而且不用分叉。
+ 正在开发的区块链 [DFINITY](https://dfinity.org/) 正在采用这种方案。系统的支持者认为，对于处理类似 the DAO 黑客攻击引起的硬分叉和最近 [冻结150亿美元的 Parity 多重签名错误问题](https://paritytech.io/blog/security-alert.html)，如果毎个人都可以通来投票来撤消，会让事情的解决变得更为顺畅。另一方面，这个系统允许直接审查且代币可以被强制取回。正如我们在以太坊上通过硬分叉来恢复the DAO 攻击一样，这在现有的区块链中是可能的，但是需要通过高难度的链外协调和硬叉来实现。采用这种方案的系统就可以通过链上协调，而且不用分叉。
 
  DFINITY is maximally flexible. Depending on what parts of the protocol Tezos allows to be changed, it is possible protocol changes effectively let you re-write the ledger as in DFINITY. As a result, it’s likely these systems will have different voting thresholds for different changes, perhaps requiring a supermajority for some things and a simple majority for others.
 
@@ -193,7 +193,7 @@ New blockchains are making it much easier to coordinate by enabling on-chain gov
 
 For some use cases, tending towards being static may be good. This may be especially true for store of value. **Perhaps lower level protocols should lean toward stasis and conservatism — “measure twice and cut once” — while higher level protocols should be more flexible — “move fast and break things”**. In the words of Calvin Coolidge: [“it is much more important to kill bad bills than to pass good ones”](https://coolidgefoundation.org/blog/kill-bad-bills/). Like established companies, some of the more established protocols may be able to watch what new protocols do and adopt techniques which seem to be working. This seems especially true of Ethereum which has shown a willingness to hard fork and the ability to maintain network value through them. Consequently, I’d expect to see the most innovation in the next few years from Ethereum tokens and entirely new chains.
 
-在某些使用情况下，倾向于固定静态可能更好。这对于存储价值可能尤其如此。**底层协议应倾向于停滞和保守 - “三思而后行” - 在更高层次的协议则应该更灵活 - “快速行动，打破陈规”**。用卡尔文·柯立芝（Calvin Coolidge）的话来说：[“废除一个有问题的法案比通过一条好的律法要重要得多”](https://coolidgefoundation.org/blog/kill-bad-bills/)。像已建立的公司一样，一些更为成熟的协议能够看到新协议的做法，并可以适配采用正在起作用的技术。对于以太坊来说，这似乎更是如此，它表现出了硬分叉的意愿和通过它们来维护网络价值的能力。因此，我期望在接下来的几年里能够看到以太坊代币和新区块链重大创新。
+在某些使用情况下，系统倾向于固定静态可能更好。这对于存储价值可能尤其如此。**底层协议应倾向于停滞和保守 - “三思而后行” - 在更高层次的协议则应该更灵活 - “快速行动，打破陈规”**。用卡尔文·柯立芝（Calvin Coolidge）的话来说：[“废除一个有问题的法案比通过一条好的律法要重要得多”](https://coolidgefoundation.org/blog/kill-bad-bills/)。像已建立的公司一样，一些更为成熟的协议能够借鉴新协议的做法，并可以适配采用正在起作用的技术。对于以太坊来说，似乎更是如此，它表现出了硬分叉的意愿和通过它们来维护网络价值的能力。因此，我期望在接下来的几年里能够看到以太坊代币和新型区块链的重大创新。
 
 It’s probable we haven’t found the best governance systems yet, which means a more general system which allows many different methods to be tried is valuable, if for nothing more than [learning](https://en.wikipedia.org/wiki/Nomic). [A more complex system can simulate less complex ones, but the reverse is generally hard](https://en.m.wikipedia.org/wiki/Automata_theory).
 
@@ -213,28 +213,27 @@ Next we’ll talk about future governance strategies with potential which have y
 
  In [futarchy](https://en.wikipedia.org/wiki/Futarchy), **society defines its values and then prediction markets are used to decide what actions will maximize those values**. Said another way: [“vote on values, bet on beliefs”](http://mason.gmu.edu/~rhanson/futarchy.html). It was [originally proposed](http://mason.gmu.edu/~rhanson/futarchy2000.pdf) in 2000 by [Robin Hanson](http://www.overcomingbias.com/bio), an economics professor at George Mason University.
 
- 在 [futarchy](https://en.wikipedia.org/wiki/Futarchy) 中，**社会定义了它的价值，然后预测市场来决定采用什么样的行动来最大化价值**。或者说：[“投资价值，对赌理念”](http://mason.gmu.edu/~rhanson/futarchy.html))。这句话是乔治梅森大学（George Mason University）的经济学教授[罗宾汉森（Robin Hanson）](http://www.overcomingbias.com/bio)[最初是在2000年提出](http://mason.gmu.edu/~rhanson/futarchy2000.pdf)的。
+ 在 [futarchy](https://en.wikipedia.org/wiki/Futarchy) 中，**社会定义了它的价值，然后通过预测市场来决定采用什么样的行动来最大化价值**。或者说：[“投资价值，对赌理念”](http://mason.gmu.edu/~rhanson/futarchy.html)。这句话是乔治梅森大学（George Mason University）的经济学教授[罗宾汉森（Robin Hanson）](http://www.overcomingbias.com/bio)[最初是在2000年提出](http://mason.gmu.edu/~rhanson/futarchy2000.pdf)的。
 
  [Ralph Merkle](https://en.wikipedia.org/wiki/Ralph_Merkle) has a particularly eye-opening proposal for a blockchain implementation of futarchy in his paper called [DAOs, Democracy, and Governance](http://merkle.com/papers/DAOdemocracyDraft.pdf). In his proposal, every citizen is polled once a year and asked the question “how satisfied were you this year on a scale of 0 to 1?”. Averaged together, these give an overall societal welfare score. A prediction market on this welfare score is developed for every year for the next 100 years, where traders can speculate on the welfare score for any year into the future. An overall future welfare score is then created by averaging the scores for the next 100 years, weighting earlier years more than future years. When a new bill is introduced, there is a 1 week period where markets speculate on whether the overall welfare score will go up or down if the bill is passed. If the bill is passed, the traders who bet on the overall welfare going up now own the overall welfare contracts they bet on. They will make money if they are right and lose money if they are wrong.
 
- [拉尔夫·默克尔（Ralph Merkle）](https://en.wikipedia.org/wiki/Ralph_Merkle)在他的论文 [DAOs，民主和治理](http://merkle.com/papers/DAOdemocracyDraft.pdf)中
- 对 futarchy 区块链的实现提出了一个特别另人大开眼界的建议。在他的提议中，每个公民每年都要接受一次对当年满意程度的调查，并让他们从0到1之间打分。把这些分数平均，就得出了一个比较全面的社会福利分数。
-在未来的100年中每一年都会有一个关于这个福利评分的预测市场。交易员可以在这里对未来任何一年的福利评分进行推测。然后通过对未来100年的平均分数来创建未来整体福利分数，当然以前年份的权重比来来年份要高。当一个新的法案出台时，市场有一个星期的时间，可以猜测如果法案通过，整体的福利得分会上升还是下降。如果议案获得通过，那些押注整体福利上升的交易员就拥有了他们所押注的全部福利合同。如果他们是对的，他们会赚钱，如果他们错了就赔钱。
+ [拉尔夫·默克尔（Ralph Merkle）](https://en.wikipedia.org/wiki/Ralph_Merkle)在他的论文 《[去中心化的自治组织，民主和治理](http://merkle.com/papers/DAOdemocracyDraft.pdf)》中
+ 对 futarchy 区块链的实现提出了一个特别另人大开眼界的建议。在他的提议中，每个公民每年都要接受一次对当年满意程度的调查，并让他们在0到1之间打分。然后把这些分数平均，就得出了一个比较全面的社会福利分数。在未来的100年中每一年都会有一个关于这个福利评分的预测市场，交易员可以在这里对未来任何一年的福利评分进行推测。然后通过对未来100年的平均分数来创建未来整体福利分数，当然以前年份的权重比来来年份要高。当一个新的法案出台时，市场有一个星期的时间，可以猜测如果法案通过，整体的福利得分会上升还是下降。如果议案获得通过，那些押注整体福利上升的交易员就拥有了他们所押注的全部合同福利。如果他们是对的，他们会赚钱，如果他们错了就赔钱。
 
  ![Example of futarchy for deciding whether or not to fire a CEO where the value to maximize is revenue. Image from ConsenSys.](https://cdn-images-1.medium.com/max/600/1*ckQP_t0rBlgVJMIvK_jmtg.png)
  Example of futarchy for deciding whether or not to fire a CEO where the value to maximize is revenue. Image from ConsenSys.futarchy 决定是否解雇一位首席执行官的例子,收益来自于其价值的最大化。来自ConsenSys的图片。
 
  This system could be incredibly powerful for a few reasons. First, voting becomes extremely simple. People don’t need to vote, they are just asked about one thing once a year: their satisfaction. Second, people do not need to develop extensive knowledge of candidates or bills. This is important because candidates are often persuasive and bills are complex to the point where it is hard for a domain-specific researcher to understand their implications, let alone an elected official or an average citizen. Instead, we rely on the wisdom of the markets. Like trading in stocks, only people who are extremely well informed on a topic will bet on it — otherwise they are likely to lose money to others who are better informed. Finally, it is a system where **market incentives are aligned with societal values**.
 
- 由于一些原因，这个系统可能非常强大。首先，投票变得非常简单。人们不需要投票，他们每年只会被问到一件事：他们的满意度。其次，人们不需要发展广泛的对候选人或者议案方面的知识。这一点很重要，因为候选人往往具有说服力，而且议案很复杂，以至于某个特定领域的研究人员很难理解他们的含义，更不用说当选官员或普通公民。相反，我们依靠市场的智慧。就像股票交易一样，只有那些对某个主题非常了解的人才会下注，否则他们很可能会赔钱给那些更了解情况的人。最后，这是一个**市场激励与社会价值观一致的体系**。
+ 由于一些原因，这个系统可能非常强大。首先，投票变得非常简单。人们不需要投票，他们每年只会被问到一件事：他们的满意度。其次，人们不需要学习掌握对候选人或者议案方面的广泛的知识。这一点很重要，因为候选人往往具有说服力，而且议案很复杂，以至于即使某个特定领域的研究人员也很难理解他们的含义，更不用说当选官员或普通公民。相反，我们依靠市场的智慧。就像股票交易一样，只有那些对某个主题非常了解的人才会下注，否则他们很可能会赔钱给那些更了解情况的人。最后，这是一个**市场激励与社会价值观一致的体系**。
 
  In futarchy the devil is in the implementation details. [Hard problems include](http://www.overcomingbias.com/2016/07/merkles-futarchy.html) the governance metaproblem of how to decide on the societal value(s) to maximize in the first place and making sure people aren’t incented to [tactically vote](https://en.wikipedia.org/wiki/Gibbard–Satterthwaite_theorem) an extreme satisfaction score of 0 or 1 to swing policy.
 
- 在 futarchy 中实施细节是魔鬼。[困难的问题包括](http://www.overcomingbias.com/2016/07/merkles-futarchy.html)，如何决定最大化的社会价值的治理元问题，以及确保人们不会采用[策略性投票](https://zh.wikipedia.org/wiki/%E7%AD%96%E7%95%A5%E6%80%A7%E6%8A%95%E7%A5%A8)([详见](https://en.wikipedia.org/wiki/Gibbard–Satterthwaite_theorem))策略到极端满意度 0 或 1 分。
+ 在 futarchy 中实施细节是魔鬼。[困难的问题包括](http://www.overcomingbias.com/2016/07/merkles-futarchy.html)，如何决定最大化的社会价值的治理元问题，以及确保人们不会采用[策略性投票](https://zh.wikipedia.org/wiki/%E7%AD%96%E7%95%A5%E6%80%A7%E6%8A%95%E7%A5%A8)([详见](https://en.wikipedia.org/wiki/Gibbard–Satterthwaite_theorem))策略，投出极端的 0 或 1 分的满意度。
 
  **Setting goal functions is both important and tricky, as there are always unforeseen consequences**. For example, in the case of capitalism, this can manifest in rising wealth inequality and environmental externalities. In the case of artificial intelligence, this can manifest in [wireheading](https://wiki.lesswrong.com/wiki/Wireheading) or rapidly maximizing something at the unexpected expense of other things, commonly illustrated through the example of a [paperclip maximizer](https://wiki.lesswrong.com/wiki/Paperclip_maximizer) which destroys everything to build as many paperclips as possible. These are serious concerns, as I believe [the most powerful AIs will be bootstrapped into existence on the blockchain](https://twitter.com/FEhrsam/status/912388216396824576) by using tokenized incentives for everyone to feed them the best data and algorithms. If this is true, blockchain governance is the largest determinant of our future trajectory as a species. More on this in a future post.
 
- **设定目标函数既重要又棘手，因为总会有无法预料的后果**。例如，就资本主义而言，这可以表现在不断上升的财富不均和环境的外部性。在人工智能的情况下，表现为如[通过直接刺激大脑使快感最大化](https://wiki.lesswrong.com/wiki/Wireheading)，或极快速的在意外的消耗掉某个事物后使另外的事物最大化。通常我们可以通过[回形针制造机](https://wiki.lesswrong.com/wiki/Paperclip_maximizer)的例子来说明，这个回形针制造机破坏消耗所有东西以尽可能多地制造出回形针。（译者注：回形针制造机指的是一种强人工智能，一个设计称职且无恶意，但最终毁灭人类的思想实验。实验表明，具有明显无害价值的人工智能可能构成一种存在的威胁）这些都是严重的问题，因为我相信[最强大的人工智会在区块链上自动启动并生存下来](https://twitter.com/FEhrsam/status/912388216396824576)，通过使用标记化的激励措施为每个人提供最好的数据和算法。如果这是真的，区块链治理是我们这个物种未来发展轨迹的最大决定因素。我将在以后发表更多有关于这方面的文章。
+ **设定目标函数既重要又棘手，因为总会有无法预料的后果**。例如，就资本主义而言，这可以表现在不断上升的财富不均和环境的外部性。在人工智能的情况下，表现为如[通过直接刺激大脑使快感最大化](https://wiki.lesswrong.com/wiki/Wireheading)，或极快速的在意外的消耗掉某个事物后使另外的事物最大化。通常我们可以通过[回形针制造机](https://wiki.lesswrong.com/wiki/Paperclip_maximizer)的例子来说明，这个回形针制造机破坏消耗所有东西以尽可能多地制造出回形针。（译者注：回形针制造机指的是一种强人工智能，一个设计称职且无恶意，但最终毁灭人类的思想实验。实验表明，具有明显无害价值的人工智能可能构成一种存在的威胁）这些都是严重的问题，因为我相信，通过为每个人使用代币化的激励措施，并且给它们优质的数据和算法，[最强大的人工智会在区块链上自动运行并生存下来](https://twitter.com/FEhrsam/status/912388216396824576)。如果这是真的，区块链治理是我们这个物种未来发展轨迹的最大决定因素。我将在以后发表更多有关于这方面的文章。
 
 * Liquid Democracy | 委任式民主
 
@@ -244,7 +243,7 @@ Next we’ll talk about future governance strategies with potential which have y
 
  [委任式民主](https://en.wikipedia.org/wiki/Delegative_democracy)是一种人人有能力投票的制度，可以将选票委托给别人，或随时取消委托。在美国，我们没有委任式民主，因为我们不能对法案进行直接投票（而是由我们的代表帮我们做了这件事），一旦我们选出代表，他们通常在任期4年。
 
- 因为它的简单性，看起来它似乎将被用于权益证明的区块链。
+ 因为它的简单性，看起来它似乎将被用于权益证明的区块链系统。
 
 * Quadratic Voting | 二次方投票
 
@@ -252,23 +251,23 @@ Next we’ll talk about future governance strategies with potential which have y
 
  [二次方投票](http://ericposner.com/quadratic-voting/)是一个购买投票的系统，每增加一票，票价就是前一票的两倍。换句话说，用钱买票，但收益递减。[维塔利克在这方面提出了](https://www.reddit.com/r/ethereum/comments/4rtpmm/on_coinlock_voting_futarchy_and_optimal/)一个变种，他称之为“二次硬币锁定投票”方法，其中N个硬币让你进行 N * k 次投票，并锁定这些代币k²时间。这是一个很好的修改，因为随着时间的推移它调整了激励：越多的投票权需要决定的时间越长。在一个进入或离开社区几乎没有代价的代币化世界，这一点尤为重要。
 
-* Voting with People or Money? | 用人还是用钱来投票？
+* Voting with People or Money? | 用人还是用币来投票？
 
-A major problem with one person = one vote systems on the blockchain is their susceptibility to sybil attacks. Near zero cost to create infinite accounts means it’s easy to generate infinite votes. This is why the default model in proof of stake and Ethereum-based token governance is one token = one vote.
+ A major problem with one person = one vote systems on the blockchain is their susceptibility to sybil attacks. Near zero cost to create infinite accounts means it’s easy to generate infinite votes. This is why the default model in proof of stake and Ethereum-based token governance is one token = one vote.
 
-一个人的最主要问题是： 一个在区块链上的投票系统对 sybil 攻击的敏感性。创建帐户接乎零成本意味着可以产生无穷的投票。这就是为什么权益证明和基于以太代币的治理缺省模式是一代币一票。
+ 一人一票的最主要问题是： 系统如何应对对 sybil 攻击。创建帐户接乎零成本意味着可以产生无穷的投票。这就是为什么权益证明和基于以太代币的治理缺省模式是一币一票。
 
-Blockchain-based identity systems like [Civic](https://www.civic.com/) can help enable one person = one vote systems. However, anonymity is likely to be preserved in most cryptocurrencies. Identity gives each coin its own unique history, which can be subjectively judged to be more or less clean than that of another coin, causing [fungibility](https://en.wikipedia.org/wiki/Fungibility) to break down. One potential approach is a balance between identity and money: a fully verified identity gets 100% of the voting power of their money, a partially verified identity gets 50%, and an entirely anonymous identity gets 25%.
+ Blockchain-based identity systems like [Civic](https://www.civic.com/) can help enable one person = one vote systems. However, anonymity is likely to be preserved in most cryptocurrencies. Identity gives each coin its own unique history, which can be subjectively judged to be more or less clean than that of another coin, causing [fungibility](https://en.wikipedia.org/wiki/Fungibility) to break down. One potential approach is a balance between identity and money: a fully verified identity gets 100% of the voting power of their money, a partially verified identity gets 50%, and an entirely anonymous identity gets 25%.
 
-像[Civic](https://www.civic.com/)这样基于区块链的身份识别系统可以帮助实现一人一次投票。但是，大多数加密货币可能会保留匿名性。身份赋予每个硬币自己独特的历史，这样可以主观地判断一个代币比其它代币更干净或更不干净，从而导致[可替代性](https://en.wikipedia.org/wiki/Fungibility)的崩溃。一种可能的方法是身份和金钱之间的平衡：完全验证的身份获得其金钱投票权的100％，部分验证身份获得50％，完全匿名身份获得25％。
+ 像[Civic](https://www.civic.com/)这样基于区块链的身份识别系统可以帮助实现一人一票。但是，大多数加密货币可能会保留匿名性。身份会赋予每个代币自己独特的历史，这样可以主观地判断一个代币比其它代币更干净或更不干净，从而导致[可替代性](https://en.wikipedia.org/wiki/Fungibility)的崩溃。一种可能的方法是身份和金钱之间的平衡：完全验证的身份获得其金钱投票权的100％，部分验证身份获得50％，完全匿名身份获得25％。
 
-As mentioned in quadratic voting, other mechanisms which weight community members differently independent of real-world identity are likely to evolve. For example, a new token holder may have diminished voting power until they have been a member of the community for a while, similar to not being able to vote until you are a full citizen of a country.
+ As mentioned in quadratic voting, other mechanisms which weight community members differently independent of real-world identity are likely to evolve. For example, a new token holder may have diminished voting power until they have been a member of the community for a while, similar to not being able to vote until you are a full citizen of a country.
 
-In any case, **today’s world would look a lot different if modern governments ran on voting with money, so this change in defaults is not to be taken lightly**.
+ In any case, **today’s world would look a lot different if modern governments ran on voting with money, so this change in defaults is not to be taken lightly**.
 
-正如在二次方投票中提到的那样，其他可以不同于现实世界的社区成员的机制也可能会发生变化。例如，一个新的代币持有者可能会减少投票权，直到他们成为社区成员一段时间，类似于只有当您是一个国家的正式公民时才能投票。
+ 正如在二次方投票中提到的那样，其他可以不同于现实世界的社区成员的机制也可能会发生变化。例如，一个新的代币持有者可能会减少投票权，直到他们成为社区成员一段时间，类似于只有当您是一个国家的正式公民时才能投票。
 
-无论如何，**如果现代政府用金钱投票，今天的世界将会有很大的不同，所以这种对违约率改变不能掉以轻心的**。
+ 无论如何，**如果现代政府用金钱投票，今天的世界将会有很大的不同，所以这种对违约率改变不能掉以轻心的**。
 
 Finally, **reputation within a token community will be critical**. This is already shown through indirect means, where Vitalik’s suggestions carry a lot of weight in the Ethereum community. In a liquid democracy system reputation manifests in the number of votes delegated to a particular person. Someone with high reputation and no money could have 10 million Ether delegated to them and have tremendous governing power.
 
