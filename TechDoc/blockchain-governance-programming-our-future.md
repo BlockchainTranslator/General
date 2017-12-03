@@ -183,7 +183,7 @@ New blockchains are making it much easier to coordinate by enabling on-chain gov
 
  DFINITY is maximally flexible. Depending on what parts of the protocol Tezos allows to be changed, it is possible protocol changes effectively let you re-write the ledger as in DFINITY. As a result, it’s likely these systems will have different voting thresholds for different changes, perhaps requiring a supermajority for some things and a simple majority for others.
 
- DFINITY 是最灵活的。协议的部分内容如果是 Tezos 允许更改的，就能通过对协议进行有效地更改，来重写 DFINITY 中的帐簿。因此，对于不同的改变要求，这些系统可能会使用不同的投票门槛，对某些事情可能需要绝对多数人同意，而其它则仅需要简单的多数通过即可。
+ DFINITY 是最灵活的。协议的部分内容如果是 Tezos 允许更改的，就能通过对协议进行有效地更改，来重写 DFINITY 中的帐簿。当然，对于不同的改变要求，这些系统可能会使用不同的投票门槛，对某些事情可能需要绝对多数人同意，而其它则仅需要简单的多数通过即可。
 
 ### The Double-Edged Sword of On-Chain Governance | 链上治理的双刃剑
 
@@ -193,7 +193,7 @@ New blockchains are making it much easier to coordinate by enabling on-chain gov
 
 For some use cases, tending towards being static may be good. This may be especially true for store of value. **Perhaps lower level protocols should lean toward stasis and conservatism — “measure twice and cut once” — while higher level protocols should be more flexible — “move fast and break things”**. In the words of Calvin Coolidge: [“it is much more important to kill bad bills than to pass good ones”](https://coolidgefoundation.org/blog/kill-bad-bills/). Like established companies, some of the more established protocols may be able to watch what new protocols do and adopt techniques which seem to be working. This seems especially true of Ethereum which has shown a willingness to hard fork and the ability to maintain network value through them. Consequently, I’d expect to see the most innovation in the next few years from Ethereum tokens and entirely new chains.
 
-在某些使用情况下，系统倾向于固定静态可能更好。这对于存储价值可能尤其如此。**底层协议应倾向于停滞和保守 - “三思而后行” - 在更高层次的协议则应该更灵活 - “快速行动，打破陈规”**。用卡尔文·柯立芝（Calvin Coolidge）的话来说：[“废除一个有问题的法案比通过一条好的律法要重要得多”](https://coolidgefoundation.org/blog/kill-bad-bills/)。像已建立的公司一样，一些更为成熟的协议能够借鉴新协议的做法，并可以适配采用正在起作用的技术。对于以太坊来说，似乎更是如此，它表现出了硬分叉的意愿和通过它们来维护网络价值的能力。因此，我期望在接下来的几年里能够看到以太坊代币和新型区块链的重大创新。
+在某些使用情况下，系统倾向于静态固定可能更好。这对于存储价值可能尤其如此。**底层协议应倾向于静态和保守 - “三思而后行” - 在更高层次的协议则应该更灵活 - “快速行动，打破陈规”**。用卡尔文·柯立芝（Calvin Coolidge）的话来说：[“废除一个有问题的法案比通过一条好的律法要重要得多”](https://coolidgefoundation.org/blog/kill-bad-bills/)。像已建立的公司一样，一些更为成熟的协议能够借鉴新协议的做法，并可以适配采用正在起作用的技术。对于以太坊来说，似乎更是如此，它表现出了硬分叉的意愿和通过它们来维护网络价值的能力。因此，我期望在接下来的几年里能够看到以太坊代币和新型区块链的重大创新。
 
 It’s probable we haven’t found the best governance systems yet, which means a more general system which allows many different methods to be tried is valuable, if for nothing more than [learning](https://en.wikipedia.org/wiki/Nomic). [A more complex system can simulate less complex ones, but the reverse is generally hard](https://en.m.wikipedia.org/wiki/Automata_theory).
 
@@ -225,7 +225,7 @@ Next we’ll talk about future governance strategies with potential which have y
 
  This system could be incredibly powerful for a few reasons. First, voting becomes extremely simple. People don’t need to vote, they are just asked about one thing once a year: their satisfaction. Second, people do not need to develop extensive knowledge of candidates or bills. This is important because candidates are often persuasive and bills are complex to the point where it is hard for a domain-specific researcher to understand their implications, let alone an elected official or an average citizen. Instead, we rely on the wisdom of the markets. Like trading in stocks, only people who are extremely well informed on a topic will bet on it — otherwise they are likely to lose money to others who are better informed. Finally, it is a system where **market incentives are aligned with societal values**.
 
- 由于一些原因，这个系统可能非常强大。首先，投票变得非常简单。人们不需要投票，他们每年只会被问到一件事：他们的满意度。其次，人们不需要学习掌握对候选人或者议案方面的广泛的知识。这一点很重要，因为候选人往往具有说服力，而且议案很复杂，以至于即使某个特定领域的研究人员也很难理解他们的含义，更不用说当选官员或普通公民。相反，我们依靠市场的智慧。就像股票交易一样，只有那些对某个主题非常了解的人才会下注，否则他们很可能会赔钱给那些更了解情况的人。最后，这是一个**市场激励与社会价值观一致的体系**。
+ 这样的系统可能变得非常强大。因为首先，投票变得非常简单。人们不需要投票，他们每年只会被问到一件事：他们的满意度。其次，人们不需要学习掌握对候选人或者议案方面的广泛的知识。这一点很重要，因为候选人往往具有说服力，而且议案很复杂，以至于即使某个特定领域的研究人员也很难理解他们的含义，更不用说当选官员或普通公民。相反，我们依靠市场的智慧。就像股票交易一样，只有那些对某个主题非常了解的人才会下注，否则他们很可能会赔钱给那些更了解情况的人。最后，这是一个**市场激励与社会价值观一致的体系**。
 
  In futarchy the devil is in the implementation details. [Hard problems include](http://www.overcomingbias.com/2016/07/merkles-futarchy.html) the governance metaproblem of how to decide on the societal value(s) to maximize in the first place and making sure people aren’t incented to [tactically vote](https://en.wikipedia.org/wiki/Gibbard–Satterthwaite_theorem) an extreme satisfaction score of 0 or 1 to swing policy.
 
@@ -233,7 +233,7 @@ Next we’ll talk about future governance strategies with potential which have y
 
  **Setting goal functions is both important and tricky, as there are always unforeseen consequences**. For example, in the case of capitalism, this can manifest in rising wealth inequality and environmental externalities. In the case of artificial intelligence, this can manifest in [wireheading](https://wiki.lesswrong.com/wiki/Wireheading) or rapidly maximizing something at the unexpected expense of other things, commonly illustrated through the example of a [paperclip maximizer](https://wiki.lesswrong.com/wiki/Paperclip_maximizer) which destroys everything to build as many paperclips as possible. These are serious concerns, as I believe [the most powerful AIs will be bootstrapped into existence on the blockchain](https://twitter.com/FEhrsam/status/912388216396824576) by using tokenized incentives for everyone to feed them the best data and algorithms. If this is true, blockchain governance is the largest determinant of our future trajectory as a species. More on this in a future post.
 
- **设定目标函数既重要又棘手，因为总会有无法预料的后果**。例如，就资本主义而言，这可以表现在不断上升的财富不均和环境的外部性。在人工智能的情况下，表现为如[通过直接刺激大脑使快感最大化](https://wiki.lesswrong.com/wiki/Wireheading)，或极快速的在意外的消耗掉某个事物后使另外的事物最大化。通常我们可以通过[回形针制造机](https://wiki.lesswrong.com/wiki/Paperclip_maximizer)的例子来说明，这个回形针制造机破坏消耗所有东西以尽可能多地制造出回形针。（译者注：回形针制造机指的是一种强人工智能，一个设计称职且无恶意，但最终毁灭人类的思想实验。实验表明，具有明显无害价值的人工智能可能构成一种存在的威胁）这些都是严重的问题，因为我相信，通过为每个人使用代币化的激励措施，并且给它们优质的数据和算法，[最强大的人工智会在区块链上自动运行并生存下来](https://twitter.com/FEhrsam/status/912388216396824576)。如果这是真的，区块链治理是我们这个物种未来发展轨迹的最大决定因素。我将在以后发表更多有关于这方面的文章。
+ **设定目标函数既重要又棘手，因为总会有无法预料的后果**。例如，就资本主义而言，这可以表现在不断上升的财富不均和环境的外部性。在人工智能的情况下，表现为如[脑机接口(通过直接刺激大脑使快感最大化)](https://wiki.lesswrong.com/wiki/Wireheading)，或极快速的在意外的消耗掉某个事物后使另外的事物最大化。通常我们可以通过[回形针制造机](https://wiki.lesswrong.com/wiki/Paperclip_maximizer)的例子来说明，这个回形针制造机破坏消耗所有东西以尽可能多地制造出回形针。（译者注：回形针制造机指的是一种强人工智能，一个设计称职且无恶意，但最终毁灭人类的思想实验。实验表明，具有明显无害价值的人工智能可能构成一种存在的威胁）这些都是严重的问题，因为我相信，通过为所有人使用代币化的激励措施，并且给它们优质的数据和算法，[最强大的人工智会在区块链上自动运行并生存下来](https://twitter.com/FEhrsam/status/912388216396824576)。如果这是真的，区块链治理是我们这个物种未来发展轨迹的最大决定因素。我将在以后发表更多有关于这方面的文章。
 
 * Liquid Democracy | 委任式民主
 
@@ -249,35 +249,35 @@ Next we’ll talk about future governance strategies with potential which have y
 
  [Quadratic voting](http://ericposner.com/quadratic-voting/) is a system of buying votes, where each additional vote costs twice as much as the one before it. In other words, money buys votes, but with strong diminishing returns. [Vitalik proposed](https://www.reddit.com/r/ethereum/comments/4rtpmm/on_coinlock_voting_futarchy_and_optimal/) a variant on this he calls “quadratic coin lock voting” where N coins let you make N * k votes by locking up those coins for a time period of k². This is a nice modification because it aligns incentives over time: more voting power requires living with your decisions for longer. In a tokenized world with little friction of entering or leaving a community, this is especially important.
 
- [二次方投票](http://ericposner.com/quadratic-voting/)是一个购买投票的系统，每增加一票，票价就是前一票的两倍。换句话说，用钱买票，但收益递减。[维塔利克在这方面提出了](https://www.reddit.com/r/ethereum/comments/4rtpmm/on_coinlock_voting_futarchy_and_optimal/)一个变种，他称之为“二次硬币锁定投票”方法，其中N个硬币让你进行 N * k 次投票，并锁定这些代币k²时间。这是一个很好的修改，因为随着时间的推移它调整了激励：越多的投票权需要决定的时间越长。在一个进入或离开社区几乎没有代价的代币化世界，这一点尤为重要。
+ [二次方投票](http://ericposner.com/quadratic-voting/)是一个购买投票的系统，每增加一票，票价就是前一票的两倍。换句话说，用钱买票，但收益递减。[维塔利克在这方面提出了](https://www.reddit.com/r/ethereum/comments/4rtpmm/on_coinlock_voting_futarchy_and_optimal/)一个变种，他称之为“二次币锁定投票”方法，其中N个代币让你进行 N * k 次投票，并锁定这些代币 k² 时间。这是一个很好的修改，因为随着时间的推移它调整了激励：越多的投票权需要决定的时间越长。在一个进入或离开社区几乎没有代价的代币化世界，这一点尤为重要。
 
 * Voting with People or Money? | 用人还是用币来投票？
 
  A major problem with one person = one vote systems on the blockchain is their susceptibility to sybil attacks. Near zero cost to create infinite accounts means it’s easy to generate infinite votes. This is why the default model in proof of stake and Ethereum-based token governance is one token = one vote.
 
- 一人一票的最主要问题是： 系统如何应对对 sybil 攻击。创建帐户接乎零成本意味着可以产生无穷的投票。这就是为什么权益证明和基于以太代币的治理缺省模式是一币一票。
+ 一人一票的最主要问题是： 系统如何应对女巫攻击。创建帐户近乎零成本意味着可以产生无穷的投票。这就是为什么权益证明和基于以太代币的治理缺省模式是一币一票。
 
  Blockchain-based identity systems like [Civic](https://www.civic.com/) can help enable one person = one vote systems. However, anonymity is likely to be preserved in most cryptocurrencies. Identity gives each coin its own unique history, which can be subjectively judged to be more or less clean than that of another coin, causing [fungibility](https://en.wikipedia.org/wiki/Fungibility) to break down. One potential approach is a balance between identity and money: a fully verified identity gets 100% of the voting power of their money, a partially verified identity gets 50%, and an entirely anonymous identity gets 25%.
 
- 像[Civic](https://www.civic.com/)这样基于区块链的身份识别系统可以帮助实现一人一票。但是，大多数加密货币可能会保留匿名性。身份会赋予每个代币自己独特的历史，这样可以主观地判断一个代币比其它代币更干净或更不干净，从而导致[可替代性](https://en.wikipedia.org/wiki/Fungibility)的崩溃。一种可能的方法是身份和金钱之间的平衡：完全验证的身份获得其金钱投票权的100％，部分验证身份获得50％，完全匿名身份获得25％。
+ 像[Civic](https://www.civic.com/)这样基于区块链的身份识别系统可以帮助实现一人一票。但是，大多数加密货币可能会保留匿名性。身份会赋予每个代币自己独特的历史，这样可以主观地判断一个代币比其它代币更干净或更不干净，从而导致[可替代性](https://en.wikipedia.org/wiki/Fungibility)的崩溃。一种可能的方法是取得身份和金钱之间的平衡：完全验证的身份获得其金钱投票权的100％，部分验证身份获得50％，完全匿名身份获得25％。
 
  As mentioned in quadratic voting, other mechanisms which weight community members differently independent of real-world identity are likely to evolve. For example, a new token holder may have diminished voting power until they have been a member of the community for a while, similar to not being able to vote until you are a full citizen of a country.
 
  In any case, **today’s world would look a lot different if modern governments ran on voting with money, so this change in defaults is not to be taken lightly**.
 
- 正如在二次方投票中提到的那样，其他可以不同于现实世界的社区成员的机制也可能会发生变化。例如，一个新的代币持有者可能会减少投票权，直到他们成为社区成员一段时间，类似于只有当您是一个国家的正式公民时才能投票。
+ 正如在二次方投票中提到的那样，其他不同的机制，如社区成员不依赖于其现实身份具有不同的权重的机制也可能发展出来。例如，一个新的代币持有者可能会减少投票权，直到他们成为社区成员一段时间，类似于只有当您是一个国家的正式公民时才能投票。
 
- 无论如何，**如果现代政府用金钱投票，今天的世界将会有很大的不同，所以这种对违约率改变不能掉以轻心的**。
+ 无论如何，**如果现代政府用金钱投票，今天的世界将会有很大的不同，所以这种在默认上的改变是不能掉以轻心的**。
 
 Finally, **reputation within a token community will be critical**. This is already shown through indirect means, where Vitalik’s suggestions carry a lot of weight in the Ethereum community. In a liquid democracy system reputation manifests in the number of votes delegated to a particular person. Someone with high reputation and no money could have 10 million Ether delegated to them and have tremendous governing power.
 
-最后，**代币社区内的声誉将是至关重要的**。这已经通过间接手段显示出来，如 Vitalik 的建议在以太坊社区中占有很大的份量。在委任式民主制度中，授予特定人的选票数量体现了他的声誉值。信誉好但没有钱的人，也可能有10亿以上的以太托付给他们，并拥有巨大的执政权。
+最后，**代币社区内的声誉将是至关重要的**。这已经通过间接手段显示出来，如 Vitalik 的建议在以太坊社区中占有很大的份量。在委任式民主制度中，授予特定人的选票数量体现了他的声誉值。信誉好但没有钱的人，也可能有10亿以上的以太托付给他们，并因此拥有巨大的执政权。
 
 ## Other Tools | 其他工具
 
 Simple **off-chain futures markets have already shown themselves as a powerful tool**. In the recently proposed and contentious Bitcoin [SegWit2x](https://www.coindesk.com/explainer-what-is-segwit2x-and-what-does-it-mean-for-bitcoin/) fork, futures markets speculated on the expected value of SegWit2x vs. non-SegWit2x chains. The markets consistently valued a SegWit2x chain [at less than 20%](https://www.reddit.com/r/Bitcoin/comments/75xncv/2x_futures_prices_drops_below_02_btc/) of a non-SegWit2x chain for 3 weeks. Supporters of SegWit2x then [called off](https://lists.linuxfoundation.org/pipermail/bitcoin-segwit2x/2017-November/000685.html) their forking efforts because they felt they had “not built sufficient consensus”. While it’s hard to know exactly what caused them to reach this conclusion, it seems like futures markets were a strong indicator of lack of support.
 
-简单的**链下期货市场已经显示出自己是一个强有力的工具**。在最近提出的有争议的比特币[SegWit2x](https://www.coindesk.com/explainer-what-is-segwit2x-and-what-does-it-mean-for-bitcoin/)分叉中，期货市场推测了SegWit2x与非SegWit2x链的预期价值。在3周的时间里，SegWit2x链的市场价值一直[低于非SegWit2x链20％](https://www.reddit.com/r/Bitcoin/comments/75xncv/2x_futures_prices_drops_below_02_btc/)。SegWit2x的支持者然后因为觉得自己“没有达成足够的共识”而[取消](https://lists.linuxfoundation.org/pipermail/bitcoin-segwit2x/2017-November/000685.html)了分叉的努力。虽然很难确切地知道是什么使得他们得出这个结论，但期货市场似乎是缺乏支持的有力指标。
+简单的**链下期货市场已经显示出自己是一个强有力的工具**。在最近提出的有争议的比特币[SegWit2x](https://www.coindesk.com/explainer-what-is-segwit2x-and-what-does-it-mean-for-bitcoin/)分叉中，期货市场推测了SegWit2x与非SegWit2x链的预期价值。在3周的时间里，SegWit2x链的市场价值一直[低于非SegWit2x链20％](https://www.reddit.com/r/Bitcoin/comments/75xncv/2x_futures_prices_drops_below_02_btc/)。SegWit2x的支持者然后因为觉得自己“没有达成足够的共识”而[取消](https://lists.linuxfoundation.org/pipermail/bitcoin-segwit2x/2017-November/000685.html)了分叉的努力。虽然很难确切地知道是什么使得他们得出这个结论，但期货市场似乎是是否缺乏支持的有力指标。
 
 ![Futures markets on Bitcoin’s SegWit2x](https://cdn-images-1.medium.com/max/800/1*KSPwq45dIQJxAekdSwCakg.png)
 
@@ -285,7 +285,7 @@ Futures markets on Bitcoin’s SegWit2x 比特币的SegWit2x期货市场
 
 Other tools are being built for governance and standardization at different layers. [ZeppelinOS](https://zeppelinos.org/) is [a series of basic libraries](https://github.com/OpenZeppelin/zeppelin-solidity) which are commonly being used as the base of Ethereum token systems, covering things like token sale mechanics, token vesting, and access controls to the treasury of the project. [Aragon](http://aragon.one/) is trying to create standard implementations of these systems in the same way Delaware C corporations implement corporations in a standard way.
 
-其他工具正在为不同层次的治理和标准化而建立。[ZeppelinOS](https://zeppelinos.org/) 是[一系列基本库](https://github.com/OpenZeppelin/zeppelin-solidity)，通常被用作以太坊代币系统的基础，涵盖了代币销售机制，代币归属以及对项目财务的访问控制。[Aragon](http://aragon.one/)正试图以这样的方式创建这些系统的标准实施方式，如特拉华州C公司以标准方式实现公司。
+其他工具正在为不同层次的治理和标准化而建立。[ZeppelinOS](https://zeppelinos.org/) 是[一系列基本库](https://github.com/OpenZeppelin/zeppelin-solidity)，通常被用作以太坊代币系统的基础，涵盖了代币销售机制，代币归属以及对项目财务的访问控制。[Aragon](http://aragon.one/)正试图以如特拉华州C公司以标准方式实现公司这样的方式创建这些系统的标准实施方式。
 
 ### Forking | 分叉
 
@@ -295,7 +295,7 @@ We’ve seen many examples of forking so far, and this is great! In physical nat
 
 值得注意的是分叉总是一个可选项。使用阿尔伯特·赫希曼（Albert Hirschman）经典的[发表意见或退出](https://en.wikipedia.org/wiki/Exit,_Voice,_and_Loyalty)范式来影响系统的变化，**提出意见就是治理，弱势退出就是卖出你的代币，而强大的退出就是分叉**。
 
-到目前为止，我们已经看到了很多分叉的例子，这真是太棒了！在实体国家分叉几乎是不可能的。区块链出现之前，软件也是如此。他们可以很容易地获取系统的所有代码和状态，并尝试新的路径。在Web 2.0的世界里，**分叉就等于Facebook允许任何竞争者把他们的整个数据库和代码库带给竞争对手**。不喜欢Facebook如何操作它的新闻源？就可以创建一个分叉用所有相同的代码，社交连接和照片。
+到目前为止，我们已经看到了很多分叉的例子，这真是太棒了！在实体国家分叉几乎是不可能的。区块链出现之前，软件也是如此。他们可以很容易地获取系统的所有代码和状态，并尝试新的发展路径。在Web 2.0的世界里，**分叉就等于Facebook允许任何竞争者把他们的整个数据库和代码库带给竞争对手**。不喜欢Facebook如何操作它的新闻源？就可以创建一个分叉用 Facebook 所有相同的代码，社交连接和照片。
 
 **The ability to fork significantly reduces lock-in and increases diversity**, allowing many [more paths](https://medium.com/@FEhrsam/accelerating-evolution-through-forking-6b0bba85a2ba) to be tried than we would ever see in modern governments, central banks, or Web 2.0 companies. As in [corporate spinoffs](https://www.investopedia.com/terms/s/spinoff.asp), forking is also beneficial when two niche chains can more effectively serve distinct needs than one chain ineffectively serving both sets of needs.
 
@@ -313,13 +313,13 @@ However, it is still valuable to avoid hard forks when possible. A [hard fork](h
 
 Because of the dramatically reduced friction for exit, the need for effective voice (governance) is more critical than ever. It is trivial to fork a blockchain and copy all of its code and state. So **the value isn’t in the chain of data, it’s in the community and social consensus around a chain**. Governance is what keeps communities together and, in turn, gives a token value.
 
-1. 减少网络效应。不是每个人都说同一种语言了。
+1. 减少网络效应。不再是每个人都说同一种语言了。
 
-2. 创建工作。任何使用分叉协议的人可能都会破坏他们的代码。在通过透明和不可信的代码执行日益相互关联的世界中，这些效应复合化。
+2. 提高了工作量。任何使用分叉协议的人可能都会使他们的代码失效。在日益相互关联的世界中，通过执行透明和不可信的代码，这些效果将相互影响。
 
-3. 减少信任。现在我们已经有了一个突破性的变化，那些以前引用的协议现在必须移出区块链，弄清楚什么是“正确”的新版本。
+3. 减少信任。现在我们已经有了一个突破性的变化，那些以前引用的协议现在必须移出区块链，并且弄清楚“正确”的新版本需要使用哪些。
 
-由于退出的摩擦大大减少，对有效的发言权（治理）的需求比以往任何时候都更加重要。分叉区块链并复制其所有的代码和状态是微不足道的。所以**这个价值不在数据链中，而是围绕在一个链条上的社区和社会共识**。治理就是让社区聚集在一起，反过来给代币价值。
+由于退出的阻力大大减少，对有效的发言权（治理）的需求比以往任何时候都显得更加重要。分叉区块链并复制其所有的代码和状态是平凡的。所以**价值不在数据链中，而在于围绕在链上的社区和社会共识**。治理就是让社区聚集在一起，并且反过来给予代币价值。
 
 ## Community Suggestions | 社区建议
 
@@ -329,27 +329,27 @@ Because of the dramatically reduced friction for exit, the need for effective vo
 
 **For everyone**: Watch and learn from the experiments that will be run on the new on-chain governance systems.
 
-对于用户来说：花更多时间看看区块链的治理体系，在当天的问题上少花点时间。
-**当前事件只是一个导致大系统的体现**。所以虽然很容易受到新闻的冲击，但最大的变革力量来自于设计或改变系统，而不是争论它目前的表现。
+对于用户来说：花更多时间看看区块链的治理体系，少花点时间在当前的问题上。
+**当前事件只是一个引发它们的更大系统的体现**。所以虽然很容易受到新闻的冲击，但最大的变革力量来自于设计或改变系统，而不是争论它目前的表现。
 
-对于开发人员：尝试通货膨胀。如果您使用简单的 1代币= 1 票系统来创建新的代币，请将**二次方投票锁定**视为低风险/高回报的替代方案。
+对于开发人员：尝试通货膨胀。如果您使用简单的1币1票系统来创建新的代币，考虑**二次方锁定投票**作为低风险/高回报的选择。
 
-对于每个人：观察并学习将在新的在线治理系统上运行的实验。
+对于每个人：对于将在新的线上治理系统上运行的实验多加观察和学习。
 
 ## Conclusion | 结论
 
 Like organisms, the ability of a blockchain to succeed over time is based on its ability to evolve. This evolution will bring about many decisions on direction, and it is the governance around those decisions which most strongly determine the outcome of the system. **If programming in the system is important, the [metaprogramming](https://en.wikipedia.org/wiki/Metaprogramming) of the system itself is most important**.
 
-像有机体一样，区块链随着时间的推移成功的基础是其进化能力。这种演变会带来很多方向上的决定，而围绕这些决定的治理则是最强烈地决定了系统结果的。**如果在系统中编程是重要的，则系统本身的[元编程](https://zh.wikipedia.org/wiki/%E5%85%83%E7%BC%96%E7%A8%8B)是最重要的**。
+像有机体一样，随着时间的推移，区块链成功的基础是其进化能力。这种演变会带来很多方向上的决策，而围绕这些决策的治理则是最强烈地决定了系统最终结果。**如果在系统中开发是重要的，则系统本身的[元编程](https://zh.wikipedia.org/wiki/%E5%85%83%E7%BC%96%E7%A8%8B)是最重要的**。
 
 **I believe governance should be the primary focus of investors in the space**. The fundamentals of cryptoeconomics and overarching governance schemas of these networks are critical to survival, under-appreciated, and poorly understood. Investors can add significant value through the luxury of being able to observe and learn from multiple projects at one time. They should be active in the governance of the tokens they participate in and transparent with a community if they feel the design of the system can be improved.
 
-**我相信治理应该成为投资者在这个领域的首要关注点**。密码经济学的基本原理和这些网络的总体治理模式对生存至关重要，但受到人们的重视和理解甚少。投资者可以通过在同一时间观察和学习多个项目的方式来增值。如果他们觉得系统的设计可以改进，他们应该积极参与他们所参与的代币的管理和社区的透明化。
+**我相信治理应该成为投资者在这个领域的首要关注点**。密码经济学的基本原理和这些网络的总体治理模式对生存至关重要，但受到人们的重视和理解甚少。投资者可以通过在同一时间观察和学习多个项目的方式来增值。如果他们觉得系统的设计可以改进，他们应该积极参与他们支持的代币的治理和积极参与社区活动。
 
 **We are birthing into existence systems which transcend us**. In the same way democracy and capitalism as systems determine so much of the emergent behavior around us, blockchains will do the same with even greater reach. These systems are organisms which take on [lives of their own](http://slatestarcodex.com/2014/07/30/meditations-on-moloch/) and are more concerned with [perpetuating themselves](https://en.wikipedia.org/wiki/Instrumental_convergence) than the individuals which comprise them. As technology stretches these systems to their limits, the implications become more pronounced. So we’d be wise to carefully consider the structure of these systems while we can. Like any new powerful technology, **blockchains are a tool that can go in many different directions. Used well, we can create a world with greater prosperity and freedom. Used poorly, we can create systems which lead us to places we [didn’t intend to go](https://www.youtube.com/watch?v=ST86JM1RPl0)**.
 
-**我们正在分化成超越我们的生存体系**。以同样的方式民主和资本主义体系决定了很多我们周围的突发行为，区块链将做同样的甚至更大的范围。这些系统是[自己生命](http://slatestarcodex.com/2014/07/30/meditations-on-moloch/)的有机体，比构成它们的个体更关心延续自己。
-随着技术将这些系统延伸到极限，其含义变得更加明显。所以我们尽可能仔细考虑这些系统的结构是明智的。像任何新的强大技术一样，**区块链是一个可以沿着不同方向发展的工具。用得好，我们可以创造一个更加繁荣和自由的世界。使用不佳，我们创建的系统将向我们[不想去的方向](https://www.youtube.com/watch?v=ST86JM1RPl0)发展**。
+**我们是在超越我们的现实世界中诞生的**。以同样的方式，民主和资本主义体系决定了这么多在我们周围发生地行为，区块链同样如此，甚至范围更大。这些系统是[有自己的生活](http://slatestarcodex.com/2014/07/30/meditations-on-moloch/)的有机体，比包含它们的个体更关心延续自己。
+随着技术发展，将这些系统发展到极限，其意义变得更加明显。所以我们必需明智地尽可能仔细考虑这些系统的结构。像任何新的强大技术一样，**区块链是一个可以沿着不同方向发展的工具。用得好，我们可以创造一个更加繁荣和自由的世界。用得不好，我们创建的系统将向着我们[不想去的方向](https://www.youtube.com/watch?v=ST86JM1RPl0)发展**。
 
 Thanks to Vitalik Buterin, Buck Perley, Vlad Zamfir, Luke Duncan, Brian Armstrong, Ralph Merkle, Arthur Brietman, Julia Galef, Dominic Williams, Luis Iván Cuende, Matt Huang, Demian Brenier, Andy Coravos, Chris Burniske, Jim Posen, Balaji Srinivasan, Scott Nolan, Elad Gil, Chris Dixon, Maksim Stepanenko, Albert Wenger, Simon de la Rouviere, Sophia Cui, Lucas Ryan, Jay Graber, and Jeromy Johnson for conversations and ideas which contributed to this post.
 
