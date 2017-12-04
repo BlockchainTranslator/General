@@ -3,7 +3,7 @@
 > 本文翻译自：https://medium.com/@FEhrsam/blockchain-governance-programming-our-future-c3bfe30f2d74
 
 > 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [鱼](https://github.com/oscnet)
-Â
+
 > 翻译时间：2017-11-29
 
 This post describes why blockchain governance design is one of the most important problems out there, its critical components, current approaches, potential future approaches, and concludes with suggestions for the community.
