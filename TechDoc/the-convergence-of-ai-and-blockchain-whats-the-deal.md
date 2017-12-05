@@ -51,11 +51,11 @@ The data are stored in rigid structures called **blocks**, which are connected t
 
 The network can validate the transaction through different mechanisms, but mainly through either a “proof-of-work” or a “proof-of-stake”. A **proof-of-work** (Nakamoto, 2008) asks the participants (called “miners”) to solve complex mathematical problems in order to add a block, which in turn require a ton of energy and hardware capacity to be decoded. A **proof-of-stake** (Vasin, 2014) instead tries to solve this energy efficiency issue attributing (roughly) more mining power to participants who own more coins (there are many variations of it and some skepticism around its famous “nothing at stake” problem — see [Buterin’s blog post](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/) to know more on this).
 
-简而言之（用英格兰银行的话来说），区块链就是“一种让不相识的人相互信任其事件数据记录的技术”。
+简而言之（用英格兰银行的话来说），区块链就是“一种让不相识的人相互信任其事件记录的技术”。
 
-数据存储在被称为**块**的固定结构中，块通过哈希值被相互连接成链（在每个块中还包括时间戳和前一个块的哈希链接）。这些块具有包括元数据的头部和包括真实交易数据的内容。由于每个区块都与前一个区块相连，随着参与人数和区块数量的增加，在没有网络共识的情况下修改任何信息是非常困难的。
+数据储存在被称为**块**的固定结构中，块通过哈希值相互连接从而成为链（在每个块中还包括时间戳和前一个块的哈希链接）。这些块具有包括元数据的头部和包括真实交易数据的内容。由于每个区块都与前一个区块相连，随着参与人数和区块数量的增加，在没有达到网络共识的情况下修改任何信息是非常困难的。
 
-网络可以通过不同的机制来验证交易，但主要是通过“ 工作证明 ”或“ 证明权益 ”。一个证明的工作（中本聪，2008）要求参与者（称为“ 矿工 ”）来解决，以增加一个块，而这又需要一吨能源和硬件能力要解码复杂的数学问题。一个验证的股权（Vasin，2014），而不是试图解决这一能源效率问题归因（大约）多采力量谁拥有更多的硬币（也有它的许多变化和各地著名的一些怀疑“参与者没有受到威胁 ”问题 - 请参阅Buterin的博客文章以了解更多信息）。
+网络可以通过不同的机制来验证交易，但主要是通过"工作量证明"或"权益证明"。工作量证明（中本聪，2008）要求参与者（被称为“矿工”）解决复杂的数学问题来增加一个块，这个数学问题需要一吨能源和硬件能力来解码。权益证明（Vasin，2014），不是试图解决这一能源效率问题，而是把更多的的矿力给予拥有更多代币的参与者（它们有很多不同之处，并对其著名的"无利害关系"问题有点怀疑 - 请参阅Buterin的博客文章以了解更多信息）。
 
 
 Additional mechanisms are the Byzantine-fault-tolerant algorithm (Castro and Liskov, 2002), the Quorum slicing (Mazieres, 2016), as well as variations of the Proof-of-stake (Mingxiao et al., 2017), but we will not get into those now.
@@ -63,29 +63,28 @@ Additional mechanisms are the Byzantine-fault-tolerant algorithm (Castro and Lis
 
 The final characteristic that needs to be explained is the category of blockchain based on the different network access permission, i.e., whether it is free for anyone to view it (**permissionless vs permissioned**) or to participate in the consensus formation (**public vs private**). In the former case, anyone can access and read or write data from the ledger, while in the latter one predetermined participants have the power to join the network (and of course only in the public permissionless case a reward structure for miners has been designed).
 
-其他的机制是拜占庭容错算法（Castro和Liskov，2002），Quorum分片（Mazieres，2016）以及股权证明（Mingxiao等，2017）的变化，但是我们将不要进入那些现在。
+额外的机制有拜占庭容错算法（Castro和Liskov，2002），Quorum 分片（Mazieres，2016）以及改进的权益证明（Mingxiao等，2017），但是现在我们将不讨论这些。
 
-最后一个需要说明的特点是基于不同的网络访问权限的区块链的类别，即是否任何人都可以免费查看（允许或不允许）或者参与共识形成（公共还是私人）。在前一种情况下，任何人都可以访问和读取或写入分类帐中的数据，而在后一种情况下，预先确定的参与者有权加入网络（当然，只有在公共许可的情况下，矿工的奖励结构才被设计出来） 。
-
+最后一个需要说明的特点是基于不同的网络访问权限，构成区块链的类别，即是否任何人都可以免费查看（**允许或不允许**）或者参与共识形成（**公共的还是私有**）。在前一种情况下，任何人都可以访问和读取或写入帐本中的数据，而在后一种情况下，预先确定的参与者有权加入网络（当然，只有在公共许可的情况下，矿工的奖励结构才被设计出来） 。
 
 It should be clear by now the intrinsic power of this technology, which is not simply a disruptive innovation but rather a foundational technology that aims to “change the scope of intermediation” (Catalini and Gans, 2017). Distributed ledger technologies will indeed reduce both the costs of verification and networking, influencing then the market structure and eventually allowing the creation of new marketplaces. Iansiti and Lakhani (2017) also drew a brilliant parallel between blockchain and TCP/IP in a recent work (which I highly recommend), showing how blockchain is slowly going through the four phases that identify previous foundational technologies such as the TCP/IP, i.e., single-use, localized use, substitution, and transformation. As they explained, the “novelty” of such a technology makes it harder for people to understand the solution domain, while its “complexity” requires a larger institutional change to foster an easy adoption.
 
 
 However, it is also true that the blockchain is shifting the traditional business models distributing value in an opposite way with respect to previous stacks: if it made more sense to invest in applications rather than protocol technologies fifteen years ago, in a blockchain world the value is concentrated in the shared protocol layer and only marginally at the application level (see the [“**Fat Protocol**” theory](http://www.usv.com/blog/fat-protocols) by Joel Monegro).
 
-目前应该清楚这种技术的内在力量，这不仅仅是一个破坏性的创新，而是一个旨在“ 改变中介范围 ” 的基础技术（Catalini and Gans，2017）。分布式账本技术的确会降低验证和联网的成本，影响当时的市场结构，并最终允许创建新的市场。Iansiti和Lakhani（2017）在最近的一个工作（我强烈推荐）中也提出了区块链和TCP / IP之间的一个很好的平行关系，说明区块链是如何缓慢地经历了四个阶段，即识别TCP / IP等先前的基础技术，即单次使用，本地化使用，替代和转换。正如他们解释的那样，“ 新奇”这种技术使得人们难以理解解决方案领域，而其“复杂性”则需要更大的制度变革来促进轻松采用。
+目前应该清楚这种技术的内在力量，这不仅仅是一个破坏性的创新，而是一个旨在“ 改变中介范围 ” 的基础技术（Catalini and Gans，2017）。分布式账本技术的确会降低验证和联网的成本，影响当时的市场结构，并最终允许创建新的市场。Iansiti和Lakhani（2017）在最近的一个工作（我强烈推荐）中也提出了区块链和TCP / IP之间的一个很好的平行关系，说明区块链是如何缓慢地经历了四个阶段，即识别TCP / IP等先前的基础技术，即单次使用，本地化使用，替代和转换。正如他们解释的那样，这种技术的“新颖性”使得人们很难理解解决方案领域，而其“复杂性”则需要更大的制度变革来促进轻松采用。
 
-然而，区块链也正在改变传统商业模式的分配价值，与以前的筹码相反：如果在十五年前投资于应用程序而不是协议技术更合理，在区块链世界中，价值集中在共享的协议层，并且只在应用程序层面很小（参见Joel Monegro 的“ Fat Protocol”理论）。
+然而，区块链也正在改变传统商业模式的分配价值，与之前的方式相反：在十五年前投资于应用程序而不是协议技术上是合理的，在区块链世界中，价值集中在共享的协议层，应用程序层面则被边缘化（参见Joel Monegro 的“胖协议”理论）。
 
 > #### It’s a stack with “fat” protocols and “thin” applications (Joel Monegro).
-> #### 这是一个与“胖”协议和“瘦”应用程序（Joel Monegro）的堆栈。
+> #### 这是一个与“胖”协议和“瘦”应用程序（Joel Monegro）的组合。
 
 To conclude this introductory section, I will just mention on the fly the possibility for the blockchain to not simply allow for transactions but also the possibility to create **(smart) contracts** that are triggered by specific events and threshold and that are traceable and auditable without effort.
 
-总结这个介绍性的部分，我只是提到区块链不仅仅允许交易的可能性，而且还可以创建由特定事件和阈值触发并且可以不费力地追踪和审计的（智能）契约。
+总结这个介绍性的部分，我只是提到区块链不仅仅允许交易，而且还可以创建由特定事件和阈值触发并且可以不费力地追踪和审计的**（智能）合约**。
 
 
-#### Bonus Paragraph: Initial Coin Offerings (ICOs) | 奖金段落：初始硬币提供（ICO）
+#### Bonus Paragraph: Initial Coin Offerings (ICOs) | 奖金段落：首次公开发售数字代币（ICO）
 
 A big hype is nowadays surrounding this new phenomenon of the Initial Coin Offerings (ICOs). Even if many people are pouring money into that because of its resemblance to the most common (and valuable) Initial Public Offerings (IPOs), an ICO is nothing more than a **token sale**, where a token is the smallest functional unit of a specific network (or application).
 
