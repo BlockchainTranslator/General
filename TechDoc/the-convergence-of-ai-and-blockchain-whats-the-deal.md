@@ -91,13 +91,13 @@ A big hype is nowadays surrounding this new phenomenon of the Initial Coin Offer
 
 ICOs experts (if any) will forgive my approximate definition, but an ICO is a hybrid concept that has elements of a **shares allocation**, a **pre-sales/crowdfunding** campaign, and a **currency** with a limited power and application’s domain.
 
-现在围绕着这个初始硬币提供（ICO）的新现象的一个大炒作。即使很多人因为与最常见的（和有价值的）首次公开发行（IPOs）相似而投入了大量资金，ICO只不过是一种令牌销售，其中令牌是特定网络中最小的功能单元（或应用程序）。
+现在一个大炒作正围绕着这个首次公开发售数字代币（ICO）的新现象而进行。虽然很多人在此投入大量资金，因为它跟常见的（有价值的）首次公开发行（IPO）很相似。但ICO只不过是一种代币销售，代币是特定网络（或应用）中的最小的功能单元。
 
-ICO专家（如果有的话）会原谅我的近似定义，但是ICO是一个混合概念，具有股票分配，售前/众筹活动以及权力和应用程序有限的货币。
+ICO专家（如果有的话）会原谅我的近似定义，但是ICO是一个混合概念，它具有股票分配，售前/众筹活动以及具有有限权力和应用领域的货币。
 
 It is definitely an interesting innovation that introduces new unregulated ways to raise capitals, but it also poses several issues to an unprepared community. I am happy to receive feedback on this, but I would distill the key points of an ICO evaluation in what follows:
 
-这绝对是一个有趣的创新，它引入了新的不受管制的筹集资金的方式，但也给一个毫无准备的社区带来了一些问题。我很高兴收到这方面的反馈意见，但是我会提炼一下ICO评估的关键点：
+这绝对是一个有趣的创新，它引入了新的不受管制的筹集资金的方式，但也给一个毫无准备的社区带来了一些问题。我很高兴收到这方面的反馈意见，但是我会提炼一下有关ICO评估的关键点：
 
 * a token has an additional utility with respect to the exchange of value and companies selling token with the **only goal of raising capital are sending a bad signal** to the market. Tokens are needed to create a users’ base and to incentivize stakeholders to participate in the ecosystem at the earliest stage. **A good white paper is not enough**;
 
@@ -126,7 +126,8 @@ Image Credit: [Phonlamai Photo/Shutterstock](https://www.shutterstock.com/g/Phon
 
 Although extremely powerful, a blockchain has its own limitations as well. Some of them are technology-related while others come from the old-minded culture inherited from the financial services sector, but all of them can be affected by AI in a way or another:
 
-一个 lthough非常强大，一个blockchain都有自己的局限性。其中有些是与技术有关的，有些则来自金融服务界遗留下来的头脑文明，但都可能受到AI的影响：
+
+区块链虽然非常强大，但也有其自身的局限性。 其中有些是与技术有关的，有些则来自金融服务界遗留下来的古老思想文化，但都可能受到AI的影响：
 
 * **Energy consumption**: mining is an incredibly hard task that requires a ton of energy (and then money) to be completed (O’Dwyer and David Malone, 2014). AI has already proven to be very efficient in [optimizing energy consumption](https://blog.google/topics/environment/deepmind-ai-reduces-energy-used-for/), so I believe similar results can be achieved for the blockchain as well. This would probably also result in lower investments in mining hardware;
 
@@ -136,9 +137,9 @@ Although extremely powerful, a blockchain has its own limitations as well. Some 
 
 * 能源消耗：开采是一项非常艰巨的任务，需要耗费大量的能源（然后是资金）才能完成（O'Dwyer和David Malone，2014）。AI已经证明在优化能源消耗方面非常高效，所以我相信区块链也可以实现类似的结果。这可能也会导致对采矿硬件的投资减少;
 
-* 可扩展性：区块链每10分钟以1MB的速度稳步增长，已经达到了85GB。Satoshi（2008）首先提到“ 区块链修剪 ”（即删除不必要的关于完全花费的交易的数据，以便不把整个区块链放在一台笔记本电脑上）作为一种可能的解决方案，但是人工智能可以引入新的分散式学习系统，或者使用新的数据分片技术来提高系统的效率;
+* 可扩展性：区块链每10分钟以1MB的速度稳步增长，已经达到了85GB。Satoshi（2008）首先提到“ 区块链修剪 ”（即删除不必要的有关完全花费的交易的数据，以便不把整个区块链放在一台笔记本电脑上）作为一种可能的解决方案，但是人工智能可以引入新的分散式学习系统如联合学习（Federated Learning，一种分布式机器学习方法，由谷歌推出。译者注），或者使用新的数据分片技术来提高系统的效率;
 
-* 安全性：即使区块链几乎不可能破解，它的更多层和应用程序也不是很安全（例如，DAO，Mt Gox，Bitfinex等）。机器学习在过去两年中所取得的惊人进展，使得AI成为区块链的绝佳盟友，以保证应用程序的安全部署，尤其是考虑到系统的固定结构;
+* 安全性：虽然区块链几乎不可能破解，但是它的上层协议和应用程序就不是那么的安全（例如，DAO，Mt Gox，Bitfinex等）。机器学习在过去两年中所取得的惊人进展，使得AI成为区块链的绝佳盟友，以保证应用程序的安全部署，尤其是考虑到系统的固定结构;
 
 * **Privacy**: the privacy issue of owning personal data raises regulatory and strategic concerns for competitive advantages (Unicredit, 2016). Homomorphic encryption (performing operations directly on encrypted data), the **Enigma project** (Zyskind et al., 2015) or the **Zerocash project** (Sasson et al., 2014), are definitely potential solutions, but I see this problem as closely connected to the previous two, i.e., scalability and security, and I think they will go pari passu;
 
