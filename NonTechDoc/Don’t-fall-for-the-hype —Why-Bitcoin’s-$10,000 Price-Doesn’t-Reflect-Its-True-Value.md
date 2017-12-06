@@ -94,7 +94,7 @@ Three times in the history of Bitcoin, the price went parabolic, meaning it went
 
 ## The Bitcoin Hype-Cycle | 炒作周期（技术成熟度曲线）
 
-![](pics/bitcoin-10000/Dont-fall-for-the-hype-7.jpg)
+![](pics/bitcoin-10000/Dont-fall-for-the-hype-7.png)
 
 The peculiar thing about Bitcoin’s price is that it has these cycles. First, a slow and steady accumulation by people who understand the tech and buy it when it is ignored as worthless usually after the price just “crashed”. Then it starts to reach a point where the media picks up its growth. And then, a parabolic buying frenzy where even your grandma starts buying Bitcoins. Finally, after reaching a dramatic peak, it finally pops and drops, leaving only those who believe in the tech and support it even after a crash. Back to square one, with a bigger base price and a larger user base. Rinse, repeat.
 
