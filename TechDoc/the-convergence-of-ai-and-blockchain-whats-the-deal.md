@@ -1,4 +1,4 @@
-## The convergence of AI and Blockchain: what’s the deal? | AI与区块链的融合
+## The convergence of AI and Blockchain: what’s the deal? | 人工智能与区块链的融合
 
 > 本文翻译自：https://hackernoon.com/the-convergence-of-ai-and-blockchain-whats-the-deal-60c618e3accc
 
@@ -6,9 +6,11 @@
 
 > 翻译时间：2017-12-5
 
-Why a decentralized intelligence may affect our future
+> 本文由[币乎社区（bihu.com）](http://www.bihu.com)内容支持计划奖励。
 
-为什么去中心化的人工智能可能会影响我们的未来
+**Why a decentralized intelligence may affect our future**
+
+**为什么去中心化的人工智能可能会影响我们的未来**
 
 ![](https://cdn-images-1.medium.com/max/2000/1*xJ9uihFO6wBW5RfyEVbuEQ.jpeg)
 Image Credit: [Zapp2Photo/Shutterstock](https://www.shutterstock.com/gallery-4342153p1.html?utm_source=datafloq&utm_medium=ref&utm_campaign=datafloq) | 图片来源：[Zapp2Photo / Shutterstock](https://www.shutterstock.com/gallery-4342153p1.html?utm_source=datafloq&utm_medium=ref&utm_campaign=datafloq)
@@ -17,9 +19,9 @@ It is undeniable that AI and blockchain are two of the major technologies that a
 
 This article wants to give a flavor of the potentialities realized at the intersection of AI and Blockchain and discuss standard definitions, challenges, and benefits of this alliance, as well as about some interesting player in this space.
 
-不可否认的是，AI和区块链是促进创新步伐的两大主要技术，并在每个行业引入根本的变化。每种技术都有自己的技术复杂程度以及商业意义，但是将两者结合起来使用可能会从头开始重新设计整个技术（和人类）范式。
+不可否认，人工智能（AI）和区块链是促进创新步伐的两大主要技术，它们使得每个行业产生了根本性的变化。两种技术都有自己的技术复杂度及商业意义，但是将两者结合起来使用，则可能将重构整个技术范式（和人类范式）。
 
-本文将介绍AI和区块链实现交集后展示的潜力，并讨论这个同盟的标准定义，存在的挑战和好处，以及这个领域的一些有趣的玩家。
+本文将介绍人工智能和区块链实现交集后展示的潜力，并讨论这个同盟的标准定义，存在的挑战和好处，以及给大家介绍一下这个领域的一些有趣的玩家。
 
 ### I. Setting the stage | 设置舞台
 
@@ -33,16 +35,16 @@ However, I never touched upon blockchain and cryptocurrencies so far, so I will 
 
 A blockchain is a **secure distributed immutable database shared by all parties in a distributed network** where transaction data can be recorded (either on-chain for basic information or off-chain in case of extra attachments) and easily audited.
 
-我一直进行有关 AI 的谈论和写作已经有一段时间了，所以我不会浪费任何时间来定义它是什么，它不是什么（如果你想了解更多的信息，你可以点击查看[我的解释](https://medium.com/@Francesco_AI/artificial-intelligence-what-it-is-and-why-now-4e4431942623)或[AI简史](https://medium.com/@Francesco_AI/a-brief-history-of-ai-baf0f362f5d6)） 。
+我进行有关人工智能的谈论和写作已经有一阵子了，因此我不想再浪费时间来定义它是什么，或者它不是什么（如果你想了解更多的信息，你可以点击查看[我的解释](https://medium.com/@Francesco_AI/artificial-intelligence-what-it-is-and-why-now-4e4431942623)或[人工智能简史](https://medium.com/@Francesco_AI/a-brief-history-of-ai-baf0f362f5d6)） 。
 
-不过，因为我从来没有触及过区块链和加密货币，所以我首先会描述它是什么以及它是如何工作的。
+不过，因为我以前没有接触过有关区块链和加密货币，所以我会首先说明一下它是什么以及它是如何工作的。
 
-区块链是**分布式网络中由所有各方共享的安全的分布式不可变数据库**，其中交易数据可以被记录在上面（在区块链上保存基本信息，或者在链下保存附加信息及附件等），并且容易审计。
+区块链是**分布式网络中由各方共享安全的分布式不可变数据库**，交易数据可以被记录在上面（在区块链上保存基本信息，或者在链下保存附加信息或附件），并且它非常容易审计。
 
 
   >#### A blockchain is a secure distributed immutable database shared by all parties in a distributed network
 
-  >#### 区块链是分布式网络中由所有各方共享的安全的分布式不可变数据库
+  >#### 区块链是分布式网络中由各方共享的安全的分布式不可变数据库
 
 Put simply (with Bank of England’s words), the blockchain is “a technology that allows people who don’t know each other to trust a shared record of events”.
 
@@ -51,38 +53,36 @@ The data are stored in rigid structures called **blocks**, which are connected t
 
 The network can validate the transaction through different mechanisms, but mainly through either a “proof-of-work” or a “proof-of-stake”. A **proof-of-work** (Nakamoto, 2008) asks the participants (called “miners”) to solve complex mathematical problems in order to add a block, which in turn require a ton of energy and hardware capacity to be decoded. A **proof-of-stake** (Vasin, 2014) instead tries to solve this energy efficiency issue attributing (roughly) more mining power to participants who own more coins (there are many variations of it and some skepticism around its famous “nothing at stake” problem — see [Buterin’s blog post](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/) to know more on this).
 
-简而言之（用英格兰银行的话来说），区块链就是“一种让不相识的人相互信任其事件记录的技术”。
+简而言之（用英格兰银行的话来说），区块链就是“一种让不相识的人相互信任其数据记录的技术”。
 
-数据储存在被称为**块**的固定结构中，块通过哈希值相互连接从而成为链（在每个块中还包括时间戳和前一个块的哈希链接）。这些块具有包括元数据的头部和包括真实交易数据的内容。由于每个区块都与前一个区块相连，随着参与人数和区块数量的增加，在没有达到网络共识的情况下修改任何信息是非常困难的。
+数据存储在被称为**块**的固定结构中，块通过哈希值相互连接成**链**（在每个块中还包括时间戳和链接到前一个块的哈希）。这些块的头部包含元数据，内容部分由真实交易数据组成。由于每个区块都与前一个区块相连，随着参与人数和区块数量的增加，在没有网络共识的情况下修改任何信息是非常困难的。
 
-网络可以通过不同的机制来验证交易，但主要是通过"工作量证明"或"权益证明"。工作量证明（中本聪，2008）要求参与者（被称为“矿工”）解决复杂的数学问题来增加一个块，这个数学问题需要一吨能源和硬件能力来解码。权益证明（Vasin，2014），不是试图解决这一能源效率问题，而是把更多的的矿力给予拥有更多代币的参与者（它们有很多不同之处，并对其著名的"无利害关系"问题有点怀疑 - 请参阅Buterin的博客文章以了解更多信息）。
-
+网络可以通过不同的机制来验证交易，但主要是通过"工作量证明"或"权益证明"。**工作量证明**（中本聪，2008）要求参与者（被称为“矿工”）通过解决复杂的数学问题来增加一个块，这个数学问题需要巨大的能源和硬件能力来解码。**权益证明**（Vasin，2014）则试图通过把更多的的算力给予拥有更多代币的参与者来解决这一能源效率的问题（它们有很多不同之处，并对其著名的"无利害关系"问题有点怀疑 - 请参阅[Buterin的博客文章](https://blog.ethereum.org/2014/11/25/proof-stake-learned-love-weak-subjectivity/)以了解更多信息）。
 
 Additional mechanisms are the Byzantine-fault-tolerant algorithm (Castro and Liskov, 2002), the Quorum slicing (Mazieres, 2016), as well as variations of the Proof-of-stake (Mingxiao et al., 2017), but we will not get into those now.
 
 
 The final characteristic that needs to be explained is the category of blockchain based on the different network access permission, i.e., whether it is free for anyone to view it (**permissionless vs permissioned**) or to participate in the consensus formation (**public vs private**). In the former case, anyone can access and read or write data from the ledger, while in the latter one predetermined participants have the power to join the network (and of course only in the public permissionless case a reward structure for miners has been designed).
 
-额外的机制有拜占庭容错算法（Castro和Liskov，2002），Quorum 分片（Mazieres，2016）以及改进的权益证明（Mingxiao等，2017），但是现在我们将不讨论这些。
+其它的机制还有拜占庭容错算法（Castro和Liskov，2002），Quorum 分片（Mazieres，2016）以及改进的权益证明（Mingxiao等，2017），但是现在我们将不讨论这些。
 
-最后一个需要说明的特点是基于不同的网络访问权限，构成区块链的类别，即是否任何人都可以免费查看（**允许或不允许**）或者参与共识形成（**公共的还是私有**）。在前一种情况下，任何人都可以访问和读取或写入帐本中的数据，而在后一种情况下，预先确定的参与者有权加入网络（当然，只有在公共许可的情况下，矿工的奖励结构才被设计出来） 。
+最后一个需要说明的是根据其不同的网络访问权限，我们把区块链分成几个类别，即是否任何人都可以免费查看（**允许或不允许**）或者参与共识形成（**公共的还是私有的**）。在前一种情况下，任何人都可以访问和读取或写入帐本中的数据，而在后一种情况下，预先确定的参与者有权加入网络（当然，只有在公共许可的情况下，才设计出针对矿工的激励结构）。
 
 It should be clear by now the intrinsic power of this technology, which is not simply a disruptive innovation but rather a foundational technology that aims to “change the scope of intermediation” (Catalini and Gans, 2017). Distributed ledger technologies will indeed reduce both the costs of verification and networking, influencing then the market structure and eventually allowing the creation of new marketplaces. Iansiti and Lakhani (2017) also drew a brilliant parallel between blockchain and TCP/IP in a recent work (which I highly recommend), showing how blockchain is slowly going through the four phases that identify previous foundational technologies such as the TCP/IP, i.e., single-use, localized use, substitution, and transformation. As they explained, the “novelty” of such a technology makes it harder for people to understand the solution domain, while its “complexity” requires a larger institutional change to foster an easy adoption.
 
 
 However, it is also true that the blockchain is shifting the traditional business models distributing value in an opposite way with respect to previous stacks: if it made more sense to invest in applications rather than protocol technologies fifteen years ago, in a blockchain world the value is concentrated in the shared protocol layer and only marginally at the application level (see the [“**Fat Protocol**” theory](http://www.usv.com/blog/fat-protocols) by Joel Monegro).
 
-目前应该清楚这种技术的内在力量，这不仅仅是一个破坏性的创新，而是一个旨在“ 改变中介范围 ” 的基础技术（Catalini and Gans，2017）。分布式账本技术的确会降低验证和联网的成本，影响当时的市场结构，并最终允许创建新的市场。Iansiti和Lakhani（2017）在最近的一个工作（我强烈推荐）中也提出了区块链和TCP / IP之间的一个很好的平行关系，说明区块链是如何缓慢地经历了四个阶段，即识别TCP / IP等先前的基础技术，即单次使用，本地化使用，替代和转换。正如他们解释的那样，这种技术的“新颖性”使得人们很难理解解决方案领域，而其“复杂性”则需要更大的制度变革来促进轻松采用。
+目前我们已经清楚这种技术的内在力量，这不仅仅是一个破坏性的创新，更是一个旨在 “改变仲裁范围” 的基础性技术（Catalini and Gans，2017）。分布式账本技术的确会降低验证和联网的成本，影响当时的市场结构，并最终允许创建新的市场。Iansiti和Lakhani（2017）在最近的一个工作（我强烈推荐）中也聪明地提出了区块链和 TCP/IP 之间的一些相似之处，如同先前的基本技术如 TCP/IP, 区块链是如何缓慢地经历了四个阶段，即单次使用，本地化使用，替代和转换。正如他们说明的那样，这种技术的“新颖性”使得人们很难理解它的解决方案领域，而其“复杂性”则需要更大的制度变革从而促进其被轻松采用。
 
-然而，区块链也正在改变传统商业模式的分配价值，与之前的方式相反：在十五年前投资于应用程序而不是协议技术上是合理的，在区块链世界中，价值集中在共享的协议层，应用程序层面则被边缘化（参见Joel Monegro 的“胖协议”理论）。
+不管怎样，区块链正在改变传统商业模式的分配价值，在十五年前投资于应用程序而不是协议技术上是正确合理的，在区块链世界中，与之前的方式正好相反：价值集中在共享的协议层，应用程序层面则被边缘化（参见Joel Monegro 的[“胖协议”理论](http://www.usv.com/blog/fat-protocols)）。
 
 > #### It’s a stack with “fat” protocols and “thin” applications (Joel Monegro).
-> #### 这是一个与“胖”协议和“瘦”应用程序（Joel Monegro）的组合。
+> #### 这是一个与“胖”协议和“瘦”应用程序的组合（Joel Monegro）。
 
 To conclude this introductory section, I will just mention on the fly the possibility for the blockchain to not simply allow for transactions but also the possibility to create **(smart) contracts** that are triggered by specific events and threshold and that are traceable and auditable without effort.
 
-总结这个介绍性的部分，我只是提到区块链不仅仅允许交易，而且还可以创建由特定事件和阈值触发并且可以不费力地追踪和审计的**（智能）合约**。
-
+为了总结这个介绍性的部分，我还要简单的提到一点：区块链不仅仅允许交易，还可以创建由特定事件和阈值触发并且可以不费力地追踪和审计的**（智能）合约**。
 
 #### Bonus Paragraph: Initial Coin Offerings (ICOs) | 奖金段落：首次公开发售数字代币（ICO）
 
@@ -91,13 +91,13 @@ A big hype is nowadays surrounding this new phenomenon of the Initial Coin Offer
 
 ICOs experts (if any) will forgive my approximate definition, but an ICO is a hybrid concept that has elements of a **shares allocation**, a **pre-sales/crowdfunding** campaign, and a **currency** with a limited power and application’s domain.
 
-现在一个大炒作正围绕着这个首次公开发售数字代币（ICO）的新现象而进行。虽然很多人在此投入大量资金，因为它跟常见的（有价值的）首次公开发行（IPO）很相似。但ICO只不过是一种代币销售，代币是特定网络（或应用）中的最小的功能单元。
+现在一个大炒作正围绕着首次公开发售数字代币（ICO）的新现象而进行。很多人在此投入大量资金，因为它跟常见的（有价值的）首次公开发行（IPO）很相似。但ICO只不过是一种**代币销售**，代币是特定网络（或应用）中的最小的功能单元。
 
-ICO专家（如果有的话）会原谅我的近似定义，但是ICO是一个混合概念，它具有股票分配，售前/众筹活动以及具有有限权力和应用领域的货币。
+ICO专家（如果有的话）会原谅我的近似定义，但是ICO是一个混合概念，它具有**股权分配**、**预售/众筹**等功能活动、以及具有有限权力和应用领域的**货币**。
 
 It is definitely an interesting innovation that introduces new unregulated ways to raise capitals, but it also poses several issues to an unprepared community. I am happy to receive feedback on this, but I would distill the key points of an ICO evaluation in what follows:
 
-这绝对是一个有趣的创新，它引入了新的不受管制的筹集资金的方式，但也给一个毫无准备的社区带来了一些问题。我很高兴收到这方面的反馈意见，但是我会提炼一下有关ICO评估的关键点：
+这绝对是一个有趣的创新，它引入了新的不受管制的筹集资金的方式，但也给毫无准备的社区带来了一些问题。我很高兴收到这方面的反馈意见，下面是我提炼的有关ICO评估的关键点：
 
 * a token has an additional utility with respect to the exchange of value and companies selling token with the **only goal of raising capital are sending a bad signal** to the market. Tokens are needed to create a users’ base and to incentivize stakeholders to participate in the ecosystem at the earliest stage. **A good white paper is not enough**;
 
@@ -108,26 +108,25 @@ It is definitely an interesting innovation that introduces new unregulated ways 
 * Be wary of token sales that do not clearly state the (present and future) **number** as well as the **value of the token** (it could sound absurd, but you may be surprised of how non-transparent an ICO can look like).
 
 
-* 令牌在价值交换方面具有额外的效用，出售令牌的公司的唯一目标是筹集资金，这些都向市场发出了不好的信号。需要标记来创建用户基础，并
-激励利益相关者尽早参与生态系统。一张好的白皮书是不够的。
+* 代币在价值交换方面具有额外的功用，出售代币的公司的**唯一目标是筹集资金，这向市场发出了不好的信号**。代币销售有利于创建用户基础，并激励利益相关者尽早参与生态系统。**但是仅有一个好的白皮书是不够的**。
 
-* 警惕令牌销售额是不封顶 ;
+* 警惕**不封顶**的代币销售;
 
-* 警惕没有时间限制的令牌销售;
+* 警惕**没有时间限制**的代币销售;
 
-* 谨慎的销售，不清楚（现在和未来）号码以及令牌的价值（这听起来可能荒谬，但你可能会惊讶于ICO可能是不透明的）。
+* 警惕（现在和未来）代币的**发行数量**和**代币价值**不清楚的代币销售（这听起来可能荒谬，但你可能会惊讶于有些ICO是多么地不透明）。
 
-### II. How AI can change Blockchain | AI如何改变区块链
+### II. How AI can change Blockchain | 人工智能如何改变区块链
 
 ![](https://cdn-images-1.medium.com/max/1600/1*X7Qoyy_VLe9DJ90qqJi2qg.png)
 
-Image Credit: [Phonlamai Photo/Shutterstock](https://www.shutterstock.com/g/PhonlamaiPhoto) | 图片来源：Phonlamai照片/ Shutterstock
+Image Credit: [Phonlamai Photo/Shutterstock](https://www.shutterstock.com/g/PhonlamaiPhoto) | 图片来源：[Phonlamai Photo/Shutterstock](https://www.shutterstock.com/g/PhonlamaiPhoto)
 
 
 Although extremely powerful, a blockchain has its own limitations as well. Some of them are technology-related while others come from the old-minded culture inherited from the financial services sector, but all of them can be affected by AI in a way or another:
 
 
-区块链虽然非常强大，但也有其自身的局限性。 其中有些是与技术有关的，有些则来自金融服务界遗留下来的古老思想文化，但都可能受到AI的影响：
+区块链虽然非常强大，但也有其自身的局限性。 其中有些局限性是与技术有关的，有些则是由于金融服务界遗留下来的古老思想文化，但这些都可能受到人工智能的某种影响：
 
 * **Energy consumption**: mining is an incredibly hard task that requires a ton of energy (and then money) to be completed (O’Dwyer and David Malone, 2014). AI has already proven to be very efficient in [optimizing energy consumption](https://blog.google/topics/environment/deepmind-ai-reduces-energy-used-for/), so I believe similar results can be achieved for the blockchain as well. This would probably also result in lower investments in mining hardware;
 
@@ -135,17 +134,17 @@ Although extremely powerful, a blockchain has its own limitations as well. Some 
 
 * **Security**: even if the blockchain is almost impossible to hack, its further layers and applications are not so secure (e.g., the DAO, Mt Gox, Bitfinex, etc.). The incredible progress made by machine learning in the last two years makes AI a fantastic ally for the blockchain to guarantee a secure applications deployment, especially given the fixed structure of the system;
 
-* 能源消耗：开采是一项非常艰巨的任务，需要耗费大量的能源（然后是资金）才能完成（O'Dwyer和David Malone，2014）。AI已经证明在优化能源消耗方面非常高效，所以我相信区块链也可以实现类似的结果。这可能也会导致对采矿硬件的投资减少;
+* **能源消耗**：采矿是一项非常艰巨的任务，需要耗费大量的能源（然后是资金）才能完成（O'Dwyer和David Malone，2014）。AI 已经证明在[优化能源消耗](https://blog.google/topics/environment/deepmind-ai-reduces-energy-used-for/)方面非常高效，所以我相信区块链也可以实现类似的结果。这可能也会导致对采矿硬件的投资减少;
 
-* 可扩展性：区块链每10分钟以1MB的速度稳步增长，已经达到了85GB。Satoshi（2008）首先提到“ 区块链修剪 ”（即删除不必要的有关完全花费的交易的数据，以便不把整个区块链放在一台笔记本电脑上）作为一种可能的解决方案，但是人工智能可以引入新的分散式学习系统如联合学习（Federated Learning，一种分布式机器学习方法，由谷歌推出。译者注），或者使用新的数据分片技术来提高系统的效率;
+* **可扩展性**：区块链容量以每10分钟增加1MB的速度稳步增长，现在已经达到了85GB。中本聪（2008）首先提到”区块链修剪”（即删除不必要的，完全花费的交易的数据，以便可以把整个区块链数据放在一台笔记本电脑上）作为一种可能的解决方案，但是人工智能可以引入新的去中心化学习系统如**联合学习**（Federated Learning，一种分布式机器学习方法，由谷歌推出。译者注），或者使用新的数据分片技术来提高系统的效率;
 
-* 安全性：虽然区块链几乎不可能破解，但是它的上层协议和应用程序就不是那么的安全（例如，DAO，Mt Gox，Bitfinex等）。机器学习在过去两年中所取得的惊人进展，使得AI成为区块链的绝佳盟友，以保证应用程序的安全部署，尤其是考虑到系统的固定结构;
+* **安全性**：虽然区块链几乎不可能破解，但是它的上层协议和应用程序就不是那么的安全（如 DAO，Mt Gox，Bitfinex等事件）。机器学习在过去两年中所取得的惊人进展，使得AI成为区块链的绝佳盟友，以保证应用程序的安全部署，尤其是考虑到系统的固定结构;
 
 * **Privacy**: the privacy issue of owning personal data raises regulatory and strategic concerns for competitive advantages (Unicredit, 2016). Homomorphic encryption (performing operations directly on encrypted data), the **Enigma project** (Zyskind et al., 2015) or the **Zerocash project** (Sasson et al., 2014), are definitely potential solutions, but I see this problem as closely connected to the previous two, i.e., scalability and security, and I think they will go pari passu;
 
 * **Efficiency**: Deloitte (2016) estimated the total running costs associated with validating and sharing transactions on the blockchain to be as much as $600 million a year. An intelligent system might be eventually able to compute on the fly the likelihood for specific nodes to be the first performing a certain task, giving the possibility to other miners to shut down their efforts for that specific transaction and cut down the total costs. Furthermore, even if some structural constraints are present, a better efficiency and a lower energy consumption may reduce the **network latency** allowing then faster transactions;
 
-* 隐私：拥有个人数据的隐私问题引发了对竞争优势的监管和战略考虑（Unicredit，2016）。Enigma项目（ Zyskind等，2015）或Zerocash项目（Sasson等，2014）同态加密（直接对加密数据执行操作）绝对是潜在的解决方案，但是我认为这个问题与前两个，即可扩展性和安全性，我认为他们会同行 ;
+* **隐私**：拥有个人数据所引起的隐私问题，引发了对竞争优势的监管和战略考虑（Unicredit，2016）。同态加密（直接对加密数据执行操作），** Enigma 项目**（ Zyskind 等，2015）或 **Zerocash 项目**（Sasson等，2014）绝对是潜在的解决方案，但我认为这个问题与前两个问题，即可扩展性和安全性紧密相连，我认为它们会同步进展;
 
 * 效率：德勤（2016）估计，与验证和分享区块链交易相关的总运营成本每年高达6亿美元。一个智能系统可能最终能够即时计算特定节点成为第一个执行某项任务的可能性，从而使其他矿工有可能关闭其针对该特定交易的努力并降低总成本。此外，即使存在一些结构约束，更好的效率和更低的能量消耗可以减少网络延迟，从而允许更快的事务;
 
@@ -365,7 +364,7 @@ keywords: Blockchain Artificial Intelligence Machine Learning Data Science Big D
 
 鱼 区块链技术爱好者，欢迎加微信号`oscnet`交流。
 
-本文由币乎社区（bihu.com）内容支持计划赞助。
+本文由[币乎社区（bihu.com）](http://www.bihu.com)内容支持计划奖励。
 
 版权所有，转载需完整注明以上内容。
 
