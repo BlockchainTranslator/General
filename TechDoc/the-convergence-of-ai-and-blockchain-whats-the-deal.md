@@ -93,7 +93,7 @@ ICOs experts (if any) will forgive my approximate definition, but an ICO is a hy
 
 现在一个大炒作正围绕着首次公开发售数字代币（ICO）的新现象而进行。很多人在此投入大量资金，因为它跟常见的（有价值的）首次公开发行（IPO）很相似。但ICO只不过是一种**代币销售**，代币是特定网络（或应用）中的最小的功能单元。
 
-ICO专家（如果有的话）会原谅我的近似定义，但是ICO是一个混合概念，它具有**股权分配**、**预售/众筹**等功能活动、以及具有有限权力和应用领域的**货币**。
+ICO专家（如果有的话）请原谅我的这个近似的定义，ICO是一个混合概念，它具有**股权分配**、**预售/众筹**等功能活动、以及具有有限权力和应用领域的**货币**。
 
 It is definitely an interesting innovation that introduces new unregulated ways to raise capitals, but it also poses several issues to an unprepared community. I am happy to receive feedback on this, but I would distill the key points of an ICO evaluation in what follows:
 
@@ -144,10 +144,9 @@ Although extremely powerful, a blockchain has its own limitations as well. Some 
 
 * **Efficiency**: Deloitte (2016) estimated the total running costs associated with validating and sharing transactions on the blockchain to be as much as $600 million a year. An intelligent system might be eventually able to compute on the fly the likelihood for specific nodes to be the first performing a certain task, giving the possibility to other miners to shut down their efforts for that specific transaction and cut down the total costs. Furthermore, even if some structural constraints are present, a better efficiency and a lower energy consumption may reduce the **network latency** allowing then faster transactions;
 
-* **隐私**：拥有个人数据所引起的隐私问题，引发了对竞争优势的监管和战略考虑（Unicredit，2016）。同态加密（直接对加密数据执行操作），** Enigma 项目**（ Zyskind 等，2015）或 **Zerocash 项目**（Sasson等，2014）绝对是潜在的解决方案，但我认为这个问题与前两个问题，即可扩展性和安全性紧密相连，我认为它们会同步进展;
+* **隐私**：对拥有个人数据所引起的隐私问题，引发了对竞争优势的监管和战略考虑（Unicredit，2016）。同态加密（直接对加密数据执行操作），** Enigma 项目**（ Zyskind 等，2015）或 **Zerocash 项目**（Sasson等，2014）绝对是潜在的解决方案，但我认为这个问题与前两个问题，即可扩展性和安全性紧密相连，我认为它们会同步地发展;
 
-* 效率：德勤（2016）估计，与验证和分享区块链交易相关的总运营成本每年高达6亿美元。一个智能系统可能最终能够即时计算特定节点成为第一个执行某项任务的可能性，从而使其他矿工有可能关闭其针对该特定交易的努力并降低总成本。此外，即使存在一些结构约束，更好的效率和更低的能量消耗可以减少网络延迟，从而允许更快的事务;
-
+* 效率：德勤（2016）估计，与验证和分享区块链交易相关的总运营成本每年高达6亿美元。一个智能系统可能最终能够快速计算出，特定节点成为第一个执行某项任务的可能性，使得其他矿工放弃针对该特定交易的工作成为可能从而降低总成本。此外，即使存在一些结构约束，更好的效率和更低的能量消耗可以减少**网络延迟**，从而得到更快的事务处理能力;
 
 * **Hardware**: miners (and not necessarily companies but also individuals) poured an incredible amount of money into specialized hardware components. Since energy consumption has always been a key issue, many solutions have been proposed and much more will be introduced in the future. As soon as the system becomes more efficient, some piece of hardware might be converted (sometimes partially) for neural nets use (the mining colossus Bitmain is doing exactly this);
 
@@ -155,11 +154,11 @@ Although extremely powerful, a blockchain has its own limitations as well. Some 
 
 * **Data gates**: in a future where all our data will be available on a blockchain and companies will be able to directly buy them from us, we will need help to grant access, track data usage, and generally make sense of what happens to our personal information at a computer speed. This is a job for (intelligent) machines.
 
-* 硬件：矿工（不一定是公司，也包括个人）将大量资金投入到专门的硬件组件中。由于能源消耗一直是一个关键问题，因此提出了许多解决方案，未来还将引入更多的解决方案。一旦系统变得更有效率，一些硬件可能会被转换（有时是部分的），用于神经网络的使用（挖掘巨人Bitmain正在做这个）。
+* **硬件**：矿工（不一定是公司，也包括个人）将大量资金投入到专门的挖矿硬件中。由于能源消耗一直是一个关键问题，因此提出了许多解决方案，未来还将引入更多的解决方案。一旦系统变得更有效率，一些硬件可能会被转换（有时是部分的）用于神经网络的使用（矿业巨头比特大陆正在做这个事情）。
 
-* 缺乏人才：这是信念的飞跃，但同样我们正在努力实现数据科学本身的自动化（不成功，以我目前的知识），我不明白为什么我们不能创建虚拟代理来创建新的分类账他们自己（甚至互动和维护）;
+* **缺乏人才**：这是信念的飞跃，但同样我们正在努力实现数据科学本身的自动化（尚末成功，以我目前的了解），我不明白为什么我们不能创建虚拟代理，通过它来创建新的账薄（甚至能跟它互动和维护它）;
 
-* 数据门：未来我们的所有数据都将在区块链上提供，而公司将能够直接从我们这里购买，我们将需要帮助来授予访问权限，跟踪数据使用情况，并且通常会了解我们的个人信息以计算机速度的信息。这是（智能）机器的工作。
+* **数据门**：未来我们的所有数据都将在区块链上提供，而公司将能够直接从我们这里购买这些数据，我们将需要帮助来授予访问权限，跟踪数据使用情况，而且通常能够以计算机速度理解我们的个人信息会发生什么情况。这就是（智能）机器的工作。
 
 ### III. How Blockchain can change AI | 区块链如何改变AI
 
@@ -168,28 +167,27 @@ https://datafloq.com/read/how-cognitive-computing-can-revolutionize-business/331
 
 In the previous section, we quickly touched upon the effects that AI might eventually have on the blockchain. Now instead, we will make the opposite exercise understanding what impact can the blockchain have on the development of machine learning systems. More in details, blockchain could:
 
-在之前的章节中，我们很快就谈到了人工智能最终会对区块链造成的影响。相反，我们现在正好相反，了解区块链对机器学习系统的发展有什么影响。更详细地说，区块链可以：
+在之前的章节中，我们很快地谈到了人工智能最终会对区块链造成的影响。现在，相反的我们将会了解区块链对机器学习系统的发展有何影响，更详细地说，区块链可以：
 
 * **Help AI explaining itself (and making us believe it)**: the AI black-box suffers from an explainability problem. Having a clear audit trail can not only improve the trustworthiness of the data as well as of the models but also provide a clear route to trace back the machine decision process;
 
 * **Increase AI effectiveness**: a secure data sharing means more data (and more training data), and then better models, better actions, better results…and better new data. Network effect is all that matter at the end of the day;
 
-* 帮助AI解释自己（并让我们相信它）：AI黑盒遭受可解释性问题。清晰的审计跟踪不仅可以提高数据的可信性，还可以提高模型的可信度，也为追溯机器决策过程提供了一条清晰的途径。
+* **帮助 AI 解释自己（并让我们相信它）**：AI 黑盒遭受可解释性问题。清晰的审计跟踪不仅可以提高数据的可信性，还可以提高模型的可信度，也为追溯机器的决策过程提供了一条清晰的途径。
 
-* 提高人工智能的有效性：一个安全的数据共享意味着更多的数据（和更多的训练数据），然后更好的模型，更好的行动，更好的结果...和更好的新数据。网络效应在一天结束的时候是重要的。
+* **提高人工智能的有效性**：一个安全的数据共享意味着更多的数据（和更多的训练数据），然后更好的模型，更好的行动，更好的结果...和更好的新数据。在一天结束时，网络效应才是最重要的。
 
 * **Lower the market barriers to entry**: let’s go step by step. Blockchain technologies can secure your data. So why won’t you store all your data privately and maybe sell it? Well, you probably will. So first of all, blockchain will foster the **creation of cleaner and more organized personal data**. Second, it will allow the emergence of **new marketplaces**: a **data marketplace** (low-hanging fruit); a **models marketplace** (much more interesting); and finally even an **AI marketplace** (see what [Ben Goertzel](https://medium.com/@bengoertzel) is trying to do with [SingularityNET](https://singularitynet.io/)). Hence, easy data-sharing and new marketplaces, jointly with blockchain data verification, will provide a more fluid integration that lowers the barrier to entry for smaller players and shrinks the competitive advantage of tech giants. In the effort of lowering the barriers to entry, we are then actually solving two problems, i.e., providing a **wider data access** and a more efficient **data monetization mechanism**;
 
-* 降低进入市场的障碍：让我们一步一步来。区块链技术可以保护您的数据。那么为什么你不能私下存储所有的数据，也许会出售它？那么，你可能会。首先，区块链将促进创建更清洁，更有组织的个人数据。其次，它将允许出现新的市场：一个数据市场（低挂果实）; 一个模型市场（更有趣）; 最后甚至是一个AI市场（请参阅Ben Goertzel正在尝试使用SingularityNET）。因此，简单的数据共享和新的市场以及区块链数据验证将提供更加流畅的整合，从而降低小企业进入的门槛，缩小高科技巨头的竞争优势。为了降低进入门槛，我们实际上解决了两个问题：提供更广泛的数据访问和更高效的数据货币化机制;
+* **降低进入市场的障碍**：让我们一步一步来。区块链技术可以保护您的数据。那么为什么你不能私下存储所有的数据，以后也许还能将它出售？是的，你有可能想这样做。首先，区块链将促进**创建更清洁，更有组织的个人数据**。其次，它将允许出现**新的市场**：一个**数据市场**（低挂果实）; 一个**模型市场**（更有趣）; 最后甚至是一个**AI市场**（看看[Ben Goertzel](https://medium.com/@bengoertzel)正用[SingularityNET](https://singularitynet.io/)来做什么）。因此，简单的数据共享和新的市场以及区块链数据验证将提供更加流畅的整合，从而降低小企业进入的门槛，缩小高科技巨头的竞争优势。为了降低进入门槛，我们实际上解决了两个问题：提供**更广泛的数据访问**和更高效的**数据货币化机制**;
 
 * **Increase artificial trust**: as soon as part of our tasks will be managed by autonomous virtual agents, having a clear audit trail will help **bots to trust each other** (and us to trust them). It will also eventually increase every **machine-to-machine interaction** (Outlier Ventures, 2017) and transaction providing a secure way to share data and coordinate decisions, as well as a robust mechanism to reach a quorum (extremely relevant for swarm robotics and multiple agents scenarios). [Rob May](https://medium.com/@robmay) expressed a similar concept in one of his last newsletters (that I highly recommend — [you should definitely subscribe](https://inside.com/campaigns/inside-ai-2017-09-03-3149/sections/commentary-17321));
 
 * **Reduce catastrophic risks scenario**: an AI coded in a DAO with specific smart contracts will be able to only perform those actions, and nothing more (it will have a limited action space then).
 
-* 增加人为信任：只要部分任务由自主虚拟代理管理，拥有清晰的审计跟踪将有助于机器人互相信任（我们相信他们）。它还将最终增加每个机器对机器的交互（Outlier Ventures，2017），交易提供了一个安全的方式来共享数据和协调决策，以及一个强大的机制达到法定人数（与群体
+* **增加人为信任**：只要部分我们的工作由自主虚拟代理管理，拥有清晰的审计跟踪将有助于**机器人互相信任**（我们相信他们）。它还将最终增加每个**机器与机器的交互**（Outlier Ventures，2017），增加提供了一个安全的方式来共享数据和协调决策地交易，以及一个强大的机制达到法定人数（对群体机器人和多个代理情景非常有意义）。[罗布·梅（Rob May）](https://medium.com/@robmay)在他的最近一篇时事通讯中表达了类似的概念（我强烈建议 -  你一定要[订阅](https://inside.com/campaigns/inside-ai-2017-09-03-3149/sections/commentary-17321)）。
 
-* 机器人和多个代理非常相关场景）。罗布·梅（Rob May）在他最近的一个通讯中表达了类似的概念（我强烈建议 -  你一定要订阅）。
-减少灾难性风险情景：在DAO中使用特定的智能合约编码的AI只能执行这些操作，而只能执行这些操作（其时将具有有限的操作空间）。
+* **减少灾难性风险情景**：在DAO中使用特定的智能合约编码的AI只能执行这些操作，而不会再有任何其他操作（因此它将具有有限的操作空间）。
 
 In spite of all the benefits that AI will receive from an interaction with blockchain technologies, I do have one big question with no answer whatsoever.
 
@@ -197,29 +195,33 @@ In spite of all the benefits that AI will receive from an interaction with block
 
 尽管AI可以从与区块链技术的互动中获得所有的好处，但我确实有一个大问题，没有任何答案。
 
-> *人工智能诞生于数据是真正的护城河的开源环境中。有了这个数据民主化（和开源软件），我们怎么能确定AI会繁荣，并将继续发展？新的护城河会是什么？我现在唯一的猜测是？天赋…*
+> *人工智能诞生于开源环境中，这其中数据才是真正重要的护城河。当这个数据民主化（和开源软件），我们怎么能确定AI会繁荣，并将继续发展？新的护城河会是什么？我现在唯一的猜测是？天赋…*
 
 
-### IV. Decentralized Intelligent Companies | 分散的智能公司
+### IV. Decentralized Intelligent Companies | 去中心化的智能公司
 
 ![](https://cdn-images-1.medium.com/max/1600/1*PFg1uE4iLrUoWLBHLdfCEw.png)
-Image Credit: [Wit Olszewski/Shutterstock](https://www.shutterstock.com/g/witolszewski) | 图片来源：Wit Olszewski / Shutterstock
+Image Credit: [Wit Olszewski/Shutterstock](https://www.shutterstock.com/g/witolszewski) | 图片来源：[Wit Olszewski / Shutterstock](https://www.shutterstock.com/g/witolszewski)
 
 There are plenty of landscapes of blockchain and cryptocurrencies startups out there. I am anyway only interested in those companies working at the intersection (or the convergence, as someone calls it) of AI and blockchain, which apparently are not that many. They are mainly concentrated in San Francisco area and London, but there are examples in New York, Australia, China, as well as some European countries.
 
 They are indeed so few of them that is quite hard to classify them into clusters. I usually like to try to understand the underlying patterns and the type of impact/application certain groups of companies are having in the industry, but in this case is extremely difficult given the low number of data points so I will simply categorize them as follows:
 
-这里有很多blockchain的风景和cryptocurrencies初创公司在那里的。我无论如何只对那些在AI和区块链交汇处工作的公司感兴趣（或者说人们称之为融合），这显然不是那么多。他们主要集中在旧金山地区和伦敦，但在纽约，澳大利亚，中国以及一些欧洲国家也有例子。
+那里有大量的区块链和加密货币初创公司的风景。但我只对那些结合（或者说人们称之为融合）了AI和区块链的公司感兴趣，这显然并不多。他们主要集中在旧金山地区和伦敦，纽约，澳大利亚，中国以及一些欧洲国家也有一些。
 
-他们确实很少，很难将它们分类。我通常喜欢尝试了解某些​​公司在行业中所具有的基本模式和影响/应用类型，但在这种情况下，由于数据点数量较少，所以我将简单地将它们分类如下：
+他们确实很少，很难将它们分类。我通常喜欢尝试了解某些公司在行业中具有的底层模式和影响/应用类型，但在这种情况下，由于数据点数量较少，所以我将简单地将它们分类如下：
 
 * **Decentralized Intelligence**: [TraneAI](http://www.trane.ai/) (training AI in a decentralized way); [Neureal](http://neureal.net/) (peer-to-peer AI supercomputing); [SingularityNET](https://singularitynet.io/) (AI marketplace); [Neuromation](https://neuromation.io/en/) (synthetic datasets generation and algorithm training platform); [AI Blockchain](https://ai-blockchain.com/) (multi-application intelligence); [BurstIQ](https://www.burstiq.com/) (healthcare data marketplace); [AtMatrix](https://www.atmatrix.org/) (decentralized bots); [OpenMined](https://openmined.org/) project (data marketplace to train machine learning locally);
 
 * **Conversational Platform**: [Green Running](https://www.greenrunning.com/) (home energy virtual assistant); [Talla](https://talla.com/) (chatbot); [doc.ai](https://doc.ai/) (quantified biology and healthcare insights);
 
-* 分散式智能：TraneAI（以分散方式培训AI）; Neureal（点对点AI超级计算）; SingularityNET（AI市场）; Neuromation（合成数据集生成和算法培训平台）; AI区块链（多应用智能）; BurstIQ（医疗数据市场）; AtMatrix（分散机器人）; OpenMined项目（在本地培训机器学习的数据市场）;
+* **去中心化的智能**：[TraneAI](http://www.trane.ai/)（以去中心化的方式培训 AI ）; [Neureal](http://neureal.net/))（点对点AI超级计算）; [SingularityNET](https://singularitynet.io/)（AI 市场）; [Neuromation](https://neuromation.io/en/)（合成数据集生成和算法培训平台）;
+[AI Blockchain](https://ai-blockchain.com/)（多应用智能）; [BurstIQ](https://www.burstiq.com/)（医疗数据市场）; [AtMatrix](https://www.atmatrix.org/)（分散机器人）;
+[OpenMined](https://openmined.org/) 项目（在本地培训机器学习的数据市场）;
 
-* 会话平台：绿色运行（家庭能源虚拟助手）; 塔拉（chatbot）; doc.ai（量化的生物学和医疗保健见解）;
+* **会话平台**：[Green Running](https://www.greenrunning.com/)（家庭能源虚拟助手）;
+[Talla](https://talla.com/)（聊天机器人）;
+[doc.ai](https://doc.ai/)（量化的生物学和医疗保健）;
 
 * **Prediction Platform**: [Augur](https://augur.net/) (collective intelligence); [Sharpe Capital](https://sharpe.capital/) (crowd-source sentiment predictions);
 
@@ -227,11 +229,15 @@ They are indeed so few of them that is quite hard to classify them into clusters
 
 * **Data provenance**: KapeIQ (fraud detection on healthcare entities); [Data Quarka](http://dataquarks.com/) (facts checking); [Priops](http://priops.com/) (data compliance); [Signzy](https://signzy.com/) (KYC)
 
-* 预测平台：Augur（集体智慧）; 夏普资本（人群来源情绪预测）;
+* **预测平台**：[Augur](https://augur.net/)（集体智慧）;
+[Sharpe Capital](https://sharpe.capital/) （人群情绪预测）;
 
-* 知识产权：Loci.io（IP发现和挖掘）;
+* **知识产权**：[Loci.io](https://locipro.com/)（IP发现和挖掘）;
 
-* 数据来源：KapeIQ（医疗机构欺诈检测）; 数据夸克（事实核查）; Priops（数据符合性）; Signzy（KYC）
+* **数据跟踪**：KapeIQ（医疗机构欺诈检测）;
+[Data Quarka](http://dataquarks.com/)（事实核查）;
+[Priops](http://priops.com/)（数据符合性）;
+[Signzy](https://signzy.com/)（KYC）
 
 * **Trading**: [Euklid](https://www.euklid.com/) (bitcoin investments); [EthVentures](https://ethventures.io/) (investments on digital tokens). For other (theoretical) applications in finance, see Lipton (2017);
 
@@ -239,11 +245,17 @@ They are indeed so few of them that is quite hard to classify them into clusters
 
 * **Miscellaneous**: [Social Coin](https://thesocialcoin.com/?lang=en) (citizens’ reward systems); [HealthyTail](http://healthytail.org/) (pet analytics); [Crowdz](https://www.crowdz.io/) (e-commerce); [DeepSee](https://www.deepsee.io/) (media platform); [ChainMind](http://www.chainmind.com/) (cybersecurity).
 
-* 交易：Euklid（比特币投资）; EthVentures（数字令牌投资）。对于金融领域的其他（理论）应用，见Lipton（2017）;
+* **交易**：[Euklid](https://www.euklid.com/)（比特币投资）;
+[EthVentures](https://ethventures.io/)（数字代币投资）。对于金融领域的其他（理论）应用，见Lipton（2017）;
 
-* 保险：Mutual.life（P2P保险），Inari（普通）;
+* **保险**：[Mutual.life](https://mutual.life/en/)（P2P保险），
+[Inari](http://www.inari.io/)（普通）;
 
-* 杂项：社会硬币（公民奖励制度）; HealthyTail（宠物分析）; Crowdz（电子商务）; DeepSee（媒体平台）; ChainMind（网络安全）。
+* **其它**：[Social Coin](https://thesocialcoin.com/?lang=en)（公民奖励制度）;
+ [HealthyTail](http://healthytail.org/)（宠物分析）;
+[Crowdz](https://www.crowdz.io/)（电子商务）;
+[DeepSee](https://www.deepsee.io/)（媒体平台）;
+[ChainMind](http://www.chainmind.com/)（网络安全）。
 
 A few general comments:
 
@@ -253,13 +265,13 @@ A few general comments:
 
 * I am personally very excited to see the development of the first category (**decentralized intelligence**) but I also see a huge development in **conversational** and **prediction platforms** as well as **intellectual property**. I grouped other examples under “miscellaneous” because I don’t think at this stage they represent a specific category but rather only single attempt to match AI and blockchain;
 
-* 看起来有趣的是，许多AI区块链公司拥有比团队更大的咨询委员会。这可能是一个早期的迹象，说明融合还没有完全实现，还有更多的东西我们不明白，那些我们知道;
+* 看起来有趣的是，许多AI区块链公司拥有**比团队更大的咨询委员会**。这可能是一个早期的迹象，说明融合还没有完全实现，还有比那些我们知道的更多的东西，是我们不明白的;
 
-* 我个人非常高兴看到第一类（分散式情报）的发展，但是我也看到了对话和预测平台以及知识产权方面的巨大发展。我把其他的例子归类为“杂项”，因为我不认为在这个阶段它们代表了一个特定的类别，而只是一次尝试匹配AI和区块链;
+* 我个人非常高兴看到第一类（**去中心化的智能**）的发展，但是我也看到了**对话**和**预测平台**以及**知识产权**方面的巨大发展。我把其他的例子归类为“其它”，因为我不认为在这个阶段它们代表了一个特定的类别，而只是一次匹配AI和区块链的尝试;
 
 * **Those companies are incredibly hard to evaluate**. The websites are often cryptic enough to not really understand what they do and how (a bit paradoxical if you want to buy the blockchain transparency paradigm) and technology requires a high tech-education to be fully assessed. Cutting through the hype is a demanding task and this makes it very easy to be fooled. But let me give you a concrete example: **ever heard of Magos AI?** In the effort of researching companies for this post, I found myself reading several articles on this forecasting blockchain AI-driven platform company (W[ired](https://www.wired.it/economia/start-up/2017/10/04/magos-la-startup-vuole-prevedere-futuro-ai-blockchain/), [Prnewswire](https://www.prnewswire.com/news-releases/magos-ai-a-neural-network-based-forecasting-platform-gathers-700000-on-its-ongoing-ico-300526569.html), etc.), which just did an ICO for over half a million dollars and that made great promises on its deliverables. The website didn’t work — weird, if you consider that they need to share material/information on the ICOs. But you know, it might happen. I made then an extra effort because I read it on Wired and I was curious to know more about it. I was able to find its co-founders, which I couldn’t find eventually on Linkedin. Weird again. Well, there are people who do not like socials, fair enough, especially if you consider that until three months ago there was no proof of the company existence whatsoever. Let me look into the rest of the team. Nothing even there, and no traceable indications of their previous experiences (except for the CTO master in analytics, that I found no proof of). I tried to then dig into the technology: white papers, blue papers, yellow papers, you name it. I only found reviews of them, no original copies. Final two steps: I don’t consider myself an expert in blockchain at all, but I read, a lot. And I also believe I am fairly knowledgeable when it comes to AI and what is happening in the industry. These guys claimed they created 5 different neural nets that could achieve the same accuracy in complex different domains than Libratus (or DeepStack) reached in Poker, but I never heard of them — very weird. Well, you know what? Maybe I could write them and meet them to understand. Their address points to the AXA office in Zurich. Ah.
 
-* 这些公司难以置信地难以评估。这些网站往往足够隐晦，不能真正理解他们做什么和怎么做（如果你想购买区块链透明模式有点矛盾），技术需要高科技教育得到充分评估。通过炒作是一个艰巨的任务，这使得它很容易被愚弄。但是让我给你一个具体的例子：曾经听说过Magos AI？在研究公司对这个岗位的工作，我发现自己读这个预测blockchain AI-驱动平台公司几篇文章（W IRED，美通社等），刚刚做了一个超过50万美元的ICO，并对其交付成果作出了很大的承诺。如果你认为他们需要分享ICO的材料/信息，那么这个网站就行不通了。但是你知道，这可能会发生。我做了一个额外的努力，因为我在Wired上读过它，我很想知道更多。我能够找到它的联合创始人，我最终不能找到Linkedin。奇怪了。那么，有些人不喜欢社交活动，尤其是如果你考虑到三个月前没有公司存在的证据。让我看看其他的团队。没有什么，也没有可追溯的迹象表明他们以前的经验（除了CTO掌握分析，我发现没有证据）。我试图深入研究这项技术：白皮书，蓝纸，黄纸，你的名字。我只找到他们的评论，没有正本。最后两个步骤：我根本不认为自己是区块链专家，但我读了很多。而且我也相信我对AI和业内正在发生的事情有相当的了解。这些人声称他们创造了5个不同的神经网络，可以在复杂的不同领域达到相同的准确度比在达到扑克室Libratus（或DeepStack），但我从来没有听说过他们 - 非常奇怪。那么，你知道什么？也许我可以写他们，并会见他们理解。他们的地址指向了位于苏黎世的安盛办事处。啊。而且我也相信我对AI和业内正在发生的事情有相当的了解。这些人声称他们创造了5个不同的神经网络，可以在复杂的不同领域达到相同的准确度比在达到扑克室Libratus（或DeepStack），但我从来没有听说过他们 - 非常奇怪。那么，你知道什么？也许我可以写他们，并会见他们理解。他们的地址指向了位于苏黎世的安盛办事处。啊。而且我也相信我对AI和业内正在发生的事情有相当的了解。这些人声称他们创造了5个不同的神经网络，可以在复杂的不同领域达到相同的准确度比在达到扑克室Libratus（或DeepStack），但我从来没有听说过他们 - 非常奇怪。那么，你知道什么？也许我可以写他们，并会见他们理解。他们的地址指向了位于苏黎世的安盛办事处。啊。
+* **这些公司难以置信地难以评估**。他们的网站往往足够隐晦，不能真正理解他们做什么和怎么做（如果你想购买区块链透明模式有点矛盾），技术需要高科技教育得到充分发挥。通过炒作是一个艰巨的任务，这使得它很容易被愚弄。但是让我给你一个具体的例子：曾经听说过Magos AI？在研究公司对这个岗位的工作，我发现自己读这个预测blockchain AI-驱动平台公司几篇文章（W IRED，美通社等），刚刚做了一个超过50万美元的ICO，并对其交付成果作出了很大的承诺。如果你认为他们需要分享ICO的材料/信息，那么这个网站就行不通了。但是你知道，这可能会发生。我做了一个额外的努力，因为我在Wired上读过它，我很想知道更多。我能够找到它的联合创始人，我最终不能找到Linkedin。奇怪了。那么，有些人不喜欢社交活动，尤其是如果你考虑到三个月前没有公司存在的证据。让我看看其他的团队。没有什么，也没有可追溯的迹象表明他们以前的经验（除了CTO掌握分析，我发现没有证据）。我试图深入研究这项技术：白皮书，蓝纸，黄纸，你的名字。我只找到他们的评论，没有正本。最后两个步骤：我根本不认为自己是区块链专家，但我读了很多。而且我也相信我对AI和业内正在发生的事情有相当的了解。这些人声称他们创造了5个不同的神经网络，可以在复杂的不同领域达到相同的准确度比在达到扑克室Libratus（或DeepStack），但我从来没有听说过他们 - 非常奇怪。那么，你知道什么？也许我可以写他们，并会见他们理解。他们的地址指向了位于苏黎世的安盛办事处。啊。而且我也相信我对AI和业内正在发生的事情有相当的了解。这些人声称他们创造了5个不同的神经网络，可以在复杂的不同领域达到相同的准确度比在达到扑克室Libratus（或DeepStack），但我从来没有听说过他们 - 非常奇怪。那么，你知道什么？也许我可以写他们，并会见他们理解。他们的地址指向了位于苏黎世的安盛办事处。啊。而且我也相信我对AI和业内正在发生的事情有相当的了解。这些人声称他们创造了5个不同的神经网络，可以在复杂的不同领域达到相同的准确度比在达到扑克室Libratus（或DeepStack），但我从来没有听说过他们 - 非常奇怪。那么，你知道什么？也许我可以写他们，并会见他们理解。他们的地址指向了位于苏黎世的安盛办事处。啊。
 
 After 5 minutes of research, I finally Google the two key words: “Magos scam”. It seems these guys took the money and disappeared. They are surely building the 6 neural net somewhere, so stay tuned.
 
