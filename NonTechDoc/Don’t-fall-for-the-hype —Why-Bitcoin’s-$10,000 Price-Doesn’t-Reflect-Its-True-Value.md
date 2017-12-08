@@ -1,5 +1,5 @@
 # Don’t fall for the hype — Why Bitcoin’s $10,000 Price Doesn’t Reflect Its True Value
-# 这是炒作？ -- 为何一万美元的比特币未反映其真实价值
+# 别限于炒作，为何说10000美元还没体现比特币的真实价值
 
 > 本文翻译自：https://decentralize.today/dont-fall-for-the-hype-why-bitcoin-s-10-000-price-doesn-t-reflect-its-true-value-6b42a59fce0a
 >
@@ -132,7 +132,7 @@ The price of Bitcoin is the least interesting thing about it. The value of Bitco
 
 [Over one third of a trillion dollars.](http://coinmarketcap.com/) That’s the total amount of cryptocurrencies in the world. $165 Billion belongs to Bitcoin alone, which just shows how dominant network effects can be. Because of Bitcoin technology, the power to create money was granted to every human being on earth and taken away from kings, oligarchs, and governments. The printing press did the exact same thing for information, which started the renaissance and led to the industrial revolution.
 
-[市值超过一万亿美元的三分之一。](http://coinmarketcap.com/) 这是世界上加密货币的总量。 1650 亿美元仅属于比特币，这只说明了网络效应的优势。 由于比特币技术，创造金钱的权力被赋予给了地球上的每一个人，并从国王、寡头和政府手中转移。 印刷机对信息做了同样的事情，从而开启了文艺复兴，并引发了工业革命。
+[市值超过三千亿美元。](http://coinmarketcap.com/) 这是世界上加密货币的总量。 1650 亿美元仅属于比特币，这只说明了网络效应的优势。 由于比特币技术，创造金钱的权力被赋予给了地球上的每一个人，并从国王、寡头和政府手中转移。 印刷机对信息做了同样的事情，从而开启了文艺复兴，并引发了工业革命。
 
 There is immense wealth being created right before our very eyes, but it is happening so fast that most people are ignoring it. I remember when I was a young boy, I loved reading the Guinness book of world records, and one of the most fascinating things for me there was the list of richest people in the world. [In the late 80s to early 90s, it was consistently the Sultan of Brunei, with his golden throne, 200 Ferraris, and a gold plated Rolls Royce that made the top of the list.](http://factsanddetails.com/southeast-asia/Brunei/sub5_10a/entry-3604.html)
 
