@@ -252,7 +252,7 @@ We will live in a future where Bitcoin set money free.
 
 龙心小台，区块链学习者，微信公众号：视听区块链
 
-本文由币乎社区（bihu.com）内容支持计划赞助。
+本文由币乎社区（bihu.com）内容支持计划奖励。
 
 版权所有，转载需完整注明以上内容。
 
