@@ -265,21 +265,27 @@ A few general comments:
 
 * I am personally very excited to see the development of the first category (**decentralized intelligence**) but I also see a huge development in **conversational** and **prediction platforms** as well as **intellectual property**. I grouped other examples under “miscellaneous” because I don’t think at this stage they represent a specific category but rather only single attempt to match AI and blockchain;
 
-* 看起来有趣的是，许多AI区块链公司拥有**比团队更大的咨询委员会**。这可能是一个早期的迹象，说明融合还没有完全实现，还有比那些我们知道的更多的东西，是我们不明白的;
+* 看起来有趣的是，许多 AI 区块链公司拥有**比团队更大的咨询委员会**。这可能是一个早期的迹象，说明融合还没有完全实现，在这方面，我们所知有限，更多的是未知;
 
 * 我个人非常高兴看到第一类（**去中心化的智能**）的发展，但是我也看到了**对话**和**预测平台**以及**知识产权**方面的巨大发展。我把其他的例子归类为“其它”，因为我不认为在这个阶段它们代表了一个特定的类别，而只是一次匹配AI和区块链的尝试;
 
 * **Those companies are incredibly hard to evaluate**. The websites are often cryptic enough to not really understand what they do and how (a bit paradoxical if you want to buy the blockchain transparency paradigm) and technology requires a high tech-education to be fully assessed. Cutting through the hype is a demanding task and this makes it very easy to be fooled. But let me give you a concrete example: **ever heard of Magos AI?** In the effort of researching companies for this post, I found myself reading several articles on this forecasting blockchain AI-driven platform company (W[ired](https://www.wired.it/economia/start-up/2017/10/04/magos-la-startup-vuole-prevedere-futuro-ai-blockchain/), [Prnewswire](https://www.prnewswire.com/news-releases/magos-ai-a-neural-network-based-forecasting-platform-gathers-700000-on-its-ongoing-ico-300526569.html), etc.), which just did an ICO for over half a million dollars and that made great promises on its deliverables. The website didn’t work — weird, if you consider that they need to share material/information on the ICOs. But you know, it might happen. I made then an extra effort because I read it on Wired and I was curious to know more about it. I was able to find its co-founders, which I couldn’t find eventually on Linkedin. Weird again. Well, there are people who do not like socials, fair enough, especially if you consider that until three months ago there was no proof of the company existence whatsoever. Let me look into the rest of the team. Nothing even there, and no traceable indications of their previous experiences (except for the CTO master in analytics, that I found no proof of). I tried to then dig into the technology: white papers, blue papers, yellow papers, you name it. I only found reviews of them, no original copies. Final two steps: I don’t consider myself an expert in blockchain at all, but I read, a lot. And I also believe I am fairly knowledgeable when it comes to AI and what is happening in the industry. These guys claimed they created 5 different neural nets that could achieve the same accuracy in complex different domains than Libratus (or DeepStack) reached in Poker, but I never heard of them — very weird. Well, you know what? Maybe I could write them and meet them to understand. Their address points to the AXA office in Zurich. Ah.
 
-* **这些公司难以置信地难以评估**。他们的网站往往足够隐晦，不能真正理解他们做什么和怎么做（如果你想购买区块链透明模式有点矛盾），技术需要高科技教育得到充分发挥。通过炒作是一个艰巨的任务，这使得它很容易被愚弄。但是让我给你一个具体的例子：曾经听说过Magos AI？在研究公司对这个岗位的工作，我发现自己读这个预测blockchain AI-驱动平台公司几篇文章（W IRED，美通社等），刚刚做了一个超过50万美元的ICO，并对其交付成果作出了很大的承诺。如果你认为他们需要分享ICO的材料/信息，那么这个网站就行不通了。但是你知道，这可能会发生。我做了一个额外的努力，因为我在Wired上读过它，我很想知道更多。我能够找到它的联合创始人，我最终不能找到Linkedin。奇怪了。那么，有些人不喜欢社交活动，尤其是如果你考虑到三个月前没有公司存在的证据。让我看看其他的团队。没有什么，也没有可追溯的迹象表明他们以前的经验（除了CTO掌握分析，我发现没有证据）。我试图深入研究这项技术：白皮书，蓝纸，黄纸，你的名字。我只找到他们的评论，没有正本。最后两个步骤：我根本不认为自己是区块链专家，但我读了很多。而且我也相信我对AI和业内正在发生的事情有相当的了解。这些人声称他们创造了5个不同的神经网络，可以在复杂的不同领域达到相同的准确度比在达到扑克室Libratus（或DeepStack），但我从来没有听说过他们 - 非常奇怪。那么，你知道什么？也许我可以写他们，并会见他们理解。他们的地址指向了位于苏黎世的安盛办事处。啊。而且我也相信我对AI和业内正在发生的事情有相当的了解。这些人声称他们创造了5个不同的神经网络，可以在复杂的不同领域达到相同的准确度比在达到扑克室Libratus（或DeepStack），但我从来没有听说过他们 - 非常奇怪。那么，你知道什么？也许我可以写他们，并会见他们理解。他们的地址指向了位于苏黎世的安盛办事处。啊。而且我也相信我对AI和业内正在发生的事情有相当的了解。这些人声称他们创造了5个不同的神经网络，可以在复杂的不同领域达到相同的准确度比在达到扑克室Libratus（或DeepStack），但我从来没有听说过他们 - 非常奇怪。那么，你知道什么？也许我可以写他们，并会见他们理解。他们的地址指向了位于苏黎世的安盛办事处。啊。
+* **这些公司难以置信地难以评估**。他们的网站往往做得非常隐晦，不能真正理解他们正在做什么和怎么做（这跟你想购买的公开透明模式的区块链有点矛盾），而技术需要高科技教育人才的努力才能充分发挥。过份炒作是一个艰巨的任务，这使得它很容易被愚弄。但是让我给你一个具体的例子：曾经听说过 Magos AI 吗？我在为这篇文章进行研究的公司中，我发现自己阅读了关于这个预测区块链AI驱动的平台公司的几篇文章，（[Wired](https://www.wired.it/economia/start-up/2017/10/04/magos-la-startup-vuole-prevedere-futuro-ai-blockchain/), [Prnewswire](https://www.prnewswire.com/news-releases/magos-ai-a-neural-network-based-forecasting-platform-gathers-700000-on-its-ongoing-ico-300526569.html) 等），刚刚做了一个超过50万美元的ICO，并对其交付成果作出了很大的承诺。
+网站不可思异地挂了，
+如果你认为他们需要分享ICO的材料和信息，但是你知道，这可能会发生。我做了一个额外的努力，因为我在Wired上读过它，我很想知道更多。我能够找到它的联合创始人，我最终不能找到它的Linkedin信息。奇怪了。那么，有些人不喜欢社交活动。公平的，特别是如果你考虑到三个月前，没有任何公司存在的证据。让我看看其他的团队。也没有，
+也没有可追溯的迹象表明他们以前的经验（除了 CTO 有analytics技能，但我没有发现证据）。我试图深入研究这项技术：白皮书，蓝皮书，黄皮书，凡你想得起的 不管什么，我只找到他们的评论，找不到正本。
+最后两个步骤：我根本不认为自己是区块链专家，但我读了很多。而且我也相信我对AI和业内正在发生的事情有相当的了解。
+这些人声称他们创造了5个不同的神经网络，可以在复杂的不同领域达到与Libratus (or DeepStack)在扑克上达到的
+相同的准确度。但我从来没有听说过他们 - 非常奇怪。那么，你知道什么？也许我可以写他们，并会见他们来理解。他们的地址指向了位于苏黎世的安盛办事处。
 
-After 5 minutes of research, I finally Google the two key words: “Magos scam”. It seems these guys took the money and disappeared. They are surely building the 6 neural net somewhere, so stay tuned.
+ After 5 minutes of research, I finally Google the two key words: “Magos scam”. It seems these guys took the money and disappeared. They are surely building the 6 neural net somewhere, so stay tuned.
 
-My point here is that exponential technologies are fantastic and can advance mankind, but as much as the benefits increase also the potential “negative convergence” increases exponentially. Stay alert.
+ My point here is that exponential technologies are fantastic and can advance mankind, but as much as the benefits increase also the potential “negative convergence” increases exponentially. Stay alert.
 
-经过5分钟的研究，我终于在谷歌的两个关键词：“魔鬼骗局”。看来这些人拿走了钱，消失了。他们确实在某处建立了6个神经网络，敬请关注。
+ 经过5分钟的研究，我终于在谷歌的两个关键词：“魔鬼骗局”。看来这些人拿走了钱，消失了。他们确实在某处建立了6个神经网络，敬请关注。
 
-我的观点是，指数技术是非常棒的，可以推动人类，但随着利益的增加，潜在的“ 负面趋同 ”也会呈指数级增长。保持警惕。
+ 我的观点是，指数技术是非常棒的，可以推动人类，但随着利益的增加，潜在的“ 负面问题 ”也会呈指数级增长。请保持警惕。
 
 
 ### V. Conclusion | 结论
@@ -293,9 +299,10 @@ There are of course technical and ethical implications arising from the interact
 
 Honestly, I think the only thing we can do is keep experimenting.
 
-锁链和人工智能是技术领域的两个极端：一个是培养关闭数据平台的集中式智能，另一个是在开放数据环境中推动分散式应用。但是，如果我们找到一个聪明的方法来使它们一起工作，总的积极的外部效应就可以在一瞬间被放大。
+区块链和人工智能是技术领域的两个极端：一个使用封闭的数据平台来培养中心化的智能，另一个是在开放数据平台中推动去中心化应用。
+但是，如果我们找到一个聪明的方法来使它们一起工作，总的积极的外部效应就可以在一瞬间被放大。
 
-当然这两种强大的技术之间的交互会产生技术和伦理上的影响，例如我们如何编辑（甚至忘记）区块链上的数据？是可编辑区块链解决方案吗？而不是AI区块链推动我们成为数据囤积者？
+当然这两种强大的技术之间的交互会产生技术和伦理上的影响，例如我们如何编辑（甚至忘记）区块链上的数据？是可编辑的区块链解决方案吗？而不是AI区块链推动我们成为数据囤积者？
 
 老实说，我认为我们唯一能做的就是不断尝试。
 
