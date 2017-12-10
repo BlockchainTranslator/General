@@ -264,7 +264,7 @@ Bitcoin Technology Blockchain Finance Business
 
 #### 本文译者简介
 
-鱼 区块链技术爱好者，欢迎加微信号 `oscnet` 交流。
+鱼 区块链技术爱好者，欢迎加微信号交流：**oscnet**
 
 本文由[币乎社区（bihu.com）](http://www.bihu.com)内容支持计划奖励。
 
