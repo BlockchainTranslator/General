@@ -94,7 +94,7 @@ It's difficult, however, not to support the ideas behind Brave -- both as an int
 
 林炜鑫，在读硕士，专注区块链技术研究与行业分析，欢迎加微信号:happyzai1993。
 
-本文由币乎社区（bihu.com）内容支持计划赞助。
+本文由币乎社区（bihu.com）内容支持计划奖励。
 
 版权所有，转载需完整注明以上内容。
 
