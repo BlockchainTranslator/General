@@ -345,7 +345,7 @@ MimbleWimble 的数学细节超出了本文的范围，但在白皮书中有详�
 不过，有人建议 MimbleWimble 作为一个侧链存在。侧链是一个独立的区块链，通过使用双向挂钩直接连接到比特币区块链。这种挂钩使两链之间的资产能够交换，并将侧链资产的价值“钉住”到比特币的价值。在这种设置中，用户将能够以 MimbleWimble 硬币兑换比特币，在 MimbleWimble 链上进行完全私密和快速的交易，然后随时可以将他们的 MimbleWimble 硬币兑换成比特币。
 
 ![](https://cdn-images-1.medium.com/max/2000/0*shjdJcexgSIUXttC.png)
-*Sidechain coins are pegged to the Bitcoin blockchain, operating alongside it with a fixed exchange rate, source: [Blockchain.com](http://blockchain.com/) | 侧链硬币固定在比特币区块链上，以固定汇率同时运行，来源：[Blockchain.com](http://blockchain.com/)*
+*Sidechain coins are pegged to the Bitcoin blockchain, operating alongside it with a fixed exchange rate, source: [Blockchain.com](http://blockchain.com/) | 侧链代币固定在比特币区块链上，以固定汇率同时运行，来源：[Blockchain.com](http://blockchain.com/)*
 
 In fact, a group of developers are already in the process of developing MimbleWimble as a separate cryptocurrency called [GRIN](https://github.com/mimblewimble/grin); it was recently deployed on a test network and may be launched in the near future.
 
@@ -433,7 +433,7 @@ Thanks to Emma Soolepp. 感谢 Emma Soolepp。
 
 #### 本文译者简介
 
-鱼 区块链技术爱好者，欢迎加微信号交流：**oscnet**
+鱼 区块链技术爱好者，欢迎加微信号交流：**oscnet **
 
 本文由[币乎社区（bihu.com）](http://www.bihu.com)内容支持计划奖励。
 
