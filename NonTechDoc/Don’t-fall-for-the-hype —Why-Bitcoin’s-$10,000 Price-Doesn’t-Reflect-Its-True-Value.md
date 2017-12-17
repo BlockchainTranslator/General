@@ -1,5 +1,5 @@
 # Don’t fall for the hype — Why Bitcoin’s $10,000 Price Doesn’t Reflect Its True Value
-# 别限于炒作，为何说10000美元还没体现比特币的真实价值
+# 别陷于炒作，为何说10000美元还没体现比特币的真实价值
 
 > 本文翻译自：https://decentralize.today/dont-fall-for-the-hype-why-bitcoin-s-10-000-price-doesn-t-reflect-its-true-value-6b42a59fce0a
 >
