@@ -24,7 +24,7 @@ Anybody considering buying Bitcoin should at the very least learn two things:
 As Bitcoin expert [Andreas M. Antonopoulos](https://medium.com/@aantonop) says, “[Invest in education instead of speculation](https://www.youtube.com/watch?time_continue=328&v=6uXAbJQoZlE).”
 
 比特币（BTC）最近一度创下了11,400美元的历史新高，随后在几个小时内跌至8,595美元。
-在混乱中不迷失方向，并随时了解比特币在技术上的发展，是非常重要的。
+不在混乱的价格中迷失方向，并随时了解比特币在技术上的发展，是非常重要的。
 
 考虑购买比特币至少应该知道：
 
@@ -42,7 +42,7 @@ Let’s begin with the scalability problem Bitcoin faces.
 
 随着比特币及其底层的区块链成为令人难以置信的新技术，尝试研究并理解其潜在的技术细节，有时会令人感到望而生畏。本文旨在描述比特币面临的可扩展性问题，以及该问题的预期或建议的解决方案。这篇文章也讨论了一些非常让人兴奋的比特币前景!
 
-我以我自己也正在学习比特币的方式来写这篇文章，从海量的资源中收集有关比特币未来技术的大量信息，并进行了汇总。在写作的时候，我甚至也顾及了那些没有编程知识背景的人们。但是，还是需要读者对比特币作为货币有一个基本的了解，并且知道什么是区块链。
+我以我自己也正在学习比特币的方式来写这篇文章，从海量的资源中收集了有关比特币未来技术的大量信息，并进行了汇总。在写作的时候，我甚至也顾及了那些没有编程知识背景的人们。但是，还是需要读者对比特币作为货币有一个基本的了解，并且知道什么是区块链。
 如果你刚开始了解比特币或对此需要进一步的复习，Coindesk 上有一个很棒的只需5分钟就能读完的[《比特币是什么》](https://www.coindesk.com/information/what-is-bitcoin/)，可以让你速成。
 
 先让我们从比特币正在面临的可扩展性问题开始吧。
@@ -55,14 +55,14 @@ One of Bitcoin’s fundamental values was instant and secure peer-to-peer paymen
 
 Because of this unprecedented growth, the number of transactions on the Bitcoin blockchain has also increased, with up to [400,000 transactions per day](https://blockchain.info/charts/n-transactions) being conducted. This rapid increase in transactions is posing to be a serious scalability problem for the blockchain, with [over 90,000 transactions](https://blockchain.info/unconfirmed-transactions) being backlogged as unconfirmed at the moment.
 
-当比特币首次被公开介绍时，其创始人 Satoshi Nakomoto 在比特币[白皮书](https://bitcoin.org/bitcoin.pdf)中将比特币描述为“一种完全通过点对点技术实现的电子现金系统，可以不经过财务机构，实现从一方直接发送到另一方的在线支付"。
+当比特币首次被公开介绍时，其创始人中本聪在比特币[白皮书](https://bitcoin.org/bitcoin.pdf)中将比特币描述为“一种完全通过点对点技术实现的电子现金系统，可以不经过财务机构，实现从一方直接发送到另一方的在线支付"。
 
-比特币的基本价值之一是即时和安全的点对点支付交易。现在，比以往任何时候, 比特币都更加成为全球市场上流行的加密货币，仅比去年就增长了1200％以上。
+比特币的基本价值之一是即时和安全的点对点支付交易。现在，比以往任何时候, 比特币都更加成为全球市场上最流行的加密货币，仅比去年就增长了1200％以上。
 
-由于这一前所未有的增长，比特币区块链交易的数量也相应地增加，[每天的交易量高达40万多笔](with up to 400,000 transactions per day being conducted)。交易量的迅速增长对区块链造成了严重的可扩展性问题，目前有超过[9万笔交易](https://blockchain.info/unconfirmed-transactions)积压未经确认。
+由于这一前所未有的增长，比特币区块链交易的数量也相应地增加，[每天的交易量高达40万多笔](https://blockchain.info/charts/n-transactions)。交易量的迅速增长对区块链造成了严重的可扩展性问题，目前有超过[9万笔交易](https://blockchain.info/unconfirmed-transactions)积压未经确认。
 
 ![](https://cdn-images-1.medium.com/max/1600/1*kDRKF6Iu3wPbSByqSr32gw.png)
-*As Bitcoin’s price skyrockets, so does its usage. Note the stagnation at around 400,000 transactions per day | 随着比特币的价格猛涨，使用量也是如此。请注意每天有大约40万笔交易积压*
+*As Bitcoin’s price skyrockets, so does its usage. Note the stagnation at around 400,000 transactions per day | 随着比特币的价格猛涨，使用量也是猛增。注意每天有大约 40 万笔交易积压*
 
 In order to understand why transactions are being backlogged, Bitcoin transactions must first be explained.
 
@@ -94,24 +94,23 @@ Let’s calculate the throughput of transactions:
 
 我们来计算下交易的吞吐量：
 
-* 平均的交易数据大小约为 250 字节
+* 平均的交易数据大小 [约为 250 字节](https://tradeblock.com/blog/analysis-of-bitcoin-transaction-size-trends)
 
 * 一个块的大小限制为 1MB（1000000字节）
 
-* 因此，一个块能保存大约 4000 个交易（ 1MB 除以 250 字节）
+* 因此，一个块能保存大约 4000 笔交易（ 1MB 除以 250 字节）
 
 * 一个块平均约每 10 分钟才能发布到区块链（ 600 秒）。
 
-* 4000 次交易（最多）每 600 秒发布一次，速度为 6.66 次/秒
+* 4000 笔交易（最多）每 600 秒发布一笔，速度为 6.66 次/秒
 
 With over 90,000 unconfirmed transactions in the mempool, how does a miner select which transactions to verify? Transaction fees! The sender of a transaction has the option of adding a custom transaction fee to its transaction intended for the miner, incentivizing a miner to select the transaction and have it verified faster. Miners will select the transactions that have the highest fee attached to them to maximize profits. Theoretically, you can send a transaction with no fee. But if there are transactions that have fees higher than yours in the pool, why would yours ever get picked?
 
 *As Bitcoin’s user base grows, so does the average transaction fee. At most, there are only 7 transactions that are processed every second and everyone wants to get their transaction verified first.* At the moment, the average transaction fee is approximately [$3.58 USD](https://bitinfocharts.com/comparison/bitcoin-median_transaction_fee.html). This fee is certainly not ideal — if you want to send your friend a couple of dollars worth of bitcoin, you may end up spending more in transaction fees than the transaction value itself! Therein lies the problem, and if all else remains equal, transaction fees can be expected to rise due to the transaction bottleneck.
 
-在内存池中有超过90,000个未经确认的交易，矿工以什么标准来选择验证哪笔交易呢？是通过给矿工的交易费用！交易的发起人可以在交易中设置较高的交易费，从而鼓励矿工优先选择这笔交易，以得到更快地验证。矿工将选择交易费最高的交易来实现利润最大化。理论上，您可以用 0 交易费发送交易。但是，如果内存池中有着交易费高于你的交易，那你的交易凭什么会被选中呢？
+在内存池中有超过 90,000 个未经确认的交易，矿工以什么标准来选择验证哪笔交易呢？是通过给矿工的交易费用！交易的发起人可以在交易中设置较高的交易费，从而鼓励矿工优先选择这笔交易，以便得到更快地验证。矿工选择交易费最高的交易来实现利润最大化。理论上，您可以用 0 交易费发送交易。但是，如果内存池中有着交易费高于你的交易，那你的交易凭什么会被选中呢？
 
-*随着比特币用户群的增长，平均交易费用也在增加。因为最多每秒处理 7 条交易，每个人都希望最先验证自己的交易*。目前，平均交易费用约为[3.58 美元](https://bitinfocharts.com/comparison/bitcoin-median_transaction_fee.html)。这笔费用当然不是理想的 - 如果你想给你的朋友发送价值几美元的比特币，最终你花费的交易费比
-交易本身的价值还要高！这就是问题所在，如果其他条件保持不变，交易费用会因交易瓶颈而提高。
+*随着比特币用户群的增长，平均交易费用也在增加。因为最多每秒处理 7 笔交易，每个人都希望最先验证自己的交易*。目前，平均交易费用约为[3.58 美元](https://bitinfocharts.com/comparison/bitcoin-median_transaction_fee.html)。这笔费用当然不是理想的 - 如果你想给你的朋友发送价值几美元的比特币，最终你花费的交易费比交易本身的价值还要高！这就是问题所在，如果其他条件保持不变，交易费用会因交易瓶颈而提高。
 
 ### Solving the Throughput Problem | 解决吞吐量问题
 
@@ -135,7 +134,7 @@ Furthermore, recall that once a block is mined, all other nodes must validate th
 
 *You can read more about the full impact of an increased block size if Bitcoin were to take over the world, in an article I’ve written [here](https://hackernoon.com/if-we-lived-in-a-bitcoin-future-how-big-would-the-blockchain-have-to-be-bd07b282416f).*
 
-此外，回想一下，一旦一个块挖掘出来，所有其他节点必须在接受它之前验证这个块。**如果块非常大，有人发布了一个无效的块，节点就会浪费大量的时间来验证该块，然后才能将其丢弃视为无效并转到下一个块处理**。本质上可以长时间、反复向网络发布非常大的无效块，来阻止有效块地处理。从而造成拒绝服务攻击。正如区块链先驱 Nick Szabo 在[此次采访](https://medium.com/@giftedproducts/cryptocurrencies-with-tim-ferriss-nick-szabo-and-naval-ravikant-51a99d037e04)中指出的那样，保持小块能防止网络洪水攻击，是一项技术安全参数。
+此外，回想一下，一旦一个块挖掘出来，所有其他节点必须在接受它之前验证这个块。**如果块非常大，有人发布了一个无效的块，节点就会浪费大量的时间来验证该块，然后才能将其丢弃视为无效并转到下一个块处理**。本质上可以长时间、反复向网络发布非常大的无效块，来阻止有效块地处理。从而造成拒绝服务攻击。正如区块链先驱 Nick Szabo 在[此次采访](https://medium.com/@giftedproducts/cryptocurrencies-with-tim-ferriss-nick-szabo-and-naval-ravikant-51a99d037e04)中指出的那样，保持小块能防止网络洪水攻击，这是一项技术安全参数。
 
 如果想了解更多，关于当比特币被全世界接受时，增加块大小所能造成的全面影响，可以看看我写的[有关于此的文章](https://hackernoon.com/if-we-lived-in-a-bitcoin-future-how-big-would-the-blockchain-have-to-be-bd07b282416f)。
 
