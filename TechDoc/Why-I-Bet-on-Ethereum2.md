@@ -8,8 +8,8 @@
 > 
 > 翻译时间：2017-11-25
 
-###It Is Extremely Early, But The Ecosystem Is Made for Devs
-###这时还为时尚早，不过这是一个为开发者提供的生态系统
+### It Is Extremely Early, But The Ecosystem Is Made for Devs
+### 这时还为时尚早，不过这是一个为开发者提供的生态系统
 
 The ease of access to documentation, source code, and fantastic speakers at major conferences made front-end tooling evolve in amazing ways over the past year. Ethereum, along the same vein, has come a long way from its early days. We have awesome listings like state of dApps, fully-transparent, communicative core developers and although so many ICOs are questionable at best, we have fantastic white papers, testing tools, a solid test-net, and a plethora of well-made libraries for beginners to hit the ground running.
 
@@ -19,8 +19,8 @@ In this community, most major projects are open source and have thriving Slack c
 
 在这个社区，大部分项目都是开源的，并且有许多发展迅速的Slack栏目。在这些栏目中，人们讨论的不仅是项目中的小问题，还讨论在我们日常生活中能长远发展的、有突破性的分布式应用（dAPP）。像DEVCON这样的高质量会议，以及以太坊核心开发团队的影响力和透明度，都让新的开发者感觉深入到这个项目并不断地改进重要的repos系统是一件令人高兴的事情。
 
-###Same Standards: The Foundation of Network Effects
-###同样的标准：网络效应的标准
+### Same Standards: The Foundation of Network Effects
+### 同样的标准：网络效应的标准
 
 Not only is Ethereum interesting from a developer’s standpoint, but also from an economic and game-theoretical perspective as well. The rise of the ICO token economy has shed light on new problems that companies never even had to consider when building their products in a centralized web. [The idea of token velocity](https://multicoin.capital/2017/12/08/understanding-token-velocity/), where a utility token sees an extremely large number of users trading it but rarely any holding it as a store of value, has been a major hurdle for many dApps to consider when designing their systems and economies. Hard problems in game theory, scalability, and critical design questions come to mind for anyone leveraging the Ethereum protocol to create an ERC20 token economy, and this is just the tip of the iceberg for experts to identify both the pitfalls and best practices within this world.
 
@@ -30,8 +30,8 @@ Despite these hurdles, there is one fundamental cornerstone of building decentra
 
 尽管存在这些障碍，但构建这些分布式应用的一个基础是：所有的这些应用都是建立在[相同的标准生态系统上](http://preethikasireddy.me/2017/09/19/the-synergies-gained-from-building-on-ethereums-decentralized-app-ecosystem/)。所有项目都共同运营在Ethereum虚拟机上，所有的项目都是基于智能合约构建的，所有这些项目通过相互学习而促进发展，并通过突出自己对社区的最佳实践而向社区贡献。这就是为什么这个领域正以闪电般的速度发展。当系统运用相同的共享标准时，一个关键的改进都能使我们从中受益。这正是促使我成为以太网开发者的原因。
 
-###Game-Theoretical Incentives
-###博弈论的刺激
+### Game-Theoretical Incentives
+### 博弈论的刺激
 
 Imagine a world where Uber doesn’t take a cut of the drivers’ pay and the customers’ money. Imagine a world where there is no Uber Inc., but rather a decentralized marketplace of drivers and riders. A world where [IPFS](https://ipfs.io/) is our Amazon S3, [Blockstack](https://blockstack.org/) is our DNS Server…the possibilities are endless. However, why should this matter to the average user? Sure, many users could be die-hard decentralization fanatics, but in reality consumers will simply flock to whatever the best economic choice is for them.
 
@@ -42,8 +42,8 @@ When we get to the point where the price point of these decentralized apps as we
 当我们讲到这些分布式应用的价格和他们用户体验的交叉时，我们将会看到这种技术的大规模应用。
 
 
-###It Takes One Killer App for the Public to Adopt a Technology
-###它需要一个杀手级应用程序来让大众接受这种技术
+### It Takes One Killer App for the Public to Adopt a Technology
+### 它需要一个杀手级应用程序来让大众接受这种技术
 
 It was only when [Apple launched the Apple II](https://www.cultofmac.com/460680/apple-ii-killer-app-visicalc/) with the world’s first computer spreadsheet, VisiCalc, that owning a computer was a business need. Businesses came in flocks to adopt VisiCalc and the power of its software was so great that the network effects soon became apparent, selling over 700,000 units in the span of six years, enabling other software businesses to create programs for a user base that was increasing exponentially. Build good software and the adoption of your hardware will follow.
 
