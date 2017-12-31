@@ -56,9 +56,10 @@ The economic and political enslavement of mankind will continue until Atlas is u
 
 
 ![](https://steemitimages.com/0x0/https://s-media-cache-ak0.pinimg.com/736x/0a/41/a4/0a41a43f5243ce2fdb7b643679bdeda7.jpg)
+
 The Bank of Evil - Despicable Me | 邪恶的银行以及卑鄙的我
 
-##3 Do we accept reality or resist it? | 是接受现实还是反抗？
+###  Do we accept reality or resist it? | 是接受现实还是反抗？
 
 Those who practice meditation or follow Eckhart Tolle know that all suffering is something we put ourselves through by resisting the world as it is now, this very moment.
 
