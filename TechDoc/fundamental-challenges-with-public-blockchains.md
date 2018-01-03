@@ -158,6 +158,8 @@ A “DAG,” short for Directed Acyclic Graph, is a graph data structure that ha
 
 DAG是有向无环图的缩写， 是一个具有顶点和边的图形数据结构。(顶点是图上的一个点, 而边是从一个顶点到另一个的路径）。它保证没有办法在任何顶点开始, 并遵循一系列的边, 最终循环回到那个顶点 (即没有循环)。这允许我们有一个拓扑顺序的节点 (或顶点) 序列。
 
+![](pics/fc-1.png)
+
 #### DAG
 
 The premised behind DAG-based protocols, such as IOTA’s Tangle, for example, is to ditch the global linear blockchain altogether, and instead use DAG data structures to maintain the state of the system. To secure the network, these protocols rely on their own novel approaches that don’t require every node to process every transaction in a linear fashion.
@@ -255,6 +257,8 @@ The sender and receiver can share ECDHM addresses publicly, then use their share
 
 发送方和接收方可以公开共享 ECDHM 地址, 然后使用他们的共享密钥来派生匿名比特币地址。这些比特币的地址只能由拥有密钥的人透露。公开可见的唯一的东西是可重用的 ECDHM 地址。因此, 用户不必担心被跟踪的交易。
 
+![](pics/fc-2.png)
+
 Conceptual diagram that illustrates the general idea of the key exchange by using colors instead of very large numbers (Source: https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
 
 概念图, 通过使用颜色而不是非常大的数字来说明密钥交换的一般概念 (源: https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange)
@@ -269,6 +273,8 @@ ECDHM 地址方案的一些例子包括由Peter Todd提出的隐形地址,  Just
 The idea behind a mixer is that a group of people can combine their payments into one pool, keeping track of debts in a private ledger. Then, when funds from the pool are spent, the origins of each payment are obscured. Anyone observing the blockchain can see the amounts paid, along with the recipients, but theoretically, the person who specifically authorized the payment can’t be traced. An example of a mixing service is CoinJoin.
 
 混合器背后的想法是, 一组人可以把他们的付款合并成一个池, 在一个私人的账本上记录债务。当资金从池中被花费, 每个付款的起源被遮蔽。任何观察区块链的人都可以看到支付的金额, 包括接受者, 但理论上, 具体授权付款的人不能追查。混合服务的一个例子是 CoinJoin。
+
+![](pics/fc-3.png)
 
 Source: https://en.wikipedia.org/wiki/CoinJoin
 资料来源: https://en.wikipedia.org/wiki/CoinJoin
@@ -320,6 +326,8 @@ In computer security, challenge-response authentication is a family of protocols
 Let’s look at an example: Say “Bob” has sole access to some resource (e.g. his car). Alice now wants access to it as well so she can use it to go to the grocery store. Bob issues a challenge, perhaps “52w72y.” Alice must respond with the one string of characters which fits the challenge Bob issued. The only way to find the answer that is by using an algorithm known only to Bob and Alice. Moreover, Bob issues a different challenge each time. Knowing a previous correct response therefore doesn’t give Alice any advantage.
 
 让我们看一个例子: 说 “Bob" 有唯一的访问资源 (例如他的汽车)。Alice现在也想访问它, 所以她可以用它去杂货店。Bob提出了一个挑战, 也许是 "52w72y"。Alice 必须用一串字符来响应 Bob 发出的挑战。找到答案的唯一方法是使用只知道 Bob 和 Alice 的算法。此外, Bob 每次都提出不同的挑战。因此, 知道以前正确的回应并没有给Alice任何优势。
+
+![](pics/fc-4.png)
 
 Challenge / response games are already in use in blockchains like Ethereum. However, we need libraries and tools to make these types of authentication schemes much, much easier to use.
 
@@ -375,13 +383,11 @@ Example 3: zkSNARKs + Zcash
 
 Zcash is a privacy-preserving cryptocurrency based on zk-SNARKs. Zcash has what are called “shielded transactions,” where there is an anonymity set spanning every coin used. Shielded transactions use “shielded addresses,” which require the sender or receiver to generate a zero-knowledge proof that allows others to verify a transaction’s encrypted data without it being revealed.
 
-Zcash transaction diagram
-
-Zcash is definitely an interesting project that is worth keeping an eye on.
-
 Zcash 是一个基于 zkSNARKs的隐私保护的数字货币。Zcash 有所谓的 "受保护交易", 其中有一个匿名设置跨越每一个代币使用。受保护交易使用 "受保护地址", 它要求发件人或接收方生成零知识证明, 允许其他人在不泄露数据的情况下验证交易的加密信息。
 
-Zcash 交易关系图
+![](pics/fc-5.png)
+
+Zcash is definitely an interesting project that is worth keeping an eye on.
 
 Zcash 绝对是一个有趣的项目, 值得密切关注。
 
@@ -424,6 +430,8 @@ While researchers claim that total black box obfuscation is impossible, there is
 
 虽然研究人员声称, 完全黑盒混淆是不可能的, 有一个较弱的混淆概念, 被称为不可混淆, 研究员说是可能的。不可混淆 O 的定义是, 如果你采取两个等价的程序 a 和 b (即相同的输入到 a 或 b 产生相同的输出), 并计算 o (a) = P 和 o (b) = Q, 那么就没有一个人 可以使用 a 或 b 来判断 P 是否来自 a 或 b。
 
+![](pics/fc-6.png)
+
 Recently, researchers Craig Gentry, Amit Sahai, et al. were able to accomplish indistinguishable code obfuscation. However, the algorithm comes with high computational overhead.
 
 最近, 研究人员Craig Gentry, Amit Sahai, et al. 能够完成难以区分的代码混淆。但是, 该算法具有较高的计算开销。
@@ -451,6 +459,8 @@ Trusted Execution Environments
 Trusted Execution Environment (TEE) is a secure area of the main processor. It guarantees code and data loaded inside is protected with respect to confidentiality and integrity. This trusted environment runs in parallel with the user-facing operating system, but is intended to be more private and secure than the user-facing OS.
 
 受信任的执行环境 (TEE) 是主处理器的一个安全区域。它保证代码和载入的数据在保密性和完整性方面受到保护。这种受信任的环境与面向用户的操作系统并行运行, 但其目的是要比面向用户的操作系统更私密、更安全。
+
+![](pics/fc-7.png)
 
 Source: https://www.slideshare.net/JavierGonzlez49/operating-system-support-for-runtime-security-with-a-trusted-execution-environment-phd-thesis
 
