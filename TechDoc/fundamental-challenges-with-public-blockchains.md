@@ -1,4 +1,4 @@
-## Fundamental challenges with public blockchains | 什么是Iota
+## Fundamental challenges with public blockchains | 公共区块链的主要挑战
 ------------------------------------------------------
 
 > 本文翻译自：https://medium.com/@preethikasireddy/fundamental-challenges-with-public-blockchains-253c800e9428
