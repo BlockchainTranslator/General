@@ -42,9 +42,9 @@ There are important counter-trends to this --like encryption and cryptocurrency 
 
 This will be a serious year of self-improvement and I'm looking forward to learning from working to fix our issues together.
 
-现在有一个重要的相反的趋势--如加密和加密货币--能将中心化系统中的权力取回人民的手中. 但它们有着更难控制的风险。我有兴趣深入研究这些技术的积极和消极方面, 以及如何更好在我们的服务中使用这些技术。
+现在有一个重要的相反的趋势--如加密和加密货币--能将中心化系统中的权力取回人民的手中. 虽然它们存在着更难控制的风险。我有兴趣深入研究这些技术的积极和消极方面, 以及如何更好在我们的服务中使用这些技术。
 
-这将是一个重要的自我改善年度, 我将努力一起工作解决我们的问题并期待能从中学到些什么。
+这将是一个重要的自我改善年度, 我将努力一起工作解决我们的问题并期待能从中学到更多。
 
 ----------------------------------------------------
 
