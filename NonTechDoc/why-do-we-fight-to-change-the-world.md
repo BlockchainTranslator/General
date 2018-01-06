@@ -104,7 +104,7 @@ In what situation can someone simultaneously claim they are at peace in the pres
 
 在什么情况下，可以声称他们现在处于和平状态，同时认为发动暴力是必要的？暴力的动机不是源于对后果的期待吗？我们因抵抗运动而受到苦难比我们认为暴力所解决的无论什么多多少呢？
 
-### When you find true freedom, you have nothing left to lose. | 当你找到真正的自由时，你将一无所有。
+### When you find true freedom, you have nothing left to lose. | 找到真正的自由，你将无所失去。
 
 Once you master living in the moment then all of your self-inflicted emotional suffering ends. There is no more anger and no more attachment to things or outcomes. With this you also free yourself from manipulation by the powers that be.
 
