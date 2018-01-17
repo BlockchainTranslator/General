@@ -11,7 +11,7 @@
 # Powers of Tau Tutorial | “Tau 的力量”活动教程
 So, you want to participate in the **Powers of Tau** ceremony? This is a guide that will walk you through the steps, but it's important to go over why the ceremony exists and what the threat model is _first_.
 
-你想参与 **Tau 的力量** 活动吗？此文是引导你完成参与相关步骤的一个指导, 同时了解为什么需要这个活动，哪个风险模型是_首要_的等问题也是非常重要的。
+你想参与 **Tau 的力量** 活动吗？此文是引导你完成参与相关步骤的一个指导, 同时了解为什么需要这个活动，首先是什么威胁模型等问题也是非常重要的。
 
 * **Why does the ceremony exist?** I highly recommend reading our [blog post](https://z.cash.foundation/blog/powers-of-tau/) announcing the ceremony to understand the motivations. In short, zk-SNARKs are awesome, but the parameter setup for them is currently really expensive and risky. Powers of Tau is a ceremony which takes the most expensive parts of parameter setups and performs them in a single, gigantic, communal ceremony for the benefit of all. The result is that individual parameter setups are cheaper and more scalable.
 
@@ -19,7 +19,7 @@ So, you want to participate in the **Powers of Tau** ceremony? This is a guide t
 
 * **What is the threat model? How does the ceremony succeed?** The ceremony succeeds as long as one participant is successful in destroying some random information they used to participate. Thus, the threat model is an adversary capable of compromising every participant, or every participant being dishonest and colluding with each other. Ensuring a diversity in the approaches each participant takes is essential for reducing the ways in which an adversary could attempt to compromise each participant.
 
-* **什么是风险模型？活动如何算成功？** 只要有一名参与者成功地破坏了他们曾经参与的一些随机信息，这个活动就成功了。因此，风险模型就是一个能够让每个参与者陷入风险的攻击者，或者每个参与者都是不诚实的，互相勾结。为了减少攻击者针对每个参与者的破坏方式，确保每个参与者采取不同的方法是至关重要的。
+* **什么是威胁模型？活动如何算成功？** 只要有一名参与者成功地破坏了他们曾经参与的一些随机信息，这个活动就成功了。因此，威胁模型就是一个能够让每个参与者陷入风险的攻击者，或者每个参与者都是不诚实的，互相勾结。为了减少攻击者针对每个参与者的破坏方式，确保每个参与者采取不同的方法是至关重要的。
 
 * **Who is allowed to participate?** Everybody is allowed to participate! We'll be running the ceremony until about February 2018, so that lots of people can contribute. Only one participant goes at a time, and sometimes the process requires several hours, so we need to carefully schedule people. Also, because we're trying to "finish" sometime in February, we'll prioritize reputable people if there are lots of requests to participate.
 * **How do I participate?** The ceremony is currently coordinated by Sean Bowe. If you're comfortable, you can publicly request to participate on the [`zapps-wg` mailing list](https://lists.z.cash.foundation/mailman/listinfo/zapps-wg). You can also privately contact Sean (`sean@z.cash`) to request to participate.
