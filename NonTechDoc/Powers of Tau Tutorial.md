@@ -11,7 +11,7 @@
 # Powers of Tau Tutorial | “Tau 的力量”活动教程
 So, you want to participate in the **Powers of Tau** ceremony? This is a guide that will walk you through the steps, but it's important to go over why the ceremony exists and what the threat model is _first_.
 
-你想参与 **Tau 的力量** 活动吗？此文是引导你完成参与相关步骤的一个指导, 同时了解为什么需要这个活动，首先是什么威胁模型等问题也是非常重要的。
+你想参与 **Tau 的力量** 活动吗？此文是引导你完成参与相关步骤的一个指导, 同时首先了解为什么需要这个活动，什么是威胁模型等问题也是非常重要的。
 
 * **Why does the ceremony exist?** I highly recommend reading our [blog post](https://z.cash.foundation/blog/powers-of-tau/) announcing the ceremony to understand the motivations. In short, zk-SNARKs are awesome, but the parameter setup for them is currently really expensive and risky. Powers of Tau is a ceremony which takes the most expensive parts of parameter setups and performs them in a single, gigantic, communal ceremony for the benefit of all. The result is that individual parameter setups are cheaper and more scalable.
 
