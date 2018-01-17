@@ -24,25 +24,25 @@ So, you want to participate in the **Powers of Tau** ceremony? This is a guide t
 * **Who is allowed to participate?** Everybody is allowed to participate! We'll be running the ceremony until about February 2018, so that lots of people can contribute. Only one participant goes at a time, and sometimes the process requires several hours, so we need to carefully schedule people. Also, because we're trying to "finish" sometime in February, we'll prioritize reputable people if there are lots of requests to participate.
 * **How do I participate?** The ceremony is currently coordinated by Sean Bowe. If you're comfortable, you can publicly request to participate on the [`zapps-wg` mailing list](https://lists.z.cash.foundation/mailman/listinfo/zapps-wg). You can also privately contact Sean (`sean@z.cash`) to request to participate.
 
-* **那么哪些人可以参与？** 每个人都可以！我们活动将持续到2018年2月, 让更多的人参与。一次只能有一个参与者, 有时候这个过程需要几个小时, 所以我们需要仔细安排大家的时间表。另外, 因为我们正在努力争取在二月份的某个时候"完成"工作, 如果要求参与的人比较多, 我们将优先考虑那些信誉良好的参与者。
+* **那么哪些人可以参与？** 每个人都可以！我们活动将持续到2018年2月, 以便让更多的人参与此次的活动。活动毎次只能有一个参与者, 有时候这个过程需要几个小时, 所以我们需要仔细安排大家参加的时间。另外, 因为我们正努力争取在二月份的某个时候"完成"工作, 如果要求参与的人比较多, 我们将优先考虑那些信誉良好的参与者。
 * **如何参与？** 活动目前由 Sean Bowe 协调。如果你感兴趣, 你可以在[zapps-wg  邮件列表](https://lists.z.cash.foundation/mailman/listinfo/zapps-wg) 上公开要求参与。也可以私下联系肖恩（sean@z.cash）请求参加。
 
 ## What's the process like? | 参与的步骤？
 When it's your turn, you'll be sent a `challenge` file that's about 1.2 GB in size. You need to run a [program written in Rust](https://github.com/ebfull/powersoftau) on this `challenge` file. This program will randomly sample some information (called the toxic waste), perform a computation, and spit out a `response` file. Then, you have to upload the `response` file to us. We'll send instructions for that as well.
 
-轮到你的时候, 你会收到一个大小为 1.2 GB 的 `challenge` 文件。你需要运行一个[用 Rust 编写的程序](https://github.com/ebfull/powersoftau)来使用这个 `challenge` 文件。这个程序将随机抽取一些信息(称为有毒废物) , 执行计算后输出一个 `response` 响应文件。然后, 你必须将这个 `response` 文件上传给我们。收到文件的同时我们也会发送此操作的指南给你。
+当轮到你的时候, 你会收到一个大小为 1.2 GB 的 `challenge` 文件。你需要运行一个[用 Rust 编写的程序](https://github.com/ebfull/powersoftau)来使用这个 `challenge` 文件。这个程序将随机抽取一些信息(称为有毒废物) , 执行计算后输出一个 `response` 响应文件。然后, 你必须将这个 `response` 文件上传给我们。收到文件的同时我们也会发送此操作的指南给你。
 
 The ceremony succeeds so long as at least one person's toxic waste is destroyed. Some participants might be convinced it's destroyed just by restarting their computer afterward. Others may want to go further:
 
-只要至少有一个人的有毒废物被破坏, 活动就成功了。一些参与者可能相信，破坏这个信息仅仅通过重新启动他们的计算机就可以了。其他的人可能希望更进一步:
+只要至少有一个人的有毒废物被破坏, 活动就成功了。一些参与者可能认为，破坏这个信息仅仅通过重新启动他们的计算机就可以了。其他的人可能会做更多的尝试:
 
 * You might want to destroy the computer afterward.
 * You may want to use DVDs to form an air gap for communicating with the machine.
 * You may want to use an auditable process for computing your `response` file which reduces the risk of the machine being backdoored.
 * You may want to use someone else's code. As an example, check out devrandom's build process for the powersoftau code which uses an old version of the Rust compiler compiled from pure C.
 * 你可能想在之后破坏电脑。
-* 为了与机器进行通信你可能需要使用 dvd 来形成一个空隙
-* 您可能需要使用一个可审计的流程对您的 `response` 文件进行运算，这样可以少机器被植有木马后门的风险。
+* 你可能使用 dvd 与机器进行交互。
+* 您可能想使用一个可审计的流程对您的 `response` 文件进行运算，这样可以减少机器被植有木马后门的风险。
 * 你可能想用其它人的代码。举个例子, 检出(checkout) devrandom 的 powersoftau 代码的构建过程, 它使用了一个纯 C 编译的旧版本的 Rust 编译器。
 
 Of course, you can just keep it simple too and just run the code and restart your computer after you've sent the `response` file, if you think your machine is not compromised. What's important is that there is diversity in the approaches people take, so that there are fewer ways an adversary could compromise everyone's contribution.
