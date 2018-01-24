@@ -40,11 +40,11 @@ NEO已经在与THEKEY项目方达成战略合作伙伴。该项目正在NEO的�
 
 **What about Ethereum:** Ethereum requires other DApps to develop digital identities which can then be secured on the Ethereum blockchain. This isn’t so unlike how it will work with NEO — however NEO has made it clear, through its plan to incorporate digital identity with its bookkeeper nodes, that integration of digital identity is of central importance to the NEO ecosystem.
 
-**那Ethereum（以太坊）呢：**Ethereum要求其他DApps开发数字身份，然后在Ethereum区块链上进行保护。这并不是说它与NEO工作方式如何不一样——然而NEO已经明确表示，通过将数字身份与区块链记账员节点结合起来的计划，数字身份的整合对NEO生态系统至关重要。
+**那Ethereum（以太坊）呢:** Ethereum要求其他DApps开发数字身份，然后在Ethereum区块链上进行保护。这并不是说它与NEO工作方式如何不一样——然而NEO已经明确表示，通过将数字身份与区块链记账员节点结合起来的计划，数字身份的整合对NEO生态系统至关重要。
 
 **TLDR: Governments don’t like anonymity. Industries don’t like pissing off the government. If NEO wants industrial adoption, it needs to have digital identities.**
 
-**TLDR：政府不喜欢匿名。工业不喜欢激怒政府。如果NEO想要实现工业应用，所以它需要有数字身份。 **
+**TLDR：政府不喜欢匿名。工业不喜欢激怒政府。如果NEO想要实现工业应用，所以它需要有数字身份。**
 
 
 #### Digital Assets
@@ -100,7 +100,7 @@ OnChain还有许多项目、合作伙伴以及新闻舆论价值，这些都是�
 
 3.**Legal Chain** — works with Microsoft China in digitizing and securing signatures via blockchain technology.
 
-3.**合法的区块链**——与微软中国公司合作，通过区块链技术进行数字化和保护签名。
+3.**合法的区块链** ——与微软中国公司合作，通过区块链技术进行数字化和保护签名。
 
 4.Strategic partner of Microsoft China on multiple projects
 
@@ -141,9 +141,9 @@ References on [OnChain’s roadmap](http://www.onchain.com/en-us/).
 **老实说，我不明白为什么NEO没有更多地宣传他们与OnChain的合作。NEO本身是可靠的，它提供了对以太的几个潜在的好处。但与OnChain结合，NEO真正有潜力成为东方的智能经济平台。**
 
 
-**The Ethereum Comparison:**Ethereum’s equivalent is the Enterprise Ethereum Alliance, an open source blockchain initiative dedicated to linking Ethereum with the business world. Their list of partnerships is robust and impressive — no surprise for those familiar with Ethereum. Included among their members are: BP, HP, Toyota, MasterCard, Microsoft, and Intel, among many others.
+**The Ethereum Comparison:** Ethereum’s equivalent is the Enterprise Ethereum Alliance, an open source blockchain initiative dedicated to linking Ethereum with the business world. Their list of partnerships is robust and impressive — no surprise for those familiar with Ethereum. Included among their members are: BP, HP, Toyota, MasterCard, Microsoft, and Intel, among many others.
 
-**与Ethereum的比较:**Ethereum的等价是企业Ethereum联盟，它是一个开源的区块链项目，致力于将Ethereum与商业世界联系起来。他们的合作伙伴关系非常稳固，令人印象深刻——对于那些熟悉以太的人来说，这并不奇怪。其中包括:BP、惠普、丰田、万事达卡、微软和英特尔等。
+**与Ethereum的比较:** Ethereum的等价是企业Ethereum联盟，它是一个开源的区块链项目，致力于将Ethereum与商业世界联系起来。他们的合作伙伴关系非常稳固，令人印象深刻——对于那些熟悉以太的人来说，这并不奇怪。其中包括:BP、惠普、丰田、万事达卡、微软和英特尔等。
 
 **TLDR: OnChain is a company partnered with NEO. They have extensive experience and many accolades in bringing blockchain to businesses. They work with companies and governments in the East. They are a huge component to NEO’s potential.**
 
