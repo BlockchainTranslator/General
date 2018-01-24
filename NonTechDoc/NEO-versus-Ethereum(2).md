@@ -59,7 +59,7 @@ If you want a smart economy based on smart contracts, you need to be able to lev
 
 **What about Ethereum:** Very similar to the digital identity blurb. Ethereum absolutely can secure digital assets, but they won’t necessarily be regulatory compliant. NEO is ensuring that issued digital asset certificates will be compliant.
 
-**那以太坊呢：**非常类似于数字身份的简介。Ethereum绝对可以确保数字资产的安全，但它们不一定是符合监管要求的。NEO正在确保发布的数字资产证书能够符合标准。
+**那以太坊呢：** 非常类似于数字身份的简介。Ethereum绝对可以确保数字资产的安全，但它们不一定是符合监管要求的。NEO正在确保发布的数字资产证书能够符合标准。
 
 **TDLR: Just read it**
 
