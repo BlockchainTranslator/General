@@ -51,7 +51,7 @@ Because of differences with NEO in the token model, account balances, and way sm
 
 **Ethereum Comparison:** Already ERC20 tokens are easy to transact with on decentralized exchanges.
 
-**与Ethereum的对比：**已有的ERC20令牌很容易在分布式交易中进行交易。
+**与Ethereum的对比:** 已有的ERC20令牌很容易在分布式交易中进行交易。
 
 ### ProjectICO:
 ### ICO项目
@@ -62,7 +62,7 @@ A turnkey, all-in-one ICO company that helps blockchain companies develop: from 
 
 **Ethereum Comparison:**TokenHub is a similar project developing on Ethereum.
 
-**与Ethereum对比:*TokenHub是在Ethereum上开发的一个类似的项目。
+**与Ethereum对比:** TokenHub是在Ethereum上开发的一个类似的项目。
 
 ### Microsoft China:
 ### 微软中国
@@ -73,7 +73,7 @@ NEO正在与微软中国合办一个奖金池为49万美元的[开发者大赛](
 
 **Ethereum Comparison: **Ethereum is incredibly well connected with established corporations. NEO is playing catchup.
 
-**与Ethereum的比较:**以太坊与知名企业有着密切的联系。NEO目前只是在追赶。
+**与Ethereum的比较:** 以太坊与知名企业有着密切的联系。NEO目前只是在追赶。
 
 ### DApps and ICOs:
 ### Dapps和ICO项目
