@@ -22,7 +22,7 @@ NEOX很重要，因为它允许由OnChain和NEO公有链创建的区块链(私�
 
 **Ethereum Comparison:** Ethereum has the ability to do atomic swaps, but has only completed this once — this isn’t to put down Ethereum; NEO has never completed one. However, Ethereum will need an outside application to accommodate large scale cross-chain integration.
 
-**Ethereum的比较:**Ethereum有能力进行原子交换，但只能完成一次——这并不是贬低以太坊;NEO也从未完成一次。然而，Ethereum需要一个外部应用程序来适应大规模的跨链集成。
+**Ethereum的比较:** Ethereum有能力进行原子交换，但只能完成一次——这并不是贬低以太坊;NEO也从未完成一次。然而，Ethereum需要一个外部应用程序来适应大规模的跨链集成。
 
 ### City of Zion:
 ### 天堂城市：
@@ -60,7 +60,7 @@ A turnkey, all-in-one ICO company that helps blockchain companies develop: from 
 
 这是一家全方面、专注于ICO的公司，它帮助区块链公司发展:从最初的想法到ICO。他们最近决定从以太坊搬到NEO。他们有一个有趣的Reddit AMA来解释关于他们切换的理由。
 
-**Ethereum Comparison:**TokenHub is a similar project developing on Ethereum.
+**Ethereum Comparison:** TokenHub is a similar project developing on Ethereum.
 
 **与Ethereum对比:** TokenHub是在Ethereum上开发的一个类似的项目。
 
@@ -71,7 +71,7 @@ NEO is currently hosting a [developer competition](https://neo.org/competition.h
 
 NEO正在与微软中国合办一个奖金池为49万美元的[开发者大赛](https://neo.org/competition.html)。
 
-**Ethereum Comparison: **Ethereum is incredibly well connected with established corporations. NEO is playing catchup.
+**Ethereum Comparison:** Ethereum is incredibly well connected with established corporations. NEO is playing catchup.
 
 **与Ethereum的比较:** 以太坊与知名企业有着密切的联系。NEO目前只是在追赶。
 
@@ -85,7 +85,7 @@ The bread and butter of platforms; until now, NEO has only had one ICO ([Red Pul
 
 **Ethereum Comparison:** Ethereum hands down beats NEO in this area. Ethereum is the go-to platform for ICOs and DApps.
 
-**与Ethereum的比较:**以太坊在这一领域击败了NEO。Ethereum是ICOs和DApps的首选平台。
+**与Ethereum的比较:** 以太坊在这一领域击败了NEO。Ethereum是ICOs和DApps的首选平台。
 
 ### Ecosystem Recap
 ### 生态系统回顾
@@ -115,7 +115,7 @@ PoS原理与PoW相似，但PoS除了计算机通过验证网络获得与其对�
 
 **NEO uses a protocol called dBFT** (Delegated Byzantine Fault Tolerance) which sounds like a term you’d see on your AP History Test. The simplest explanation of Byzantine Fault Tolerance is the issue with how to get everyone on the network to be honest and work together **— because one bad apple could ruin everything.** NEO’s dBFT is a modification of the classic PoS protocol, with some significant advantages and one primary disadvantage.
 
-**NEO使用一种称为dBFT的协议(委托拜占庭式容错)**，这听起来像您在AP历史测试中看到的一个术语。最简单的解释是，如何让每个人都能在网络上诚实地协同工作，**因为一个坏的苹果可能会毁掉一切。**NEO的dBFT是经典的PoS协议的一个修改，具有一些显著的优点和一个主要缺点。
+**NEO使用一种称为dBFT的协议(委托拜占庭式容错)** ，这听起来像您在AP历史测试中看到的一个术语。最简单的解释是，如何让每个人都能在网络上诚实地协同工作，**因为一个坏的苹果可能会毁掉一切。** NEO的dBFT是经典的PoS协议的一个修改，具有一些显著的优点和一个主要缺点。
 
 I imagine dBFT as working similar to how the U.S. Senate works (and if that analogy made you want to just give up on Neo entirely, I understand, but hold on…keep reading). If every person in America — all 323.1 million—was allowed to directly participate in the governmental decision making process, it would be catastrophic. It would be brutally slow as millions competed for the microphone, all shouting their opinion and arguing with each other. Making decisions would also be agonizingly slow. So instead, everyone in the country gets a vote. And with this vote, they can elect their representatives, someone to speak for them. This system directly reflects NEO’s governance. Instead of everyone getting to participate in the validating process — which can be incredibly limiting in terms of transaction speed — those who hold NEO tokens can vote for delegates. These delegates (called bookkeepers) maintain the network for everyone. Thus, NEO can run faster, more efficiently, and with quicker and more finite decisions, and you can stay home, drink Bud Light, and watch the Patriots game with your computer in sleep mode.
 
