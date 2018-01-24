@@ -79,11 +79,11 @@ The economy is complex; it has so many interconnected pieces. NEO’s platform i
 
 NEO’s founders Da HongFei and Erik Zhang founded a company called OnChain. Understanding [OnChain](http://www.onchain.com/en-us/) is critical to understanding NEO. They’re not the same company, but their interests align and they have a partnership together. OnChain’s system, known as DNA (Decentralized Network Architecture) aims to work with Chinese businesses and government. **NEO acts as the foundation of DNA.** If OnChain can integrate with Chinese businesses and government, that will greatly spur adoption of NEO.
 
-NEO的创始人Da HongFei和Erik Zhang创办了一家名为[OnChain](http://www.onchain.com/en-us/)的公司。理解OnChain对理解NEO是至关重要的。他们不是同一家公司，但他们的利益是一致的，他们有合作关系。OnChain的系统被称为DNA(分散式网络架构)，旨在与中国企业和政府合作。**NEO是DNA的基础。**如果OnChain能够与中国企业和政府进行整合，这将极大地促进NEO的使用。
+NEO的创始人Da HongFei和Erik Zhang创办了一家名为[OnChain](http://www.onchain.com/en-us/)的公司。理解OnChain对理解NEO是至关重要的。他们不是同一家公司，但他们的利益是一致的，他们有合作关系。OnChain的系统被称为DNA(分散式网络架构)，旨在与中国企业和政府合作。**NEO是DNA的基础。** 如果OnChain能够与中国企业和政府进行整合，这将极大地促进NEO的使用。
 
 Ultimately, DNA develops public and private blockchains for businesses. **These blockchains then link up to NEO to join the decentralized economy.** Businesses then have all the benefits of both private and public blockchains. Think of NEO as providing the public blockchains and OnChain’s DNA providing the private blockchains. Then, they can link up and get the best of both worlds.
 
-最终，DNA将为企业开发了公有链和私有链。**这些区块链将通过NEO加入到去中心化的经济模式。**然后，企业就拥有了公有链和私有链的所有好处。考虑到NEO提供了公有链和OnChain的DNA提供了私有链。他们就可以相互连接起来，并获得这两个世界的精华。
+最终，DNA将为企业开发了公有链和私有链。**这些区块链将通过NEO加入到去中心化的经济模式。** 然后，企业就拥有了公有链和私有链的所有好处。考虑到NEO提供了公有链和OnChain的DNA提供了私有链。他们就可以相互连接起来，并获得这两个世界的精华。
 
 OnChain also has several projects and partnerships and newsworthy mentions that all contribute to the DNA ecosystem:
 
