@@ -6,7 +6,7 @@
 > 
 > 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [林炜鑫](https://github.com/weixin1993)
 > 
-> 翻译时间：2017-01-22
+> 翻译时间：2017-01-14
 
 Here’s a prediction - Ethereum will overtake Bitcoin by the end of 2018 and QTUM will be a top 5 cryptocurrency. There are some incredible things brewing for both and I don’t believe the market has fully realized nor appreciated what’s going on. Ethereum has the largest user and developer base in the West. QTUM has gained a strong foothold in the East. If you’re not convinced, keep reading! I list a few developments for both cryptocurrencies that I am incredibly bullish on.
 
