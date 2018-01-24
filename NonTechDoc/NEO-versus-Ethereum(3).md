@@ -35,7 +35,7 @@ NEOX很重要，因为它允许由OnChain和NEO公有链创建的区块链(私�
 
 **Ethereum Comparison:** There isn’t really a good comparison for this on the Ethereum network.
 
-**Ethereum的比较:**在Ethereum网络上并没有一个很好的比较。
+**Ethereum的比较:** 在Ethereum网络上并没有一个很好的比较。
 
 ### NEX:
 ### NEX：
