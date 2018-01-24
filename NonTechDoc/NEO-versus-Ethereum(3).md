@@ -6,7 +6,7 @@
 > 
 > 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [林炜鑫](https://github.com/weixin1993)
 > 
-> 翻译时间：2017-12-13
+> 翻译时间：2017-12-20
 
 ### NEOX:
 
