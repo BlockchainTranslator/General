@@ -19,7 +19,7 @@
 The Bitcoin threat model is intended to help developers, investors and users better understand the security of Bitcoin. Threats are assumed to be any activity designed to prevent Bitcoin from accomplishing its mission to become cash (including a unit of account). Under each threat is a description of the threat, the safety features designed to protect against the threat, and any past examples of attacks executing the threat. Bitcoin can be attacked directly by making the software behave in a way that is ineffective as cash or by attacking the humans that are needed to support the software.
 
 # 动机
-比特币威胁模型旨在帮助开发者，投资者和用户更好地理解比特币的安全性。所有旨在阻止比特币实现现金（包括记帐单位）功能的任何活动都视为威胁。在每种威胁之下是对威胁的描述，为防范威胁而设计的安全特性以及任何执行威胁攻击的例子。对比特币的直接攻击可以通过影响软件运行而使比特币的功能失效，也可以直接攻击比特币软件的支持人员。
+比特币威胁模型旨在帮助开发者，投资者和用户更好地理解比特币的安全性。所有旨在阻止比特币实现现金（包括用作记帐单位，货币的主要用途之一，译者注）功能的任何活动都视为威胁。在每种威胁之下是对威胁的描述，为防范威胁而设计的安全特性以及任何执行威胁攻击的例子。对比特币的直接攻击可以通过影响软件运行而使比特币的功能失效，也可以直接攻击比特币软件的支持人员。
 
 # Conclusion
 Currently there are no threats that have been identified that could prevent or significantly slow adoption of Bitcoin as cash. However, new threats could be discovered or existing threats may prove to be more impactful. Given the impact Bitcoin is likely to have, and the frequency and intensity of past attacks, this remains a real possibility.
