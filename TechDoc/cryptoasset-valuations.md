@@ -7,6 +7,7 @@ On Value, Velocity and Monetary Theory -- A New Approach to Cryptoasset Valuatio
 > 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator/EOS) [shuke0327](https://github.com/shuke0327)
 > 感谢币乎创始人咕噜荐文
 > 翻译时间：2018-01-27
+----------------------
 
 ![1](http://upload-images.jianshu.io/upload_images/1084915-794466ad4d2d1570.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
@@ -20,8 +21,7 @@ In this piece, I propose an extension to the prevailing methodology for valuing 
 
 在我们继续之前, 值得注意的是, 估值理论家通常会对不产生现金流的资产的估值提出[警告](http://aswathdamodaran.blogspot.com/2017/10/the-bitcoin-boom-asset-currency.html)。因此，下面概述的方法在很大程度上仍然是探索性的和不精确的。尽管如此,我相信这些讨论对于发展出对加密资产价值的洞见是有价值的，它可以成为项目的一个重要杠杆，用以优化他们的激励结构(对于"机制设计"的过程，我在[这篇文章](https://medium.com/blockchannel/a-crash-course-in-mechanism-design-for-cryptoeconomic-applications-a9f06ab6a976)中提到了更多的细节)。
 
-## **A Review of Prevailing Cryptoasset Valuation Frameworks**
-**对现行的加密资产估值框架的评估**
+## **A Review of Prevailing Cryptoasset Valuation Frameworks | 对现行的加密资产估值框架的评估**
 
 The prevailing approach to cryptoasset valuations is undoubtedly that most clearly articulated by Chris Burniske, which can be found in his [book](https://www.amazon.com/Cryptoassets-Innovative-Investors-Bitcoin-Beyond/dp/1260026671), as well as this [bandwidth token model](https://medium.com/@cburniske/cryptoasset-valuations-ac83479ffca7) (for brevity, I refer to this as the “INET model” from here on out). [Brett Winton](https://twitter.com/wintonark?lang=en)’s [social media token model](https://medium.com/@wintonARK/how-to-value-a-crypto-asset-a-model-e0548e9b6e4e) is largely similar in its approach. The type of asset being modeled in the above takes on different names depending on who you ask — appcoin, medium-of-exchange token, cryptocommodity, proprietary-payment token, utility token. Though each of these terms captures some subtlety, you may consider them interchangeable for our purposes below. The overarching idea is that such an asset serves as the exclusive form of payment that the network will accept in exchange for an underlying scarce resource that it provides (bandwidth, storage, computation, and so forth). 
 
@@ -110,11 +110,7 @@ More broadly, I believe the community’s understanding of cryptoasset value dri
 
 更广泛地说，我相信社区对加密资产价值驱动因素的理解已经超过了在INET模型中对价值的简单阐释。克里斯[似乎也同意这一点](https://twitter.com/cburniske/status/952625373614870534)。
 
-原文:  https://medium.com/blockchannel/on-value-velocity-and-monetary-theory-a-new-approach-to-cryptoasset-valuations-32c9b22e3b6f
-作者:  [Alex Evans](https://medium.com/@ahe4nc?source=post_header_lockup)
-
-## **VOLT: A Two-Asset Model with Endogenous Velocity**
-**VOLT: 内生流通速度的双资产模型**
+## **VOLT: A Two-Asset Model with Endogenous Velocity | 内生流通速度的双资产模型**
 
 In this section, I present an alternative cryptoasset valuation methodology that attempts to remedy the key problems identified in the last section. I model a fictitious utility token, VOLT, which can be exchanged by households to buy electricity at below-retail rates. Please note that while there are numerous projects targeting related use cases, this model in no way references these (it’s an entirely made-up example intended for illustrative purposes).
 
@@ -183,7 +179,7 @@ Total VOLT tokens in circulation are determined by the tokens already circulatin
 
 已经流通的代币，加上创始人或VOLT 基金会释放的代币，再加上每年由通货膨胀机制创造的新的代币，决定了市场流通中VOLT代币的总数量。
 
-### **Step 2: The VOLT Electricity Demand 步骤2:  VOLT 电力需求**
+### **Step 2: The VOLT Electricity Demand | VOLT 电力需求**
 
 Note: For the electricity market, please open the notes in the assumption cells (highlighted on the top right of each cell) to see citations and additional notes. My aim here is to arrive at a value for GDP for the rest of the model to work, not to make any sort of claim about electricity markets. There are undoubtedly significant errors and oversimplifications in the assumptions.
 
@@ -207,7 +203,7 @@ Again, the numbers are exclusively illustrative. If we needed to be more precise
 再说一遍，这些数字只是用于说明的作用。如果我们需要更精确的话，比如，我们可以在州或县的基础上进行估计(现实世界的电力市场是高度本地化的)，并为每个市场指定一条单独的S曲线。
 
 
-### **Step 3: Money Demand for VOLT Tokens 步骤3: VOLT 代币的货币需求**
+### **Step 3: Money Demand for VOLT Tokens | VOLT 代币的货币需求**
 
 To create the VOLT demand curve, I assume an expected rate of return on the store-of-value asset, a given initial transaction cost, and a transaction cost decline schedule.
 
@@ -243,8 +239,7 @@ Finally, we discount the future utility value in 2028 back to 2018\. The discoun
 
 ![10.png](http://upload-images.jianshu.io/upload_images/1084915-bdd7155624a0f416.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-### **Step 4: Revisiting the Velocity Thesis**
-**步骤4:  回顾货币流通速度的论点**
+### **Step 4: Revisiting the Velocity Thesis | 回顾货币流通速度的论点**
 
 Plotting VOLT’s utility value over time, we see the velocity thesis’ core prediction in action as utility value peaks in 2025 and declines through 2028\. Viewed through the prism of the INET model, this would appear strange as between 2025 and 2028 VOLT GDP grows nearly 100%, yet utility value per token declines.
 
