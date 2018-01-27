@@ -75,8 +75,7 @@ In sum, we can now concretely state that to support (or refute) the velocity the
 
 总之，我们现在可以具体地说明，为了支持(或否定)流通速度的命题，我们需要研究流通速度、PQ和效用值如何随着时间的推移相互关联，从而需要一种方法来使得流通速度具有可操作性(operationalize)，并预测它随时间的变化。这反过来又需要对现有的密码资产评估方法论稍微偏离。
 
-## **A Monetary Critique of the INET Model** 
-    **对INET模型的货币理论批判**
+## **A Monetary Critique of the INET Model | 对INET模型的货币理论批判**
 
 Now that we’ve examined the velocity thesis in some detail, we can articulate six challenges that it presents to the INET model from the standpoint of monetary theory:
 
@@ -162,7 +161,7 @@ I would appreciate reporting of any issues you find with the model (especially m
  如果你发现模型有任何问题(尤其是原理问题/bug)，欢迎告诉我，这样我就可以更新这张表，让它对其他人也有用。
 ![5.png](http://upload-images.jianshu.io/upload_images/1084915-861e55e8e7920f60.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-### **Step 1: VOLT Supply Schedule VOLT 供应安排**
+### **Step 1: VOLT Supply Schedule | VOLT 供应安排**
 
 Despite the departure on other points, we still need to project both supply for VOLT tokens and residential electricity facilitated by the VOLT economy. Thankfully, Chris’ shoulders are there for us to stand on and I follow a virtually identical approach. With respect to money supply, the only theoretical difference is that I explicitly assume VOLT will have no HODLers as they will instead opt to hold the store-of-value asset (i.e. VOLT users are risk-averse). What is interesting about this point is that, in the model, each of the three functions of money is performed by a different asset: We have a separate Store-of-Value asset, while VOLT is the medium of exchange and USD is the internal unit of account. Reality will, of course, be more complicated.
 
