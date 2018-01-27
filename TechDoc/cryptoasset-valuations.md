@@ -8,9 +8,6 @@ On Value, Velocity and Monetary Theory -- A New Approach to Cryptoasset Valuatio
 > 感谢币乎创始人咕噜荐文
 > 翻译时间：2018-01-27
 
-原文: https://medium.com/blockchannel/on-value-velocity-and-monetary-theory-a-new-approach-to-cryptoasset-valuations-32c9b22e3b6f
-作者:  [Alex Evans](https://medium.com/@ahe4nc?source=post_header_lockup)
-
 ![1](http://upload-images.jianshu.io/upload_images/1084915-794466ad4d2d1570.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 Valuation methodologies have historically lagged behind the development of the assets they represent. While the Dutch East India Company became the first entity to sell stocks on a public exchange in the early 1600s, it was not until the 1930s that a comprehensive framework for deriving the fundamental value of equity securities was developed. What Graham and Dodd benefited from in 1934 that their predecessors perhaps lacked was a broadly-accepted philosophy of disclosure (eventually codified in the Securities Act of 1933) and, more importantly, a reliable accounting system with unified measurement standards and practices— a common language for discussing value. Without rules of disclosure and requisite accounting conventions, current attempts at studying cryptoasset fundamentals will descend into the [Confusion of Confusions](https://en.wikipedia.org/wiki/Joseph_de_la_Vega) that described seventeenth century stock market investment advice.
