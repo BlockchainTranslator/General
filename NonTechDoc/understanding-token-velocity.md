@@ -1,9 +1,13 @@
 # Understanding token velocity | 理解代币周转率
 
 > 本文翻译自：https://multicoin.capital/2017/12/08/understanding-token-velocity/
+> 
 > 作者：KYLE SAMANI
+> 
 > 译者：[区块链中文字幕组 胡亮](https://github.com/gumoon)
+> 
 > 感谢币乎创始人咕噜荐文
+> 
 > 翻译时间：2018-1-31
 
 Basically, all token pitches include a line that goes something like this: “There is a fixed supply of tokens. As demand for the token increases, so must the price.”
