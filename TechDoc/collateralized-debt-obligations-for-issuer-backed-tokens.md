@@ -68,7 +68,7 @@ This mechanism removes the need to have any kind of fancy dynamically adjusted/c
 
 To create an infinite-duration coin on top of this, one can simply imagine a DAO that creates rounds of this game with duration 2D every D (ie. there are always two overlapping games) and another DAO which buys tokens of some specific slice on the open market a quarter of the way through their period and sells them three quarters of the way through to buy the coins from the next game.
 
-在此基础上为了创造一个无限持续的代币，可以简单地想象一个 DAO 每隔 D 时间创造了一个持续时间为 2D 的游戏回合（例：有两个重叠的游戏），另一个 DAO，它们四分之一时间内在公开市场的购买一些特定部分的代币，然后用四分之三的时间卖掉用以买下一场比赛的币。
+在此基础上为了创造一个无限持续的代币，可以简单地想象下，一个 DAO 每隔 D 时间建立这个游戏回合，每个回合的持续时间为 2D （即：总是有两个重叠的游戏），另一个 DAO，它们用期间四分之一的时间从公开市场购买一些特定部分的代币，然后用四分之三的时间卖掉，用以买下一场比赛的币。
 
 ### Variations
 ### 其它变化
@@ -79,7 +79,7 @@ To create an infinite-duration coin on top of this, one can simply imagine a DAO
 
 * Have one of the "issuers" be DAI
 
-* "发行人"可以是持有以太的智能合同，并且有一个兑换程序允许持有人兑换相当于 1 美元的以太。智能合同的美元债务开始时是以太持有价值的一半。如果合同破产，它会让每个令牌持有者平分全部数量的以太。任何未分配的以太将被分配给第二类代币持有者，这些持有者因此持有"2倍杠杆的以太"。
+* "发行人"可以是持有以太的智能合同，并且有一个兑换程序允许持有人兑换相当于 1 美元的以太。智能合同的美元债务开始时是以太持有价值的一半。如果这个合同资不抵债，它会让每个令牌持有者平分全部数量的以太。任何未分配的以太将被分配给第二类代币持有者，这些持有者因此持有"2倍杠杆的以太"。
 
 * 提出更复杂的组合机制，让人们能够通过市场表达意见，比如"我认为发行人 1, 4 和 11 是具有偿付能力, 但对其它任何一家都不知情"
 
