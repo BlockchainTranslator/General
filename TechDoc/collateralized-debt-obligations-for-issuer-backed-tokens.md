@@ -24,7 +24,7 @@ One major type of "stablecoin" that already exists, and will likely continue to 
 
 This kind of token is attractive because it avoids the [financial "black swan" risk](https://prestonbyrne.com/2017/12/10/stablecoins-are-doomed-to-fail/) of stablecoins like DAI that are purely backed by crypto, but it comes with its own set of problems, chief among which is that it brings back the spectre of counterparty risk. Issuers of backed tokens are often met with suspicion, and the tokens are often avoided as a result.
 
-这种代币之所以有吸引力, 是因为它避免了象贷币这类单纯由密码学支撑的稳定币的["黑天鹅"金融风险](https://prestonbyrne.com/2017/12/10/stablecoins-are-doomed-to-fail/), 但是也有自己的一系列问题, 其中最主要的问题是它带来了合同对方的风险。有背书的代币的发行方经常会受到怀疑（应该是象 USDT 一样怀疑用于背书的资产是否足额，译者注）, （有些人）由此通常会避免使用这种代币。
+这种代币之所以有吸引力, 是因为它避免了象贷币这类单纯由密码学支撑的稳定币的["黑天鹅"金融风险](https://prestonbyrne.com/2017/12/10/stablecoins-are-doomed-to-fail/), 但是也有自己的一系列问题, 其中最主要的问题是它带来了合同对方的风险。有背书的代币的发行方经常会受到怀疑（应该是类似于 USDT 一样怀疑用于背书的资产是否足额，以及中心化等问题。译者注）, （有些人）由此通常会避免使用这种代币。
 
 The following is a proposal for how to mitigate this risk, effectively creating 1-of-N issuer-backed stablecoins that only fail if most or all of the issuers fail.
 
