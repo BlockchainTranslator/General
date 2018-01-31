@@ -1,6 +1,6 @@
 > 本文由 @咕噜 BIHU.COM 推荐
 >
-> vitalik和Difinity社区对于Stablecoin的思考
+> vitalik 和 Difinity 社区对于 Stablecoin 的思考
 >
 > 翻译自：https://ethresear.ch/t/collateralized-debt-obligations-for-issuer-backed-tokens/525
 >
@@ -41,11 +41,11 @@ Suppose that we have N issuers of USD on the blockchain, I[1] ... I[n], and ther
 
 The expected loss component of counterparty risk can never be reduced or removed - if the issuers collectively lose $X, that loss of $X has to be paid by someone. But what this does let us do is channel the risk toward those who are most willing to bear it, and give those who are not an asset that is highly robust, losing value only if a very large number of issuers fail.
 
-交易对手风险的预期损失部分永远不能减少或消除 - 如果发行人集体损失 X 美元，那么 X 美元的损失必须由某人来承担。但是，我们要做的就是把风险转移到那些愿意承担风险的人手上，对那些不愿意承担风险的人，我们就给他们高度稳健的资产，这种资产只有当极大量的发行人不能偿债时资金才会有所损失。
+交易对手风险的预期损失部分永远不能减少或消除 - 如果发行人集体损失 X 美元，那么 X 美元的损失必须有人来承担。因此，我们要做的就是把风险转移到那些愿意承担风险的人手上，对那些不愿意承担风险的人，我们就给他们高度稳健的资产，这个资产只有当极大量的发行人都不能偿债时资金才会有所损失。
 
 To compensate those who are willing to bear risk (or those with insider knowledge that allows them to trust the issuers more than the general public does), the holders of slices closer to N would be paid interest rates, which would come out of the pockets of the holders of slices closer to 1.
 
-为了补偿那些愿意承担风险的人(或那些知情的内幕人士、比普通公众更信任发行者的人) , 接近于第 N 部分的持有者将得到利率补偿, 并且这个利率由自接近第 1 部分 的持有者来支付。
+为了补偿那些愿意承担风险的人(或那些知情的内幕人士、比普通公众更信任发行者的人) , 接近于第 N 部分的持有者将得到利率补偿, 并且这个利率由自接近第 1 部分的持有者来支付。
 
 ---
 
