@@ -68,7 +68,7 @@ This mechanism removes the need to have any kind of fancy dynamically adjusted/c
 
 To create an infinite-duration coin on top of this, one can simply imagine a DAO that creates rounds of this game with duration 2D every D (ie. there are always two overlapping games) and another DAO which buys tokens of some specific slice on the open market a quarter of the way through their period and sells them three quarters of the way through to buy the coins from the next game.
 
-在此基础上为了创造一个无限持续的代币，可以简单地想象下，一个 DAO 每隔 D 时间建立这个游戏回合，每个回合的持续时间为 2D （即：总是有两个重叠的游戏），另一个 DAO，它们用期间四分之一的时间从公开市场购买一些特定部分的代币，然后用四分之三的时间卖掉，用以买下一场比赛的币。
+在此基础上为了创造一个无限持续的代币，可以简单地想象下，一个 DAO 每隔 D 时间建立这个游戏回合，每个回合的持续时间为 2D （即：总是有两个重叠的游戏），另一个 DAO，它们用期间四分之一的时间从公开市场购买一些特定部分的代币，然后用四分之三的时间卖掉，用以买下一场游戏的币。
 
 ### Variations
 ### 其它变化
