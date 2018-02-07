@@ -34,7 +34,7 @@ world.
 
 区块链账本经常被描述为是去中心化的，因为它被众多网络参与者复制，他们共同维护同一账本。类比真实世界的商品和服务的交易，区块链的去中心化和相互合作是强大的属性。
 
-![](media/15180212005285.png)
+![](pics/15180212005285.png)
 
 
 In addition to being decentralized and collaborative, the information recorded to a blockchain is append-only, using cryptographic techniques that guarantee that once a transaction has been added to the ledger it cannot be modified. This property of immutability makes it simple to determine the provenance of information because participants can be sure information has not been changed after the fact. It’s why blockchains are sometimes described as **systems of proof**.
@@ -47,7 +47,7 @@ To support the consistent update of information – and to enable a whole host o
 
 为了支持信息的一致性更新，以及开启完整的账本功能（转账、查询等），区块链网络使用**智能合约**来访问账本。
 
-![](media/15180212170526.png)
+![](pics/15180212170526.png)
 
 
 Smart contracts are not only a key mechanism for encapsulating information and keeping it simple across the network, they can also be written to allow participants to execute certain aspects of transactions automatically.
@@ -64,7 +64,7 @@ The process of keeping the ledger transactions synchronized across the network �
 
 保持账本交易跨网同步的过程---确保账本只更新被合适的参与者批准的交易，并且所有参与者以相同的顺序更新相同的交易。这个过程被称为：**共识**。
 
-![](media/15180212315987.png)
+![](pics/15180212315987.png)
 
 We’ll learn a lot more about ledgers, smart contracts and consensus later. For now, it’s enough to think of a blockchain as a shared, replicated transaction system which is updated via smart contracts and kept consistently synchronized through a collaborative process called consensus.
 
@@ -81,7 +81,7 @@ What you’re left with is a business network that looks like this:
 
 保留下来的就是这样一个商业网络：
 
-![](media/15180212554889.png)
+![](pics/15180212554889.png)
 
 Modern technology has taken this process from stone tablets and paper folders to hard drives and cloud platforms, but the underlying structure is the same. Unified systems for managing the identity of network participants do not exist, establishing provenance is so laborious it takes days to clear securities transactions (the world volume of which is numbered in the many trillions of dollars), contracts must be signed and executed manually, and every database in the system contains unique information and therefore represents a single point of failure.
 
@@ -102,7 +102,7 @@ That business network would look more like this:
 
 那个商业网络可能看起来更像这样：
 
-![](media/15180212743189.png)
+![](pics/15180212743189.png)
 
 This is a blockchain network. Every participant in it has their own replicated copy of the ledger. In addition to ledger information being shared, the processes which update the ledger are also shared. Unlike today’s systems, where a participant’s **private** programs are used to update their **private** ledgers, a blockchain system has **shared** programs to update **shared** ledgers.
 
