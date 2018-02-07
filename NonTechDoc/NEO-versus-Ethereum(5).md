@@ -36,11 +36,11 @@ Ethereum plans to roll out this mechanism, but there is no timeline for it. Ulti
 
 **1.NEO理论上是量子计算机抵抗者，以太坊不是** - 当量子计算机发展足够时，区块链可能是脆弱的。 NEO从理论上设计了他们的区块链来解释这一点。以太坊没有这个能力。
 
-**2.sk-Snarks: Ethereum’s new privacy tool.**sk-Snarks is the privacy protocol of [ZCash](https://z.cash/). While there are far smarter people who can explain the technology far more intelligently than me, essentially sk-Snarks is important when we want to have data or contracts whose contents are private or confidential. We need to maintain the privacy of the data, but at the same time, prove we have ownership of it. sk-Snarks allows users to prove they have ownership without actually giving up the private data. NEO has no such capabilities. However, NEO’s partnership with OnChain’s [Ontology](https://www.reddit.com/r/NEO/comments/7f8bvb/ontology_network_ama_answers/) offers NEO a privacy solution for businesses.
+**2.sk-Snarks: Ethereum’s new privacy tool.** sk-Snarks is the privacy protocol of [ZCash](https://z.cash/). While there are far smarter people who can explain the technology far more intelligently than me, essentially sk-Snarks is important when we want to have data or contracts whose contents are private or confidential. We need to maintain the privacy of the data, but at the same time, prove we have ownership of it. sk-Snarks allows users to prove they have ownership without actually giving up the private data. NEO has no such capabilities. However, NEO’s partnership with OnChain’s [Ontology](https://www.reddit.com/r/NEO/comments/7f8bvb/ontology_network_ama_answers/) offers NEO a privacy solution for businesses.
 
 
 
-**2.sk-Snarks：以太坊的新隐私工具。**sk-Snarks是[ZCash](https://z.cash/)的隐私协议。虽然有更聪明的人能比我更聪明地解释这门技术：当我们想要拥有的内容是私密的或数据或合约是隐私时，sk-snarks就显得非常重要。我们需要维护数据的隐私，但同时也证明我们拥有它的所有权。sk-Snarks允许用户证明自己拥有所有权，而不会真正放弃私人数据。NEO没有这样的能力。但是，NEO与OnChain的[Ontology](https://www.reddit.com/r/NEO/comments/7f8bvb/ontology_network_ama_answers/)的合作为NEO提供了一个针对企业的隐私解决方案。
+**2.sk-Snarks：以太坊的新隐私工具。** sk-Snarks是[ZCash](https://z.cash/)的隐私协议。虽然有更聪明的人能比我更聪明地解释这门技术：当我们想要拥有的内容是私密的或数据或合约是隐私时，sk-snarks就显得非常重要。我们需要维护数据的隐私，但同时也证明我们拥有它的所有权。sk-Snarks允许用户证明自己拥有所有权，而不会真正放弃私人数据。NEO没有这样的能力。但是，NEO与OnChain的[Ontology](https://www.reddit.com/r/NEO/comments/7f8bvb/ontology_network_ama_answers/)的合作为NEO提供了一个针对企业的隐私解决方案。
 
 
 
