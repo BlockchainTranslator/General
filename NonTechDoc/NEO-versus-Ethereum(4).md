@@ -101,7 +101,7 @@ NEO和GAS的上限都是1亿。
 **TLDR:以太坊有一个代币:ether。NEO有两个:NEO和GAS。在使用验证协议时拥有两个代币具有巨大的优势。**
 
 ### Smart Contract Language
-### 聪明的合约语言
+### 智能合约语言
 
 ![](pics/lwx-smartcontract.png)  
 
