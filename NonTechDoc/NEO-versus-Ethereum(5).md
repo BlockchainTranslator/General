@@ -1,5 +1,5 @@
-# NEO versus Ethereum: Why NEO might be 2018’s strongest cryptocurrency(五)
-# NEO对比Ethereum:为什么NEO可能是2018年最强的加密数字货币（五）
+# NEO versus Ethereum: Why NEO might be 2018’s strongest cryptocurrency(五)【完】
+# NEO对比Ethereum:为什么NEO可能是2018年最强的加密数字货币（五）【完】
 
 
 > 本文翻译自：https://hackernoon.com/neo-versus-ethereum-why-neo-might-be-2018s-strongest-cryptocurrency-79956138bea3
