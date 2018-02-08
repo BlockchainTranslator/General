@@ -1,5 +1,5 @@
-# Beyond the Red Tape:The Path Ahead for Token Sales
-# 超越繁文缛节:代币销售的前方道路
+# Beyond the Red Tape:The Path Ahead for Token Sales(二)
+# 超越繁文缛节:代币销售的前方道路（二）
 
 
 > 本文翻译自：https://www.coindesk.com/beyond-red-tape-path-ahead-token-sales/
