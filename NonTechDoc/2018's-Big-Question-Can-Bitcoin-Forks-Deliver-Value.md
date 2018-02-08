@@ -18,7 +18,7 @@ But despite these successes, one of the fundamental properties of all cryptocurr
 
 2017年以来，比特币和以太坊等数字资产一直得到了普遍的关注，这导致了前所未有的价格上涨、资本投资和普遍认识。
 
-不过，尽管取得了这些成功，所有加密货币的基本属性之一——它们的分散性——在2017年遭到了攻击。
+不过，尽管取得了这些成功，所有加密货币的基本属性之一——它们的去中心化——在2017年遭到了攻击。
 
 With this in mind, it's worth remembering that a core value proposition of blockchains is that there is no one central intermediary or organization that controls them. Instead, these protocols are used to enable the network to come to a consensus on the validity of transactions and data.
 
@@ -49,7 +49,7 @@ But it's worth noting, too, that decentralization is frequently achieved by mark
 
 有人可能会说，三个加密货币网络在将比特币作为一个去中心化网络的愿景进行封装方面都有所不同。
 
-但值得注意的是，去中心经常是通过市场经济来实现的。
+但值得注意的是，去中心化经常是通过市场经济来实现的。
 
 When thinking about this, I'm reminded of the classic question asked by Soviet leader Mikhail Gorbachev in 1988:
 
@@ -59,7 +59,7 @@ In fact, there was no one in charge for supplying bread to the city of London, t
 
 思考这个问题时，我想起苏联领导人戈尔巴乔夫在1988年提出的经典问题：
 
->“我没有看到一个面包队，请带我去见伦敦供应面包的人，我必须学习他的秘密。
+>“我没有看到一个为面包排队的人，请带我去见伦敦供应面包的人，我必须学习他的秘密。“
 
 事实上，没有人负责向伦敦市供应面包，这也是为什么没有人排队。
 
@@ -69,7 +69,7 @@ Though bitcoin was the first so-called "decentralized" product built on blockcha
 
 There are those who argue that the power and influence of the mining industry results in the network being more centralized than most people expected. To support this point of view, it's valuable to revisit Satoshi Nakamoto's email regarding the original design of bitcoin.
 
-有人认为，采矿业的权力和影响力导致网络比大多数人所期望的更集中。为了支持这个观点，我们有必要重新审视中本聪本人关于比特币原始设计的电子邮件。
+有人认为，挖矿行业的权力和影响力导致网络比大多数人所期望的更集中。为了支持这个观点，我们有必要重新审视中本聪本人关于比特币原始设计的电子邮件。
 
 
 He writes:
@@ -141,7 +141,7 @@ Less is known about bitcoin gold, but according to its website:
 
 比特币黄金鲜为人知，但根据其网站：
 
-“比特币黄金通过采用PoW算法Equihash分散采矿，Equihash在用于比特币采矿的专用设备（ASIC矿工）上不能跑得更快，这为普通用户提供了利用无处不在GPU的公平机会。
+“比特币黄金通过采用PoW算法：Equihash分散采矿，Equihash在用于比特币采矿的专用设备（ASIC矿工）上不能跑得更快，这为普通用户提供了利用无处不在GPU的公平机会。
 
 Efforts are underway already to create FPGA chip miner for zcash, though, and with progress here, it might only be a matter of time before they develop an ASIC chip. If that's the case, then mining might again shift away from users back to traditional mining pools.
 
@@ -165,7 +165,7 @@ These include whether forks of bitcoin might actually be weaker in providing con
 
 我认为，进入2018年，我们必须回答有关这一趋势的关键问题。
 
-其中包括比特币的分叉实际上是否可能在向消费者提供分散化方面实际上较弱，买方是否希望获得这些资产，或者“分散化”是否仅仅是所有加密货币的流行词和营销策略。
+其中包括比特币的分叉实际上是否可能在向消费者提供分散化方面实际上较弱，买方是否希望获得这些资产，或者“去中心化”是否仅仅是所有加密货币的流行词和营销策略。
 
 Ultimately, time will tell whether bitcoin, bitcoin cash, or bitcoin gold becomes the most prevalent, but the great thing about an open market is that users get to decide what has the best value or utility.
 
