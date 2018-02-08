@@ -257,7 +257,7 @@ Command  |  Description |  Options
 ### 命令参考
 使用 help 命令，能显示 CLI 中的所有可能命令的列表。
 
-Command  |  Description |  Options
+命令 |  说明 |  选项
 --|---|--
 `help`  | 对指定命令显示帮助信息 | `[command]`
 `exit`  | 退出 CLI.  |  
