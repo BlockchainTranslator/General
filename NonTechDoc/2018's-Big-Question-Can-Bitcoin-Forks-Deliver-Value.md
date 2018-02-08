@@ -141,7 +141,7 @@ Less is known about bitcoin gold, but according to its website:
 
 比特币黄金鲜为人知，但根据其网站：
 
-“比特币黄金通过采用PoW算法：Equihash分散采矿，Equihash在用于比特币采矿的专用设备（ASIC矿工）上不能跑得更快，这为普通用户提供了利用无处不在GPU的公平机会。
+“比特币黄金通过采用PoW算法-Equihash-来分布式挖矿，Equihash在用于比特币采矿的专用设备（ASIC矿工）上不能跑得更快，这为普通用户提供了利用无处不在GPU的公平机会。
 
 Efforts are underway already to create FPGA chip miner for zcash, though, and with progress here, it might only be a matter of time before they develop an ASIC chip. If that's the case, then mining might again shift away from users back to traditional mining pools.
 
@@ -165,7 +165,7 @@ These include whether forks of bitcoin might actually be weaker in providing con
 
 我认为，进入2018年，我们必须回答有关这一趋势的关键问题。
 
-其中包括比特币的分叉实际上是否可能在向消费者提供分散化方面实际上较弱，买方是否希望获得这些资产，或者“去中心化”是否仅仅是所有加密货币的流行词和营销策略。
+其中包括比特币的分叉实际上是否可能在向消费者提供去中心化方面实际上较弱，买方是否希望获得这些资产，或者“去中心化”是否仅仅是所有加密货币的流行词和营销策略。
 
 Ultimately, time will tell whether bitcoin, bitcoin cash, or bitcoin gold becomes the most prevalent, but the great thing about an open market is that users get to decide what has the best value or utility.
 
