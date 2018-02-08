@@ -17,7 +17,7 @@ The promise of bitcoin, in this context, was a store of value that would not be 
 
 当我在华尔街工作的时候，我第一次听说了加密货币。
 
-这是在2013年。我在交易阿根廷信贷。我在布宜诺斯艾利斯的一个本地经纪人想知道我是否了解比特币。当时，阿根廷已经被封闭在资本市场之外长达10年之久。表面上与美元挂钩的peso在当地市场上以折扣价格进行交易，这使得当地人对其他商品的价值感到渴望。资本管制意味着，把资金转移到海外通常需要用手提箱和渡船去乌拉圭。该国正处于另一种违约的边缘。
+这是在2013年。我在交易阿根廷信贷。我在布宜诺斯艾利斯的一个本地经纪人想知道我是否了解比特币。当时，阿根廷已经被封闭在资本市场之外长达10年之久。表面上与美元挂钩的peso在当地市场上以折扣价格进行交易，这使得当地人对其他储备价值感到渴望。资本管制意味着，把资金转移到海外通常需要用手提箱和渡船去乌拉圭。该国正处于另一种违约的边缘。
 
 在这种情况下，比特币的承诺是一种价值储备，它不会被一个中央权威机构的不称职或伤害所俘虏。
 
@@ -27,7 +27,7 @@ Here was an asset that did not demand an intermediary. Sitting on a trading desk
 
 This was also an asset that was programmable. As a derivatives trader, I spent a lot of time thinking about counterparty exposure, collateral and capital requirements. Could smart contracts provide an automatically enforceable means of accounting for this sort of systemic risk?
 
-随着我深入研究比特币，更多的承诺，一个替代，改善的金融体系呈现出来。欧洲债务危机，尤其是塞浦路斯的资产扣押事件，突显出数字商品价值的重要性，这种价值可以直接拥有，而不会被外部参与者所损害。
+随着我深入研究比特币，更多的承诺，一个替代，改善的金融体系呈现出来。欧洲债务危机，尤其是塞浦路斯的资产扣押事件，突显出数字货币储备价值的重要性，这种价值可以直接拥有，而不会被外部参与者所损害。
 
 这是一种不需要中介的资产。当时坐在交易台上，从金融体系中去除寻租中间商的行为特别引人注目。这种技术可以让交易双方直接互动，而不必向第三方披露他们的交易或身份的细节。
 
