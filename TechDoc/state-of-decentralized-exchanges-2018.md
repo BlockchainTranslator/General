@@ -11,7 +11,7 @@
 
 
 ## State of Decentralized Exchanges, 2018
-## 2018年去中心化交易所的状况
+## 2018 去中心化交易所展望
 
 VariabL CCO Nathan Sexer undertakes an exhaustive study of current DEX tech and looks towards the (near) future of digital asset exchange.
 
@@ -277,7 +277,7 @@ Decentralized Exchange for ERC20 and Open Protocol to serve multiple public bloc
 
 ERC20 的去中心化交易所，使用开放协议来服务多个公共链（开发中）
 
-#### [Lykke}(https://www.lykke.com/):
+#### [Lykke](https://www.lykke.com/):
 Semi-decentralized exchange for cryptocurrencies and fiats (live, with a centralized model. Will switch to decentralized model in the future)
 
 加密货币和法定货币的半去中心化交易（目前采用中心化的模式，未来将转向去中心化模式）
