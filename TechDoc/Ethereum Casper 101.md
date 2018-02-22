@@ -8,8 +8,7 @@
 
 Casper will implement proof of stake in Ethereum. We begin with a review on why proof of stake matters and continue with its strengths & weaknesses. This post aims to provide a broad overview of Casper and clarify some of the confusion with respect to the two protocol design efforts related to Casper. The two proposed implementations share the same core design principle: **applying cryptoeconomic mechanism design to secure the network while managing challenges regarding liveness, safety and synchrony assumptions**. This post is also an overview of the progress so far and the challenges that lie ahead. Most importantly for fellow newcomers, the post identifies & defines key concepts and ties together various helpful resources under one context. The overarching intention is to make Casper and proof of stake more approachable to everyone in the community.
 
-Casper 将在以太上坊上实现 POS (权益证明) 协议。这篇文章首先回顾了 POS 的重要性及其存在的优缺点，
-并且对 Casper 进行了广泛的概述，澄清了与 Casper 相关的两个协议设计上的一些混淆。这两种提议在实现上使用了相同的核心设计原则:**应用数字货币经济机制设计来保护网络，同时处理关于活跃度，安全性和同步假设上的挑战**。这篇文章还概述了迄今取得的进展和未来的挑战。最重要的是，对于初学者，本文将各种有用的资源结合在一起，对关键概念进行了说明和定义。
+Casper 将在以太上坊上实现 POS (权益证明) 协议。这篇文章首先回顾了 POS 的重要性及其存在的优缺点，并且对 Casper 进行了广泛的概述，澄清了与 Casper 相关的两个协议设计上的一些混淆问题。这两种提议在实现上使用了相同的核心设计原则:**应用数字货币经济机制设计来保护网络，同时处理关于活跃度，安全性和同步假设上的挑战**。这篇文章还概述了迄今取得的进展和未来的挑战。最重要的是，对于初学者，本文将各种有用的资源结合在一起，对关键概念进行了说明和定义。
 
 Enjoy and please don’t hesitate to reach out with questions, corrections or feedback
 
@@ -45,7 +44,7 @@ Casper is hardly a new project as it dates back to 2014, so fortunately it has a
 
 While other posts, videos and papers focus on the specification, implementation and verification of Casper. This post focuses on the various guiding design principles of Casper, how it differs from competing approaches, why you should care about it, and how you can contribute to this project.
 
-Casper 最早从2014年出现，并不能算是一个新的项目，所以幸运的在网上能找到很多有关于它的文章。虽然有关的信息非常多，但初学者却没有一个足够简明的学习起点来参与到这个项目中。这就是我写这篇文章的原因。
+Casper 最早从2014年出现，并不能算是一个新的项目，所以幸运的在网上能找到很多有关于它的文章。虽然有关的信息非常多，但初学者还是没有一个足够简明的学习起点来参与到这个项目中。这就是我为什么写这篇文章的原因。
 
 不同于其它的文章、视频和论文主要集中讨论有关 Casper 的规范、实施和验证。这篇文章着重介绍 Casper 的各种指导性设计原则；它与其它竞争替代方案的差异；以及为什么我们要关注它；如何为这个项目做出贡献等内容。
 
