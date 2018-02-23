@@ -19,11 +19,11 @@ This post will dive into [KyberNetwork](https://medium.com/@KyberNetwork), an ex
 深入 Kyber Network（KNC）：一个领先的去中心化交易所
 ================================================
 
-这篇文章将深入 [KyberNetwork](https://medium.com/@KyberNetwork)，一个令人兴奋的新加坡项目，该项目致力于在不依赖传统中心化交易所的的情况下提供**数字货币的即时交易**。
+这篇文章将深入 [KyberNetwork](https://medium.com/@KyberNetwork)，一个令人兴奋的新加坡项目，该项目致力于在不依赖传统的中心化交易所的的情况下提供**数字货币的即时交易**。
 
-**项目当前状态**：该[项目的主网测试](https://blog.kyber.network/kyber-network-mainnet-pilot-is-now-live-a90366e2a0ef)于 2018 年 2 月 11 日正式在以太坊区块链上运行，并将一直运行至 2018 年 4 月。
+**项目当前状态**：该[项目的主网测试](https://blog.kyber.network/kyber-network-mainnet-pilot-is-now-live-a90366e2a0ef) 2018 年 2 月 11 日开始正式在以太坊区块链上运行，并持续到 2018 年 4 月。
 
-* 在测试阶段，只有 Kyber Network 的 ICO 白名单才能参加测试。开始时发放 10 个通证（tokens，也译作代币，本文全部译为通证）用于测试，以后会增加更多的测试用通证。
+* 在测试阶段，只有 Kyber Network 的 ICO 白名单才能参加测试。初始发放 10 个通证（tokens，也译作代币，本文全部译为通证）用于测试，以后会增加更多的测试用通证。
 
 ### \*\*\*If you’re new to cryptocurrencies, scroll to the bottom of this page where I include educational resources, podcasts, and other useful tools to help you learn about the space.\*\*\*
 
@@ -38,9 +38,9 @@ Kyber Network is an ambitious project aiming to offer **decentralized token exch
 By early 2019, **Kyber Network hopes to allow cross-chain trading** and hopes to leverage the future success of interoperability-focused projects such as [Cosmos](https://cosmos.network/about) and [Polkadot](https://polkadot.io/).
 
 ### 什么是 Kyber Network？
-Kyber Network 是一个雄心勃勃的项目，旨在在以太坊协议上提供**去中心化的通证交易功能**，另外还提供可让商家处理任意通证付款功能的**支付 API**。
+Kyber Network 是一个雄心勃勃的项目，旨在在以太坊协议上提供**去中心化的通证交易功能**，另外还提供可让商家处理任意的通证付款功能的**支付 API**。
 
-到了 2019 年初，**Kyber Network 希望允许跨链交易**，并能借助于未来专注于互操作性的项目如 [Cosmos](https://cosmos.network/about) 和 [Polkadot](https://polkadot.io/) 等的成功。
+到 2019 年初，**Kyber Network 期望能够进行跨链交易**，并希望能够借助于未来专注于互操作性的项目如 [Cosmos](https://cosmos.network/about) 和 [Polkadot](https://polkadot.io/) 等的成功。
 
 ### How does Kyber Network Work?
 
@@ -51,7 +51,7 @@ Kyber Network aspires to guarantee liquidity and offer instantaneous on-chain co
 ### Kyber Network 如何工作？
 Kyber Network 希望**通过利用独立管理的储备池**来保证流动性并提供即时链上转换。
 
-*   这意味着，与中心化交易所不同，**Kyber Network 既不在第三方保存用户的资金，也不保存全局订单薄。**
+*   这意味着，与中心化交易所不同，**Kyber Network 既不在第三方保存用户的资金，也不保存全局订单。**
 
 **Here’s the simplified process (explained in more detail below)**
 
@@ -59,10 +59,10 @@ Kyber Network 希望**通过利用独立管理的储备池**来保证流动性�
 2.  Kyber Network fetches the best conversion rate offered amongst all of its externally-managed reserves; and
 3.  A smart contract will then execute an atomic transaction and the user will receive their requested tokens directly to their wallet.
 
-**这是个简化的过程说明（下面有更详细地解释）**
+**简化的过程说明（下面有更详细地解释）**
 
 1.  用户发起交易请求（采用市场订单或指定最低转换率）;
-2.  Kyber Network 取得其所有外部管理储备池中提供的最佳转化率。
+2.  Kyber Network 在其所有外部管理储备池中提供的转化率中取得最佳转化率。
 3.  然后智能合约执行原子交易，用户就能在他们的钱包中直接收到交易的通证。
 
 ### What is Kyber Network Token (KNC) and Why does it have value?
@@ -86,7 +86,7 @@ There are currently 134,132,697 KNC tokens in circulation.
 应用通证
 
 #### **KNC 供应**
-目前有 134,132,697 个 KNC 流通的通证。
+目前流通的有 134,132,697 个 KNC 通证。
 
 #### KNC 分配
 Kyber Network 项目持有 19.5％ 的 KNC 通证，19.5％ 由创始人，顾问和种子投资者持有，61％ 由公众持有。
@@ -99,9 +99,9 @@ Kyber Network 项目持有 19.5％ 的 KNC 通证，19.5％ 由创始人，顾�
 **Second, Kyber Network has stated that it will pay partners in KNC for every trade that they introduce to Kyber Network.** This includes wallets, blockchain explorers, and on-chain smart contracts.
 
 
-#### KNC使用案例
+#### KNC 用例
 
-**首先，储备管理者用 KNC 向 Kyber Network 支付交易的一小部分（交易费用）**。这相当于储备管理者用在交易所的付款以换取在 KNC 上操作的权利。
+**首先，储备管理者用 KNC 向 Kyber Network 支付交易的一小部分（交易费用）**。这相当于储备管理者用在交易中的付款以换取在 KNC 上操作的权利。
 
 **其次，Kyber Network 已经表示，对于合作伙伴向 Kyber Network 推出的每笔交易，它会用 KNC 支付报酬。** 包括钱包、blockchain explorers (区块链探索者)和链上智能合约。
 
@@ -111,7 +111,7 @@ All tokens that are paid in transaction fees by the reserves are burned by the K
 
 ### KNC 通货膨胀/通货紧缩
 
-所有由储备池支付交易费用的通证均被 Kyber Network 销毁，从而永久性减少通证的供应量。这意味着，在设计上，随着交易量的增加，KNC 的价格将面临上涨压力。
+所有由储备池支付的交易费用的通证均被 Kyber Network 销毁，从而永久性减少通证的供应量。这意味着，在设计上，随着交易量的增加，KNC 的价格将面临上涨的压力。
 
 *   Note that because the fees are taken as a percentage of the “coins in circulation”, **the total supply of KNC will never be exhausted.**
 
@@ -124,13 +124,13 @@ All tokens that are paid in transaction fees by the reserves are burned by the K
 
 #### Kyber Network 在2018年1月的这篇[Reddit post](https://www.reddit.com/r/CryptoCurrency/comments/7qy8d6/kyber_network_an_introduction/) 文章中写道：
 
-> “通证的应用模型是由 Vitalik（Ethereum联合创始人）共同创建和建议的，类似的模型可以在他的**[**博客文章中**](http://vitalik.ca/general/2017/10/17/moe.html)**找到 ”
+> **“通证的应用模型是由 Vitalik（Ethereum联合创始人）共同创建和建议的，类似的模型可以在他的 **[**博客文章中**](http://vitalik.ca/general/2017/10/17/moe.html)** 找到 ”**
 
 ### How does Kyber Network Facilitate Instantaneous Transactions?
 
 The following diagram from the [Kyber Network whitepaper](https://home.kyber.network/assets/KyberNetworkWhitepaper.pdf) depicts how the network functions:
 
-###  Kyber Network 怎样来做到实时交易？
+###  Kyber Network 怎样来做到即时交易？
 以下来自 [Kyber Network 白皮书](https://home.kyber.network/assets/KyberNetworkWhitepaper.pdf)的图表描述了网络的实现：
 
 ![](https://cdn-images-1.medium.com/max/1600/1*Euu2me4gay_ysYxl_0cxMA.png)
@@ -146,13 +146,13 @@ The following diagram from the [Kyber Network whitepaper](https://home.kyber.net
 3.  **The Reserve Manager; and**
 4.  **The Kyber Network Operator**.
 
-**为了进一步解释 Kyber Network 系统是如何运作的，下面逐一介绍每个网络的参与者。**
+**为了进一步解释 Kyber Network 系统的运作，下面逐一介绍网络的所有参与者。**
 
 **有种四个实体：**
 
 1. **用户;**
 2. **储备贡献者;**
-3. **储备经理; 和**
+3. **储备管理者; 和**
 4. **Kyber Network 运营商**。
 
 ### First, we have the Users.
@@ -176,11 +176,11 @@ Here’s what the Users get from Kyber Network:
 
 以下是用户能从 Kyber Network 得到的：
 
-1. **即时（原子）**、**无需信任的交易**：Kyber Network 永远不会持有用户的通证，因此不存在被黑客攻击的风险。Kyber Network 通过智能合约简化了用户钱包与储备池之间的在链交易。
+1. **即时（原子）**、**无需信任的交易**：Kyber Network 永远不会持有用户的通证，所以不存在被黑客攻击的风险。Kyber Network 通过智能合约简化了用户钱包与储备池之间的在链交易。
 2. **最低的收费**：用户只需支付以太坊网络的交易费用（这在所有交易所都是常见的）。不收取额外的服务/交易费用。
 3. **一定程度的客户支持**：Kyber Network 使用著名的客户服务公司[ZenDesk](https://www.zendesk.com)来提供现场帮助支持，对常见的用户问题在其网站上提供[FAQ Page 常见问题页面](https://kybernetwork.zendesk.com/hc/en-us/sections/360000119052-FAQ)。
 4. **无需注册**：目前，无需注册即可获得高达 3000 美元的通证兑换。对 3000 美元以上的兑换，Kyber Network 需要注册并需进行 KYC。
-5. **极简用户体验**：用户界面与 [ShapeShift](https://shapeshift.io/#/coins) 相似，因为 Kyber Network 没有全局订单簿，而是从多个市场 API 获得汇率，从所有储备池中取出最佳汇率给用户。
+5. **极简用户体验**：用户界面与 [ShapeShift](https://shapeshift.io/#/coins) 相似，因为 Kyber Network 没有全局订单簿，而是从多个市场的 API 中获得汇率，从所有储备池中取出最佳汇率给用户。
 
 *   A quick look at the Kyber Network website is enough to see that that they are focused on offering an intuitive and user-friendly interface:
 
@@ -207,7 +207,7 @@ Source: Kyber Network Homepage (2/13/2018)
 
 **储备贡献者** 通过基准利率（由Kyber Network 确定）和用户支付的利率之间的利差获利。
 
-* Kyber Network 将采用透明的基金管理，储备提供者可以查看储备管理者完成的所有交易活动。此外，Kyber Network 将限制，只允许储备管理者将资金转移到预先指定的地址。
+* Kyber Network 将采用透明的资金管理，储备提供者可以查看储备管理者完成的所有交易活动。此外，Kyber Network 将限制只允许储备管理者将资金转移到预先指定的地址。
 
 ### Third, we have the Reserve Managers.
 
@@ -216,9 +216,10 @@ Source: Kyber Network Homepage (2/13/2018)
 **Kyber Network** will need to institute restrictions on Reserve Managers to prevent bad actors from derailing the system. Kyber Network highlights the following in their whitepaper:
 
 ### 第三，我们有储备管理者。
+
 **允许的操作**：储备管理者只能设置自己的转换率。
 
-**Kyber Network** 对储备管理者进行限制，防止使系统失灵的不良行为。Kyber Network 在他们的白皮书中强调了以下内容：
+**Kyber Network** 对储备管理者进行必要限制，防止他们有使系统失灵的不良行为。Kyber Network 在他们的白皮书中强调了以下内容：
 
 1.  **Required KYC Checks**: To be a reserve manager, you will have had to pass all Kyber Network’s KYC checks, and helps to commit to good service (low spreads and sufficient liquidity)
 2.  **Bounded Reserve Spread**: Kyber Network may consider bounding the reserve spread on different tokens to prevent reserve managers from offering outrageous prices.
@@ -226,9 +227,9 @@ Source: Kyber Network Homepage (2/13/2018)
 
 *   Kyber Network will also be developing a **reserve dashboard** software to help reserve managers manage their reserve portfolio.
 
-1. **要求 KYC**：作为储备管理者，必须通过所有 Kyber Network 的 KYC 检查，并能提供良好的服务（低利差和充足的流动性）
-2. **有限储备利差**： Kyber Network 可能会考虑在不同的通证上限制储备利差，以防止储备管理者提供太高的价格。
-3. **逐个调查**：Kyber Network 对储备管理者提供指导，如果价格与系统费率有一定的差异，Kyber Network 将对该问题进行调查。
+1. **要求 KYC**：作为储备管理者，必须通过所有 Kyber Network 的 KYC 检查，并能提供良好的服务（能提供低利差和充足的流动性）
+2. **有限储备利差**： Kyber Network 可能会考虑在不同的通证上限制储备利差，以防止储备管理者提供过高的价格。
+3. **逐个调查**：Kyber Network 会对储备管理者提供指导，如果价格与系统费率有一定的差异，Kyber Network 将对该问题进行调查。
 
 * Kyber Network 还将开发储备仪表板软件，帮助储备管理者管理他们的储备资产组合。
 
@@ -242,7 +243,7 @@ Source: Kyber Network Homepage (2/13/2018)
 
 **允许的行为**：KyberNetwork 运营商可以列出/删除新​​的交换对并添加/删除储备。
 
-* 首先，早期阶段 Kyber 团队将作为 KyberNetwork 运营商来引导启动平台。Kyber Network 打算在未来建立一个适当的去中心化治理方案，由它们来接管这项任务。
+* 首先，在早期阶段 Kyber 团队将作为 KyberNetwork 运营商来引导启动平台。Kyber Network 打算在未来建立一个适当的去中心化治理方案，然后由它们来接管这项任务。
 
 ### Team
 
@@ -253,9 +254,9 @@ Source: Kyber Network Homepage (2/13/2018)
 *   Luu was also recently selected to the 30 Under 30 List for ForbesVietnam
 
 ### 团队
-[Loi Luu](https://medium.com/@loiluu) （CEO）是新加坡国立大学的 CS 博士研究员。除了拥有强大的技术能力之外，他还对 Kyber Network 的使命显然充满热情，并且非常擅长在没有宣传的情况下推广 Kyber Network（这是任何首席执行官的优秀品质）。
+[Loi Luu](https://medium.com/@loiluu) （CEO）是新加坡国立大学的 CS 博士研究员。除了拥有强大的技术能力之外，显然他还对 Kyber Network 的使命充满热情，并且还非常擅长在没有宣传的情况下推广 Kyber Network（这是任何首席执行官的优秀品质）。
 
-* 我强烈建议您听取 [**在 Crypto 101 Podcast 上对 Luu 的采访**](https://soundcloud.com/crypto101podcast/kyber-network-w-ceo-loi-luu-the-framework-for-payments)  
+* 我强烈建议您听取在 [**Crypto 101 Podcast 上对 Luu 的采访**](https://soundcloud.com/crypto101podcast/kyber-network-w-ceo-loi-luu-the-framework-for-payments)  
 
 * [**这**](https://www.forbes.com/sites/luuloi/2018/01/26/blockchain-adoption-how-close-are-we-really/#2ced866ad9dc)
 是 Luu 写的一篇介绍区块链应用的简明扼要的福布斯评论文章。
@@ -282,16 +283,16 @@ Vitalik Buterin (Founder of Ethereum) is the most notable advisor to the project
 
 ### 顾问
 
-Vitalik Buterin（以太坊创始人）是该项目最着名的顾问。
+Vitalik Buterin（以太坊创始人）是该项目最著名的顾问。
 
-* **Vitalik 参与了平台和通证应用设计**，但 Kyber Network 指出，他们现在跟他的交往没有像过去那样频繁（在 2017 年 12 月 Reddit AMA 上）
+* **Vitalik 参与了平台和通证应用的设计**，但 Kyber Network 指出，现在他们间的交往没有像过去那样频繁（在 2017 年 12 月 Reddit AMA 上）
 
 ### Investors
 
 Kyber Network has a list of top-notch investors behind it in the blockchain space including [Pantera Capital](https://www.panteracapital.com), Danhua Capital, Hyperchain, Fenbushi, Signum, and FBG
 
 ### 投资者
-Kyber Network 在区块链领域拥有一批顶级投资者，包括[Pantera Capital](https://www.panteracapital.com), Danhua Capital, Hyperchain, Fenbushi, Signum, 和 FBG
+Kyber Network 拥有一批在区块链领域的顶级投资者，包括[Pantera Capital](https://www.panteracapital.com), Danhua Capital, Hyperchain, Fenbushi, Signum, 和 FBG
 
 ### Partnerships
 
@@ -303,9 +304,9 @@ Kyber Network 在区块链领域拥有一批顶级投资者，包括[Pantera Cap
 > “The token exchange system is a key component of the inter-blockchain ecosystem…Our partnership with Kyber Network brings us one step closer to inter-chain token exchange.” — J.H. Kim (ICON Foundation Council Member)
 
 ### 合作伙伴
-(ICX)**](https://blog.kyber.network/new-strategic-partnership-announcement-kyber-network-icon-78bd0f572820)
+[**ICON (ICX)**](https://blog.kyber.network/new-strategic-partnership-announcement-kyber-network-icon-78bd0f572820)
 
-* **ICON 是世界上最大的区块链网络之一，旨在建立一个去中心化的网络，允许具有不同管理的各种独立的区块链在没有中介的情况下彼此进行交易。**
+* **ICON 是世界上最大的区块链网络之一，旨在建立一个去中心化的网络，允许具有不同治理的各种独立的区块链在没有中介的情况下彼此进行交易。**
 * **合作伙伴详情**：Kyber Network 将其通证转换服务连接到 ICON 的内部区块链网络，旨在使 Kyber Network 进一步支持跨链交易，从而为不同的跨链去中心化应用提供实用性。
 
 > “通证交易系统是区块链间生态系统的关键组成部分......我们与 Kyber Network 的合作关系使我们向链间通证交易迈进了一步。” - JH Kim（ICON基金会理事会成员）
@@ -356,7 +357,7 @@ Kyber Network 在区块链领域拥有一批顶级投资者，包括[Pantera Cap
 #### [**Coinduck**](https://blog.kyber.network/kyber-network-enters-partnership-with-coinduck-to-popularize-cryptopayments-in-korea-a992134494da)
 
 * **Coinduck** 是全球首个以太坊支付服务，使韩国的日常购物可以轻松使用以太坊交易。
-* **合作伙伴详情**：Kyber Network 将整合其通证交易协议，以便 Coinduck 能够将其支付服务扩展到以太坊以外的所有 ERC-20 通证。
+* **合作伙伴详情**：Kyber Network 将整合其通证交易协议，以便 Coinduck 能够将其支付服务扩展支持到以太坊以外的所有 ERC-20 通证。
 
 #### [**Change**](https://blog.kyber.network/kyber-network-is-ready-for-change-new-collaboration-announcement-85f9b7bf8b62)
 
@@ -366,7 +367,7 @@ Kyber Network 在区块链领域拥有一批顶级投资者，包括[Pantera Cap
 #### [**Change**](https://blog.kyber.network/kyber-network-is-ready-for-change-new-collaboration-announcement-85f9b7bf8b62)
 
 * **Change** 是一个移动应用程序，旨在成为新加坡集支付、存储、投资、P2P贷款和资金转移的一站式去中心化平台。
-* **合作伙伴详情**：Kyber Network 将其协议与 Change 钱包整合在一起，让更多用户可以轻松交易 ERC-20 通证。Change 用户将无需离开钱包或使用任何其他界面，能够使用 Kyber Network 的链上转换服务发送和接收不同的加密货币。
+* **合作伙伴详情**：Kyber Network 将其协议与 Change 钱包整合在一起，让更多用户可以轻松交易 ERC-20 通证。Change 用户将无需离开钱包或使用任何其他界面，就能够使用 Kyber Network 的链上转换服务发送和接收不同的加密货币。
 
 #### [**imToken**](https://blog.kyber.network/kyber-network-partners-with-imtoken-5d883a0831bf)
 
@@ -375,7 +376,7 @@ Kyber Network 在区块链领域拥有一批顶级投资者，包括[Pantera Cap
 
 #### [**imToken**](https://blog.kyber.network/kyber-network-partners-with-imtoken-5d883a0831bf)
 
-* **imToken** 是中国领先的移动钱包应用程序，全球用户达到35万。它支持多种通证，第三方 DApps，HD-Wallet，地址簿，交易推送通知以及对交易所的访问。
+* **imToken** 是中国领先的移动钱包应用程序，全球用户达到35万。它具有支持多种通证、第三方 DApps、HD-Wallet、地址簿、交易推送通知以及查询交易所信息等功能。
 * **合作伙伴详情**：Kyber Network 将他们的协议与 imToken 钱包整合在一起，从而允许用户实现即时通证交易，而无需离开他们舒适和熟悉的钱包界面。这种整合保证了 imToken 用户的流动性，并使他们能够无缝地管理各种数字资产。
 
 
@@ -397,9 +398,9 @@ Kyber Network 在区块链领域拥有一批顶级投资者，包括[Pantera Cap
 
 ### 技术路线图
 
-**2018年2月11日**：上主网，在试点阶段到 2018 年 4 月支持 ETH 与其他 10 个通证之间的交易
+**2018年2月11日**：上主网，从试点阶段开始一直到 2018 年 4 月支持 ETH 与其他 10 个通证之间的交易
 
-* Kyber Network 的第一个版本; 与 Jaxx，MyEtherWallet 和 Status 合作
+* Kyber Network 的第一个版本; 与 Jaxx、MyEtherWallet 和 Status 合作
 
 
 **Q2 2018**: Supports trading between arbitrary token pairs
@@ -408,7 +409,7 @@ Kyber Network 在区块链领域拥有一批顶级投资者，包括[Pantera Cap
 
 **2018年第二季度**：支持任意通证对之间的交易
 
-* Kyber Network 将与其他合作伙伴一起构建 API，以允许其平台上的用户能有效地使用优先通证提现。
+* Kyber Network 将与其他合作伙伴一起构建 API，以允许其平台上的用户能有效地使用设置的优先通证进行提现。
 
 **Q3 2018**: Supports the trading of more advanced financial instruments
 
@@ -438,7 +439,7 @@ Kyber Network 在区块链领域拥有一批顶级投资者，包括[Pantera Cap
 
 **Additionally, Kyber Network also has regular developer meetups.** For example, on January 20th, they hosted 200 people in Seoul and awarded two teams $30K each to further develop projects built on Kyber Network.
 
-** Kyber Network 在 Twitter 上拥有 6万多的关注者，电报组有七千个成员（公告频道上有1万6），通常在 Subreddit 页面上有 3 千用户在线**。此外，他们的 GitHub 在最近 3 天内进行了 2,934 次代码更新（其中 1,738 次更新主要有关 Kyber Network 的钱包）。
+**Kyber Network 在 Twitter 上拥有 6万多的关注者，电报组有七千个成员（公告频道上有1万6），通常在 Subreddit 页面上有 3 千用户在线。** 此外，他们的 GitHub 在最近 3 天内进行了 2,934 次代码更新（其中 1,738 次更新主要有关 Kyber Network 的钱包）。
 
 **此外，Kyber Network 还定期举行开发者聚会**。例如，1 月 20 日，他们在首尔进行了 200 多人的聚会，并分别向两个团队授予了 3 万美元，用于进一步开发基于 Kyber Network 的项目。
 
@@ -464,34 +465,34 @@ Kyber Network 也有可能失败，不能完成其成为去中心化交易所的
 4.  **Other decentralized exchanges outcompete Kyber Network** and achieve mainstream adoption and/or more decentralization faster than Kyber Network. Developer talent and users consolidate around the most successful ones.
 5.  **Kyber Network (and other decentralized exchanges) encounter surprising pushback from regulators.** Regulators argue that decentralized exchanges facilitate AML/KYC violations and don’t want cryptocurrency trading to be decentralized.
 
-1. 由于 UI/UX 设计不好，无法兑换法定货币，订单处理缓慢，和、或者取消订单缓慢等原因，**Kyber Network 有可能不被主流用户使用**。
-2. 由于 Kyber Network 所依赖的其他技术项目的发展错误或存在的缺点，**Kyber Network 达不到其技术路线图**。
+
+1. 由于 UI/UX 设计不好、无法兑换法定货币、订单处理缓慢、取消订单缓慢等原因，**Kyber Network 有可能不被主流用户采用**。
+2. 由于 Kyber Network 所依赖的其他技术项目的发展不利或存在的缺点，**Kyber Network 达不到其技术路线图指示的目标**。
 3. **Kyber Network 没有其它的预备队管理者/储备提供者**， Kyber Network 依然是唯一的储备。
-4. **其他去中心化交易所胜过 Kyber Network**，并且比 Kyber Network 更快实现主流采用和/或更加去中心化。开发人员的人才和用户整合在最成功的交易所周围。
-5. **Kyber Network（和其他去中心化交易所）遭遇监管机构出人意料的推迟**。监管机构认为，
-去中心化的交易促进了 AML/KYC 的违规，并且不希望加密货币交易去中心化。
+4. **其他去中心化交易所胜过 Kyber Network**，比 Kyber Network 更快实现主流采用和/或更加去中心化。使得开发人才和用户集合在最成功的交易所周围。
+5. **Kyber Network（和其他去中心化交易所）遭遇监管机构出人意料的回绝**。监管机构认为，去中心化的交易促进了 AML/KYC 的违规，并且不希望加密货币交易去中心化。
 
 In my opinion,
 
 Risk #1 **is mitigated because Kyber Network is investing time and energy into its wallet and its merchant API.** Both of these areas of development are crucial because they widen Kyber Network’s market opportunity to beyond today’s exchanges (which are mostly for speculative buying/selling). In addition, we have seen the success of ShapeShift, which has a similar user interface. Finally, Kyber Network doesn’t have to compete with Coinbase and provide the absolute best user experience. **If Kyber Network can provide competitive liquidity and fees, it can win a substantial amount of market volume by winning over intermediate and advanced users.**
 
-我的想法是，
+我的观点是，
 
-**由于 Kyber Network 将时间和精力投入到其钱包及其商家 API 中，降低了风险#1**。这两个发展领域都是至关重要的，因为它们扩大了 Kyber Network 的市场机会，超越今天的交易所（其主要是投机性买入/卖出）。另外，我们看到了 ShapeShift 的成功，它具有类似的用户界面。最后，Kyber Network 不必与 Coinbase 竞争，并提供绝对最佳的用户体验。**如果 Kyber Network 可以提供具有竞争力的流动性和费用，它可以赢得中高级用户的青睐，从而得大大量的市场份额。**
+**由于 Kyber Network 将时间和精力投入到其钱包及其商家 API 中，降低了风险#1**。这两个发展领域都是至关重要的，因为它们扩大了 Kyber Network 的市场机会，超越今天的交易所（其主要是投机性买入/卖出）。另外，我们看到了 ShapeShift 的成功，它具有类似的用户界面。最后，Kyber Network 不必与 Coinbase 竞争，并提供绝对最佳的用户体验。**如果 Kyber Network 可以提供具有竞争力的流动性和费用，它可以赢得中高级用户的青睐，从而得到大量的市场份额。**
 
 Risk #2 is mitigated because Kyber Network (i) has an active developer community as evidenced by its frequent meetups and active GitHub, (ii) has a leadership team with strong technical capabilities, and (iii) has a track record of meeting its milestones in the past. Nevertheless, **Kyber Network is ambitious with respect to its development for cross-token and cross-chain interoperability trading, and is vocal about its reliance on the success of other projects such as Melonport, Polkadot, and Cosmos.**
 
-对于 #2 风险，由于 Kyber Network（i）它的频繁聚会和活跃的GitHub，证明其拥有一个活跃的开发者社区，（ii）拥有一支技术能力强的领导团队，（iii）并且过去拥有实现其里程碑的历史记录，这些都降低了风险 #2。尽管如此，**Kyber Network 在跨通证和跨链互操作性交易方面雄心勃勃，并且对其依赖其他项目如 Melonport、Polkadot 和 Cosmos 的成功直言不讳。**
+对于 #2 风险，由于 Kyber Network（i）它的频繁聚会和活跃的 GitHub，证明其拥有一个活跃的开发者社区，（ii）拥有一支技术能力强的领导团队，（iii）并且过去拥有实现其里程碑能力的历史记录，这些都降低了风险 #2。尽管如此，**Kyber Network 在跨通证和跨链互操作性交易方面雄心勃勃，并且对其依赖其他项目的成功，如 Melonport、Polkadot 和 Cosmos 直言不讳。**
 
 Risk #3 is mitigated because Kyber Network has $50mm+ to bootstrap the project and provide liquidity for users. Kyber Network can mitigate this risk by winning over whales and centralized exchanges who have unused reserve capacity, while simultaneously establishing partnerships with wallet providers and other payment services. **However, Kyber Network faces the same problem that plagues traditional platform companies, and that is, you need one side of the network to provide value to the other.**
 
-因为 Kyber Network 有五千多万美元来启动项目并为用户提供流动性，这降低了风险#3。Kyber Network 可以通过赢得未使用储备容量的鲸鱼和中心化交易所，同时与钱包提供商和其他支付服务建立伙伴关系，来降低这一风险。**然而，Kyber Network 面临着困扰传统平台公司的相同问题，也就是说，您需要网络的一个方面为另一方提供价值**。
+因为 Kyber Network 有五千多万美元来启动项目并为用户提供流动性，这降低了风险#3。Kyber Network 可以通过赢得未使用储备容量的鲸鱼和中心化交易所，同时与钱包提供商和其他支付服务建立伙伴关系，来降低这一风险。**然而，Kyber Network 面临着困扰传统平台公司的相同问题，也就是说，需要网络的一方为另一方提供价值**。
 
 Risk #4 **This risk is mitigated because there can be multiple winners in this space**. According to Nathan Sexer at ConsenSys, there are 170+ cryptocurrency exchanges and 99% of those are centralized exchanges. There is no reason why there cannot be multiple successful decentralized exchanges with different system design and different customer segments. **However Kyber Network does face competition from ShapeShift, which is an existing non-custodial exchange that does not take counterparty risk**.
 
 Risk #5 is mitigated because Kyber Network’s unique system design allows it to leverage liquidity of other exchanges and token holders, while at the same time **preventing security breaches and unsafe store of information, funds and private keys.**
 
-风险 #4 **在这个领域可能有多个赢家。** ConsenSys 的 Nathan Sexer 表示，有 170 多个加密货币交易所，其中99％是中心化交易所。没有理由不能有多个针对不同的系统设计和不同的客户群体的去中心化交易所。**然而，Kyber Network 确实面临着来自 ShapeShift 的竞争，ShapeShift 是个现存的不存在交易对手风险的非保管型交易所。**
+对于风险 #4， **在这个领域可能有多个赢家。** ConsenSys 的 Nathan Sexer 表示，有 170 多个加密货币交易所，其中99％是中心化交易所。没有理由不能有多个针对不同的系统设计和不同的客户群体的去中心化交易所。**然而，Kyber Network 确实面临着来自 ShapeShift 的竞争，ShapeShift 是个现存的不存在交易对手风险的非保管型交易所。**
 
 由于 Kyber Network 独特的系统设计使其能够利用其他交易所和通证持有者的流动性，同时 **防止安全漏洞和不安全的信息存储、资金和私钥存储。**，因此降低了风险 #5，
 
@@ -503,7 +504,7 @@ One potential tailwind for Kyber Network is the **increasing frequency and magni
 
 ### 潜在的推动力
 
-Kyber Network 的一个潜在的推动力是 **中心化交易所的被黑的频率及危害程度越来越大。** 如果这种趋势继续下去，Kyber Network 就能被越来越多的开发者和用户使用。
+Kyber Network 的一个潜在的推动力是 **中心化交易所被黑的频率及危害程度越来越大。** 如果这种趋势继续下去，Kyber Network 就能被越来越多的开发者和用户使用。
 
 **中心化交易所的主要黑客攻击记录**
 
@@ -571,7 +572,7 @@ KNC is available for trading on the following exchanges: Binance, Huobi, Coinnes
 
 ### 交易所
 
-KNC 可在以下交易所进行交易：Binance，Huobi，Coinnest 和 OKEx。其 24 小时交易量约为 1 千万美元。
+KNC 可在以下交易所进行交易：Binance、Huobi、Coinnest 和 OKEx。其 24 小时交易量约为 1 千万美元。
 
 ### **Links to Official Kyber Network Channels**
 
