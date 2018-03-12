@@ -1,21 +1,21 @@
 
-[Source](https://www.reddit.com/r/ethereum/comments/30f98i/introducing_edollar_the_ultimate_stablecoin_built/ "Permalink to Introducing eDollar, the ultimate stablecoin built on Ethereum : ethereum")
+[Source](https://www.reddit.com/r/ethereum/comments/30f98i/introducing_edollar_the_ultimate_stablecoin_built)
 
-# Introducing eDollar, the ultimate stablecoin built on Ethereum : ethereum
+# Introducing eDollar, the ultimate stablecoin built on Ethereum
 
-＃介绍eDollar，以Ethereum为基础构建的最终稳定币：以太坊
+＃eDollar，以Ethereum为基础构建的终极稳定数字货币
 
 As someone who's been obsessed with pegged cryptocurrencies for the past 6 months, I was delighted to find out that even with just my meager programming skills, developing for Ethereum is so incredibly easy that I've been able to come up with what I believe is close to being the perfect design for a stable cryptocurrency.
 
-作为一个在过去6个月里痴迷于盯住加密货币的人，我很高兴地发现，即使只有我的微薄编程技巧，为Ethereum开发也非常容易，以至于我能够想出我相信的东西接近成为稳定加密货币的完美设计。
+在过去6个月里, 我痴迷于紧盯加密货币.  我很高兴地发现，即使编程技能像我这么薄弱，为Ethereum开发也非常容易，以至于我能够想出来, 我所相信的接近完美的稳定加密货币的设计。
 
 In short, the eDollar is a token pegged to the USD that is issued in a manner similar to bitUSD, and that has a DAO (called Maker) backing it and providing liquidity similar to the system of liquidity providing custodians that NuBits uses.
 
-简而言之，eDollar是一种与美元类似的美元发行标记，并且有一个DAO（称为Maker）支持它，并提供类似于NuBits使用的流动性管理系统的流动性。
+简而言之，eDollar是一种与bitUSD类似的锚定美元的通证，并且有一个DAO（称为Maker）支持它，并为其流动性, 类似于NuBits使用的流动性管理系统那样.
 
 The purpose of eDollar is to give average people a currency they can use on the ethereum network to interact with dapps, without having to worry about insane volatility like with bitcoin and other 1st gen cryptocurrencies. It also gives ethereum investors the possibility to take leveraged ETH positions (albeit with very high collateral requirements).
 
-eDollar的目的是为普通人提供他们可以在以太坊网络上使用的货币与dapps进行交互，而不必担心像比特币和其他第一代加密货币那样的疯狂波动。它也使得以太坊投资者有可能利用杠杆ETH头寸（尽管抵押品需求非常高）。
+eDollar的目的是为普通人提供货币, 他们可以在以太坊网络上使用, 与dapps进行交互，而不必担心像比特币和其它第一代加密货币那样的价格疯狂波动。它也让以太坊投资者有可能利用ETH杠杆头寸（尽管抵押需求非常高）。
 
 To see a full (but rough) description of the features of the eDollar design, you can check out this post on the Maker forum: <http: makerdao.com="" index.php?topic="4.0"> (the forum design is really fancy, I know :p)
 
@@ -23,42 +23,44 @@ To see a full (but rough) description of the features of the eDollar design, you
 
 To see the eDollar contract with comments, check: <http: makerdao.com="" peggedcoinremake.sol="">
 
-要查看带评论的eDollar合同，请检查：<http：makerdao.com =“”peggedcoinremake.sol =“”>
+要查看带评论的eDollar合约，请查看：[http://makerdao.com /peggedcoinremake.sol]()
 
 To see the test frontend <http: makerdao.com="" edollarfrontendtest.html#="">
 
-要查看测试前台<http：makerdao.com =“”edollarfrontendtest.html＃=“”>
+要查看测试前台[http://makerdao.com/edollarfrontendtest.html]()
 
 (edit I should add that the front end is not currently set up to work with the latest version of the contract, so the dapp can't actually be tested atm without adding new ABI calls)
 
-（编辑我应该补充说，前端目前没有设置为与最新版本的合同一起工作，所以dapp实际上无法在不添加新的ABI调用的情况下测试atm）
+（我应该补充说，前端目前没有设置为与最新版本的合同一起工作，所以dapp实际上无法在不添加新的ABI调用的情况下测试atm）
 
 These are the basic pointers of the design:
 
-这些是设计的基本指针：
+这些是设计的基本方针：
 
 * If EUSD is currently trading above 99 cents, then anyone can issue new EUSD by putting up 3 USD worth of ether as collateral for every 1 EUSD (300% collateral requirement).
 
-* 如果EUSD目前交易价格在99美分以上，那么任何人都可以通过为每1个EUSD（300％抵押品要求）提供3美元的乙醚作为抵押物来发行新的EUSD。
+* 如果EUSD目前交易价格在99美分以上，那么任何人都可以通过为每1个EUSD（提供价值3美元的ETH作为抵押物(300％抵押品要求)来发行新的EUSD。
 
 * After issuing EUSD, the issuer gets a debt that has to be covered by burning an equal amount of EUSD if they want to get their collateral back.
 
 * 发行EUSD后，如果发行人希望获得抵押品，发行人必须偿还一笔等额的EUSD。
+
 * If the collateral/debt ratio for a position ever goes below 150% anyone can perform a "hard margin call", getting the entire collateral balance in return for covering the debt.
 
-* 如果一个头寸的抵押/债务比率一直低于150％，任何人都可以执行“硬性保证金要求”，获得全部抵押品余额以换取债务。
+* 如果一个头寸的抵押/债务比率一直低于150％，任何人都可以执行“硬性保证金追加要求”，获得全部抵押品余额以抵消债务。
+
 * In practice this should never happen due to the existence of Maker (trading as MKR), the "guardian DAO". Maker has the ability to perform soft margin calls and forced covers.
 
-* 在实践中，由于Maker（MKR交易），“监护人DAO”的存在，这绝不应该发生。 Maker 有能力执行软边保证金和强制保证金。
+* 在实践中，由于Maker（MKR交易）-- “监护人DAO”的存在，这绝不应该发生。 Maker 有能力执行柔性保证金追加和强制偿还。
+
 * a soft margin call can be done on any position with a c/d ratio below 200%, and with penalty of up to 5%. The issuer will get the remaining collateral after the value of the debt and the penalty (if any) has been subtracted from it.
 
-* 任何持仓比例低于200％的仓位都可以进行软性保证​​金追加，最高可减少5％。发行人将在债务价值和罚金（如果有的话）从中扣除后得到剩余的抵押品。
+* 任何抵押/债务比率低于200％的仓位都可以进行柔性保证​​金追加，罚金最高为5％。发行人将在扣除债务价值和罚金（如果有的话）后, 得到剩余的抵押品。
 
 * a forced cover enables Maker to cover any position at the market rate as determined by the feed. This ability ensures that Maker can guarantee liquidity for users who wants to get out of eDollar.
 
-* 强制封面使Maker能够按照Feed所确定的市场价格覆盖任何位置。这种能力可以确保Maker可以为想要离开eDollar的用户保证流动性。
+* 强制清偿使得Maker能够根据feed所决定的市场比率来覆盖任何头寸。这一能力可以确保Maker能够为想要离开eDollar的用户提供流动性保证。
 
-----  以下开始翻译
 
 * Maker will earn income by staking with the eDollar collateral. Only a small portion of the collateral will be used for this since it gets locked up for 3 months at a time. A system will be in place to ensure that the collateral cannot be stolen by Maker, and that it only gains access to the profits from the staking.
 
