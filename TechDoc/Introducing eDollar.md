@@ -5,6 +5,13 @@
 
 ## eDollar 简介: 基于以太坊构建的终极稳定数字货币
 
+> 本文翻译自：https://www.reddit.com/r/ethereum/comments/30f98i/introducing_edollar_the_ultimate_stablecoin_buil
+>
+> 译者：[区块链中文字幕组](https://github.com/BlockchainTranslator) [鱼](https://github.com/oscnet) [shuke0327](https://github.com/shuke0327)
+>
+> 翻译时间：2018-1-20
+>
+
 As someone who's been obsessed with pegged cryptocurrencies for the past 6 months, I was delighted to find out that even with just my meager programming skills, developing for Ethereum is so incredibly easy that I've been able to come up with what I believe is close to being the perfect design for a stable cryptocurrency.
 
 在过去 6 个月里, 我对锚定法币的加密货币非常痴迷。我很高兴地发现，即使像我这样薄弱的编程技能，以太坊开发也非常容易，我已经能够设计出一个我认为能接近完美的稳定币。
@@ -101,3 +108,25 @@ These are the basic pointers of the design:
 I made this post and the intentionally hyperbole claims in the hopes that I'll provoke the armchair economists out of the woodwork to start a discussion on how risky this type of pegged asset it, and what other mechanisms can be put in place to minimize the risk. The great effort of convincing dapps to use eDollar has also yet to begin, and there needs to be a community wide discussion on how to handle metacoin deposits to dapps before they can even implement it. In the long run I'm hoping to have an ongoing discussion about every aspect of eDollar, pegged currencies and other ethereum based assets on makerdao.com, so anyone will have easy access to the different arguments and points of view.
 
 我发表这篇文章，并故意夸大其辞，希望我能促使那些纸上谈兵的经济学家们，能开始讨论这种锚定资产的风险程度，以及可以采取哪些其他机制来最小化风险。说服去中心化应用使用 eDollar 的努力还没有开始，如何在实施它之前处理 metacoin 存款到去中心化应用，还需要在社区进行广泛的讨论。从长远来看，我希望在 makerdao.com 上能够持续讨论有关 eDollar、锚定货币和其他基于以太坊的资产的各个方面，从而让任何人都可以轻易得到不同的论点和观点。
+
+##################################
+
+----------------------------------------------------
+
+#### 区块链中文字幕组
+
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号:w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+#### 本文译者简介
+
+鱼-区块链技术爱好者，欢迎加微信号交流：oscnet
+
+荆凯-程序员，坚信区块链会改变潮水的方向，欢迎加微信号: shuke0327，或者关注公众号：增长之道
+
+版权所有，转载需完整注明以上内容。
+
+----------------------------------------------------
