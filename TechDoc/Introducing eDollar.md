@@ -72,7 +72,7 @@ These are the basic pointers of the design:
 
 * The money will also be used to pay for price feeds from Augur, and to fund infrastructure such as the EtherEx foundation and the Ethereum Foundation, as well as be distributed to MKR holders as dividends.
 
-* 这些资金还将用于支付 Augur 提供的价格，并为 EtherEx 基金会和以太坊基金会等基础设施提供资金，并作为股息分配给 MKR 持有人。
+* 这些资金还将用于支付 Augur 提供的喂价，并为 EtherEx 基金会和以太坊基金会等基础设施提供资金，并作为股息分配给 MKR 持有人。
 
 * Maker can upgrade its own guardian contract, and update vital parameters of the eDollar contract (such as changing the source of price feeds, or changing collateral requirements). To prevent abuse these actions have to be primed with a delay (which can be several months for extremely vital functions), so that users will be able to notice and withdraw their funds from the contract if this power is being misused.
 
@@ -88,15 +88,15 @@ These are the basic pointers of the design:
 
 * A bunch of features to make life easier for the user will be implemented in the eDollar front end, some based on bitcoin/shapeshift (shopping, debit cards) and some being curated lists of ethereum dapps that accept eDollar (gambling dapps and possibly augur and other prediction markets).
 
-* 一系列让用户更简便的功能将在 eDollar 前端实现，一些基于比特币/shapeshift（购物，借记卡），另一些则是接受 eDollar 的以太坊 dapp 应用的列表（ 赌博的应用、可能是 augur 和其他预测市场）。
+* 一系列让用户更简便的功能将在 eDollar 前端实现，一些基于比特币/shapeshift（购物，借记卡），另一些则是接受 eDollar 的以太坊 dapp 应用的列表（ 赌博应用、可能是 augur 和其他预测市场）。
 
 * eDollar will trade against bitcoin and ether on etherex, and will also trade on a single centralized exchange where high liquidity will be ensured by Maker and the centralized market making company Cryptowall.
 
-* eDollar 将在 etherex 上与比特币和以太坊进行交易，并将在一个由 Maker 和中心化制造商 Cryptowall 公司来确保高流动性的中心化交易所进行交易。
+* eDollar 将在 etherex 上与比特币和以太坊进行交易，并将在一个由 Maker 和中心化做市商 Cryptowall 来确保高流动性的中心化交易所进行交易。
 
 * other assets can be created by anyone using the same system, but be collateralized by eDollar instead in order to reduce risk (since it's easier to determine the right collateral requirements when the collateral isn't volatile). This opens up the possibility to trade any asset on the ethereum block chain. Maker will initially create and keep liquid AAPL, gold and CNY on EtherEx as a proof of concept that anything can be done as long as there's a price feed.
 
-* 任何使用同一系统的人都可以创建其他资产，但由 eDollar 作为抵押以降低风险（因为抵押品价格稳定更容易确定正确的抵押品要求）。这为在以太坊区块链上交易任何资产开辟了可能。 Maker 将最初在 EtherEx 上创建并保持流动性，苹果股票、黄金和人民币等只要有价格反馈的任何东西来作为概念证明。
+* 任何使用同一系统的人都可以创建其他资产，但由 eDollar 作为抵押以降低风险（因为抵押品价格稳定更容易确定正确的抵押品要求）。这为在以太坊区块链上交易任何资产开辟了可能。 Maker 将最初在 EtherEx 上创建并保持流动性，苹果股票、黄金和人民币等有喂价的任何东西来作为概念证明。
 
 I made this post and the intentionally hyperbole claims in the hopes that I'll provoke the armchair economists out of the woodwork to start a discussion on how risky this type of pegged asset it, and what other mechanisms can be put in place to minimize the risk. The great effort of convincing dapps to use eDollar has also yet to begin, and there needs to be a community wide discussion on how to handle metacoin deposits to dapps before they can even implement it. In the long run I'm hoping to have an ongoing discussion about every aspect of eDollar, pegged currencies and other ethereum based assets on makerdao.com, so anyone will have easy access to the different arguments and points of view.
 
