@@ -1,41 +1,42 @@
 
 [Source](https://www.reddit.com/r/ethereum/comments/30f98i/introducing_edollar_the_ultimate_stablecoin_built)
 
-# Introducing eDollar, the ultimate stablecoin built on Ethereum
+## Introducing eDollar, the ultimate stablecoin built on Ethereum
 
-＃eDollar，以Ethereum为基础构建的终极稳定数字货币
+## eDollar简介: 以Ethereum为基础构建的终极稳定数字货币
 
 As someone who's been obsessed with pegged cryptocurrencies for the past 6 months, I was delighted to find out that even with just my meager programming skills, developing for Ethereum is so incredibly easy that I've been able to come up with what I believe is close to being the perfect design for a stable cryptocurrency.
 
-在过去6个月里, 我痴迷于紧盯加密货币.  我很高兴地发现，即使编程技能像我这么薄弱，为Ethereum开发也非常容易，以至于我能够想出来, 我所相信的接近完美的稳定加密货币的设计。
+在过去6个月里, 我对锚定法币的加密货币非常痴迷. 我很高兴地发现，即使编程技能像我这么薄弱，为Ethereum开发也非常容易，我能够想出来一个我相信能接近近完美的稳定加密货币的设计。
 
 In short, the eDollar is a token pegged to the USD that is issued in a manner similar to bitUSD, and that has a DAO (called Maker) backing it and providing liquidity similar to the system of liquidity providing custodians that NuBits uses.
 
-简而言之，eDollar是一种与bitUSD类似的锚定美元的通证，并且有一个DAO（称为Maker）支持它，并为其流动性, 类似于NuBits使用的流动性管理系统那样.
+简而言之，eDollar是一种锚定美元的通证，发行方式与bitUSD类似, 并且背后有一个DAO（称为Maker）支持并为其流动性, 类似于NuBits用的流动性托管系统那样.
 
 The purpose of eDollar is to give average people a currency they can use on the ethereum network to interact with dapps, without having to worry about insane volatility like with bitcoin and other 1st gen cryptocurrencies. It also gives ethereum investors the possibility to take leveraged ETH positions (albeit with very high collateral requirements).
 
-eDollar的目的是为普通人提供货币, 他们可以在以太坊网络上使用, 与dapps进行交互，而不必担心像比特币和其它第一代加密货币那样的价格疯狂波动。它也让以太坊投资者有可能利用ETH杠杆头寸（尽管抵押需求非常高）。
+eDollar的目的是为普通人提供可以在以太坊网络上使用的货币, 可以与dapps进行交互，而不必担心像比特币和其它第一代加密货币那样, 币价剧烈波动。它也让以太坊投资者有可能利用ETH杠杆头寸（尽管抵押需求非常高）。
 
-To see a full (but rough) description of the features of the eDollar design, you can check out this post on the Maker forum: <http: makerdao.com="" index.php?topic="4.0"> (the forum design is really fancy, I know :p)
+To see a full (but rough) description of the features of the eDollar design, you can check out this post on the Maker forum: [http://makerdao.com/index.php?topic=4.0]() (the forum design is really fancy, I know :p)
 
-要查看eDollar设计功能的完整（但粗略的）描述，可以在Maker论坛上查看此帖：<http：makerdao.com =“”index.php？topic =“4.0”>（论坛设计真的很花哨，我知道：p）
+要查看eDollar设计功能的完整（但粗略的）描述，可以在Maker论坛上查看此帖：
+[http://makerdao.com/index.php?topic=4.0]() (论坛设计真的很花哨，我知道：p）
 
-To see the eDollar contract with comments, check: <http: makerdao.com="" peggedcoinremake.sol="">
+To see the eDollar contract with comments, check: [http://makerdao.com/peggedcoinremake.sol]()
 
-要查看带评论的eDollar合约，请查看：[http://makerdao.com /peggedcoinremake.sol]()
+要查看带评论的eDollar合约，请查看：[http://makerdao.com/peggedcoinremake.sol]()
 
-To see the test frontend <http: makerdao.com="" edollarfrontendtest.html#="">
+To see the test frontend [http://makerdao.com/edollarfrontendtest.html]()
 
 要查看测试前台[http://makerdao.com/edollarfrontendtest.html]()
 
 (edit I should add that the front end is not currently set up to work with the latest version of the contract, so the dapp can't actually be tested atm without adding new ABI calls)
 
-（我应该补充说，前端目前没有设置为与最新版本的合同一起工作，所以dapp实际上无法在不添加新的ABI调用的情况下测试atm）
+（我应该补充一点，前台目前不能兼容最新版本的智能合约，所以目前如果不加新的ABI调用，无法测试dapp）
 
 These are the basic pointers of the design:
 
-这些是设计的基本方针：
+如下这几条，是基本的设计方针：
 
 * If EUSD is currently trading above 99 cents, then anyone can issue new EUSD by putting up 3 USD worth of ether as collateral for every 1 EUSD (300% collateral requirement).
 
