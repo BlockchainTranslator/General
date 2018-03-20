@@ -6,7 +6,7 @@
 > 翻译时间：2018-3-20
 >
 
-From [Lightning Labs, Inc. https://lightning.engineering](https://lightning.engineering)
+From [Lightning Labs https://lightning.engineering](https://lightning.engineering)
 
 
 # Announcing our first Lightning mainnet release, lnd 0.4-beta!
@@ -116,7 +116,7 @@ A few of the highlights (more detail can be found in the [release notes][1]):
 
 版权声明：
 
-版权所有，[Lightning Labs, Inc.](https://lightning.engineering) 授权译者在 [区块链中文字幕组 (github.com/BlockchainTranslator)](https://github.com/BlockchainTranslator/)  和 [币乎（bihu.com）](http://www.bihu.com)
+版权所有，[Lightning Labs](https://lightning.engineering) 授权译者在 [区块链中文字幕组 (github.com/BlockchainTranslator)](https://github.com/BlockchainTranslator/)  和 [币乎（bihu.com）](http://www.bihu.com)
 上发表。不得转载。
 
 ----------------------------------------------------
