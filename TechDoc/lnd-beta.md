@@ -5,7 +5,6 @@
 >
 > 翻译时间：2018-3-20
 >
-> 经官方授权同意翻译并发布在 github 和 bihu.com
 
 From [Lightning Labs, Inc. https://lightning.engineering](https://lightning.engineering)
 
@@ -76,7 +75,7 @@ A few of the highlights (more detail can be found in the [release notes][1]):
 
 * **Watchtowers and backups** \- to provide maximum safety for the funds of Lightning users, "watchtowers" will monitor the blockchain for invalid channel transactions. Typically, Lightning nodes need to be online in order to protect against these events, but watchtowers provide this protection for nodes that have intermittent connectivity, e.g. mobile phones. Even for connected nodes, watchtowers can serve as a secondary line of defense in the face of unplanned service outages.
 
-* **”瞭望塔“和备份** \- 为了给闪电用户提供最大的资金安全性，“瞭望塔”将监控区块链中无效的频道交易。通常，闪电网络节点需要联机以防止此类事件，但是，“瞭望塔”为间歇性连接的节点（例如手机）提供了保护。即使对于无间断连接的节点，在出现意外引起服务中断时，“瞭望塔”也可以作为第二防线。
+* **“瞭望塔”和备份** \- 为了给闪电用户提供最大的资金安全性，“瞭望塔”将监控区块链中无效的频道交易。通常，闪电网络节点需要联机以防止此类事件，但是，“瞭望塔”为间歇性连接的节点（例如手机）提供了保护。即使对于无间断连接的节点，在出现意外引起服务中断时，“瞭望塔”也可以作为第二防线。
 
 * **Atomic Multipath Payments (AMP)** \- allow large Lightning transactions to be divided into a series of smaller transactions as they're sent over the Lightning Network, but in such a way that they're automatically joined back together. The user sees only the total amount of the transaction, without needing to be aware that AMP is being used behind the scenes. AMPs also ease the mental burden of using channels, allowing a user to interpret their balance readily as the sum of balances in channels. This is made possible by the ability to send and receive an AMP-like payment over multiple channels, at both source or sink.
 
@@ -94,7 +93,7 @@ A few of the highlights (more detail can be found in the [release notes][1]):
 * **新一代“自动驾驶仪”和任务控制** \  - 目前，lnd 使用相对简单的启发式技术来实现”自动驾驶“（对端发现）和任务控制（路由）。为了提供更可靠，更快的用户体验，我们将进一步对此进行优化。
 * **Cross-chain atomic swaps** \- cross-chain swaps enable instant, trustless exchange of assets residing on separate blockchains such as Bitcoin and Litecoin, without the systemic risk introduced by custodial exchanges. Lightning will enable more liquid exchanges, and cross-chain swaps will be a key component for decentralized exchange infrastructures.
 
-* **跨链原子互换** \  - 跨链互换允许即时、无需信任地交换位于比特币和莱特币等独立区块链上的资产，让我们不必承担受监管的交易所所带来的系统性风险。闪电将有助于提高交易所的流动性，跨链交易将成为去中心化交易所基础设施的关键组成部分。
+* **跨链原子互换** \- 跨链互换允许即时、无需信任地交换位于比特币和莱特币等独立区块链上的资产，让我们不必承担受监管的交易所所带来的系统性风险。闪电将有助于提高交易所的流动性，跨链交易将成为去中心化交易所基础设施的关键组成部分。
 
 [1]: https://github.com/lightningnetwork/lnd/releases/tag/v0.4-beta
 [2]: https://github.com/lightningnetwork/lnd/blob/master/docs/INSTALL.md#running-lnd-using-the-bitcoind-or-litecoind-backend
@@ -117,7 +116,7 @@ A few of the highlights (more detail can be found in the [release notes][1]):
 
 版权声明：
 
-版权所有，[Lightning Labs, Inc.](https://lightning.engineering) 仅授权译者在 [区块链中文字幕组 (github.com/BlockchainTranslator)](https://github.com/BlockchainTranslator/)  和 [币乎（bihu.com）](http://www.bihu.com)
+版权所有，[Lightning Labs, Inc.](https://lightning.engineering) 授权译者在 [区块链中文字幕组 (github.com/BlockchainTranslator)](https://github.com/BlockchainTranslator/)  和 [币乎（bihu.com）](http://www.bihu.com)
 上发表。不得转载。
 
 ----------------------------------------------------
