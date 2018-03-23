@@ -40,7 +40,7 @@ To use Lightning, two participants, Alice and Bob, create an initial transaction
 
 为了使用闪电网络，两位参与者 Alice 和 Bob 使用 20 美元资金在区块链上创建初始交易，双方都各持有 10 美元。
 
-![][4]
+![](pics/lighting-2.png)
 
 This initial allocation can then be updated, such that Alice then has $5 of the total $20 value, and Bob has $15, and so on. When the participants have finished transacting with each other, the most recently exchanged transaction signature is broadcast to the network, finalizing the movement of the funds in the channel—some to one party and (if any remain) some back to the other.
 
@@ -50,7 +50,7 @@ Lightning takes the technology behind payment channels and creates a network of 
 
 闪电使用基于支付通道的技术，并创建这些通道的网络，使用“智能合约”来确保网络以去中心化的方式运作，而没有交易对手风险。举例来说，Alice 可能会和 Bob 打开一个通道，而 Bob 则与 Carol 有一个通道，并与 Dave 打开一个通道。如果 Alice 想和 Dave 交易，她可以通过 Bob 和 Carol 发送资金，而 Dave 最终会收到。但是，由于闪电设计中存在的多重签名和智能合约，Alice 不需要相信作为中间人的 Bob 和 Carol  - 该协议使用密码学来确保资金要么通过 Bob 和 Carol 到达 Dave 要么自动退还给 Alice。
 
-![][5]
+![](pics/lighting-1.png)
 
 Bob and Carol function as "nodes" on the network. Nodes on the Lightning Network are in some ways analogous to [miners on the Bitcoin network][6]. They function as the servers that process the transactions on the network in a decentralized manner. Like miners, they do not have control over the funds they help move. Bob cannot steal Alice's funds, as he will only receive the sender's incoming payment if he has already sent the outgoing payment to the recipient. Thus, receiving a payment is dependent on having already forwarded it. Lightning payments are conditional upon disclosure of a cryptographic secret, and knowledge of that secret allows for redemption from prior nodes (when Dave redeems from Carol, Carol can now redeem from Bob).
 
