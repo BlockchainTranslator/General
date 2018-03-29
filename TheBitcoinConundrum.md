@@ -60,7 +60,7 @@ It dominated the news last year: the process that transfers Bitcoin payments is 
 
 Even if all these changes are implemented, and consumers become more Bitcoin-savvy, the question of whether Bitcoin will become the next big payment method remains. According to the study by the Dutch central bank: ‘It seems unlikely that crypto acceptance by online retailers will rise substantially in the near future’. We, unfortunately, do not have a crystal ball to predict what will happen to the digital coin. What do you think, will the future of Bitcoin be as a payment method?
 
-即使这些问题都被解决，消费者对比特币也有了更深的认识，比特币是否会成为下一个支付方式仍旧是个问题。荷兰央行这一研究指出：“在线零售商对加密货币的接受在不远的将来将会显著的增长，这似乎不太可能。”不幸的是，我们没有水晶球可以来预测比特币会发生什么。你认为，比特币未来会成为支付方式吗？
+即使这些问题都被解决，消费者对比特币也有了更深的认识，比特币是否会成为下一个支付方式仍旧是个问题。荷兰央行这一研究指出：“在线零售商对加密货币的接受程度在不远的将来似乎不太可能会有显著的增长。”不幸的是，我们并没有预测比特币未来的水晶球。你认为，比特币未来会成为支付方式吗？
 
 
 ---
