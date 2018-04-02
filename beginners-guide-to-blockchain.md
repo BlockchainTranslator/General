@@ -127,5 +127,7 @@ Now that you have some idea, you should take this course on edX(It’s free). It
 **本文译者介绍**
 Chuan，区块链技术爱好者。欢迎加我的微信：youyuxiaochuan
 
+本文源自新闻媒体 Hackernoon，如有侵权，请与译者联系删除。
+
 译文版权所有，转载需完整注明以上内容。
 
