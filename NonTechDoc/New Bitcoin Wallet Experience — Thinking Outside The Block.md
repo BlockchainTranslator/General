@@ -2,9 +2,14 @@
 
 ## 比特币钱包新体验——区块之外的思考
 
+> 本文翻译自： https://medium.com/@nopara73/new-bitcoin-wallet-experience-thinking-outside-the-box-845b8a22a7e0
+> 作者： [nopara73](https://medium.com/@nopara73?source=post_header_lockup)
+> 译者： 区块链中文字幕组 深度炼丹
+> 翻译时间： 2018-04-04
+
 This idea has been in me for a long time now and I mentioned it in many places, for example in ZeroLink’s specification, because it does not only provide fun user experience, but it also incentivizes more conscious Bitcoin wallet usage, which is a must for privacy. In the previous version of HiddenWallet I implemented a privacy oriented coin control, where I believe I provided a decent user experience, however that approach was just a compromise, what I really wanted to do is a fully visualized wallet.
 
-这个想法已经在我脑海里盘亘了很久了，我也在例如零链（ZeroLink）的规范中等多个地方提到过它。因为它不仅仅提供了有趣的用户体验，而且还激励了比特币钱包更谨慎的使用，这是隐私的必要条件。在隐藏钱包（HiddenWallet）的上一版本中，我实现了一个以保护隐私为导向的数字货币控制系统控制，并相信我提供了一个体面的用户体验，但这个方法只是一个折中，我真正想做的是一个完全可视化的钱包。
+这个想法已经在我脑海里盘亘了很久了，我也在例如零链（ZeroLink）的规范中等多个地方提到过它。因为它不仅仅提供了有趣的用户体验，而且还激励了他们更谨慎地使用比特币钱包，这是隐私的必要条件。在隐藏钱包（HiddenWallet）的上一版本中，我实现了一个以保护隐私为导向的数字货币控制系统，并相信我提供了一个体面的用户体验，但这个方法只是一个折中，我真正想做的是一个完全可视化的钱包。
 
 ### Traditional Wallet UX
 
@@ -13,11 +18,8 @@ This idea has been in me for a long time now and I mentioned it in many places, 
 Think about how a Bitcoin wallet looks like today. Developers are using the most basic building blocks they have. Tabs, Menus, Lists and Tables. That’s all it is.
 
 想一下目前的比特币钱包都长什么样子。开发人员都是使用最基本的构建模块。选项卡、菜单栏、列表和表格。嗯，这就是所有用到的。
+
 ![Alt text](/home/lds/Pictures/bihu/0403_0.png)
-
-Image result for hiddenwallet
-
-隐形钱包的图片
 
 From another point of view, a Bitcoin wallet is an attempt to translate what’s happening on the blockchain towards the users. However, let’s think outside the box and ask the question: can we do it differently? And the answer is: definitely maybe.
 
@@ -30,26 +32,31 @@ From another point of view, a Bitcoin wallet is an attempt to translate what’s
 Imagine you open your wallet and you don’t meet with the usual tabs, lists and tables, but with a bunch of circles.
 
 想象一下你打开钱包，但是你看到的不是常规的选项卡、列表和表格，而是一堆圆圈。
+
 ![Alt text](./0403_1.png)
 
 Hmm? Does it remind you of something? Yes, it’s like opening your physical wallet, those bubbles are coins, these coins have values:
 
-怎么样？它有没有让你想起某些事情呢？对的，这就像你打开你的实体钱包一样，这些圈圈代表货币，分别对应不同的价格：
+怎么样？它有没有让你想起某些事情呢？是的！这就像你打开自己的实体钱包一样，这些圈圈呢代表货币，分别对应不同的价格：
+
 ![Alt text](./0403_2.png)
 
 However, unlike physical coins, these coins also have histories:
+
 但是，与实体硬币不同的是，这些数字货币是有历史记录的：
 
 ![Alt text](./0403_3.png)
 
 Those rectangles are Bitcoin transactions and those coins are transaction outputs. You can also show what is not inside in your wallet:
 
-而方形的框框代表比特币交易，这些数字货币是交易的输出。你也可以有哪些输出是不在你的钱包里面：
+而方形的框框代表比特币交易，这些数字货币（也就是圆圈）是交易的输出。你也可以有哪些输出是不在你的钱包里面：
+
 ![Alt text](./0403_4.png)
 
 It’s much better if your wallet can do labeling so the data makes sense.
 
-为了使数据显示有意义，如果钱包能做备注就最好啦。
+为了使数据显示更加易读，如果钱包能做备注就最好啦。
+
 ![Alt text](./0403_5.png)
 
 Confirmations? Unspent coins? There are so many ways to play with the colors, shapes, shadows, opacity, etc…
@@ -59,16 +66,18 @@ Confirmations? Unspent coins? There are so many ways to play with the colors, sh
 If you click somewhere to generate a receive address.
 
 如果点一下某处，你可以创建一个接收地址。
+
 ![Alt text](./0403_6.png)
 
 Build a transaction by dragging coins from my wallet and dropping them into a basket:
 
 可以通过把数字货币从钱包里面拖出来，然后扔进篮子里来创建一个交易：
+
 ![Alt text](./0403_7.png)
 
 Such user experience makes Bitcoin wallets more fun, more importantly it helps its users’ to make educated decisions whenever making a transaction, therefore improving their privacy.
 
-这种用户体验能使比特币钱包更有趣，更重要的它可以帮助用户做交易的时候做出更明智的决定，因此提高了他们的隐私。
+这种用户体验能使比特币钱包更有趣，更重要的它可以帮助用户进行交易的时候做出更明智的决定，因此提高了他们的隐私。
 
 When I designed ZeroLink, this is what I meant by “Visualized Wallet User Experience.”
 
@@ -76,9 +85,20 @@ When I designed ZeroLink, this is what I meant by “Visualized Wallet User Expe
 
 While I don’t promise I will roll this out, right now, as I am reworking HiddenWallet (with Lucas) to be a privacy preserving light client (it is full block downloading SPV wallet today) I am putting down the building stones, so I will be able to roll this out.
 
-然而至少到目前为止，我不能保证会推出这个，因为我正在（和 Lucas ）重新设计隐形钱包（HiddenWallet），使其能成为保护隐私的轻量级客户端（目前它已经是一个可下载的全结点轻钱包）。直到我把这些工作都完成后，我才会有机会推出这个可视化钱包。
+然而至少到目前为止，我不能保证会推出这款钱包，因为我正在（和 Lucas ）重新设计隐形钱包（HiddenWallet），使其能成为保护隐私的轻量级客户端（目前它已经是一个可下载的全结点轻钱包）。等到我把这些工作都完成后，才会有机会推出这个钱包。
 
 At last I leave you with an NBitcoin code snippet, what I am working on right now. Here I modeled a circle in my picture, a coin, which I named SmartCoin, because there is already a Coin object in NBitcoin:
 
-最后，给你展示一下我现在正在着手工作的，一个 NBitcoin 代码片段。 在这里，我模拟了照片中的一个圆圈（也就是一个数字货币），我把它命名为 SmartCoin ，因为 NBitcoin 中已经有一个 Coin 对象：
+最后，给你展示一下是我目前正在着手工作的，一个 NBitcoin 代码片段。 在这里，我模拟生成了照片中的一个圆圈（也就是一个数字货币），我把它命名为 SmartCoin ，因为 NBitcoin 中已经有一个 Coin 对象：
+
 ![Alt text](./0403_8.png)
+
+----
+#### 区块链中文字幕组
+致力于前沿区块链知识和信息的传播，为中国融入全球区块链世界贡献一份力量。
+
+如果您懂一些技术、懂一些英文，欢迎加入我们，加微信号：w1791520555。
+
+[点击查看项目GITHUB，及更多的译文...](https://github.com/BlockchainTranslator/EOS)
+
+译文版权所有，转载需完整注明以上内容。
