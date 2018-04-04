@@ -3,16 +3,17 @@
 ## 比特币钱包新体验——区块之外的思考
 
 > 本文翻译自： https://medium.com/@nopara73/new-bitcoin-wallet-experience-thinking-outside-the-box-845b8a22a7e0
-
+>
 > 作者： [nopara73](https://medium.com/@nopara73?source=post_header_lockup)
-
+>
 > 译者： 区块链中文字幕组 深度炼丹
-
+>
 > 翻译时间： 2018-04-04
 
 This idea has been in me for a long time now and I mentioned it in many places, for example in ZeroLink’s specification, because it does not only provide fun user experience, but it also incentivizes more conscious Bitcoin wallet usage, which is a must for privacy. In the previous version of HiddenWallet I implemented a privacy oriented coin control, where I believe I provided a decent user experience, however that approach was just a compromise, what I really wanted to do is a fully visualized wallet.
 
 这个想法已经在我脑海里盘亘了很久了，我也在例如零链（ZeroLink）的规范中等多个地方提到过它。因为它不仅仅提供了有趣的用户体验，而且还激励了他们更谨慎地使用比特币钱包，这是隐私的必要条件。在隐藏钱包（HiddenWallet）的上一版本中，我实现了一个以保护隐私为导向的数字货币控制系统，并相信我提供了一个体面的用户体验，但这个方法只是一个折中，我真正想做的是一个完全可视化的钱包。
+
 
 ----
 ### Traditional Wallet UX
@@ -28,6 +29,7 @@ Think about how a Bitcoin wallet looks like today. Developers are using the most
 From another point of view, a Bitcoin wallet is an attempt to translate what’s happening on the blockchain towards the users. However, let’s think outside the box and ask the question: can we do it differently? And the answer is: definitely maybe.
 
 从另一个角度来看，比特币钱包尝试做的是将区块链上发生的事情传达给用户。 然而，让我们跳出固有思维模式并思考这个问题：我们可以做得稍微不同吗？ 问题的答案是：绝对可能。
+
 
 ----
 ### Visualized Wallet UX
@@ -97,6 +99,7 @@ At last I leave you with an NBitcoin code snippet, what I am working on right no
 最后，给你展示一下是我目前正在着手工作的，一个 NBitcoin 代码片段。 在这里，我模拟生成了照片中的一个圆圈（也就是一个数字货币），我把它命名为 SmartCoin ，因为 NBitcoin 中已经有一个 Coin 对象：
 
 ![Alt text](./0403_8.png)
+
 
 ----
 #### 区块链中文字幕组
