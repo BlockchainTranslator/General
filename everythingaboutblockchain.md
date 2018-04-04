@@ -83,7 +83,7 @@ Exactly. Each part of the structure — whether it’s a unit of currency li
 
 That’s just the start. It also self-checks and self-repairs. The computers participating in the blockchain help maintain its integrity by checking and verifying sets of transactions — blocks — which then form a chain with the history of each piece of data encoded on it. Because the blockchain is constantly checking itself, the data on it is immutable. Even if a hacker did somehow manage to break into a block, any changes they made would be immediately and permanently visible.
 
-这只是开始。它也可以自检和自我修复。连接到区块链中的计算机帮助维护区块链的完整性，通过检查和校验交易信息（区块），然后这些交易信息通过把每部分数据的历史在链上加密形成一个链form a chain with the history of each piece of data encoded on it。因为区块链不断地自检，所以上面的数据是不可改变的。即使黑客的确设法攻进一个块，他们所做的任何改变都会即时并永久地可见。
+这只是开始。它也可以自检和自我修复。连接到区块链中的计算机帮助维护区块链的完整性，通过检查和校验交易信息（区块），然后这些交易信息通过把每部分数据的历史在链上加密形成一个链。因为区块链不断地自检，所以上面的数据是不可改变的。即使黑客的确设法攻进一个块，他们所做的任何改变都会即时并永久地可见。
 
 To get participants to volunteer processing power, different systems based on blockchain, including bitcoin, offer incentives in the form of tokens. That’s what bitcoin is: a value token given in exchange for computer power. That process is called “mining,” and the idea was laid out by Satoshi Nakamoto, bitcoin’s inventor, in this famous white paper.
 
