@@ -94,7 +94,7 @@ Main argument: A token’s current market value can be modeled and projected usi
 
 Following the monetary equation of exchange (MV=PQ), the token price equals the projected monetary base (M) in the future divided by the number of coins in circulation in the future; M is calculated as equal to PQ/V, or the value of on-chain transaction volume (or “network GDP”) divided by token velocity.
 
-根据货币交换方程（MV = PQ），通证价格等于未来预测的货币基数（M）除以未来流通货币的数量; M等于PQ / V，即链上交易量（或“网络GDP”）的值除以通证流速。
+根据货币交换方程（MV = PQ），通证价格等于未来预测的货币基数（M）除以未来流通货币的数量; M等于PQ / V，即链上交易量（或“网络GDP”）除以通证流速。
 
 Observations:
 
@@ -108,11 +108,11 @@ Crypto J-curve thesis: As the project develops, CUV and DEUV take turns driving 
 
 加密货币J曲线理论：随着项目的发展，以及市场对项目的看法趋向稳定与成熟，当前效用值(CUV) 和贴现期望效用值（DEUV）轮流推动通证价格。 当一个通证首次推出时，DEUV占据主导地位，因为持有者对该技术感到兴奋并期待未来价格上涨。 当热情在不可避免的技术性障碍中衰减时，价格会下降，并且CUV占据主导地位，价格主要由技术用户和早期采用者推动。 随着团队克服挑战，随着通证受到越来越广泛的采用，CUV也随之悄然增长。 当投机者开始追随开发者时，DEUV随即迎头赶上。 最终在稳定状态下，CUV应该推动通证价格。
 
-## 4. Network Value-to-Transaction Ratio (NVT) | 网络价值与交易比率（Network Value-to-Transaction Ratio, NVT)
+## 4. Network Value-to-Transaction Ratio (NVT) | 网络价值与交易比率
 
 Main idea: NVT = network value / daily trx volume. NVT is a valuation ratio that compares the network value (equals the market cap) to the network’s daily on-chain transaction volume.
 
-主要思想：NVT =网络价值/每日交易量。 NVT是将网络价值（等于市值）与网络每日链上交易量进行比较的估值模型。
+主要思想：NVT = 网络价值/每日交易量。 NVT是将网络价值（等于市值）与网络每日链上交易量进行比较的估值比率。
 
 Main argument: Similar to a the popular equity P/E valuation ratio (either stock price / earnings per share, or market cap / total earnings), NVT may indicate whether a network token is under or overvalued by showing the market cap relative to the network’s transaction volume, which represents the utility that users derive from the network. When the ratio becomes very high, it indicates potential token over-valuation.
 
@@ -124,7 +124,7 @@ Observations:
 
 The ratio best applies to assets whose on-chain transaction volume closely represents utility to users. For instance, bitcoin’s on-chain transaction volume represents the utility it provides to users to send money internationally for very low fees and a degree of anonymity. For networks with high levels of transaction detail privacy such as Monero and Zcash, the ratio is undefined. For networks with staking rewards such as Dash, transaction activity resulting from staking would inflate the denominator, inadvertently causing the ratio to be underestimated. This effect could be corrected for by subtracting staking activity from transaction volume.
 
-该比率最适用于的资产是，链上交易量可以有效反映用户获得的效用的资产。 比如，比特币的链上交易量代表了它提供给用户的效用，即非常低的国际汇款费用和一定程度的匿名性。 对于具有较高交易隐私性的网络，如Monero和Zcash，该比率并未定义。 对于像Dash这样具有权益回报（staking rewards）的网络，由权益锁定带来的交易活动会使分母虚高，从而造成该比率被低估。 这种影响可以通过从总交易量中减去权益活动带来的交易量来纠正。
+该比率最适用于的资产是，链上交易量可以有效反映用户所获效用的资产。 比如，比特币的链上交易量代表了它提供给用户的效用，即非常低的国际汇款费用和一定程度的匿名性。 对于具有较高交易隐私性的网络，如Monero和Zcash，该比率并未定义。 对于像Dash这样具有权益回报（staking rewards）的网络，由权益锁定带来的交易活动会使分母虚高，从而造成该比率被低估。 这种影响可以通过从总交易量中减去权益活动带来的交易量来纠正。
 
 Criticisms: 
 
@@ -136,7 +136,8 @@ Criticisms:
 
 1) 交易量倾向于跟随价格变化，因此这两个变量具有内生和“自反”的关系，由此削弱了该比率的有效性。
 
-2) 意见领袖已经尝试不同的时间框架，用于衡量日常交易量。 有关此分析，请参阅下面的参考资料。
+2) 意见领袖已经尝试不同的时间框架，用于衡量日常交易量。 有关分析，请参阅下面的参考资料。
+
 Contributors: Chris Burniske, Willy Woo, Coinmetrics team, Dmitriy Kalichkin
 
 贡献者：Chris Burniske, Willy Woo, Coinmetrics team, Dmitriy Kalichkin
@@ -145,7 +146,7 @@ Contributors: Chris Burniske, Willy Woo, Coinmetrics team, Dmitriy Kalichkin
 
 Main idea: Daily active addresses is a metric and indicator of the number of users that employ the crypto network in transactions on a daily basis.
 
-主要思想：每日活跃地址是每日在交易中使用加密网络的用户数量的一个衡量指标。
+主要思想：日活地址可作为每日在交易中使用加密网络的用户数量的一个衡量指标。
 
 Main argument: Similar to daily active users (DAU) for software and apps, DAA can provide information about the number of users on a network, which can inform trends and complement other indicators such as NVT and on-chain transaction volume.
 
@@ -157,11 +158,9 @@ Main argument: Similar to daily active users (DAU) for software and apps, DAA ca
 	
 **Crypto CAPM?**: It would be interesting to explore how a multi-factor CAPM model could be applied to crypto asset valuation. As with other ratios and quantitative models, since historic return periods are short, the model will be more effective in the future when the crypto asset market matures and we have more data to study the relationships of token prices and various drivers.
 	
-**加密资产CAPM估值模型？**：研究如何将多因素CAPM模型应用于加密资产估值将会很有趣。 与其他比率和量化模型一样，由于历史回报周期短，当未来加密资产市场成熟，且我们有更多数据来研究通证价格和各种驱动因素之间的关系时，该模型将会更加有效。
+**加密资产CAPM估值模型？**：研究如何将多因子CAPM模型应用于加密资产估值将会很有趣。 与其他比率和量化模型一样，由于历史回报周期短，当未来加密资产市场成熟，且我们有更多数据来研究通证价格和各种驱动因素之间的关系时，该模型将会更加有效。
 
 The traditional Carhart four-factor CAPM model includes factors for an asset’s expected excess return, a small-cap risk and liquidity premium, book-to-market ratio (value vs growth stocks), and momentum. A “crypto CAPM” model could be evaluated and explored for identifiable factors that could indicate future price return. Factors could include the following, among others. Note that this information is a simple exploration and would need to be studied much more closely.
-
-传统的Carhart四因素CAPM模型中的因素包括资产预期超额收益、小盘风险和流动性溢价、账面市值比（价值股 vs 成长股）和动量因素。 一个“加密资产CAPM”模型可被评估与探索，找出可指示未来价格回报的可识别因素。 其中包括以下因素。 请注意，以下信息是一个简单的探索，还需要更深入地研究。
 
   1) Momentum factor
 	
@@ -169,15 +168,17 @@ The traditional Carhart four-factor CAPM model includes factors for an asset’s
 	
   3) Token exchange and storage frictions (prevalence on centralized exchanges and decentralized exchange protocols, convenience to purchase, wallet quality, etc.)
   
-	4) Community size/strength factor
+  4) Community size/strength factor
 	
   5) Value: low NVT vs high NVT factor
 	
   6) “FOMO” factor (beware of multicollinearity w/ momentum and other factors)
 	
   7) Global political or economic uncertainty
-	
-	1) 动量因素
+
+传统的Carhart四因子CAPM模型中的因子包括资产预期超额收益、小盘风险和流动性溢价、账面市值比（价值股 vs 成长股）和动量因素。 一个“加密资产CAPM”模型可被评估与探索，找出可指示未来价格回报的可识别因素。 其中包括以下因素。 请注意，以下信息是一个简单的探索，还需要更深入地研究。	
+
+  1) 动量因素
 	
   2) 流动性因素（可以通过CAPM中的交易量、买/卖价差或大小盘收益差值来衡量）
 	
@@ -217,7 +218,7 @@ Replace EV/EBITDA, P/E, EV/Sales and other metrics with token-relevant metrics s
 
 One challenge to applying this approach to tokens is the presence of strong network effects in digital assets. Few competitors delivering comparable services at once may be able to survive in the marketplace.
 
-将这种方法应用于通证的一个挑战是数字资产中存在的强大网络效应。 强大的网络效应导致很少有提供同类服务的竞争对手可以同时在市场中生存。
+将这种方法应用于通证的一个挑战，来源于数字资产中存在的强大网络效应。 强大的网络效应导致，很少有提供同类服务的竞争对手可以同时在市场中生存。
 
 **Crypto-networks as small emerging economies?**
 
@@ -237,7 +238,7 @@ For both crypto tokens and a national currency, investors look for sound monetar
 
 Perhaps one could work with economists to devise a “crypto macroeconomic attractiveness” index or set of indicators that could be applied to tokens, drawing from fundamental indicators in emerging market investments. It could include a crypto “Gini” coefficient as demonstrated in Balaji Srinivasan’s decentralization quantification work, a price stability and monetary policy score, governance score, corruption and transparency index, and more.
 
-或许，我们可以从新兴市场投资的基本指标中吸取经验，来与经济学家一起设计一个“加密宏观经济吸引力”指数或一套可应用于通证的指标。 它可以包括一个加密货币“基尼”系数，如在Balaji Srinivasan的去中心化量化论文中所描述的，价格稳定性和货币政策评分，治理评分，腐败和透明度指数等等。
+或许，我们可以从新兴市场投资的基本指标中吸取经验，来与经济学家一起设计一个“加密宏观经济吸引力”指数或一套可应用于通证的指标。 它可以包括一个加密货币“基尼”系数，如在Balaji Srinivasan的去中心化量化论文中所描述的，价格稳定性和货币政策评分、治理评分、腐败和透明度指数等等。
 
 ## Conclusions: Today and Tomorrow | 结论：现在与未来
 
